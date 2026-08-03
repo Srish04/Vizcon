@@ -1,0 +1,2858 @@
+[
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1990,
+    "expected_years": 17.43,
+    "completion_age": 23.43
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1991,
+    "expected_years": 17.43,
+    "completion_age": 23.43
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1992,
+    "expected_years": 17.43,
+    "completion_age": 23.43
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1993,
+    "expected_years": 17.43,
+    "completion_age": 23.43
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1994,
+    "expected_years": 17.43,
+    "completion_age": 23.43
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1995,
+    "expected_years": 18.97,
+    "completion_age": 24.97
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1996,
+    "expected_years": 19.51,
+    "completion_age": 25.51
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1997,
+    "expected_years": 20.29,
+    "completion_age": 26.29
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1998,
+    "expected_years": 20.45,
+    "completion_age": 26.45
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1999,
+    "expected_years": 20.62,
+    "completion_age": 26.62
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2000,
+    "expected_years": 20.78,
+    "completion_age": 26.78
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2001,
+    "expected_years": 20.94,
+    "completion_age": 26.94
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2002,
+    "expected_years": 21.11,
+    "completion_age": 27.11
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2003,
+    "expected_years": 21.27,
+    "completion_age": 27.27
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2004,
+    "expected_years": 21.44,
+    "completion_age": 27.44
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2005,
+    "expected_years": 21.6,
+    "completion_age": 27.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2006,
+    "expected_years": 21.77,
+    "completion_age": 27.77
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2007,
+    "expected_years": 21.93,
+    "completion_age": 27.93
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2008,
+    "expected_years": 22.1,
+    "completion_age": 28.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2009,
+    "expected_years": 22.26,
+    "completion_age": 28.26
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2010,
+    "expected_years": 22.43,
+    "completion_age": 28.43
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2011,
+    "expected_years": 22.59,
+    "completion_age": 28.59
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2012,
+    "expected_years": 22.75,
+    "completion_age": 28.75
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2013,
+    "expected_years": 22.92,
+    "completion_age": 28.92
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2014,
+    "expected_years": 23.08,
+    "completion_age": 29.08
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2015,
+    "expected_years": 23.25,
+    "completion_age": 29.25
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2016,
+    "expected_years": 22.86,
+    "completion_age": 28.86
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2017,
+    "expected_years": 21.95,
+    "completion_age": 27.95
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2018,
+    "expected_years": 20.43,
+    "completion_age": 26.43
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2019,
+    "expected_years": 21.38,
+    "completion_age": 27.38
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2020,
+    "expected_years": 20.94,
+    "completion_age": 26.94
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2021,
+    "expected_years": 21.08,
+    "completion_age": 27.08
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2022,
+    "expected_years": 20.65,
+    "completion_age": 26.65
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2023,
+    "expected_years": 20.65,
+    "completion_age": 26.65
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1990,
+    "expected_years": 14.1,
+    "completion_age": 20.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1991,
+    "expected_years": 14.14,
+    "completion_age": 20.14
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1992,
+    "expected_years": 14.19,
+    "completion_age": 20.19
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1993,
+    "expected_years": 14.24,
+    "completion_age": 20.24
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1994,
+    "expected_years": 14.29,
+    "completion_age": 20.29
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1995,
+    "expected_years": 14.34,
+    "completion_age": 20.34
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1996,
+    "expected_years": 14.39,
+    "completion_age": 20.39
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1997,
+    "expected_years": 14.44,
+    "completion_age": 20.44
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1998,
+    "expected_years": 14.49,
+    "completion_age": 20.49
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1999,
+    "expected_years": 14.54,
+    "completion_age": 20.54
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2000,
+    "expected_years": 14.59,
+    "completion_age": 20.59
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2001,
+    "expected_years": 14.64,
+    "completion_age": 20.64
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2002,
+    "expected_years": 14.69,
+    "completion_age": 20.69
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2003,
+    "expected_years": 14.75,
+    "completion_age": 20.75
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2004,
+    "expected_years": 14.8,
+    "completion_age": 20.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2005,
+    "expected_years": 14.85,
+    "completion_age": 20.85
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2006,
+    "expected_years": 14.9,
+    "completion_age": 20.9
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2007,
+    "expected_years": 14.95,
+    "completion_age": 20.95
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2008,
+    "expected_years": 15.0,
+    "completion_age": 21.0
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2009,
+    "expected_years": 15.06,
+    "completion_age": 21.06
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2010,
+    "expected_years": 15.11,
+    "completion_age": 21.11
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2011,
+    "expected_years": 15.16,
+    "completion_age": 21.16
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2012,
+    "expected_years": 15.21,
+    "completion_age": 21.21
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2013,
+    "expected_years": 15.25,
+    "completion_age": 21.25
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2014,
+    "expected_years": 15.37,
+    "completion_age": 21.37
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2015,
+    "expected_years": 15.25,
+    "completion_age": 21.25
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2016,
+    "expected_years": 15.29,
+    "completion_age": 21.29
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2017,
+    "expected_years": 15.41,
+    "completion_age": 21.41
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2018,
+    "expected_years": 15.5,
+    "completion_age": 21.5
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2019,
+    "expected_years": 15.45,
+    "completion_age": 21.45
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2020,
+    "expected_years": 15.45,
+    "completion_age": 21.45
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2021,
+    "expected_years": 15.58,
+    "completion_age": 21.58
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2022,
+    "expected_years": 15.79,
+    "completion_age": 21.79
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2023,
+    "expected_years": 15.79,
+    "completion_age": 21.79
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1990,
+    "expected_years": 14.31,
+    "completion_age": 20.31
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1991,
+    "expected_years": 14.48,
+    "completion_age": 20.48
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1992,
+    "expected_years": 14.52,
+    "completion_age": 20.52
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1993,
+    "expected_years": 14.8,
+    "completion_age": 20.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1994,
+    "expected_years": 15.05,
+    "completion_age": 21.05
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1995,
+    "expected_years": 15.18,
+    "completion_age": 21.18
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1996,
+    "expected_years": 15.41,
+    "completion_age": 21.41
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1997,
+    "expected_years": 15.58,
+    "completion_age": 21.58
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1998,
+    "expected_years": 15.74,
+    "completion_age": 21.74
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1999,
+    "expected_years": 16.43,
+    "completion_age": 22.43
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2000,
+    "expected_years": 16.2,
+    "completion_age": 22.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2001,
+    "expected_years": 16.55,
+    "completion_age": 22.55
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2002,
+    "expected_years": 16.2,
+    "completion_age": 22.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2003,
+    "expected_years": 16.36,
+    "completion_age": 22.36
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2004,
+    "expected_years": 16.52,
+    "completion_age": 22.52
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2005,
+    "expected_years": 16.78,
+    "completion_age": 22.78
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2006,
+    "expected_years": 16.65,
+    "completion_age": 22.65
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2007,
+    "expected_years": 16.81,
+    "completion_age": 22.81
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2008,
+    "expected_years": 16.72,
+    "completion_age": 22.72
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2009,
+    "expected_years": 16.72,
+    "completion_age": 22.72
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "expected_years": 16.89,
+    "completion_age": 22.89
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "expected_years": 18.35,
+    "completion_age": 24.35
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "expected_years": 18.68,
+    "completion_age": 24.68
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "expected_years": 19.17,
+    "completion_age": 25.17
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "expected_years": 19.21,
+    "completion_age": 25.21
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "expected_years": 19.3,
+    "completion_age": 25.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "expected_years": 19.04,
+    "completion_age": 25.04
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "expected_years": 18.82,
+    "completion_age": 24.82
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "expected_years": 18.72,
+    "completion_age": 24.72
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2019,
+    "expected_years": 18.62,
+    "completion_age": 24.62
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "expected_years": 18.64,
+    "completion_age": 24.64
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "expected_years": 18.77,
+    "completion_age": 24.77
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2022,
+    "expected_years": 18.7,
+    "completion_age": 24.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2023,
+    "expected_years": 18.7,
+    "completion_age": 24.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1990,
+    "expected_years": 13.98,
+    "completion_age": 19.98
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1991,
+    "expected_years": 14.47,
+    "completion_age": 20.47
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1992,
+    "expected_years": 14.7,
+    "completion_age": 20.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1993,
+    "expected_years": 14.81,
+    "completion_age": 20.81
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1994,
+    "expected_years": 15.64,
+    "completion_age": 21.64
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1995,
+    "expected_years": 15.77,
+    "completion_age": 21.77
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1996,
+    "expected_years": 15.86,
+    "completion_age": 21.86
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1997,
+    "expected_years": 15.82,
+    "completion_age": 21.82
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1998,
+    "expected_years": 15.76,
+    "completion_age": 21.76
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1999,
+    "expected_years": 15.72,
+    "completion_age": 21.72
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2000,
+    "expected_years": 14.94,
+    "completion_age": 20.94
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2001,
+    "expected_years": 14.85,
+    "completion_age": 20.85
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2002,
+    "expected_years": 14.78,
+    "completion_age": 20.78
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "expected_years": 14.87,
+    "completion_age": 20.87
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2004,
+    "expected_years": 14.86,
+    "completion_age": 20.86
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "expected_years": 15.43,
+    "completion_age": 21.43
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2006,
+    "expected_years": 15.42,
+    "completion_age": 21.42
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2007,
+    "expected_years": 15.35,
+    "completion_age": 21.35
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2008,
+    "expected_years": 15.3,
+    "completion_age": 21.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2009,
+    "expected_years": 15.27,
+    "completion_age": 21.27
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2010,
+    "expected_years": 15.38,
+    "completion_age": 21.38
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "expected_years": 15.42,
+    "completion_age": 21.42
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2012,
+    "expected_years": 15.49,
+    "completion_age": 21.49
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "expected_years": 15.46,
+    "completion_age": 21.46
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2014,
+    "expected_years": 15.44,
+    "completion_age": 21.44
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2015,
+    "expected_years": 15.51,
+    "completion_age": 21.51
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2016,
+    "expected_years": 15.62,
+    "completion_age": 21.62
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2017,
+    "expected_years": 15.74,
+    "completion_age": 21.74
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "expected_years": 15.84,
+    "completion_age": 21.84
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2019,
+    "expected_years": 15.87,
+    "completion_age": 21.87
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2020,
+    "expected_years": 15.96,
+    "completion_age": 21.96
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "expected_years": 16.02,
+    "completion_age": 22.02
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2022,
+    "expected_years": 16.1,
+    "completion_age": 22.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2023,
+    "expected_years": 16.1,
+    "completion_age": 22.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1990,
+    "expected_years": 14.38,
+    "completion_age": 20.38
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1991,
+    "expected_years": 14.56,
+    "completion_age": 20.56
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1992,
+    "expected_years": 14.76,
+    "completion_age": 20.76
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1993,
+    "expected_years": 15.48,
+    "completion_age": 21.48
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1994,
+    "expected_years": 15.64,
+    "completion_age": 21.64
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1995,
+    "expected_years": 15.75,
+    "completion_age": 21.75
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1996,
+    "expected_years": 15.86,
+    "completion_age": 21.86
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1997,
+    "expected_years": 15.95,
+    "completion_age": 21.95
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1998,
+    "expected_years": 16.02,
+    "completion_age": 22.02
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1999,
+    "expected_years": 16.09,
+    "completion_age": 22.09
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2000,
+    "expected_years": 16.16,
+    "completion_age": 22.16
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "expected_years": 16.23,
+    "completion_age": 22.23
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2002,
+    "expected_years": 16.31,
+    "completion_age": 22.31
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2003,
+    "expected_years": 16.38,
+    "completion_age": 22.38
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "expected_years": 16.45,
+    "completion_age": 22.45
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2005,
+    "expected_years": 16.52,
+    "completion_age": 22.52
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "expected_years": 16.59,
+    "completion_age": 22.59
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2007,
+    "expected_years": 16.66,
+    "completion_age": 22.66
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2008,
+    "expected_years": 16.74,
+    "completion_age": 22.74
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2009,
+    "expected_years": 16.81,
+    "completion_age": 22.81
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2010,
+    "expected_years": 16.88,
+    "completion_age": 22.88
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "expected_years": 16.95,
+    "completion_age": 22.95
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2012,
+    "expected_years": 17.02,
+    "completion_age": 23.02
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "expected_years": 17.09,
+    "completion_age": 23.09
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "expected_years": 17.12,
+    "completion_age": 23.12
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "expected_years": 17.11,
+    "completion_age": 23.11
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "expected_years": 16.88,
+    "completion_age": 22.88
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "expected_years": 16.99,
+    "completion_age": 22.99
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "expected_years": 17.04,
+    "completion_age": 23.04
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2019,
+    "expected_years": 17.22,
+    "completion_age": 23.22
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2020,
+    "expected_years": 17.23,
+    "completion_age": 23.23
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "expected_years": 17.34,
+    "completion_age": 23.34
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2022,
+    "expected_years": 17.31,
+    "completion_age": 23.31
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2023,
+    "expected_years": 17.31,
+    "completion_age": 23.31
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1990,
+    "expected_years": 8.2,
+    "completion_age": 14.2
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1991,
+    "expected_years": 8.22,
+    "completion_age": 14.22
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1992,
+    "expected_years": 8.23,
+    "completion_age": 14.23
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1993,
+    "expected_years": 8.24,
+    "completion_age": 14.24
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1994,
+    "expected_years": 8.25,
+    "completion_age": 14.25
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1995,
+    "expected_years": 8.27,
+    "completion_age": 14.27
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1996,
+    "expected_years": 8.27,
+    "completion_age": 14.27
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1997,
+    "expected_years": 8.29,
+    "completion_age": 14.29
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1998,
+    "expected_years": 8.3,
+    "completion_age": 14.3
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1999,
+    "expected_years": 8.31,
+    "completion_age": 14.31
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2000,
+    "expected_years": 8.33,
+    "completion_age": 14.33
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2001,
+    "expected_years": 8.81,
+    "completion_age": 14.81
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2002,
+    "expected_years": 8.87,
+    "completion_age": 14.87
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2003,
+    "expected_years": 9.49,
+    "completion_age": 15.49
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2004,
+    "expected_years": 9.76,
+    "completion_age": 15.76
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2005,
+    "expected_years": 10.03,
+    "completion_age": 16.03
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2006,
+    "expected_years": 10.3,
+    "completion_age": 16.3
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2007,
+    "expected_years": 10.57,
+    "completion_age": 16.57
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2008,
+    "expected_years": 10.87,
+    "completion_age": 16.87
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2009,
+    "expected_years": 10.79,
+    "completion_age": 16.79
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2010,
+    "expected_years": 11.11,
+    "completion_age": 17.11
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2011,
+    "expected_years": 11.69,
+    "completion_age": 17.69
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2012,
+    "expected_years": 11.77,
+    "completion_age": 17.77
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2013,
+    "expected_years": 11.81,
+    "completion_age": 17.81
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2014,
+    "expected_years": 12.17,
+    "completion_age": 18.17
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2015,
+    "expected_years": 12.27,
+    "completion_age": 18.27
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2016,
+    "expected_years": 12.68,
+    "completion_age": 18.68
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2017,
+    "expected_years": 12.51,
+    "completion_age": 18.51
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2018,
+    "expected_years": 11.82,
+    "completion_age": 17.82
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2019,
+    "expected_years": 11.75,
+    "completion_age": 17.75
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2020,
+    "expected_years": 12.13,
+    "completion_age": 18.13
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2021,
+    "expected_years": 12.4,
+    "completion_age": 18.4
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2022,
+    "expected_years": 12.96,
+    "completion_age": 18.96
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2023,
+    "expected_years": 12.95,
+    "completion_age": 18.95
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1990,
+    "expected_years": 12.96,
+    "completion_age": 18.96
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1991,
+    "expected_years": 13.16,
+    "completion_age": 19.16
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1992,
+    "expected_years": 13.53,
+    "completion_age": 19.53
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1993,
+    "expected_years": 13.83,
+    "completion_age": 19.83
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1994,
+    "expected_years": 14.37,
+    "completion_age": 20.37
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1995,
+    "expected_years": 14.54,
+    "completion_age": 20.54
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1996,
+    "expected_years": 14.72,
+    "completion_age": 20.72
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1997,
+    "expected_years": 14.99,
+    "completion_age": 20.99
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1998,
+    "expected_years": 15.09,
+    "completion_age": 21.09
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1999,
+    "expected_years": 15.09,
+    "completion_age": 21.09
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2000,
+    "expected_years": 15.08,
+    "completion_age": 21.08
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2001,
+    "expected_years": 15.41,
+    "completion_age": 21.41
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2002,
+    "expected_years": 15.65,
+    "completion_age": 21.65
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2003,
+    "expected_years": 15.91,
+    "completion_age": 21.91
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "expected_years": 16.06,
+    "completion_age": 22.06
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2005,
+    "expected_years": 16.19,
+    "completion_age": 22.19
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "expected_years": 16.31,
+    "completion_age": 22.31
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "expected_years": 16.39,
+    "completion_age": 22.39
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "expected_years": 16.35,
+    "completion_age": 22.35
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "expected_years": 16.28,
+    "completion_age": 22.28
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "expected_years": 16.23,
+    "completion_age": 22.23
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "expected_years": 16.39,
+    "completion_age": 22.39
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2012,
+    "expected_years": 16.17,
+    "completion_age": 22.17
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "expected_years": 15.98,
+    "completion_age": 21.98
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "expected_years": 15.96,
+    "completion_age": 21.96
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2015,
+    "expected_years": 15.95,
+    "completion_age": 21.95
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "expected_years": 15.95,
+    "completion_age": 21.95
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "expected_years": 16.15,
+    "completion_age": 22.15
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "expected_years": 16.29,
+    "completion_age": 22.29
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2019,
+    "expected_years": 16.38,
+    "completion_age": 22.38
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "expected_years": 16.53,
+    "completion_age": 22.53
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "expected_years": 16.6,
+    "completion_age": 22.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2022,
+    "expected_years": 16.71,
+    "completion_age": 22.71
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2023,
+    "expected_years": 16.71,
+    "completion_age": 22.71
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1990,
+    "expected_years": 13.4,
+    "completion_age": 19.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1991,
+    "expected_years": 13.53,
+    "completion_age": 19.53
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1992,
+    "expected_years": 13.63,
+    "completion_age": 19.63
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1993,
+    "expected_years": 14.09,
+    "completion_age": 20.09
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1994,
+    "expected_years": 14.55,
+    "completion_age": 20.55
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1995,
+    "expected_years": 14.67,
+    "completion_age": 20.67
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1996,
+    "expected_years": 14.75,
+    "completion_age": 20.75
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1997,
+    "expected_years": 14.83,
+    "completion_age": 20.83
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1998,
+    "expected_years": 14.91,
+    "completion_age": 20.91
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1999,
+    "expected_years": 14.96,
+    "completion_age": 20.96
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2000,
+    "expected_years": 14.99,
+    "completion_age": 20.99
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2001,
+    "expected_years": 15.02,
+    "completion_age": 21.02
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2002,
+    "expected_years": 15.05,
+    "completion_age": 21.05
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2003,
+    "expected_years": 15.08,
+    "completion_age": 21.08
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2004,
+    "expected_years": 15.11,
+    "completion_age": 21.11
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2005,
+    "expected_years": 15.14,
+    "completion_age": 21.14
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2006,
+    "expected_years": 15.18,
+    "completion_age": 21.18
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2007,
+    "expected_years": 15.21,
+    "completion_age": 21.21
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2008,
+    "expected_years": 15.24,
+    "completion_age": 21.24
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2009,
+    "expected_years": 15.27,
+    "completion_age": 21.27
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2010,
+    "expected_years": 15.3,
+    "completion_age": 21.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2011,
+    "expected_years": 15.33,
+    "completion_age": 21.33
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2012,
+    "expected_years": 15.36,
+    "completion_age": 21.36
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2013,
+    "expected_years": 15.4,
+    "completion_age": 21.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2014,
+    "expected_years": 15.4,
+    "completion_age": 21.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2015,
+    "expected_years": 15.41,
+    "completion_age": 21.41
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2016,
+    "expected_years": 15.38,
+    "completion_age": 21.38
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2017,
+    "expected_years": 15.39,
+    "completion_age": 21.39
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2018,
+    "expected_years": 15.4,
+    "completion_age": 21.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2019,
+    "expected_years": 15.44,
+    "completion_age": 21.44
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2020,
+    "expected_years": 15.46,
+    "completion_age": 21.46
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2021,
+    "expected_years": 15.43,
+    "completion_age": 21.43
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2022,
+    "expected_years": 15.51,
+    "completion_age": 21.51
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2023,
+    "expected_years": 15.51,
+    "completion_age": 21.51
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1990,
+    "expected_years": 11.18,
+    "completion_age": 17.18
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1991,
+    "expected_years": 11.03,
+    "completion_age": 17.03
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1992,
+    "expected_years": 10.99,
+    "completion_age": 16.99
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1993,
+    "expected_years": 10.95,
+    "completion_age": 16.95
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1994,
+    "expected_years": 11.06,
+    "completion_age": 17.06
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1995,
+    "expected_years": 11.22,
+    "completion_age": 17.22
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1996,
+    "expected_years": 11.37,
+    "completion_age": 17.37
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1997,
+    "expected_years": 11.47,
+    "completion_age": 17.47
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1998,
+    "expected_years": 11.7,
+    "completion_age": 17.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1999,
+    "expected_years": 11.84,
+    "completion_age": 17.84
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2000,
+    "expected_years": 11.96,
+    "completion_age": 17.96
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2001,
+    "expected_years": 11.99,
+    "completion_age": 17.99
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2002,
+    "expected_years": 12.33,
+    "completion_age": 18.33
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2003,
+    "expected_years": 12.59,
+    "completion_age": 18.59
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2004,
+    "expected_years": 12.66,
+    "completion_age": 18.66
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2005,
+    "expected_years": 12.72,
+    "completion_age": 18.72
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2006,
+    "expected_years": 12.85,
+    "completion_age": 18.85
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2007,
+    "expected_years": 12.99,
+    "completion_age": 18.99
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2008,
+    "expected_years": 13.19,
+    "completion_age": 19.19
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2009,
+    "expected_years": 13.28,
+    "completion_age": 19.28
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2010,
+    "expected_years": 13.42,
+    "completion_age": 19.42
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2011,
+    "expected_years": 13.46,
+    "completion_age": 19.46
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2012,
+    "expected_years": 13.73,
+    "completion_age": 19.73
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2013,
+    "expected_years": 13.91,
+    "completion_age": 19.91
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2014,
+    "expected_years": 14.08,
+    "completion_age": 20.08
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2015,
+    "expected_years": 14.23,
+    "completion_age": 20.23
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2016,
+    "expected_years": 14.68,
+    "completion_age": 20.68
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2017,
+    "expected_years": 14.85,
+    "completion_age": 20.85
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2018,
+    "expected_years": 14.92,
+    "completion_age": 20.92
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2019,
+    "expected_years": 14.95,
+    "completion_age": 20.95
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2020,
+    "expected_years": 14.82,
+    "completion_age": 20.82
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2021,
+    "expected_years": 14.51,
+    "completion_age": 20.51
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2022,
+    "expected_years": 14.47,
+    "completion_age": 20.47
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2023,
+    "expected_years": 14.47,
+    "completion_age": 20.47
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1990,
+    "expected_years": 12.95,
+    "completion_age": 18.95
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1991,
+    "expected_years": 13.2,
+    "completion_age": 19.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1992,
+    "expected_years": 13.36,
+    "completion_age": 19.36
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1993,
+    "expected_years": 13.74,
+    "completion_age": 19.74
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1994,
+    "expected_years": 13.98,
+    "completion_age": 19.98
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1995,
+    "expected_years": 14.27,
+    "completion_age": 20.27
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1996,
+    "expected_years": 14.67,
+    "completion_age": 20.67
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1997,
+    "expected_years": 15.26,
+    "completion_age": 21.26
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1998,
+    "expected_years": 15.01,
+    "completion_age": 21.01
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1999,
+    "expected_years": 15.3,
+    "completion_age": 21.3
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2000,
+    "expected_years": 15.54,
+    "completion_age": 21.54
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2001,
+    "expected_years": 15.64,
+    "completion_age": 21.64
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2002,
+    "expected_years": 15.8,
+    "completion_age": 21.8
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2003,
+    "expected_years": 15.98,
+    "completion_age": 21.98
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2004,
+    "expected_years": 16.17,
+    "completion_age": 22.17
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2005,
+    "expected_years": 16.36,
+    "completion_age": 22.36
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2006,
+    "expected_years": 16.48,
+    "completion_age": 22.48
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2007,
+    "expected_years": 16.63,
+    "completion_age": 22.63
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2008,
+    "expected_years": 16.69,
+    "completion_age": 22.69
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2009,
+    "expected_years": 16.72,
+    "completion_age": 22.72
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2010,
+    "expected_years": 16.79,
+    "completion_age": 22.79
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2011,
+    "expected_years": 16.84,
+    "completion_age": 22.84
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2012,
+    "expected_years": 16.76,
+    "completion_age": 22.76
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2013,
+    "expected_years": 16.68,
+    "completion_age": 22.68
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2014,
+    "expected_years": 16.62,
+    "completion_age": 22.62
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2015,
+    "expected_years": 16.57,
+    "completion_age": 22.57
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2016,
+    "expected_years": 16.49,
+    "completion_age": 22.49
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2017,
+    "expected_years": 16.42,
+    "completion_age": 22.42
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2018,
+    "expected_years": 16.38,
+    "completion_age": 22.38
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2019,
+    "expected_years": 16.38,
+    "completion_age": 22.38
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2020,
+    "expected_years": 16.38,
+    "completion_age": 22.38
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2021,
+    "expected_years": 16.51,
+    "completion_age": 22.51
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2022,
+    "expected_years": 16.62,
+    "completion_age": 22.62
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2023,
+    "expected_years": 16.62,
+    "completion_age": 22.62
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1990,
+    "expected_years": 12.95,
+    "completion_age": 18.95
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1991,
+    "expected_years": 13.12,
+    "completion_age": 19.12
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1992,
+    "expected_years": 13.4,
+    "completion_age": 19.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1993,
+    "expected_years": 15.39,
+    "completion_age": 21.39
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1994,
+    "expected_years": 15.8,
+    "completion_age": 21.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1995,
+    "expected_years": 16.11,
+    "completion_age": 22.11
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1996,
+    "expected_years": 16.52,
+    "completion_age": 22.52
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1997,
+    "expected_years": 17.16,
+    "completion_age": 23.16
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1998,
+    "expected_years": 18.52,
+    "completion_age": 24.52
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1999,
+    "expected_years": 18.81,
+    "completion_age": 24.81
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2000,
+    "expected_years": 18.69,
+    "completion_age": 24.69
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2001,
+    "expected_years": 18.68,
+    "completion_age": 24.68
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2002,
+    "expected_years": 18.56,
+    "completion_age": 24.56
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2003,
+    "expected_years": 18.56,
+    "completion_age": 24.56
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2004,
+    "expected_years": 16.02,
+    "completion_age": 22.02
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2005,
+    "expected_years": 16.0,
+    "completion_age": 22.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2006,
+    "expected_years": 15.96,
+    "completion_age": 21.96
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2007,
+    "expected_years": 15.81,
+    "completion_age": 21.81
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2008,
+    "expected_years": 15.8,
+    "completion_age": 21.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "expected_years": 15.8,
+    "completion_age": 21.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "expected_years": 15.99,
+    "completion_age": 21.99
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "expected_years": 15.87,
+    "completion_age": 21.87
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "expected_years": 15.91,
+    "completion_age": 21.91
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2013,
+    "expected_years": 18.18,
+    "completion_age": 24.18
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "expected_years": 18.09,
+    "completion_age": 24.09
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "expected_years": 18.32,
+    "completion_age": 24.32
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "expected_years": 18.42,
+    "completion_age": 24.42
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "expected_years": 18.86,
+    "completion_age": 24.86
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "expected_years": 18.9,
+    "completion_age": 24.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2019,
+    "expected_years": 18.52,
+    "completion_age": 24.52
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "expected_years": 18.65,
+    "completion_age": 24.65
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "expected_years": 19.04,
+    "completion_age": 25.04
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2022,
+    "expected_years": 18.99,
+    "completion_age": 24.99
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2023,
+    "expected_years": 18.99,
+    "completion_age": 24.99
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1990,
+    "expected_years": 15.6,
+    "completion_age": 21.6
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1991,
+    "expected_years": 15.53,
+    "completion_age": 21.53
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1992,
+    "expected_years": 15.73,
+    "completion_age": 21.73
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1993,
+    "expected_years": 15.92,
+    "completion_age": 21.92
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1994,
+    "expected_years": 15.96,
+    "completion_age": 21.96
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1995,
+    "expected_years": 15.94,
+    "completion_age": 21.94
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1996,
+    "expected_years": 15.85,
+    "completion_age": 21.85
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1997,
+    "expected_years": 15.79,
+    "completion_age": 21.79
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1998,
+    "expected_years": 15.73,
+    "completion_age": 21.73
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1999,
+    "expected_years": 15.59,
+    "completion_age": 21.59
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2000,
+    "expected_years": 15.41,
+    "completion_age": 21.41
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2001,
+    "expected_years": 15.55,
+    "completion_age": 21.55
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2002,
+    "expected_years": 15.69,
+    "completion_age": 21.69
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2003,
+    "expected_years": 15.83,
+    "completion_age": 21.83
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2004,
+    "expected_years": 15.97,
+    "completion_age": 21.97
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2005,
+    "expected_years": 16.11,
+    "completion_age": 22.11
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2006,
+    "expected_years": 16.17,
+    "completion_age": 22.17
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2007,
+    "expected_years": 16.22,
+    "completion_age": 22.22
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2008,
+    "expected_years": 16.28,
+    "completion_age": 22.28
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2009,
+    "expected_years": 16.34,
+    "completion_age": 22.34
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2010,
+    "expected_years": 16.4,
+    "completion_age": 22.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2011,
+    "expected_years": 16.45,
+    "completion_age": 22.45
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2012,
+    "expected_years": 16.51,
+    "completion_age": 22.51
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2013,
+    "expected_years": 16.57,
+    "completion_age": 22.57
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2014,
+    "expected_years": 16.56,
+    "completion_age": 22.56
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2015,
+    "expected_years": 16.6,
+    "completion_age": 22.6
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2016,
+    "expected_years": 16.67,
+    "completion_age": 22.67
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2017,
+    "expected_years": 16.67,
+    "completion_age": 22.67
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2018,
+    "expected_years": 16.64,
+    "completion_age": 22.64
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2019,
+    "expected_years": 16.64,
+    "completion_age": 22.64
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2020,
+    "expected_years": 16.63,
+    "completion_age": 22.63
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "expected_years": 16.41,
+    "completion_age": 22.41
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2022,
+    "expected_years": 15.92,
+    "completion_age": 21.92
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2023,
+    "expected_years": 15.92,
+    "completion_age": 21.92
+  }
+]

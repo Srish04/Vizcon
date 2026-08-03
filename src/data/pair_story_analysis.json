@@ -1,0 +1,2640 @@
+{
+  "pair_story_rankings": [
+    {
+      "country_a": "SWE",
+      "country_b": "IND",
+      "name_a": "Sweden",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "marriage_age",
+          "norm_gap": 1.0,
+          "abs_gap": 13.4
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 1.0,
+          "abs_gap": 11.9
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 1.0,
+          "abs_gap": 47.6
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.99,
+          "abs_gap": 0.4
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.974,
+          "abs_gap": 76.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.78
+    },
+    {
+      "country_a": "DNK",
+      "country_b": "IND",
+      "name_a": "Denmark",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "happiness",
+          "norm_gap": 1.0,
+          "abs_gap": 3.53
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 1.0,
+          "abs_gap": 0.4
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.974,
+          "abs_gap": 76.0
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.943,
+          "abs_gap": 44.9
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.931,
+          "abs_gap": 5.4
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.768
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "MEX",
+      "name_a": "France",
+      "name_b": "Mexico",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "retirement_age",
+          "norm_gap": 1.0,
+          "abs_gap": 5.9
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.986,
+          "abs_gap": 7.3
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.952,
+          "abs_gap": 56.0
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.81,
+          "abs_gap": 0.32
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.75,
+          "abs_gap": 6.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.766
+    },
+    {
+      "country_a": "JPN",
+      "country_b": "IND",
+      "name_a": "Japan",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "hale",
+          "norm_gap": 1.0,
+          "abs_gap": 15.3
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.992,
+          "abs_gap": 11.8
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.987,
+          "abs_gap": 77.0
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.948,
+          "abs_gap": 1.81
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.876,
+          "abs_gap": 41.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.764
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "IND",
+      "name_a": "South Korea",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 1.0,
+          "abs_gap": 1.26
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.974,
+          "abs_gap": 76.0
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.958,
+          "abs_gap": 11.4
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.941,
+          "abs_gap": 14.4
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.913,
+          "abs_gap": 0.37
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.762
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "IND",
+      "name_a": "Italy",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.992,
+          "abs_gap": 11.8
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 0.96,
+          "abs_gap": 7.2
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.949,
+          "abs_gap": 74.0
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.948,
+          "abs_gap": 1.81
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.931,
+          "abs_gap": 5.4
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.761
+    },
+    {
+      "country_a": "AUS",
+      "country_b": "IND",
+      "name_a": "Australia",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 1.0,
+          "abs_gap": 7.7
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 1.0,
+          "abs_gap": 78.0
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.931,
+          "abs_gap": 5.4
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.916,
+          "abs_gap": 10.9
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 0.893,
+          "abs_gap": 6.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.757
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "IND",
+      "name_a": "France",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.936,
+          "abs_gap": 73.0
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.931,
+          "abs_gap": 5.4
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.922,
+          "abs_gap": 0.37
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.908,
+          "abs_gap": 10.8
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 0.893,
+          "abs_gap": 6.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.742
+    },
+    {
+      "country_a": "USA",
+      "country_b": "IND",
+      "name_a": "United States",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "menopause_age",
+          "norm_gap": 1.0,
+          "abs_gap": 5.8
+        },
+        {
+          "metric": "gdp_per_capita",
+          "norm_gap": 1.0,
+          "abs_gap": 66282.0
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 0.973,
+          "abs_gap": 7.3
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.808,
+          "abs_gap": 63.0
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.791,
+          "abs_gap": 1.51
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.741
+    },
+    {
+      "country_a": "DEU",
+      "country_b": "IND",
+      "name_a": "Germany",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.974,
+          "abs_gap": 76.0
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.931,
+          "abs_gap": 5.4
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 0.92,
+          "abs_gap": 6.9
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.865,
+          "abs_gap": 0.35
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.863,
+          "abs_gap": 41.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.739
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "MEX",
+      "name_a": "Italy",
+      "name_b": "Mexico",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 1.0,
+          "abs_gap": 8.0
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.959,
+          "abs_gap": 56.4
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.787,
+          "abs_gap": 0.32
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.743,
+          "abs_gap": 5.5
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.731,
+          "abs_gap": 8.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.738
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "BRA",
+      "name_a": "Italy",
+      "name_b": "Brazil",
+      "shared_count": 18,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.875,
+          "abs_gap": 7.0
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.868,
+          "abs_gap": 0.35
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.782,
+          "abs_gap": 61.0
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.757,
+          "abs_gap": 5.6
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.724,
+          "abs_gap": 9.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.72
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "BRA",
+      "name_a": "France",
+      "name_b": "Brazil",
+      "shared_count": 18,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 1.0,
+          "abs_gap": 7.4
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.89,
+          "abs_gap": 0.36
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.769,
+          "abs_gap": 60.0
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.687,
+          "abs_gap": 9.2
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.65,
+          "abs_gap": 38.2
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.719
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "BRA",
+      "name_a": "Sweden",
+      "name_b": "Brazil",
+      "shared_count": 18,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.958,
+          "abs_gap": 0.38
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.813,
+          "abs_gap": 10.9
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.808,
+          "abs_gap": 63.0
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.681,
+          "abs_gap": 8.1
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.677,
+          "abs_gap": 39.8
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.713
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "MEX",
+      "name_a": "Sweden",
+      "name_b": "Mexico",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.98,
+          "abs_gap": 57.6
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.877,
+          "abs_gap": 0.35
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.739,
+          "abs_gap": 8.8
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.69,
+          "abs_gap": 4.0
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.672,
+          "abs_gap": 0.82
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.712
+    },
+    {
+      "country_a": "DNK",
+      "country_b": "MEX",
+      "name_a": "Denmark",
+      "name_b": "Mexico",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.99,
+          "abs_gap": 58.2
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.887,
+          "abs_gap": 0.35
+        },
+        {
+          "metric": "gdp_per_capita",
+          "norm_gap": 0.74,
+          "abs_gap": 49065.0
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.69,
+          "abs_gap": 4.0
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.656,
+          "abs_gap": 0.8
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.712
+    },
+    {
+      "country_a": "DNK",
+      "country_b": "BRA",
+      "name_a": "Denmark",
+      "name_b": "Brazil",
+      "shared_count": 18,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.968,
+          "abs_gap": 0.39
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.808,
+          "abs_gap": 63.0
+        },
+        {
+          "metric": "gdp_per_capita",
+          "norm_gap": 0.775,
+          "abs_gap": 51383.0
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.687,
+          "abs_gap": 40.4
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.679,
+          "abs_gap": 9.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.711
+    },
+    {
+      "country_a": "AUS",
+      "country_b": "MEX",
+      "name_a": "Australia",
+      "name_b": "Mexico",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.9,
+          "abs_gap": 52.9
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.792,
+          "abs_gap": 6.1
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.77,
+          "abs_gap": 5.7
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.755,
+          "abs_gap": 0.3
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.69,
+          "abs_gap": 4.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.706
+    },
+    {
+      "country_a": "USA",
+      "country_b": "MEX",
+      "name_a": "United States",
+      "name_b": "Mexico",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 1.0,
+          "abs_gap": 1.22
+        },
+        {
+          "metric": "gdp_per_capita",
+          "norm_gap": 0.811,
+          "abs_gap": 53728.0
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.798,
+          "abs_gap": 46.9
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.759,
+          "abs_gap": 4.4
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 0.533,
+          "abs_gap": 4.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.706
+    },
+    {
+      "country_a": "BRA",
+      "country_b": "IND",
+      "name_a": "Brazil",
+      "name_b": "India",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "menarche_age",
+          "norm_gap": 1.0,
+          "abs_gap": 1.91
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 1.0,
+          "abs_gap": 7.5
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.966,
+          "abs_gap": 5.6
+        },
+        {
+          "metric": "happiness",
+          "norm_gap": 0.629,
+          "abs_gap": 2.22
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.559,
+          "abs_gap": 26.6
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.699
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "MEX",
+      "name_a": "South Korea",
+      "name_b": "Mexico",
+      "shared_count": 18,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 1.0,
+          "abs_gap": 58.8
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.948,
+          "abs_gap": 1.19
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.8,
+          "abs_gap": 0.32
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.785,
+          "abs_gap": 1.5
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.725,
+          "abs_gap": 11.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.695
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "USA",
+      "name_a": "South Korea",
+      "name_b": "United States",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 1.0,
+          "abs_gap": 5.05
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.886,
+          "abs_gap": 3.9
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.72,
+          "abs_gap": 0.9
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.576,
+          "abs_gap": 1.1
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.574,
+          "abs_gap": 0.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.688
+    },
+    {
+      "country_a": "BRA",
+      "country_b": "AUS",
+      "name_a": "Brazil",
+      "name_b": "Australia",
+      "shared_count": 18,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.835,
+          "abs_gap": 0.33
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.833,
+          "abs_gap": 65.0
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.784,
+          "abs_gap": 5.8
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.623,
+          "abs_gap": 4.8
+        },
+        {
+          "metric": "gdp_per_capita",
+          "norm_gap": 0.613,
+          "abs_gap": 40658.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.688
+    },
+    {
+      "country_a": "DEU",
+      "country_b": "MEX",
+      "name_a": "Germany",
+      "name_b": "Mexico",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.92,
+          "abs_gap": 54.1
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.752,
+          "abs_gap": 0.3
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.69,
+          "abs_gap": 4.0
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.625,
+          "abs_gap": 5.0
+        },
+        {
+          "metric": "gdp_per_capita",
+          "norm_gap": 0.614,
+          "abs_gap": 40685.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.676
+    },
+    {
+      "country_a": "JPN",
+      "country_b": "MEX",
+      "name_a": "Japan",
+      "name_b": "Mexico",
+      "shared_count": 18,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.981,
+          "abs_gap": 57.7
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.784,
+          "abs_gap": 12.0
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.75,
+          "abs_gap": 3.3
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.747,
+          "abs_gap": 0.3
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.731,
+          "abs_gap": 8.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.669
+    },
+    {
+      "country_a": "BRA",
+      "country_b": "DEU",
+      "name_a": "Brazil",
+      "name_b": "Germany",
+      "shared_count": 18,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.833,
+          "abs_gap": 0.33
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.808,
+          "abs_gap": 63.0
+        },
+        {
+          "metric": "gdp_per_capita",
+          "norm_gap": 0.649,
+          "abs_gap": 43003.0
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.617,
+          "abs_gap": 36.3
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.545,
+          "abs_gap": 7.3
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.665
+    },
+    {
+      "country_a": "JPN",
+      "country_b": "BRA",
+      "name_a": "Japan",
+      "name_b": "Brazil",
+      "shared_count": 17,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.828,
+          "abs_gap": 0.33
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.821,
+          "abs_gap": 64.0
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.818,
+          "abs_gap": 3.6
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.758,
+          "abs_gap": 11.6
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.679,
+          "abs_gap": 39.9
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.294,
+      "story_score": 0.664
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "BRA",
+      "name_a": "South Korea",
+      "name_b": "Brazil",
+      "shared_count": 17,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.88,
+          "abs_gap": 0.35
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.808,
+          "abs_gap": 63.0
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.785,
+          "abs_gap": 1.5
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.716,
+          "abs_gap": 0.9
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.705,
+          "abs_gap": 3.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.294,
+      "story_score": 0.663
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "USA",
+      "name_a": "Italy",
+      "name_b": "United States",
+      "shared_count": 21,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.902,
+          "abs_gap": 1.1
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.754,
+          "abs_gap": 3.81
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.75,
+          "abs_gap": 6.0
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.559,
+          "abs_gap": 3.3
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.5,
+          "abs_gap": 3.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.238,
+      "story_score": 0.656
+    },
+    {
+      "country_a": "JPN",
+      "country_b": "USA",
+      "name_a": "Japan",
+      "name_b": "United States",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 1.0,
+          "abs_gap": 4.4
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.803,
+          "abs_gap": 0.98
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.621,
+          "abs_gap": 9.5
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.566,
+          "abs_gap": 2.86
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.429,
+          "abs_gap": 5.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.654
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "USA",
+      "name_a": "France",
+      "name_b": "United States",
+      "shared_count": 21,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.915,
+          "abs_gap": 5.4
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.743,
+          "abs_gap": 5.5
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.64,
+          "abs_gap": 3.23
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.5,
+          "abs_gap": 4.0
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.492,
+          "abs_gap": 0.6
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.238,
+      "story_score": 0.639
+    },
+    {
+      "country_a": "BRA",
+      "country_b": "USA",
+      "name_a": "Brazil",
+      "name_b": "United States",
+      "shared_count": 18,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "gdp_per_capita",
+          "norm_gap": 0.846,
+          "abs_gap": 56046.0
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.661,
+          "abs_gap": 3.9
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.641,
+          "abs_gap": 50.0
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.552,
+          "abs_gap": 0.22
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.495,
+          "abs_gap": 29.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.639
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "FRA",
+      "name_a": "South Korea",
+      "name_b": "France",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.932,
+          "abs_gap": 5.5
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.732,
+          "abs_gap": 0.92
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.703,
+          "abs_gap": 5.2
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.445,
+          "abs_gap": 0.85
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.412,
+          "abs_gap": 3.5
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.635
+    },
+    {
+      "country_a": "IND",
+      "country_b": "MEX",
+      "name_a": "India",
+      "name_b": "Mexico",
+      "shared_count": 15,
+      "story_breadth": 4,
+      "story_breadth_label": "4/5",
+      "top5_stories": [
+        {
+          "metric": "menarche_age",
+          "norm_gap": 1.0,
+          "abs_gap": 1.91
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.787,
+          "abs_gap": 46.3
+        },
+        {
+          "metric": "happiness",
+          "norm_gap": 0.744,
+          "abs_gap": 2.62
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.487,
+          "abs_gap": 38.0
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.455,
+          "abs_gap": 6.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.333,
+      "story_score": 0.631
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "JPN",
+      "name_a": "France",
+      "name_b": "Japan",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.847,
+          "abs_gap": 5.0
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.765,
+          "abs_gap": 6.5
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.527,
+          "abs_gap": 3.9
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.523,
+          "abs_gap": 2.3
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.343,
+          "abs_gap": 0.43
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.613
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "DNK",
+      "name_a": "Italy",
+      "name_b": "Denmark",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "leaving_home_age",
+          "norm_gap": 1.0,
+          "abs_gap": 8.4
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.625,
+          "abs_gap": 5.0
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.557,
+          "abs_gap": 0.68
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.471,
+          "abs_gap": 22.4
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.39,
+          "abs_gap": 2.3
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.611
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "JPN",
+      "name_a": "Sweden",
+      "name_b": "Japan",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.882,
+          "abs_gap": 7.5
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.545,
+          "abs_gap": 2.4
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.475,
+          "abs_gap": 0.58
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.455,
+          "abs_gap": 3.5
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.403,
+          "abs_gap": 5.4
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.589
+    },
+    {
+      "country_a": "BRA",
+      "country_b": "MEX",
+      "name_a": "Brazil",
+      "name_b": "Mexico",
+      "shared_count": 18,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.746,
+          "abs_gap": 4.4
+        },
+        {
+          "metric": "menopause_age",
+          "norm_gap": 0.724,
+          "abs_gap": 4.2
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 0.56,
+          "abs_gap": 4.2
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.321,
+          "abs_gap": 25.0
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.303,
+          "abs_gap": 17.8
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.278,
+      "story_score": 0.585
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "ITA",
+      "name_a": "Sweden",
+      "name_b": "Italy",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "leaving_home_age",
+          "norm_gap": 0.845,
+          "abs_gap": 7.1
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.574,
+          "abs_gap": 0.7
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.527,
+          "abs_gap": 25.1
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.5,
+          "abs_gap": 4.0
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.309,
+          "abs_gap": 0.59
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.582
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "DNK",
+      "name_a": "South Korea",
+      "name_b": "Denmark",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.647,
+          "abs_gap": 5.5
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.63,
+          "abs_gap": 0.79
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.507,
+          "abs_gap": 2.56
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.471,
+          "abs_gap": 0.9
+        },
+        {
+          "metric": "happiness",
+          "norm_gap": 0.432,
+          "abs_gap": 1.53
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.581
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "KOR",
+      "name_a": "Italy",
+      "name_b": "South Korea",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.733,
+          "abs_gap": 1.4
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.576,
+          "abs_gap": 3.4
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.523,
+          "abs_gap": 2.3
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.459,
+          "abs_gap": 3.4
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.381,
+          "abs_gap": 0.48
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.58
+    },
+    {
+      "country_a": "DNK",
+      "country_b": "JPN",
+      "name_a": "Denmark",
+      "name_b": "Japan",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 1.0,
+          "abs_gap": 8.5
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.459,
+          "abs_gap": 0.56
+        },
+        {
+          "metric": "happiness",
+          "norm_gap": 0.432,
+          "abs_gap": 1.52
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.416,
+          "abs_gap": 3.2
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.364,
+          "abs_gap": 1.6
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.58
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "AUS",
+      "name_a": "South Korea",
+      "name_b": "Australia",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.731,
+          "abs_gap": 0.92
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.519,
+          "abs_gap": 4.0
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.486,
+          "abs_gap": 3.6
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.471,
+          "abs_gap": 0.9
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.424,
+          "abs_gap": 2.5
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.579
+    },
+    {
+      "country_a": "AUS",
+      "country_b": "USA",
+      "name_a": "Australia",
+      "name_b": "United States",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.61,
+          "abs_gap": 4.7
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.568,
+          "abs_gap": 2.5
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.527,
+          "abs_gap": 3.9
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.5,
+          "abs_gap": 0.61
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.438,
+          "abs_gap": 6.7
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.577
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "DEU",
+      "name_a": "South Korea",
+      "name_b": "Germany",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.661,
+          "abs_gap": 3.34
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.576,
+          "abs_gap": 1.1
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.575,
+          "abs_gap": 0.72
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.542,
+          "abs_gap": 3.2
+        },
+        {
+          "metric": "reproductive_years",
+          "norm_gap": 0.28,
+          "abs_gap": 2.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.576
+    },
+    {
+      "country_a": "USA",
+      "country_b": "DEU",
+      "name_a": "United States",
+      "name_b": "Germany",
+      "shared_count": 21,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.713,
+          "abs_gap": 0.87
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.705,
+          "abs_gap": 3.1
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.525,
+          "abs_gap": 3.1
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.375,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.339,
+          "abs_gap": 1.71
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.238,
+      "story_score": 0.575
+    },
+    {
+      "country_a": "DNK",
+      "country_b": "USA",
+      "name_a": "Denmark",
+      "name_b": "United States",
+      "shared_count": 21,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.647,
+          "abs_gap": 5.5
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.636,
+          "abs_gap": 2.8
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.493,
+          "abs_gap": 2.49
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.415,
+          "abs_gap": 0.17
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.405,
+          "abs_gap": 6.2
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.238,
+      "story_score": 0.569
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "JPN",
+      "name_a": "Italy",
+      "name_b": "Japan",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.706,
+          "abs_gap": 6.0
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.636,
+          "abs_gap": 2.8
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.492,
+          "abs_gap": 2.9
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.403,
+          "abs_gap": 19.2
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.313,
+          "abs_gap": 4.2
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.568
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "KOR",
+      "name_a": "Sweden",
+      "name_b": "South Korea",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.566,
+          "abs_gap": 0.71
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.537,
+          "abs_gap": 2.71
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.529,
+          "abs_gap": 4.5
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.432,
+          "abs_gap": 1.9
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.424,
+          "abs_gap": 0.81
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.561
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "USA",
+      "name_a": "Sweden",
+      "name_b": "United States",
+      "shared_count": 21,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.529,
+          "abs_gap": 4.5
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.471,
+          "abs_gap": 7.2
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.463,
+          "abs_gap": 6.2
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.463,
+          "abs_gap": 2.34
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.455,
+          "abs_gap": 2.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.238,
+      "story_score": 0.548
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "DNK",
+      "name_a": "France",
+      "name_b": "Denmark",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.746,
+          "abs_gap": 4.4
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.622,
+          "abs_gap": 4.6
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.375,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.338,
+          "abs_gap": 2.6
+        },
+        {
+          "metric": "happiness",
+          "norm_gap": 0.276,
+          "abs_gap": 0.97
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.543
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "DEU",
+      "name_a": "Italy",
+      "name_b": "Germany",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "leaving_home_age",
+          "norm_gap": 0.726,
+          "abs_gap": 6.1
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.416,
+          "abs_gap": 2.1
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.391,
+          "abs_gap": 18.6
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.375,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.341,
+          "abs_gap": 1.5
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.532
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "JPN",
+      "name_a": "South Korea",
+      "name_b": "Japan",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.733,
+          "abs_gap": 1.4
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.434,
+          "abs_gap": 2.19
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.389,
+          "abs_gap": 0.49
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.353,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.261,
+          "abs_gap": 12.4
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.529
+    },
+    {
+      "country_a": "JPN",
+      "country_b": "AUS",
+      "name_a": "Japan",
+      "name_b": "Australia",
+      "shared_count": 19,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.662,
+          "abs_gap": 5.1
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.432,
+          "abs_gap": 1.9
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.353,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.343,
+          "abs_gap": 0.43
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.339,
+          "abs_gap": 2.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.263,
+      "story_score": 0.529
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "FRA",
+      "name_a": "Italy",
+      "name_b": "France",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "leaving_home_age",
+          "norm_gap": 0.762,
+          "abs_gap": 6.4
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.41,
+          "abs_gap": 0.5
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.356,
+          "abs_gap": 2.1
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.351,
+          "abs_gap": 0.44
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.292,
+          "abs_gap": 13.9
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.524
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "AUS",
+      "name_a": "Italy",
+      "name_b": "Australia",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.506,
+          "abs_gap": 3.9
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.418,
+          "abs_gap": 19.9
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.402,
+          "abs_gap": 0.49
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.375,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.353,
+          "abs_gap": 3.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.518
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "AUS",
+      "name_a": "France",
+      "name_b": "Australia",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.584,
+          "abs_gap": 4.5
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.508,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.412,
+          "abs_gap": 3.5
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.291,
+          "abs_gap": 3.9
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.216,
+          "abs_gap": 1.6
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.514
+    },
+    {
+      "country_a": "JPN",
+      "country_b": "DEU",
+      "name_a": "Japan",
+      "name_b": "Germany",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.529,
+          "abs_gap": 4.5
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.458,
+          "abs_gap": 2.7
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.295,
+          "abs_gap": 1.3
+        },
+        {
+          "metric": "hale",
+          "norm_gap": 0.294,
+          "abs_gap": 4.5
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.269,
+          "abs_gap": 3.2
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.497
+    },
+    {
+      "country_a": "DNK",
+      "country_b": "AUS",
+      "name_a": "Denmark",
+      "name_b": "Australia",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.647,
+          "abs_gap": 5.5
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.405,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.284,
+          "abs_gap": 3.8
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.25,
+          "abs_gap": 2.0
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.247,
+          "abs_gap": 1.9
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.496
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "FRA",
+      "name_a": "Sweden",
+      "name_b": "France",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.542,
+          "abs_gap": 3.2
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.378,
+          "abs_gap": 2.8
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.377,
+          "abs_gap": 2.9
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.25,
+          "abs_gap": 2.0
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.235,
+          "abs_gap": 11.2
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.485
+    },
+    {
+      "country_a": "DNK",
+      "country_b": "DEU",
+      "name_a": "Denmark",
+      "name_b": "Germany",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.471,
+          "abs_gap": 4.0
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.369,
+          "abs_gap": 0.45
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.356,
+          "abs_gap": 2.1
+        },
+        {
+          "metric": "leaving_home_age",
+          "norm_gap": 0.274,
+          "abs_gap": 2.3
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.25,
+          "abs_gap": 2.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.479
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "DEU",
+      "name_a": "France",
+      "name_b": "Germany",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.473,
+          "abs_gap": 3.5
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.39,
+          "abs_gap": 2.3
+        },
+        {
+          "metric": "first_birth_age",
+          "norm_gap": 0.301,
+          "abs_gap": 1.52
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.235,
+          "abs_gap": 2.0
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.227,
+          "abs_gap": 1.0
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.469
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "AUS",
+      "name_a": "Sweden",
+      "name_b": "Australia",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.529,
+          "abs_gap": 4.5
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.418,
+          "abs_gap": 5.6
+        },
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.208,
+          "abs_gap": 1.6
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.172,
+          "abs_gap": 0.21
+        },
+        {
+          "metric": "fertility_rate",
+          "norm_gap": 0.166,
+          "abs_gap": 0.21
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.462
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "DEU",
+      "name_a": "Sweden",
+      "name_b": "Germany",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.385,
+          "abs_gap": 0.47
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.353,
+          "abs_gap": 3.0
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.277,
+          "abs_gap": 3.3
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.269,
+          "abs_gap": 3.6
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.25,
+          "abs_gap": 1.1
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.46
+    },
+    {
+      "country_a": "AUS",
+      "country_b": "DEU",
+      "name_a": "Australia",
+      "name_b": "Germany",
+      "shared_count": 20,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "education_completion_age",
+          "norm_gap": 0.429,
+          "abs_gap": 3.3
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.257,
+          "abs_gap": 1.9
+        },
+        {
+          "metric": "divorce_rate",
+          "norm_gap": 0.213,
+          "abs_gap": 0.26
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.193,
+          "abs_gap": 2.3
+        },
+        {
+          "metric": "first_home_age",
+          "norm_gap": 0.176,
+          "abs_gap": 1.5
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.25,
+      "story_score": 0.439
+    },
+    {
+      "country_a": "SWE",
+      "country_b": "DNK",
+      "name_a": "Sweden",
+      "name_b": "Denmark",
+      "shared_count": 22,
+      "story_breadth": 5,
+      "story_breadth_label": "5/5",
+      "top5_stories": [
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.243,
+          "abs_gap": 1.8
+        },
+        {
+          "metric": "retirement_age",
+          "norm_gap": 0.203,
+          "abs_gap": 1.2
+        },
+        {
+          "metric": "years_poor_health",
+          "norm_gap": 0.182,
+          "abs_gap": 0.8
+        },
+        {
+          "metric": "leaving_home_age",
+          "norm_gap": 0.155,
+          "abs_gap": 1.3
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.151,
+          "abs_gap": 1.8
+        }
+      ],
+      "gender_splits_available": 5,
+      "gender_ratio": 0.227,
+      "story_score": 0.4
+    }
+  ],
+  "country_story_scores": [
+    {
+      "country": "IND",
+      "name": "India",
+      "avg_story_score": 0.74
+    },
+    {
+      "country": "MEX",
+      "name": "Mexico",
+      "avg_story_score": 0.691
+    },
+    {
+      "country": "BRA",
+      "name": "Brazil",
+      "avg_story_score": 0.679
+    },
+    {
+      "country": "USA",
+      "name": "United States",
+      "avg_story_score": 0.636
+    },
+    {
+      "country": "KOR",
+      "name": "South Korea",
+      "avg_story_score": 0.623
+    },
+    {
+      "country": "ITA",
+      "name": "Italy",
+      "avg_story_score": 0.617
+    },
+    {
+      "country": "JPN",
+      "name": "Japan",
+      "avg_story_score": 0.605
+    },
+    {
+      "country": "FRA",
+      "name": "France",
+      "avg_story_score": 0.604
+    },
+    {
+      "country": "DNK",
+      "name": "Denmark",
+      "avg_story_score": 0.586
+    },
+    {
+      "country": "SWE",
+      "name": "Sweden",
+      "avg_story_score": 0.572
+    },
+    {
+      "country": "AUS",
+      "name": "Australia",
+      "avg_story_score": 0.57
+    },
+    {
+      "country": "DEU",
+      "name": "Germany",
+      "avg_story_score": 0.555
+    }
+  ]
+}

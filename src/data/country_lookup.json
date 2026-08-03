@@ -1,0 +1,134 @@
+[
+  {
+    "iso3": "SWE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "region": "Northern Europe",
+    "eurostat": "SE",
+    "owid": "Sweden",
+    "wb": "SWE",
+    "oecd": "SWE",
+    "happiness": "Sweden"
+  },
+  {
+    "iso3": "ITA",
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "region": "Southern Europe",
+    "eurostat": "IT",
+    "owid": "Italy",
+    "wb": "ITA",
+    "oecd": "ITA",
+    "happiness": "Italy"
+  },
+  {
+    "iso3": "KOR",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "region": "East Asia",
+    "eurostat": null,
+    "owid": "South Korea",
+    "wb": "KOR",
+    "oecd": "KOR",
+    "happiness": "South Korea"
+  },
+  {
+    "iso3": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "region": "Western Europe",
+    "eurostat": "FR",
+    "owid": "France",
+    "wb": "FRA",
+    "oecd": "FRA",
+    "happiness": "France"
+  },
+  {
+    "iso3": "DNK",
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "region": "Northern Europe",
+    "eurostat": "DK",
+    "owid": "Denmark",
+    "wb": "DNK",
+    "oecd": "DNK",
+    "happiness": "Denmark"
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "region": "East Asia",
+    "eurostat": null,
+    "owid": "Japan",
+    "wb": "JPN",
+    "oecd": "JPN",
+    "happiness": "Japan"
+  },
+  {
+    "iso3": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "eurostat": null,
+    "owid": "Brazil",
+    "wb": "BRA",
+    "oecd": "BRA",
+    "happiness": "Brazil"
+  },
+  {
+    "iso3": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "eurostat": null,
+    "owid": "Australia",
+    "wb": "AUS",
+    "oecd": "AUS",
+    "happiness": "Australia"
+  },
+  {
+    "iso3": "USA",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "eurostat": null,
+    "owid": "United States",
+    "wb": "USA",
+    "oecd": "USA",
+    "happiness": "United States"
+  },
+  {
+    "iso3": "DEU",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "region": "Western Europe",
+    "eurostat": "DE",
+    "owid": "Germany",
+    "wb": "DEU",
+    "oecd": "DEU",
+    "happiness": "Germany"
+  },
+  {
+    "iso3": "IND",
+    "name": "India",
+    "flag": "🇮🇳",
+    "region": "South Asia",
+    "eurostat": null,
+    "owid": "India",
+    "wb": "IND",
+    "oecd": "IND",
+    "happiness": "India"
+  },
+  {
+    "iso3": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "region": "North America",
+    "eurostat": null,
+    "owid": "Mexico",
+    "wb": "MEX",
+    "oecd": "MEX",
+    "happiness": "Mexico"
+  }
+]

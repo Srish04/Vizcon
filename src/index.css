@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #FAFAF8;
+  --color-text: #264653;
+  --color-menarche: #C2185B;
+  --color-education: #2D6A4F;
+  --color-leaving-home: #2A9D8F;
+  --color-cohabitation: #00897B;
+  --color-first-home: #48BFE3;
+  --color-marriage: #E76F51;
+  --color-first-baby: #E9C46A;
+  --color-menopause: #AB47BC;
+  --color-retirement: #457B9D;
+  --color-hale: #7B2D8E;
+  --color-life-exp: #264653;
+  --color-male: #78909C;
+  --color-female: #E07A5F;
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-data: 'JetBrains Mono', monospace;
+}

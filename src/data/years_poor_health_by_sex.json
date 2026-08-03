@@ -1,0 +1,194 @@
+[
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "sex": "Male",
+    "life_expectancy": 82.6,
+    "hale": 71.0,
+    "years_poor_health": 11.6
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "sex": "Female",
+    "life_expectancy": 85.6,
+    "hale": 71.2,
+    "years_poor_health": 14.4
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "sex": "Male",
+    "life_expectancy": 82.0,
+    "hale": 70.0,
+    "years_poor_health": 12.0
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "sex": "Female",
+    "life_expectancy": 86.0,
+    "hale": 71.1,
+    "years_poor_health": 14.9
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "sex": "Male",
+    "life_expectancy": 80.8,
+    "hale": 70.7,
+    "years_poor_health": 10.1
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "sex": "Female",
+    "life_expectancy": 86.6,
+    "hale": 74.1,
+    "years_poor_health": 12.5
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "sex": "Male",
+    "life_expectancy": 80.2,
+    "hale": 69.1,
+    "years_poor_health": 11.1
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "sex": "Female",
+    "life_expectancy": 85.9,
+    "hale": 71.0,
+    "years_poor_health": 14.9
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "sex": "Male",
+    "life_expectancy": 80.4,
+    "hale": 69.7,
+    "years_poor_health": 10.7
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "sex": "Female",
+    "life_expectancy": 84.2,
+    "hale": 70.4,
+    "years_poor_health": 13.8
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "sex": "Male",
+    "life_expectancy": 81.1,
+    "hale": 71.9,
+    "years_poor_health": 9.2
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "sex": "Female",
+    "life_expectancy": 87.1,
+    "hale": 74.8,
+    "years_poor_health": 12.3
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "sex": "Male",
+    "life_expectancy": 73.0,
+    "hale": 60.3,
+    "years_poor_health": 12.7
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "sex": "Female",
+    "life_expectancy": 79.1,
+    "hale": 63.4,
+    "years_poor_health": 15.7
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "sex": "Male",
+    "life_expectancy": 81.1,
+    "hale": 70.1,
+    "years_poor_health": 11.0
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "sex": "Female",
+    "life_expectancy": 85.1,
+    "hale": 71.1,
+    "years_poor_health": 14.0
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "sex": "Male",
+    "life_expectancy": 76.5,
+    "hale": 62.8,
+    "years_poor_health": 13.7
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "sex": "Female",
+    "life_expectancy": 81.4,
+    "hale": 65.1,
+    "years_poor_health": 16.3
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "sex": "Male",
+    "life_expectancy": 78.5,
+    "hale": 68.4,
+    "years_poor_health": 10.1
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "sex": "Female",
+    "life_expectancy": 83.2,
+    "hale": 69.4,
+    "years_poor_health": 13.8
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "sex": "Male",
+    "life_expectancy": 70.7,
+    "hale": 58.0,
+    "years_poor_health": 12.7
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "sex": "Female",
+    "life_expectancy": 73.9,
+    "hale": 58.3,
+    "years_poor_health": 15.6
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "sex": "Male",
+    "life_expectancy": 72.4,
+    "hale": 59.5,
+    "years_poor_health": 12.9
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "sex": "Female",
+    "life_expectancy": 78.0,
+    "hale": 63.5,
+    "years_poor_health": 14.5
+  }
+]

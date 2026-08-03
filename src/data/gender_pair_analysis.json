@@ -1,0 +1,583 @@
+{
+  "pair_analysis": [
+    {
+      "country_a": "SWE",
+      "country_b": "IND",
+      "name_a": "Sweden",
+      "name_b": "India",
+      "metrics": [
+        {
+          "metric": "Marriage age",
+          "country_a_male": 33.2,
+          "country_a_female": 34.8,
+          "country_a_gap": 1.6,
+          "country_b_male": 26.0,
+          "country_b_female": 21.4,
+          "country_b_gap": -4.6,
+          "gap_difference": 6.2
+        },
+        {
+          "metric": "Education completion age",
+          "country_a_male": 23.4,
+          "country_a_female": 26.7,
+          "country_a_gap": 3.3,
+          "country_b_male": 18.9,
+          "country_b_female": 19.0,
+          "country_b_gap": 0.0,
+          "gap_difference": 3.3
+        },
+        {
+          "metric": "Life expectancy",
+          "country_a_male": 82.6,
+          "country_a_female": 85.6,
+          "country_a_gap": 3.0,
+          "country_b_male": 70.7,
+          "country_b_female": 73.9,
+          "country_b_gap": 3.2,
+          "gap_difference": 0.2
+        },
+        {
+          "metric": "HALE",
+          "country_a_male": 71.0,
+          "country_a_female": 71.2,
+          "country_a_gap": 0.2,
+          "country_b_male": 58.0,
+          "country_b_female": 58.3,
+          "country_b_gap": 0.3,
+          "gap_difference": 0.1
+        },
+        {
+          "metric": "Years poor health",
+          "country_a_male": 11.6,
+          "country_a_female": 14.4,
+          "country_a_gap": 2.8,
+          "country_b_male": 12.7,
+          "country_b_female": 15.6,
+          "country_b_gap": 2.9,
+          "gap_difference": 0.1
+        }
+      ],
+      "top_gender_stories": [
+        {
+          "metric": "Marriage age",
+          "gap_difference": 6.2
+        },
+        {
+          "metric": "Education completion age",
+          "gap_difference": 3.3
+        },
+        {
+          "metric": "Life expectancy",
+          "gap_difference": 0.2
+        }
+      ]
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "MEX",
+      "name_a": "France",
+      "name_b": "Mexico",
+      "metrics": [
+        {
+          "metric": "Retirement age",
+          "country_a_male": 61.9,
+          "country_a_female": 62.4,
+          "country_a_gap": 0.5,
+          "country_b_male": 67.8,
+          "country_b_female": 65.7,
+          "country_b_gap": -2.1,
+          "gap_difference": 2.6
+        },
+        {
+          "metric": "Marriage age",
+          "country_a_male": 33.7,
+          "country_a_female": 33.1,
+          "country_a_gap": -0.6,
+          "country_b_male": 25.9,
+          "country_b_female": 27.5,
+          "country_b_gap": 1.6,
+          "gap_difference": 2.2
+        },
+        {
+          "metric": "Years poor health",
+          "country_a_male": 11.1,
+          "country_a_female": 14.9,
+          "country_a_gap": 3.8,
+          "country_b_male": 12.9,
+          "country_b_female": 14.5,
+          "country_b_gap": 1.6,
+          "gap_difference": 2.2
+        },
+        {
+          "metric": "HALE",
+          "country_a_male": 69.1,
+          "country_a_female": 71.0,
+          "country_a_gap": 1.9,
+          "country_b_male": 59.5,
+          "country_b_female": 63.5,
+          "country_b_gap": 4.0,
+          "gap_difference": 2.1
+        },
+        {
+          "metric": "Education completion age",
+          "country_a_male": 21.6,
+          "country_a_female": 22.6,
+          "country_a_gap": 0.9,
+          "country_b_male": 19.9,
+          "country_b_female": 21.0,
+          "country_b_gap": 1.1,
+          "gap_difference": 0.2
+        },
+        {
+          "metric": "Life expectancy",
+          "country_a_male": 80.2,
+          "country_a_female": 85.9,
+          "country_a_gap": 5.7,
+          "country_b_male": 72.4,
+          "country_b_female": 78.0,
+          "country_b_gap": 5.6,
+          "gap_difference": 0.1
+        }
+      ],
+      "top_gender_stories": [
+        {
+          "metric": "Retirement age",
+          "gap_difference": 2.6
+        },
+        {
+          "metric": "Marriage age",
+          "gap_difference": 2.2
+        },
+        {
+          "metric": "Years poor health",
+          "gap_difference": 2.2
+        }
+      ]
+    },
+    {
+      "country_a": "JPN",
+      "country_b": "IND",
+      "name_a": "Japan",
+      "name_b": "India",
+      "metrics": [
+        {
+          "metric": "Marriage age",
+          "country_a_male": 30.5,
+          "country_a_female": 29.4,
+          "country_a_gap": -1.1,
+          "country_b_male": 26.0,
+          "country_b_female": 21.4,
+          "country_b_gap": -4.6,
+          "gap_difference": 3.5
+        },
+        {
+          "metric": "Life expectancy",
+          "country_a_male": 81.1,
+          "country_a_female": 87.1,
+          "country_a_gap": 6.0,
+          "country_b_male": 70.7,
+          "country_b_female": 73.9,
+          "country_b_gap": 3.2,
+          "gap_difference": 2.8
+        },
+        {
+          "metric": "HALE",
+          "country_a_male": 71.9,
+          "country_a_female": 74.8,
+          "country_a_gap": 2.9,
+          "country_b_male": 58.0,
+          "country_b_female": 58.3,
+          "country_b_gap": 0.3,
+          "gap_difference": 2.6
+        },
+        {
+          "metric": "Years poor health",
+          "country_a_male": 9.2,
+          "country_a_female": 12.3,
+          "country_a_gap": 3.1,
+          "country_b_male": 12.7,
+          "country_b_female": 15.6,
+          "country_b_gap": 2.9,
+          "gap_difference": 0.2
+        },
+        {
+          "metric": "Education completion age",
+          "country_a_male": 21.6,
+          "country_a_female": 21.5,
+          "country_a_gap": -0.1,
+          "country_b_male": 18.9,
+          "country_b_female": 19.0,
+          "country_b_gap": 0.0,
+          "gap_difference": 0.1
+        }
+      ],
+      "top_gender_stories": [
+        {
+          "metric": "Marriage age",
+          "gap_difference": 3.5
+        },
+        {
+          "metric": "Life expectancy",
+          "gap_difference": 2.8
+        },
+        {
+          "metric": "HALE",
+          "gap_difference": 2.6
+        }
+      ]
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "BRA",
+      "name_a": "Italy",
+      "name_b": "Brazil",
+      "metrics": [
+        {
+          "metric": "Life expectancy",
+          "country_a_male": 82.0,
+          "country_a_female": 86.0,
+          "country_a_gap": 4.0,
+          "country_b_male": 73.0,
+          "country_b_female": 79.1,
+          "country_b_gap": 6.1,
+          "gap_difference": 2.1
+        },
+        {
+          "metric": "Retirement age",
+          "country_a_male": 64.0,
+          "country_a_female": 62.6,
+          "country_a_gap": -1.4,
+          "country_b_male": 63.4,
+          "country_b_female": 59.9,
+          "country_b_gap": -3.5,
+          "gap_difference": 2.1
+        },
+        {
+          "metric": "HALE",
+          "country_a_male": 70.0,
+          "country_a_female": 71.1,
+          "country_a_gap": 1.1,
+          "country_b_male": 60.3,
+          "country_b_female": 63.4,
+          "country_b_gap": 3.1,
+          "gap_difference": 2.0
+        },
+        {
+          "metric": "Marriage age",
+          "country_a_male": 35.3,
+          "country_a_female": 33.6,
+          "country_a_gap": -1.7,
+          "country_b_male": 26.8,
+          "country_b_female": 23.9,
+          "country_b_gap": -2.9,
+          "gap_difference": 1.2
+        },
+        {
+          "metric": "Education completion age",
+          "country_a_male": 22.2,
+          "country_a_female": 23.3,
+          "country_a_gap": 1.1,
+          "country_b_male": 21.1,
+          "country_b_female": 22.5,
+          "country_b_gap": 1.4,
+          "gap_difference": 0.3
+        },
+        {
+          "metric": "Years poor health",
+          "country_a_male": 12.0,
+          "country_a_female": 14.9,
+          "country_a_gap": 2.9,
+          "country_b_male": 12.7,
+          "country_b_female": 15.7,
+          "country_b_gap": 3.0,
+          "gap_difference": 0.1
+        }
+      ],
+      "top_gender_stories": [
+        {
+          "metric": "Life expectancy",
+          "gap_difference": 2.1
+        },
+        {
+          "metric": "Retirement age",
+          "gap_difference": 2.1
+        },
+        {
+          "metric": "HALE",
+          "gap_difference": 2.0
+        }
+      ]
+    },
+    {
+      "country_a": "KOR",
+      "country_b": "FRA",
+      "name_a": "South Korea",
+      "name_b": "France",
+      "metrics": [
+        {
+          "metric": "Marriage age",
+          "country_a_male": 33.9,
+          "country_a_female": 30.8,
+          "country_a_gap": -3.1,
+          "country_b_male": 33.7,
+          "country_b_female": 33.1,
+          "country_b_gap": -0.6,
+          "gap_difference": 2.5
+        },
+        {
+          "metric": "Retirement age",
+          "country_a_male": 67.4,
+          "country_a_female": 69.6,
+          "country_a_gap": 2.2,
+          "country_b_male": 61.9,
+          "country_b_female": 62.4,
+          "country_b_gap": 0.5,
+          "gap_difference": 1.7
+        },
+        {
+          "metric": "Education completion age",
+          "country_a_male": 22.9,
+          "country_a_female": 22.3,
+          "country_a_gap": -0.6,
+          "country_b_male": 21.6,
+          "country_b_female": 22.6,
+          "country_b_gap": 0.9,
+          "gap_difference": 1.5
+        },
+        {
+          "metric": "HALE",
+          "country_a_male": 70.7,
+          "country_a_female": 74.1,
+          "country_a_gap": 3.4,
+          "country_b_male": 69.1,
+          "country_b_female": 71.0,
+          "country_b_gap": 1.9,
+          "gap_difference": 1.5
+        },
+        {
+          "metric": "Years poor health",
+          "country_a_male": 10.1,
+          "country_a_female": 12.5,
+          "country_a_gap": 2.4,
+          "country_b_male": 11.1,
+          "country_b_female": 14.9,
+          "country_b_gap": 3.8,
+          "gap_difference": 1.4
+        },
+        {
+          "metric": "Life expectancy",
+          "country_a_male": 80.8,
+          "country_a_female": 86.6,
+          "country_a_gap": 5.8,
+          "country_b_male": 80.2,
+          "country_b_female": 85.9,
+          "country_b_gap": 5.7,
+          "gap_difference": 0.1
+        }
+      ],
+      "top_gender_stories": [
+        {
+          "metric": "Marriage age",
+          "gap_difference": 2.5
+        },
+        {
+          "metric": "Retirement age",
+          "gap_difference": 1.7
+        },
+        {
+          "metric": "Education completion age",
+          "gap_difference": 1.5
+        }
+      ]
+    },
+    {
+      "country_a": "USA",
+      "country_b": "JPN",
+      "name_a": "USA",
+      "name_b": "Japan",
+      "metrics": [
+        {
+          "metric": "Education completion age",
+          "country_a_male": 21.1,
+          "country_a_female": 22.8,
+          "country_a_gap": 1.8,
+          "country_b_male": 21.6,
+          "country_b_female": 21.5,
+          "country_b_gap": -0.1,
+          "gap_difference": 1.9
+        },
+        {
+          "metric": "Life expectancy",
+          "country_a_male": 76.5,
+          "country_a_female": 81.4,
+          "country_a_gap": 4.9,
+          "country_b_male": 81.1,
+          "country_b_female": 87.1,
+          "country_b_gap": 6.0,
+          "gap_difference": 1.1
+        },
+        {
+          "metric": "Retirement age",
+          "country_a_male": 67.3,
+          "country_a_female": 66.7,
+          "country_a_gap": -0.6,
+          "country_b_male": 66.9,
+          "country_b_female": 67.4,
+          "country_b_gap": 0.5,
+          "gap_difference": 1.1
+        },
+        {
+          "metric": "HALE",
+          "country_a_male": 62.8,
+          "country_a_female": 65.1,
+          "country_a_gap": 2.3,
+          "country_b_male": 71.9,
+          "country_b_female": 74.8,
+          "country_b_gap": 2.9,
+          "gap_difference": 0.6
+        },
+        {
+          "metric": "Marriage age",
+          "country_a_male": 29.2,
+          "country_a_female": 28.6,
+          "country_a_gap": -0.6,
+          "country_b_male": 30.5,
+          "country_b_female": 29.4,
+          "country_b_gap": -1.1,
+          "gap_difference": 0.5
+        },
+        {
+          "metric": "Years poor health",
+          "country_a_male": 13.7,
+          "country_a_female": 16.3,
+          "country_a_gap": 2.6,
+          "country_b_male": 9.2,
+          "country_b_female": 12.3,
+          "country_b_gap": 3.1,
+          "gap_difference": 0.5
+        }
+      ],
+      "top_gender_stories": [
+        {
+          "metric": "Education completion age",
+          "gap_difference": 1.9
+        },
+        {
+          "metric": "Life expectancy",
+          "gap_difference": 1.1
+        },
+        {
+          "metric": "Retirement age",
+          "gap_difference": 1.1
+        }
+      ]
+    }
+  ],
+  "top_gender_stories_overall": [
+    {
+      "pair": "Sweden vs India",
+      "metric": "Marriage age",
+      "gap_a": 1.6,
+      "gap_b": -4.6,
+      "gap_difference": 6.2
+    },
+    {
+      "pair": "Japan vs India",
+      "metric": "Marriage age",
+      "gap_a": -1.1,
+      "gap_b": -4.6,
+      "gap_difference": 3.5
+    },
+    {
+      "pair": "Sweden vs India",
+      "metric": "Education completion age",
+      "gap_a": 3.3,
+      "gap_b": 0.0,
+      "gap_difference": 3.3
+    },
+    {
+      "pair": "Japan vs India",
+      "metric": "Life expectancy",
+      "gap_a": 6.0,
+      "gap_b": 3.2,
+      "gap_difference": 2.8
+    },
+    {
+      "pair": "France vs Mexico",
+      "metric": "Retirement age",
+      "gap_a": 0.5,
+      "gap_b": -2.1,
+      "gap_difference": 2.6
+    },
+    {
+      "pair": "Japan vs India",
+      "metric": "HALE",
+      "gap_a": 2.9,
+      "gap_b": 0.3,
+      "gap_difference": 2.6
+    },
+    {
+      "pair": "South Korea vs France",
+      "metric": "Marriage age",
+      "gap_a": -3.1,
+      "gap_b": -0.6,
+      "gap_difference": 2.5
+    },
+    {
+      "pair": "France vs Mexico",
+      "metric": "Marriage age",
+      "gap_a": -0.6,
+      "gap_b": 1.6,
+      "gap_difference": 2.2
+    },
+    {
+      "pair": "France vs Mexico",
+      "metric": "Years poor health",
+      "gap_a": 3.8,
+      "gap_b": 1.6,
+      "gap_difference": 2.2
+    },
+    {
+      "pair": "France vs Mexico",
+      "metric": "HALE",
+      "gap_a": 1.9,
+      "gap_b": 4.0,
+      "gap_difference": 2.1
+    },
+    {
+      "pair": "Italy vs Brazil",
+      "metric": "Life expectancy",
+      "gap_a": 4.0,
+      "gap_b": 6.1,
+      "gap_difference": 2.1
+    },
+    {
+      "pair": "Italy vs Brazil",
+      "metric": "Retirement age",
+      "gap_a": -1.4,
+      "gap_b": -3.5,
+      "gap_difference": 2.1
+    },
+    {
+      "pair": "Italy vs Brazil",
+      "metric": "HALE",
+      "gap_a": 1.1,
+      "gap_b": 3.1,
+      "gap_difference": 2.0
+    },
+    {
+      "pair": "USA vs Japan",
+      "metric": "Education completion age",
+      "gap_a": 1.8,
+      "gap_b": -0.1,
+      "gap_difference": 1.9
+    },
+    {
+      "pair": "South Korea vs France",
+      "metric": "Retirement age",
+      "gap_a": 2.2,
+      "gap_b": 0.5,
+      "gap_difference": 1.7
+    }
+  ]
+}

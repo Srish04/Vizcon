@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which country's women marry youngest among our 12 countries?",
+    "type": "multiple_choice",
+    "options": [
+      "India",
+      "Mexico",
+      "Brazil",
+      "Japan"
+    ],
+    "answer": "India",
+    "answer_value": 21.4,
+    "insight": "India's average marriage age is 21.4, up from around 17-18 in the 1970s. Even the 'youngest' marrying country today is significantly older than a generation ago.",
+    "source": "Our World in Data / World Bank Gender Statistics"
+  },
+  {
+    "id": 2,
+    "question": "Rank these 4 countries by years spent in retirement (most to fewest): France, USA, South Korea, Japan",
+    "type": "rank",
+    "options": [
+      "France",
+      "USA",
+      "South Korea",
+      "Japan"
+    ],
+    "answer": [
+      "France",
+      "Japan",
+      "South Korea",
+      "United States"
+    ],
+    "answer_value": [
+      22.5,
+      18.6,
+      17.3,
+      17.0
+    ],
+    "insight": "France leads with 22.5 years in retirement, while United States gets only 17.0 years -- a gap of 5.5 years despite similar life expectancy.",
+    "source": "OECD Pensions at a Glance / Demographic & Economic Context"
+  },
+  {
+    "id": 3,
+    "question": "At what age do Italians typically leave their parents' home? Guess between 18 and 35.",
+    "type": "slider",
+    "min": 18,
+    "max": 35,
+    "options": null,
+    "answer": "Italy",
+    "answer_value": 30.1,
+    "insight": "Italians leave home at 30.1 (2024), while Swedes leave at just 21.9 -- a gap of 8.2 years between two wealthy EU nations.",
+    "source": "Eurostat (yth_demo_030)"
+  },
+  {
+    "id": 4,
+    "question": "Which country has the world's lowest fertility rate among our 12?",
+    "type": "multiple_choice",
+    "options": [
+      "South Korea",
+      "Japan",
+      "Italy",
+      "Germany"
+    ],
+    "answer": "South Korea",
+    "answer_value": 0.72,
+    "insight": "South Korea's fertility rate is 0.72 children per woman -- down from 5.99 in 1960. That is the steepest decline of any country in our dataset and well below the 2.1 replacement level.",
+    "source": "Our World in Data / Gapminder / UN"
+  },
+  {
+    "id": 5,
+    "question": "Does later marriage age correlate with higher or lower female workforce participation?",
+    "type": "binary",
+    "options": [
+      "Higher",
+      "Lower"
+    ],
+    "answer": "Higher",
+    "answer_value": 0.708,
+    "insight": "The correlation is higher (Pearson r = 0.71, N=12). Countries where women marry later tend to have higher female workforce participation. Note: N=12 means this is suggestive, not conclusive.",
+    "source": "Our World in Data / World Bank"
+  },
+  {
+    "id": 6,
+    "question": "Which wealthy country has the lowest life expectancy: USA, Germany, Denmark, Australia?",
+    "type": "multiple_choice",
+    "options": [
+      "USA",
+      "Germany",
+      "Denmark",
+      "Australia"
+    ],
+    "answer": "United States",
+    "answer_value": 78.9,
+    "insight": "The United States has a life expectancy of 78.9 years, which is 4.2 years below Australia (83.1). Despite having the highest GDP per capita in this group, the US lags on this health outcome.",
+    "source": "World Bank WDI (SP.DYN.LE00.IN)"
+  },
+  {
+    "id": 7,
+    "question": "Which country went from nearly 6 children per woman in 1960 to less than 1 today?",
+    "type": "multiple_choice",
+    "options": [
+      "South Korea",
+      "India",
+      "Brazil",
+      "Mexico"
+    ],
+    "answer": "South Korea",
+    "answer_value": 5.274,
+    "insight": "South Korea went from 5.99 children per woman in 1960 to just 0.72 today -- a drop of 5.27. That is the most dramatic fertility collapse in our dataset.",
+    "source": "Our World in Data / Gapminder / UN"
+  }
+]

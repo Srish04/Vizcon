@@ -1,0 +1,86 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "age": 13.09,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "age": 12.5,
+    "source": "WHO Collaborative Study / Southern European literature",
+    "data_type": "estimated"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "age": 13.9,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "age": 13.05,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "age": 13.0,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "age": 12.5,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "age": 12.4,
+    "source": "Brazilian DHS studies / regional estimate",
+    "data_type": "estimated"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "age": 13.0,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "age": 12.8,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "age": 12.8,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "age": 14.31,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "age": 12.4,
+    "source": "WorldPopulationReview / NCD-RisC",
+    "data_type": "survey"
+  }
+]

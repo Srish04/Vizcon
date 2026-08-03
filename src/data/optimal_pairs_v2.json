@@ -1,0 +1,277 @@
+{
+  "optimal_pairs_v2": [
+    {
+      "country_a": "SWE",
+      "country_b": "IND",
+      "name_a": "Sweden",
+      "name_b": "India",
+      "story_score": 0.78,
+      "story_breadth": "4/5",
+      "tagline": "Marriage age worlds apart",
+      "top5_stories": [
+        {
+          "metric": "marriage_age",
+          "norm_gap": 1.0,
+          "abs_gap": 13.4
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 1.0,
+          "abs_gap": 11.9
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 1.0,
+          "abs_gap": 47.6
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.99,
+          "abs_gap": 0.4
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.974,
+          "abs_gap": 76.0
+        }
+      ],
+      "clusters_covered": [
+        "BIOLOGY",
+        "EDUCATION",
+        "PARTNERSHIP",
+        "HEALTH_AGING"
+      ]
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "MEX",
+      "name_a": "France",
+      "name_b": "Mexico",
+      "story_score": 0.766,
+      "story_breadth": "5/5",
+      "tagline": "Same lifespan, different retirement",
+      "top5_stories": [
+        {
+          "metric": "retirement_age",
+          "norm_gap": 1.0,
+          "abs_gap": 5.9
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.986,
+          "abs_gap": 7.3
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.952,
+          "abs_gap": 56.0
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.81,
+          "abs_gap": 0.32
+        },
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.75,
+          "abs_gap": 6.0
+        }
+      ],
+      "clusters_covered": [
+        "BIOLOGY",
+        "EDUCATION",
+        "INDEPENDENCE",
+        "PARTNERSHIP",
+        "HEALTH_AGING"
+      ]
+    },
+    {
+      "country_a": "JPN",
+      "country_b": "IND",
+      "name_a": "Japan",
+      "name_b": "India",
+      "story_score": 0.764,
+      "story_breadth": "4/5",
+      "tagline": "Healthy years divide",
+      "top5_stories": [
+        {
+          "metric": "hale",
+          "norm_gap": 1.0,
+          "abs_gap": 15.3
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.992,
+          "abs_gap": 11.8
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.987,
+          "abs_gap": 77.0
+        },
+        {
+          "metric": "menarche_age",
+          "norm_gap": 0.948,
+          "abs_gap": 1.81
+        },
+        {
+          "metric": "female_lfpr",
+          "norm_gap": 0.876,
+          "abs_gap": 41.7
+        }
+      ],
+      "clusters_covered": [
+        "BIOLOGY",
+        "EDUCATION",
+        "PARTNERSHIP",
+        "HEALTH_AGING"
+      ]
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "MEX",
+      "name_a": "Italy",
+      "name_b": "Mexico",
+      "story_score": 0.738,
+      "story_breadth": "5/5",
+      "tagline": "Living together, worlds apart",
+      "top5_stories": [
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 1.0,
+          "abs_gap": 8.0
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.959,
+          "abs_gap": 56.4
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.787,
+          "abs_gap": 0.32
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.743,
+          "abs_gap": 5.5
+        },
+        {
+          "metric": "life_expectancy",
+          "norm_gap": 0.731,
+          "abs_gap": 8.7
+        }
+      ],
+      "clusters_covered": [
+        "BIOLOGY",
+        "EDUCATION",
+        "INDEPENDENCE",
+        "PARTNERSHIP",
+        "HEALTH_AGING"
+      ]
+    },
+    {
+      "country_a": "ITA",
+      "country_b": "BRA",
+      "name_a": "Italy",
+      "name_b": "Brazil",
+      "story_score": 0.72,
+      "story_breadth": "5/5",
+      "tagline": "Living together, worlds apart",
+      "top5_stories": [
+        {
+          "metric": "cohabitation_age",
+          "norm_gap": 0.875,
+          "abs_gap": 7.0
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.868,
+          "abs_gap": 0.35
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.782,
+          "abs_gap": 61.0
+        },
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 0.757,
+          "abs_gap": 5.6
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.724,
+          "abs_gap": 9.7
+        }
+      ],
+      "clusters_covered": [
+        "BIOLOGY",
+        "EDUCATION",
+        "INDEPENDENCE",
+        "PARTNERSHIP",
+        "HEALTH_AGING"
+      ]
+    },
+    {
+      "country_a": "FRA",
+      "country_b": "BRA",
+      "name_a": "France",
+      "name_b": "Brazil",
+      "story_score": 0.719,
+      "story_breadth": "5/5",
+      "tagline": "Retirement length gap",
+      "top5_stories": [
+        {
+          "metric": "years_after_exit",
+          "norm_gap": 1.0,
+          "abs_gap": 7.4
+        },
+        {
+          "metric": "gender_inequality_index",
+          "norm_gap": 0.89,
+          "abs_gap": 0.36
+        },
+        {
+          "metric": "maternal_mortality",
+          "norm_gap": 0.769,
+          "abs_gap": 60.0
+        },
+        {
+          "metric": "marriage_age",
+          "norm_gap": 0.687,
+          "abs_gap": 9.2
+        },
+        {
+          "metric": "adolescent_fertility",
+          "norm_gap": 0.65,
+          "abs_gap": 38.2
+        }
+      ],
+      "clusters_covered": [
+        "BIOLOGY",
+        "EDUCATION",
+        "INDEPENDENCE",
+        "PARTNERSHIP",
+        "HEALTH_AGING"
+      ]
+    }
+  ],
+  "total_score": 4.487,
+  "countries_used": {
+    "Sweden": 1,
+    "India": 2,
+    "France": 2,
+    "Mexico": 2,
+    "Japan": 1,
+    "Italy": 2,
+    "Brazil": 2
+  },
+  "regions_covered": [
+    "Americas",
+    "Asia",
+    "Nordic",
+    "South Asia",
+    "Western Europe"
+  ]
+}

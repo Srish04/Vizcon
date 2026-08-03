@@ -1,0 +1,170 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 71.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 71.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 70.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 71.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 70.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 74.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 69.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 71.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 69.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 70.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 71.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 74.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 60.3
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 63.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 70.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 71.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 62.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 65.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 68.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 69.4
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 58.0
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 58.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2021,
+    "sex": "Male",
+    "hale": 59.5
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2021,
+    "sex": "Female",
+    "hale": 63.5
+  }
+]

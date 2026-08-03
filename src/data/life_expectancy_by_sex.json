@@ -1,0 +1,170 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 85.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 86.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 86.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 85.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 84.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 87.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 79.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 85.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 81.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 83.2
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 73.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2024,
+    "sex": "Female",
+    "life_expectancy": 78.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 82.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 82.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 80.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 80.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 80.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 81.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 73.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 81.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 76.5
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 78.5
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 70.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2024,
+    "sex": "Male",
+    "life_expectancy": 72.4
+  }
+]

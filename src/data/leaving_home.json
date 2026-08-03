@@ -1,0 +1,2186 @@
+[
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2000,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2002,
+    "sex": "Female",
+    "age": 22.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2003,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2005,
+    "sex": "Female",
+    "age": 22.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "sex": "Female",
+    "age": 22.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2007,
+    "sex": "Female",
+    "age": 22.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2008,
+    "sex": "Female",
+    "age": 22.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2009,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2010,
+    "sex": "Female",
+    "age": 23.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "sex": "Female",
+    "age": 23.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2012,
+    "sex": "Female",
+    "age": 22.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2019,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2020,
+    "sex": "Female",
+    "age": 23.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2022,
+    "sex": "Female",
+    "age": 23.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2023,
+    "sex": "Female",
+    "age": 23.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "sex": "Female",
+    "age": 23.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2025,
+    "sex": "Female",
+    "age": 23.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "sex": "Female",
+    "age": 21.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "sex": "Female",
+    "age": 20.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "sex": "Female",
+    "age": 20.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "sex": "Female",
+    "age": 20.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "sex": "Female",
+    "age": 20.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "sex": "Female",
+    "age": 20.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "sex": "Female",
+    "age": 20.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "sex": "Female",
+    "age": 20.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "sex": "Female",
+    "age": 20.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2019,
+    "sex": "Female",
+    "age": 20.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "sex": "Female",
+    "age": 20.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "sex": "Female",
+    "age": 21.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2022,
+    "sex": "Female",
+    "age": 21.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2023,
+    "sex": "Female",
+    "age": 21.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "sex": "Female",
+    "age": 21.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2025,
+    "sex": "Female",
+    "age": 21.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "sex": "Female",
+    "age": 22.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2004,
+    "sex": "Female",
+    "age": 22.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "sex": "Female",
+    "age": 22.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2006,
+    "sex": "Female",
+    "age": 22.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2007,
+    "sex": "Female",
+    "age": 22.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2008,
+    "sex": "Female",
+    "age": 22.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2009,
+    "sex": "Female",
+    "age": 22.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2010,
+    "sex": "Female",
+    "age": 22.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "sex": "Female",
+    "age": 22.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2012,
+    "sex": "Female",
+    "age": 22.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2014,
+    "sex": "Female",
+    "age": 23.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2015,
+    "sex": "Female",
+    "age": 23.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2016,
+    "sex": "Female",
+    "age": 23.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2017,
+    "sex": "Female",
+    "age": 23.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "sex": "Female",
+    "age": 23.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2019,
+    "sex": "Female",
+    "age": 22.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2020,
+    "sex": "Female",
+    "age": 23.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "sex": "Female",
+    "age": 23.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2022,
+    "sex": "Female",
+    "age": 22.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2023,
+    "sex": "Female",
+    "age": 23.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "sex": "Female",
+    "age": 22.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2025,
+    "sex": "Female",
+    "age": 22.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "sex": "Female",
+    "age": 28.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2005,
+    "sex": "Female",
+    "age": 28.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "sex": "Female",
+    "age": 28.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "sex": "Female",
+    "age": 28.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "sex": "Female",
+    "age": 28.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "sex": "Female",
+    "age": 28.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "sex": "Female",
+    "age": 28.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "sex": "Female",
+    "age": 28.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2012,
+    "sex": "Female",
+    "age": 28.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "sex": "Female",
+    "age": 28.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "sex": "Female",
+    "age": 28.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2015,
+    "sex": "Female",
+    "age": 29.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "sex": "Female",
+    "age": 29.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "sex": "Female",
+    "age": 29.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "sex": "Female",
+    "age": 29.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2019,
+    "sex": "Female",
+    "age": 29.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "sex": "Female",
+    "age": 29.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "sex": "Female",
+    "age": 29.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2022,
+    "sex": "Female",
+    "age": 29.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2023,
+    "sex": "Female",
+    "age": 29.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "sex": "Female",
+    "age": 29.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2025,
+    "sex": "Female",
+    "age": 29.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "sex": "Female",
+    "age": 20.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "sex": "Female",
+    "age": 19.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "sex": "Female",
+    "age": 19.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "sex": "Female",
+    "age": 19.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2013,
+    "sex": "Female",
+    "age": 19.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "sex": "Female",
+    "age": 20.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "sex": "Female",
+    "age": 19.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "sex": "Female",
+    "age": 20.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "sex": "Female",
+    "age": 20.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "sex": "Female",
+    "age": 18.5
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2019,
+    "sex": "Female",
+    "age": 17.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "sex": "Female",
+    "age": 17.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "sex": "Female",
+    "age": 21.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2022,
+    "sex": "Female",
+    "age": 21.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2023,
+    "sex": "Female",
+    "age": 21.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "sex": "Female",
+    "age": 21.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2025,
+    "sex": "Female",
+    "age": 22.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2000,
+    "sex": "Male",
+    "age": 25.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "sex": "Male",
+    "age": 25.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2002,
+    "sex": "Male",
+    "age": 25.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2003,
+    "sex": "Male",
+    "age": 25.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "sex": "Male",
+    "age": 25.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2005,
+    "sex": "Male",
+    "age": 25.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "sex": "Male",
+    "age": 24.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2007,
+    "sex": "Male",
+    "age": 25.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2008,
+    "sex": "Male",
+    "age": 25.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2009,
+    "sex": "Male",
+    "age": 25.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2010,
+    "sex": "Male",
+    "age": 25.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "sex": "Male",
+    "age": 25.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2012,
+    "sex": "Male",
+    "age": 24.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "sex": "Male",
+    "age": 24.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "sex": "Male",
+    "age": 24.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "sex": "Male",
+    "age": 24.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2019,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2020,
+    "sex": "Male",
+    "age": 24.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "sex": "Male",
+    "age": 24.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2022,
+    "sex": "Male",
+    "age": 24.5
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2023,
+    "sex": "Male",
+    "age": 24.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "sex": "Male",
+    "age": 24.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2025,
+    "sex": "Male",
+    "age": 24.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "sex": "Male",
+    "age": 21.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "sex": "Male",
+    "age": 21.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "sex": "Male",
+    "age": 21.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "sex": "Male",
+    "age": 21.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "sex": "Male",
+    "age": 21.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "sex": "Male",
+    "age": 21.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "sex": "Male",
+    "age": 21.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "sex": "Male",
+    "age": 21.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "sex": "Male",
+    "age": 21.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2019,
+    "sex": "Male",
+    "age": 21.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "sex": "Male",
+    "age": 21.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "sex": "Male",
+    "age": 22.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2022,
+    "sex": "Male",
+    "age": 22.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2023,
+    "sex": "Male",
+    "age": 22.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "sex": "Male",
+    "age": 22.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2025,
+    "sex": "Male",
+    "age": 22.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2004,
+    "sex": "Male",
+    "age": 24.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "sex": "Male",
+    "age": 24.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2006,
+    "sex": "Male",
+    "age": 24.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2007,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2008,
+    "sex": "Male",
+    "age": 24.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2009,
+    "sex": "Male",
+    "age": 24.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2010,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "sex": "Male",
+    "age": 24.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2012,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "sex": "Male",
+    "age": 24.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2014,
+    "sex": "Male",
+    "age": 24.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2015,
+    "sex": "Male",
+    "age": 24.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2016,
+    "sex": "Male",
+    "age": 24.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2017,
+    "sex": "Male",
+    "age": 25.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2019,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2020,
+    "sex": "Male",
+    "age": 24.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2022,
+    "sex": "Male",
+    "age": 24.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2023,
+    "sex": "Male",
+    "age": 24.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "sex": "Male",
+    "age": 24.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2025,
+    "sex": "Male",
+    "age": 24.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "sex": "Male",
+    "age": 30.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2005,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "sex": "Male",
+    "age": 31.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "sex": "Male",
+    "age": 31.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "sex": "Male",
+    "age": 30.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2012,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "sex": "Male",
+    "age": 31.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "sex": "Male",
+    "age": 31.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2015,
+    "sex": "Male",
+    "age": 31.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "sex": "Male",
+    "age": 31.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "sex": "Male",
+    "age": 31.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "sex": "Male",
+    "age": 31.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2019,
+    "sex": "Male",
+    "age": 31.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "sex": "Male",
+    "age": 31.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2022,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2023,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2025,
+    "sex": "Male",
+    "age": 30.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "sex": "Male",
+    "age": 20.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "sex": "Male",
+    "age": 20.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "sex": "Male",
+    "age": 20.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "sex": "Male",
+    "age": 20.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2013,
+    "sex": "Male",
+    "age": 19.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "sex": "Male",
+    "age": 21.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "sex": "Male",
+    "age": 19.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "sex": "Male",
+    "age": 20.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "sex": "Male",
+    "age": 21.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "sex": "Male",
+    "age": 18.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2019,
+    "sex": "Male",
+    "age": 18.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "sex": "Male",
+    "age": 17.5
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "sex": "Male",
+    "age": 22.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2022,
+    "sex": "Male",
+    "age": 21.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2023,
+    "sex": "Male",
+    "age": 22.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "sex": "Male",
+    "age": 22.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2025,
+    "sex": "Male",
+    "age": 23.5
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2000,
+    "sex": "Total",
+    "age": 24.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "sex": "Total",
+    "age": 24.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2002,
+    "sex": "Total",
+    "age": 24.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2003,
+    "sex": "Total",
+    "age": 24.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "sex": "Total",
+    "age": 24.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2005,
+    "sex": "Total",
+    "age": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "sex": "Total",
+    "age": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2007,
+    "sex": "Total",
+    "age": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2008,
+    "sex": "Total",
+    "age": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2009,
+    "sex": "Total",
+    "age": 24.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2010,
+    "sex": "Total",
+    "age": 24.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "sex": "Total",
+    "age": 24.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2012,
+    "sex": "Total",
+    "age": 23.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "sex": "Total",
+    "age": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "sex": "Total",
+    "age": 23.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "sex": "Total",
+    "age": 23.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2019,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2020,
+    "sex": "Total",
+    "age": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "sex": "Total",
+    "age": 23.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2022,
+    "sex": "Total",
+    "age": 23.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2023,
+    "sex": "Total",
+    "age": 24.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "sex": "Total",
+    "age": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2025,
+    "sex": "Total",
+    "age": 24.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "sex": "Total",
+    "age": 21.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "sex": "Total",
+    "age": 21.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "sex": "Total",
+    "age": 21.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "sex": "Total",
+    "age": 21.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "sex": "Total",
+    "age": 21.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "sex": "Total",
+    "age": 21.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "sex": "Total",
+    "age": 21.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "sex": "Total",
+    "age": 21.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "sex": "Total",
+    "age": 21.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2019,
+    "sex": "Total",
+    "age": 21.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "sex": "Total",
+    "age": 21.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "sex": "Total",
+    "age": 21.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2022,
+    "sex": "Total",
+    "age": 21.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2023,
+    "sex": "Total",
+    "age": 21.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "sex": "Total",
+    "age": 21.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2025,
+    "sex": "Total",
+    "age": 21.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "sex": "Total",
+    "age": 23.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2004,
+    "sex": "Total",
+    "age": 23.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2006,
+    "sex": "Total",
+    "age": 23.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2007,
+    "sex": "Total",
+    "age": 23.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2008,
+    "sex": "Total",
+    "age": 23.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2009,
+    "sex": "Total",
+    "age": 23.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2010,
+    "sex": "Total",
+    "age": 23.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "sex": "Total",
+    "age": 23.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2012,
+    "sex": "Total",
+    "age": 23.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2014,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2015,
+    "sex": "Total",
+    "age": 23.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2016,
+    "sex": "Total",
+    "age": 23.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2017,
+    "sex": "Total",
+    "age": 24.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2019,
+    "sex": "Total",
+    "age": 23.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2020,
+    "sex": "Total",
+    "age": 24.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "sex": "Total",
+    "age": 23.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2022,
+    "sex": "Total",
+    "age": 23.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2023,
+    "sex": "Total",
+    "age": 23.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "sex": "Total",
+    "age": 23.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2025,
+    "sex": "Total",
+    "age": 23.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "sex": "Total",
+    "age": 29.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2005,
+    "sex": "Total",
+    "age": 29.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "sex": "Total",
+    "age": 29.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "sex": "Total",
+    "age": 29.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "sex": "Total",
+    "age": 29.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "sex": "Total",
+    "age": 29.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "sex": "Total",
+    "age": 29.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "sex": "Total",
+    "age": 29.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2012,
+    "sex": "Total",
+    "age": 29.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "sex": "Total",
+    "age": 29.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "sex": "Total",
+    "age": 30.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2015,
+    "sex": "Total",
+    "age": 30.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "sex": "Total",
+    "age": 30.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "sex": "Total",
+    "age": 30.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "sex": "Total",
+    "age": 30.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2019,
+    "sex": "Total",
+    "age": 30.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "sex": "Total",
+    "age": 30.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "sex": "Total",
+    "age": 29.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2022,
+    "sex": "Total",
+    "age": 30.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2023,
+    "sex": "Total",
+    "age": 30.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "sex": "Total",
+    "age": 30.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2025,
+    "sex": "Total",
+    "age": 30.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "sex": "Total",
+    "age": 20.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "sex": "Total",
+    "age": 20.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "sex": "Total",
+    "age": 20.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "sex": "Total",
+    "age": 19.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2013,
+    "sex": "Total",
+    "age": 19.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "sex": "Total",
+    "age": 20.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "sex": "Total",
+    "age": 19.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "sex": "Total",
+    "age": 20.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "sex": "Total",
+    "age": 21.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "sex": "Total",
+    "age": 18.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2019,
+    "sex": "Total",
+    "age": 17.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "sex": "Total",
+    "age": 17.5
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "sex": "Total",
+    "age": 22.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2022,
+    "sex": "Total",
+    "age": 21.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2023,
+    "sex": "Total",
+    "age": 21.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "sex": "Total",
+    "age": 21.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2025,
+    "sex": "Total",
+    "age": 23.1
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "age": 25.5,
+    "source": "Nordic family research / Eurostat",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 9.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "age": 29.5,
+    "source": "Italian family studies",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 4.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "age": null,
+    "source": "Marriage-first culture, cohabitation rare",
+    "data_type": "not_applicable",
+    "cohabitation_marriage_gap": null
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "age": 27.5,
+    "source": "INED French family surveys",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 5.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "age": 24.5,
+    "source": "Nordic family research",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 8.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "age": null,
+    "source": "Marriage-first culture, cohabitation rare",
+    "data_type": "not_applicable",
+    "cohabitation_marriage_gap": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "age": 22.5,
+    "source": "DHS / informal union data",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 1.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "age": 26.5,
+    "source": "Australian household surveys",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 2.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "age": 23.5,
+    "source": "CDC NSFG / Pew 2019",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 5.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "age": 26.5,
+    "source": "Eurostat household surveys",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 4.7
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "age": null,
+    "source": "Marriage-first culture, cohabitation rare",
+    "data_type": "not_applicable",
+    "cohabitation_marriage_gap": null
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "age": 21.5,
+    "source": "DHS / informal union data",
+    "data_type": "estimated",
+    "cohabitation_marriage_gap": 6.0
+  }
+]

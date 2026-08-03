@@ -1,0 +1,9250 @@
+[
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 17.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 65.7,
+    "years_after_exit": 12.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 17.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 65.3,
+    "years_after_exit": 12.3
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 63.2,
+    "years_after_exit": 17.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 65.5,
+    "years_after_exit": 12.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 62.4,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 12.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 62.2,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 13.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 60.6,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 13.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 13.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 59.7,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 64.0,
+    "years_after_exit": 14.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 59.1,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 14.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 59.0,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 58.7,
+    "years_after_exit": 23.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 62.7,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 58.5,
+    "years_after_exit": 23.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 15.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 58.4,
+    "years_after_exit": 23.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 61.9,
+    "years_after_exit": 16.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 57.7,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 62.0,
+    "years_after_exit": 16.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 57.7,
+    "years_after_exit": 24.3
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 61.6,
+    "years_after_exit": 16.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 57.8,
+    "years_after_exit": 24.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 61.2,
+    "years_after_exit": 17.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 58.3,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 61.4,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 58.1,
+    "years_after_exit": 24.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 59.2,
+    "years_after_exit": 23.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 60.3,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 59.2,
+    "years_after_exit": 23.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 60.7,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 59.3,
+    "years_after_exit": 23.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 61.1,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 59.1,
+    "years_after_exit": 24.3
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 59.2,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 61.3,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 58.3,
+    "years_after_exit": 25.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 61.2,
+    "years_after_exit": 18.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 58.5,
+    "years_after_exit": 25.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 58.2,
+    "years_after_exit": 25.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 60.8,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 58.1,
+    "years_after_exit": 26.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 60.6,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 58.3,
+    "years_after_exit": 26.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 60.2,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 58.7,
+    "years_after_exit": 25.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 60.9,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 58.7,
+    "years_after_exit": 26.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 60.6,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 59.2,
+    "years_after_exit": 25.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 60.8,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 25.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 61.5,
+    "years_after_exit": 20.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 60.0,
+    "years_after_exit": 25.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 61.6,
+    "years_after_exit": 20.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 59.6,
+    "years_after_exit": 25.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 61.4,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 60.3,
+    "years_after_exit": 25.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 61.1,
+    "years_after_exit": 24.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 60.8,
+    "years_after_exit": 25.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 20.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 60.4,
+    "years_after_exit": 25.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 61.5,
+    "years_after_exit": 24.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 62.9,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 61.7,
+    "years_after_exit": 24.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 61.6,
+    "years_after_exit": 25.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 63.3,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 61.6,
+    "years_after_exit": 25.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 61.8,
+    "years_after_exit": 25.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 61.7,
+    "years_after_exit": 25.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 63.4,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 62.1,
+    "years_after_exit": 24.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 63.8,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 62.5,
+    "years_after_exit": 24.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 63.1,
+    "years_after_exit": 24.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 63.2,
+    "years_after_exit": 24.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 63.7,
+    "years_after_exit": 21.3
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 24.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 21.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 64.4,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 65.1,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 23.4
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 64.8,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 23.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 64.9,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 70.6,
+    "years_after_exit": 10.2
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 67.9,
+    "years_after_exit": 10.7
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 70.8,
+    "years_after_exit": 10.2
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 67.7,
+    "years_after_exit": 10.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 71.2,
+    "years_after_exit": 10.0
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 67.5,
+    "years_after_exit": 11.0
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 71.6,
+    "years_after_exit": 9.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 67.4,
+    "years_after_exit": 11.2
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 72.3,
+    "years_after_exit": 9.5
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 67.2,
+    "years_after_exit": 11.3
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 72.3,
+    "years_after_exit": 9.5
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 67.0,
+    "years_after_exit": 11.4
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 72.1,
+    "years_after_exit": 9.7
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 66.8,
+    "years_after_exit": 11.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 71.8,
+    "years_after_exit": 9.9
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 66.6,
+    "years_after_exit": 11.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 71.6,
+    "years_after_exit": 10.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 66.4,
+    "years_after_exit": 12.0
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 71.3,
+    "years_after_exit": 10.3
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 66.2,
+    "years_after_exit": 12.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 71.1,
+    "years_after_exit": 10.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 66.0,
+    "years_after_exit": 12.2
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 70.7,
+    "years_after_exit": 10.9
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 65.8,
+    "years_after_exit": 12.3
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 70.3,
+    "years_after_exit": 11.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 65.6,
+    "years_after_exit": 12.5
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 70.0,
+    "years_after_exit": 11.4
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 65.4,
+    "years_after_exit": 12.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 69.6,
+    "years_after_exit": 11.7
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 65.2,
+    "years_after_exit": 12.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 69.3,
+    "years_after_exit": 12.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 65.0,
+    "years_after_exit": 12.9
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 67.6,
+    "years_after_exit": 13.2
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 64.8,
+    "years_after_exit": 13.0
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 68.8,
+    "years_after_exit": 12.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 65.5,
+    "years_after_exit": 12.7
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 67.4,
+    "years_after_exit": 13.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 65.4,
+    "years_after_exit": 12.9
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 66.5,
+    "years_after_exit": 14.2
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 64.7,
+    "years_after_exit": 13.4
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 65.7,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 64.8,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 64.2,
+    "years_after_exit": 16.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 64.4,
+    "years_after_exit": 13.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 60.6,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 62.3,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 64.3,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 62.5,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 60.8,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 63.9,
+    "years_after_exit": 14.7
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 19.5
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 63.7,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 60.7,
+    "years_after_exit": 20.0
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 15.3
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 60.2,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 61.3,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 63.2,
+    "years_after_exit": 15.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 20.4
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 63.7,
+    "years_after_exit": 15.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 62.6,
+    "years_after_exit": 19.5
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 63.8,
+    "years_after_exit": 15.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 61.3,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 64.6,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 62.2,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 63.7,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 61.1,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 64.0,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 60.5,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 64.8,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 61.0,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 64.3,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 60.5,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 64.6,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 59.9,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 65.0,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 60.1,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 60.6,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 60.1,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 60.4,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 64.8,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 63.4,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 62.8,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 59.2,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 62.0,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 59.8,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 59.9,
+    "years_after_exit": null
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 63.4,
+    "years_after_exit": null
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 58.4,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 59.3,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 58.4,
+    "years_after_exit": 24.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 59.5,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 58.9,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 59.8,
+    "years_after_exit": 18.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 59.2,
+    "years_after_exit": 23.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 60.1,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 59.3,
+    "years_after_exit": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 59.9,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 60.0,
+    "years_after_exit": 19.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 59.6,
+    "years_after_exit": 24.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 60.2,
+    "years_after_exit": 19.5
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 59.7,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 60.2,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 59.7,
+    "years_after_exit": 24.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 60.4,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 60.1,
+    "years_after_exit": 24.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 60.5,
+    "years_after_exit": 19.5
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 60.0,
+    "years_after_exit": 24.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 60.9,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 60.3,
+    "years_after_exit": 24.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 19.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 60.1,
+    "years_after_exit": 24.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 61.1,
+    "years_after_exit": 19.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 59.8,
+    "years_after_exit": 24.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 60.2,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 59.8,
+    "years_after_exit": 24.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 61.1,
+    "years_after_exit": 23.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 61.1,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 60.9,
+    "years_after_exit": 24.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 61.2,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 61.1,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 61.3,
+    "years_after_exit": 20.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 61.5,
+    "years_after_exit": 23.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 61.5,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 23.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 61.8,
+    "years_after_exit": 20.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 61.6,
+    "years_after_exit": 23.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 61.9,
+    "years_after_exit": 19.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 62.4,
+    "years_after_exit": 23.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 19.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 62.9,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 19.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 22.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 63.4,
+    "years_after_exit": 19.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 63.1,
+    "years_after_exit": 22.7
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 19.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 62.9,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 63.4,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 63.7,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 64.0,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 64.6,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 66.6,
+    "years_after_exit": 12.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 17.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 66.1,
+    "years_after_exit": 13.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 64.2,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 65.7,
+    "years_after_exit": 13.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 17.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 65.2,
+    "years_after_exit": 13.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 64.8,
+    "years_after_exit": 13.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 64.3,
+    "years_after_exit": 14.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 64.3,
+    "years_after_exit": 14.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 64.3,
+    "years_after_exit": 14.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 14.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 14.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 19.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 61.7,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 63.3,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 62.4,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 63.5,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 63.9,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 61.0,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 15.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 60.7,
+    "years_after_exit": 21.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 64.7,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 61.3,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 60.9,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 14.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 60.9,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 63.4,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 59.8,
+    "years_after_exit": 21.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 62.2,
+    "years_after_exit": 16.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 58.5,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 61.6,
+    "years_after_exit": 16.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 58.5,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 16.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 58.0,
+    "years_after_exit": 23.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 61.8,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 58.1,
+    "years_after_exit": 23.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 16.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 58.7,
+    "years_after_exit": 22.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 61.7,
+    "years_after_exit": 17.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 60.1,
+    "years_after_exit": 21.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 16.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 59.3,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 62.9,
+    "years_after_exit": 16.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 60.4,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 62.8,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 61.8,
+    "years_after_exit": 21.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 18.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 62.2,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 63.3,
+    "years_after_exit": 16.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 21.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 17.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 22.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 61.8,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 60.9,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 61.1,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": 18.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 60.4,
+    "years_after_exit": 23.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 60.9,
+    "years_after_exit": 23.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 60.7,
+    "years_after_exit": 23.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 61.6,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 60.0,
+    "years_after_exit": 24.8
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 62.0,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 60.5,
+    "years_after_exit": 24.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 20.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 62.2,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 20.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 62.2,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 64.0,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 61.9,
+    "years_after_exit": 23.3
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 64.3,
+    "years_after_exit": 18.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 63.8,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 21.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 65.8,
+    "years_after_exit": 17.6
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 21.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 18.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 66.2,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 22.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 66.3,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 67.5,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 65.7,
+    "years_after_exit": 12.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 65.4,
+    "years_after_exit": 16.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 65.3,
+    "years_after_exit": 12.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 65.1,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 64.9,
+    "years_after_exit": 13.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 13.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 13.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 63.7,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 64.2,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 63.2,
+    "years_after_exit": 14.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 15.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 15.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": 20.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 15.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 61.9,
+    "years_after_exit": 16.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 61.3,
+    "years_after_exit": 16.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 61.3,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 60.8,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 60.8,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 60.2,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 60.4,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 60.2,
+    "years_after_exit": 18.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 60.3,
+    "years_after_exit": 23.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 59.9,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 59.8,
+    "years_after_exit": 23.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 59.7,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 59.4,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 59.4,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 59.0,
+    "years_after_exit": 24.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 59.4,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 59.0,
+    "years_after_exit": 25.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 59.4,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 59.0,
+    "years_after_exit": 25.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 59.2,
+    "years_after_exit": 19.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 59.3,
+    "years_after_exit": 25.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 59.2,
+    "years_after_exit": 20.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 59.4,
+    "years_after_exit": 25.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 58.9,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 59.4,
+    "years_after_exit": 25.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 59.1,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 25.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 58.8,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 59.3,
+    "years_after_exit": 25.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 58.9,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 58.8,
+    "years_after_exit": 26.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 58.9,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 58.8,
+    "years_after_exit": 26.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 58.9,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 58.5,
+    "years_after_exit": 26.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 58.7,
+    "years_after_exit": 21.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 58.0,
+    "years_after_exit": 27.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 58.4,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 57.9,
+    "years_after_exit": 27.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 58.3,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 57.9,
+    "years_after_exit": 27.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 58.2,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 58.2,
+    "years_after_exit": 27.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 58.3,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 58.5,
+    "years_after_exit": 27.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 58.3,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 58.8,
+    "years_after_exit": 27.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 58.2,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 58.9,
+    "years_after_exit": 27.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 58.2,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 59.0,
+    "years_after_exit": 27.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 58.3,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 59.0,
+    "years_after_exit": 27.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 58.5,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 59.2,
+    "years_after_exit": 27.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 58.6,
+    "years_after_exit": 23.3
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 59.1,
+    "years_after_exit": 27.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 58.9,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 59.0,
+    "years_after_exit": 28.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 58.7,
+    "years_after_exit": 23.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 27.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 59.3,
+    "years_after_exit": 23.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 59.3,
+    "years_after_exit": 28.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 59.0,
+    "years_after_exit": 23.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 28.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 58.8,
+    "years_after_exit": 24.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 27.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 58.9,
+    "years_after_exit": 23.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 59.9,
+    "years_after_exit": 27.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 59.3,
+    "years_after_exit": 23.6
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 60.0,
+    "years_after_exit": 27.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 59.9,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 60.2,
+    "years_after_exit": 27.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 60.3,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 60.4,
+    "years_after_exit": 27.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 60.0,
+    "years_after_exit": 23.4
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 60.9,
+    "years_after_exit": 26.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 60.4,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 61.5,
+    "years_after_exit": 26.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 62.2,
+    "years_after_exit": 25.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 60.7,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 62.2,
+    "years_after_exit": 26.2
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 23.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 62.4,
+    "years_after_exit": 26.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 61.9,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 59.8,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 14.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 60.1,
+    "years_after_exit": 20.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 59.6,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": 14.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 59.5,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 61.9,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 59.6,
+    "years_after_exit": 21.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 61.8,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 59.7,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 61.8,
+    "years_after_exit": 15.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 60.3,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 60.8,
+    "years_after_exit": 16.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 60.4,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 60.6,
+    "years_after_exit": 16.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 60.3,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 60.5,
+    "years_after_exit": 16.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 60.1,
+    "years_after_exit": 21.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 60.6,
+    "years_after_exit": 16.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 59.9,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 60.5,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 61.0,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 60.6,
+    "years_after_exit": 16.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 60.3,
+    "years_after_exit": 21.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 61.0,
+    "years_after_exit": 16.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 60.0,
+    "years_after_exit": 21.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 60.8,
+    "years_after_exit": 16.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 59.7,
+    "years_after_exit": 22.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 60.9,
+    "years_after_exit": 17.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 60.0,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 60.5,
+    "years_after_exit": 17.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 60.1,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 60.7,
+    "years_after_exit": 17.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 59.2,
+    "years_after_exit": 23.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 60.3,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 58.3,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 60.3,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 58.2,
+    "years_after_exit": 24.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 60.4,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 57.8,
+    "years_after_exit": 25.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 60.3,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 57.3,
+    "years_after_exit": 25.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 59.4,
+    "years_after_exit": 19.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 59.4,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 58.6,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 58.6,
+    "years_after_exit": 24.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 58.4,
+    "years_after_exit": 20.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 58.6,
+    "years_after_exit": 25.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 58.1,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 58.8,
+    "years_after_exit": 25.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 58.2,
+    "years_after_exit": 21.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 58.0,
+    "years_after_exit": 26.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 58.2,
+    "years_after_exit": 21.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 57.2,
+    "years_after_exit": 27.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 58.6,
+    "years_after_exit": 21.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 57.1,
+    "years_after_exit": 27.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 58.8,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 57.4,
+    "years_after_exit": 27.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 59.1,
+    "years_after_exit": 21.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 58.0,
+    "years_after_exit": 27.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 58.9,
+    "years_after_exit": 21.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 58.7,
+    "years_after_exit": 26.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 59.7,
+    "years_after_exit": 21.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 57.9,
+    "years_after_exit": 27.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 59.8,
+    "years_after_exit": 21.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 58.1,
+    "years_after_exit": 27.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 59.7,
+    "years_after_exit": 21.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 57.8,
+    "years_after_exit": 27.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 59.9,
+    "years_after_exit": 21.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 57.7,
+    "years_after_exit": 28.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 60.1,
+    "years_after_exit": 21.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 57.7,
+    "years_after_exit": 28.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 60.2,
+    "years_after_exit": 21.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 57.8,
+    "years_after_exit": 28.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 59.7,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 57.8,
+    "years_after_exit": 28.1
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 59.7,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 58.4,
+    "years_after_exit": 27.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 59.4,
+    "years_after_exit": 22.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 58.4,
+    "years_after_exit": 27.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 59.6,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 59.9,
+    "years_after_exit": 26.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 60.0,
+    "years_after_exit": 22.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 59.6,
+    "years_after_exit": 27.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 60.1,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 60.4,
+    "years_after_exit": 26.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 60.1,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 59.9,
+    "years_after_exit": 26.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 60.4,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 60.7,
+    "years_after_exit": 26.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 60.7,
+    "years_after_exit": 22.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 60.2,
+    "years_after_exit": 26.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 61.1,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 60.7,
+    "years_after_exit": 26.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 62.0,
+    "years_after_exit": 21.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 61.7,
+    "years_after_exit": 25.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": 21.4
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 61.3,
+    "years_after_exit": 24.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 25.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 61.9,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 24.6
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 24.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 63.5,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 62.6,
+    "years_after_exit": 25.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 64.0,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 65.7,
+    "years_after_exit": 15.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 69.9,
+    "years_after_exit": 10.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 64.3,
+    "years_after_exit": 16.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 70.6,
+    "years_after_exit": 9.7
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 16.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 69.8,
+    "years_after_exit": 10.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 69.6,
+    "years_after_exit": 10.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 17.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 69.4,
+    "years_after_exit": 10.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 69.5,
+    "years_after_exit": 11.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 68.5,
+    "years_after_exit": 11.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 68.5,
+    "years_after_exit": 11.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 18.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 68.2,
+    "years_after_exit": 12.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 18.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 68.1,
+    "years_after_exit": 12.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 64.1,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 67.8,
+    "years_after_exit": 13.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 19.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 67.6,
+    "years_after_exit": 13.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 19.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 67.8,
+    "years_after_exit": 13.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 67.3,
+    "years_after_exit": 13.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 66.9,
+    "years_after_exit": 14.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 67.0,
+    "years_after_exit": 14.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 66.9,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 67.0,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 21.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 67.3,
+    "years_after_exit": 14.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 67.3,
+    "years_after_exit": 14.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 67.5,
+    "years_after_exit": 14.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 68.1,
+    "years_after_exit": 14.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 64.9,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 68.2,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 68.5,
+    "years_after_exit": 14.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 68.1,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 68.2,
+    "years_after_exit": 14.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 22.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 68.1,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 67.6,
+    "years_after_exit": 15.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 23.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 67.3,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 67.5,
+    "years_after_exit": 15.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 23.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 67.1,
+    "years_after_exit": 15.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 24.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 66.9,
+    "years_after_exit": 16.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 63.2,
+    "years_after_exit": 24.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 66.9,
+    "years_after_exit": 16.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 24.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 67.0,
+    "years_after_exit": 16.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 66.8,
+    "years_after_exit": 16.7
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 66.4,
+    "years_after_exit": 17.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 24.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 66.5,
+    "years_after_exit": 17.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 24.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 66.6,
+    "years_after_exit": 17.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 66.5,
+    "years_after_exit": 17.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 64.8,
+    "years_after_exit": 24.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 66.8,
+    "years_after_exit": 17.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 64.6,
+    "years_after_exit": 24.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 67.2,
+    "years_after_exit": 17.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 64.3,
+    "years_after_exit": 24.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 66.6,
+    "years_after_exit": 17.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 64.2,
+    "years_after_exit": 24.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 66.3,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 65.0,
+    "years_after_exit": 23.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 66.6,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 65.3,
+    "years_after_exit": 23.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 66.6,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 65.6,
+    "years_after_exit": 23.7
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 66.6,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 66.3,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 67.1,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 66.8,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 67.6,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 66.6,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 67.5,
+    "years_after_exit": 17.7
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 67.1,
+    "years_after_exit": 22.7
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 67.7,
+    "years_after_exit": 17.7
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 66.9,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 68.2,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 66.7,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 67.9,
+    "years_after_exit": 17.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 67.0,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 68.3,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 67.3,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 66.8,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 67.4,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 66.9,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 61.5,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 11.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 62.2,
+    "years_after_exit": 11.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 63.3,
+    "years_after_exit": 11.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 16.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 62.9,
+    "years_after_exit": 11.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 16.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": 11.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 16.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 11.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 15.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 64.7,
+    "years_after_exit": 10.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 16.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 65.2,
+    "years_after_exit": 10.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 62.5,
+    "years_after_exit": 17.3
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 65.3,
+    "years_after_exit": 10.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 62.4,
+    "years_after_exit": 17.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 10.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 62.6,
+    "years_after_exit": 17.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 64.9,
+    "years_after_exit": 10.8
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 61.1,
+    "years_after_exit": 18.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 63.9,
+    "years_after_exit": 11.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 16.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 62.7,
+    "years_after_exit": 12.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 62.9,
+    "years_after_exit": 17.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 62.7,
+    "years_after_exit": 12.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 60.6,
+    "years_after_exit": 19.3
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 12.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 61.6,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 12.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 13.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 60.7,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 13.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 60.9,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 13.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 66.1,
+    "years_after_exit": 15.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 63.7,
+    "years_after_exit": 13.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 66.4,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 65.7,
+    "years_after_exit": 11.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 66.1,
+    "years_after_exit": 16.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 66.5,
+    "years_after_exit": 12.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 65.0,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 67.9,
+    "years_after_exit": 10.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 63.1,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 66.8,
+    "years_after_exit": 12.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 67.2,
+    "years_after_exit": 11.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 18.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 66.8,
+    "years_after_exit": 11.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 64.2,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 65.8,
+    "years_after_exit": 13.3
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 65.1,
+    "years_after_exit": 17.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 65.7,
+    "years_after_exit": 13.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 65.0,
+    "years_after_exit": 13.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 64.1,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 62.8,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 20.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 15.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 63.2,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 64.3,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 64.7,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 19.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 65.6,
+    "years_after_exit": 14.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 64.3,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 65.9,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 64.2,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 66.7,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 64.3,
+    "years_after_exit": 21.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 66.9,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 66.3,
+    "years_after_exit": 19.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 65.8,
+    "years_after_exit": 15.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 65.8,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 66.0,
+    "years_after_exit": 15.8
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 66.1,
+    "years_after_exit": 20.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 67.1,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 66.4,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 67.5,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 66.4,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 67.8,
+    "years_after_exit": 14.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 66.2,
+    "years_after_exit": 21.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 68.0,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 67.6,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 69.6,
+    "years_after_exit": 14.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 68.5,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 68.7,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 68.5,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 68.4,
+    "years_after_exit": 15.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 69.5,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 69.4,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 68.4,
+    "years_after_exit": 20.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 68.6,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 67.9,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 66.6,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 64.9,
+    "years_after_exit": 24.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 65.7,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 66.0,
+    "years_after_exit": 22.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 65.3,
+    "years_after_exit": 18.8
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 67.4,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 65.4,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 69.9,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 65.8,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 69.6,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 67.4,
+    "years_after_exit": 17.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 78.6,
+    "years_after_exit": 7.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 76.1,
+    "years_after_exit": 8.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 78.5,
+    "years_after_exit": 8.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 75.9,
+    "years_after_exit": 8.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 78.3,
+    "years_after_exit": 8.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 75.7,
+    "years_after_exit": 8.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 78.0,
+    "years_after_exit": 8.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 75.5,
+    "years_after_exit": 9.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 77.7,
+    "years_after_exit": 8.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 75.3,
+    "years_after_exit": 9.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 77.1,
+    "years_after_exit": 8.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 75.1,
+    "years_after_exit": 9.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 76.6,
+    "years_after_exit": 9.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 74.8,
+    "years_after_exit": 9.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 76.1,
+    "years_after_exit": 9.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 74.6,
+    "years_after_exit": 9.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 75.7,
+    "years_after_exit": 9.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 74.4,
+    "years_after_exit": 9.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 75.2,
+    "years_after_exit": 10.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 74.2,
+    "years_after_exit": 9.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 74.7,
+    "years_after_exit": 10.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 74.0,
+    "years_after_exit": 10.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 74.4,
+    "years_after_exit": 10.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 74.0,
+    "years_after_exit": 10.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 74.0,
+    "years_after_exit": 11.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 74.0,
+    "years_after_exit": 10.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 73.7,
+    "years_after_exit": 11.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 74.2,
+    "years_after_exit": 10.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 73.4,
+    "years_after_exit": 11.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 74.3,
+    "years_after_exit": 10.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 73.0,
+    "years_after_exit": 12.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 74.5,
+    "years_after_exit": 10.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 72.0,
+    "years_after_exit": 12.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 74.0,
+    "years_after_exit": 10.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 71.0,
+    "years_after_exit": 13.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 73.5,
+    "years_after_exit": 10.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 70.1,
+    "years_after_exit": 13.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 73.1,
+    "years_after_exit": 11.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 69.3,
+    "years_after_exit": 14.5
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 72.7,
+    "years_after_exit": 11.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 68.5,
+    "years_after_exit": 13.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 72.3,
+    "years_after_exit": 10.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 67.7,
+    "years_after_exit": 15.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 71.9,
+    "years_after_exit": 11.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 67.6,
+    "years_after_exit": 14.5
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 70.8,
+    "years_after_exit": 11.5
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 67.8,
+    "years_after_exit": 15.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 69.9,
+    "years_after_exit": 13.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 67.9,
+    "years_after_exit": 15.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 68.3,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 68.4,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 66.3,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 68.6,
+    "years_after_exit": 15.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 66.4,
+    "years_after_exit": 15.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 69.9,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 68.6,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 65.4,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 69.3,
+    "years_after_exit": 14.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 67.3,
+    "years_after_exit": 16.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 69.2,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 65.7,
+    "years_after_exit": 16.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 70.4,
+    "years_after_exit": 12.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 69.6,
+    "years_after_exit": 14.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 20.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 68.3,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 68.7,
+    "years_after_exit": 14.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 69.3,
+    "years_after_exit": 15.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 68.9,
+    "years_after_exit": 14.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 69.5,
+    "years_after_exit": 13.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 69.0,
+    "years_after_exit": 13.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 72.0,
+    "years_after_exit": 12.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 69.5,
+    "years_after_exit": 13.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 71.4,
+    "years_after_exit": 12.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 68.5,
+    "years_after_exit": 13.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 69.2,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 68.1,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 66.4,
+    "years_after_exit": 16.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 67.9,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 65.7,
+    "years_after_exit": 16.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 66.9,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 65.2,
+    "years_after_exit": 17.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 67.0,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 67.5,
+    "years_after_exit": 14.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 64.7,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 67.7,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 63.1,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 67.3,
+    "years_after_exit": 14.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 67.5,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 67.4,
+    "years_after_exit": 14.9
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 62.6,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 67.7,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 67.2,
+    "years_after_exit": 15.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 64.9,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 67.6,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 62.5,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 66.2,
+    "years_after_exit": 13.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 16.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 66.8,
+    "years_after_exit": 12.5
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 65.6,
+    "years_after_exit": 17.4
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 66.9,
+    "years_after_exit": 15.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 66.9,
+    "years_after_exit": 16.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 67.8,
+    "years_after_exit": 15.2
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 65.7,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 67.8,
+    "years_after_exit": 15.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 65.4,
+    "years_after_exit": 16.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 66.3,
+    "years_after_exit": 13.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 64.3,
+    "years_after_exit": 17.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 65.6,
+    "years_after_exit": 13.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 64.3,
+    "years_after_exit": 17.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 65.4,
+    "years_after_exit": 13.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 17.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 65.6,
+    "years_after_exit": 13.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 65.0,
+    "years_after_exit": 17.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 65.4,
+    "years_after_exit": 13.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 65.0,
+    "years_after_exit": 14.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 65.2,
+    "years_after_exit": 14.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 65.2,
+    "years_after_exit": 14.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 64.7,
+    "years_after_exit": 14.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 64.7,
+    "years_after_exit": 14.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 19.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 63.2,
+    "years_after_exit": 15.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 63.2,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 62.9,
+    "years_after_exit": 16.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 62.9,
+    "years_after_exit": 20.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 63.4,
+    "years_after_exit": 15.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 16.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 62.6,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 63.2,
+    "years_after_exit": 16.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 62.4,
+    "years_after_exit": 20.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 63.5,
+    "years_after_exit": 16.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 63.3,
+    "years_after_exit": 16.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 62.5,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 17.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 61.7,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 21.5
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 16.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 61.9,
+    "years_after_exit": 21.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": 17.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 17.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 17.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 61.9,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 61.0,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 61.6,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 22.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 23.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 61.6,
+    "years_after_exit": 22.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 61.5,
+    "years_after_exit": 23.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 61.3,
+    "years_after_exit": 23.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 62.3,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 61.3,
+    "years_after_exit": 23.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 61.2,
+    "years_after_exit": 23.5
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 62.8,
+    "years_after_exit": 18.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 61.1,
+    "years_after_exit": 23.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 61.9,
+    "years_after_exit": 23.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 63.8,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 23.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 62.3,
+    "years_after_exit": 22.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 64.3,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 62.6,
+    "years_after_exit": 22.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 64.6,
+    "years_after_exit": 18.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": 22.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 65.0,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 22.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 18.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 64.9,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 65.2,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 65.0,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 63.6,
+    "years_after_exit": 22.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 64.4,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 64.7,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 64.1,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 64.9,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 21.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 65.1,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 64.6,
+    "years_after_exit": 21.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 65.6,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 65.0,
+    "years_after_exit": 22.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 66.0,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 64.9,
+    "years_after_exit": 21.5
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 65.8,
+    "years_after_exit": 18.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 64.6,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 65.4,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 65.5,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 22.7
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 65.2,
+    "years_after_exit": 19.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 65.0,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 65.1,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1970,
+    "sex": "Female",
+    "retirement_age": 65.7,
+    "years_after_exit": 16.6
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1970,
+    "sex": "Male",
+    "retirement_age": 65.5,
+    "years_after_exit": 12.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1971,
+    "sex": "Female",
+    "retirement_age": 65.0,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1971,
+    "sex": "Male",
+    "retirement_age": 65.1,
+    "years_after_exit": 13.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1972,
+    "sex": "Female",
+    "retirement_age": 64.6,
+    "years_after_exit": 17.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1972,
+    "sex": "Male",
+    "retirement_age": 64.6,
+    "years_after_exit": 13.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1973,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 17.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1973,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 13.5
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1974,
+    "sex": "Female",
+    "retirement_age": 64.2,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1974,
+    "sex": "Male",
+    "retirement_age": 64.4,
+    "years_after_exit": 13.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1975,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1975,
+    "sex": "Male",
+    "retirement_age": 64.2,
+    "years_after_exit": 14.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1976,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 19.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1976,
+    "sex": "Male",
+    "retirement_age": 64.0,
+    "years_after_exit": 14.5
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1977,
+    "sex": "Female",
+    "retirement_age": 64.1,
+    "years_after_exit": 18.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1977,
+    "sex": "Male",
+    "retirement_age": 63.9,
+    "years_after_exit": 14.6
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1978,
+    "sex": "Female",
+    "retirement_age": 64.4,
+    "years_after_exit": 18.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1978,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 14.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1979,
+    "sex": "Female",
+    "retirement_age": 63.9,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1979,
+    "sex": "Male",
+    "retirement_age": 63.9,
+    "years_after_exit": 14.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1980,
+    "sex": "Female",
+    "retirement_age": 64.1,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1980,
+    "sex": "Male",
+    "retirement_age": 63.8,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1981,
+    "sex": "Female",
+    "retirement_age": 64.1,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1981,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 15.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1982,
+    "sex": "Female",
+    "retirement_age": 64.1,
+    "years_after_exit": 19.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1982,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 15.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1983,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1983,
+    "sex": "Male",
+    "retirement_age": 63.6,
+    "years_after_exit": 15.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1984,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1984,
+    "sex": "Male",
+    "retirement_age": 63.5,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1985,
+    "sex": "Female",
+    "retirement_age": 63.2,
+    "years_after_exit": 20.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1985,
+    "sex": "Male",
+    "retirement_age": 63.4,
+    "years_after_exit": 15.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1986,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": 20.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1986,
+    "sex": "Male",
+    "retirement_age": 63.2,
+    "years_after_exit": 15.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1987,
+    "sex": "Female",
+    "retirement_age": 63.1,
+    "years_after_exit": 20.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1987,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 16.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1988,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1988,
+    "sex": "Male",
+    "retirement_age": 62.9,
+    "years_after_exit": 16.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1989,
+    "sex": "Female",
+    "retirement_age": 63.7,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1989,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": 16.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1990,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1990,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 16.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1991,
+    "sex": "Female",
+    "retirement_age": 62.5,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1991,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1992,
+    "sex": "Female",
+    "retirement_age": 62.5,
+    "years_after_exit": 21.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1992,
+    "sex": "Male",
+    "retirement_age": 62.6,
+    "years_after_exit": 17.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1993,
+    "sex": "Female",
+    "retirement_age": 62.3,
+    "years_after_exit": 21.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1993,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 17.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1994,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 21.5
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1994,
+    "sex": "Male",
+    "retirement_age": 61.4,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1995,
+    "sex": "Female",
+    "retirement_age": 62.1,
+    "years_after_exit": 21.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1995,
+    "sex": "Male",
+    "retirement_age": 61.6,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1996,
+    "sex": "Female",
+    "retirement_age": 62.2,
+    "years_after_exit": 21.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1996,
+    "sex": "Male",
+    "retirement_age": 61.7,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1997,
+    "sex": "Female",
+    "retirement_age": 62.6,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1997,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1998,
+    "sex": "Female",
+    "retirement_age": 62.1,
+    "years_after_exit": 21.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1998,
+    "sex": "Male",
+    "retirement_age": 62.1,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1999,
+    "sex": "Female",
+    "retirement_age": 62.4,
+    "years_after_exit": 21.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1999,
+    "sex": "Male",
+    "retirement_age": 62.7,
+    "years_after_exit": 17.5
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2000,
+    "sex": "Female",
+    "retirement_age": 62.1,
+    "years_after_exit": 21.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2000,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 17.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2001,
+    "sex": "Female",
+    "retirement_age": 61.7,
+    "years_after_exit": 21.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2001,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2002,
+    "sex": "Female",
+    "retirement_age": 61.4,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2002,
+    "sex": "Male",
+    "retirement_age": 62.7,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2003,
+    "sex": "Female",
+    "retirement_age": 61.8,
+    "years_after_exit": 22.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2003,
+    "sex": "Male",
+    "retirement_age": 61.9,
+    "years_after_exit": 18.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2004,
+    "sex": "Female",
+    "retirement_age": 61.5,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2004,
+    "sex": "Male",
+    "retirement_age": 62.0,
+    "years_after_exit": 18.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2005,
+    "sex": "Female",
+    "retirement_age": 61.3,
+    "years_after_exit": 22.6
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2005,
+    "sex": "Male",
+    "retirement_age": 62.2,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2006,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 22.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2006,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 19.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2007,
+    "sex": "Female",
+    "retirement_age": 62.3,
+    "years_after_exit": 22.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2007,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2008,
+    "sex": "Female",
+    "retirement_age": 62.4,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2008,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 18.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2009,
+    "sex": "Female",
+    "retirement_age": 62.9,
+    "years_after_exit": 22.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2009,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2010,
+    "sex": "Female",
+    "retirement_age": 63.4,
+    "years_after_exit": 21.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2010,
+    "sex": "Male",
+    "retirement_age": 62.9,
+    "years_after_exit": 19.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2011,
+    "sex": "Female",
+    "retirement_age": 62.9,
+    "years_after_exit": 22.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2011,
+    "sex": "Male",
+    "retirement_age": 62.5,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2012,
+    "sex": "Female",
+    "retirement_age": 63.0,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2012,
+    "sex": "Male",
+    "retirement_age": 62.2,
+    "years_after_exit": 20.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2013,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2013,
+    "sex": "Male",
+    "retirement_age": 62.4,
+    "years_after_exit": 19.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2014,
+    "sex": "Female",
+    "retirement_age": 62.6,
+    "years_after_exit": 22.6
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2014,
+    "sex": "Male",
+    "retirement_age": 63.1,
+    "years_after_exit": 19.5
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2015,
+    "sex": "Female",
+    "retirement_age": 62.7,
+    "years_after_exit": 22.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2015,
+    "sex": "Male",
+    "retirement_age": 63.3,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2016,
+    "sex": "Female",
+    "retirement_age": 63.3,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2016,
+    "sex": "Male",
+    "retirement_age": 64.0,
+    "years_after_exit": 18.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2017,
+    "sex": "Female",
+    "retirement_age": 63.8,
+    "years_after_exit": 21.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2017,
+    "sex": "Male",
+    "retirement_age": 64.6,
+    "years_after_exit": 18.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2018,
+    "sex": "Female",
+    "retirement_age": 64.3,
+    "years_after_exit": 21.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2018,
+    "sex": "Male",
+    "retirement_age": 65.0,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2019,
+    "sex": "Female",
+    "retirement_age": 64.8,
+    "years_after_exit": 21.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2019,
+    "sex": "Male",
+    "retirement_age": 65.3,
+    "years_after_exit": 18.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2020,
+    "sex": "Female",
+    "retirement_age": 64.7,
+    "years_after_exit": 20.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2020,
+    "sex": "Male",
+    "retirement_age": 64.9,
+    "years_after_exit": 17.2
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "sex": "Female",
+    "retirement_age": 65.2,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "sex": "Male",
+    "retirement_age": 64.8,
+    "years_after_exit": 17.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2022,
+    "sex": "Female",
+    "retirement_age": 65.3,
+    "years_after_exit": 20.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2022,
+    "sex": "Male",
+    "retirement_age": 65.2,
+    "years_after_exit": 17.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2023,
+    "sex": "Female",
+    "retirement_age": 65.5,
+    "years_after_exit": 20.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2023,
+    "sex": "Male",
+    "retirement_age": 65.5,
+    "years_after_exit": 18.3
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2024,
+    "sex": "Female",
+    "retirement_age": 66.7,
+    "years_after_exit": 19.8
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2024,
+    "sex": "Male",
+    "retirement_age": 67.3,
+    "years_after_exit": 17.0
+  }
+]

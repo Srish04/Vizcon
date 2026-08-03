@@ -1,0 +1,95 @@
+{
+  "sweden": {
+    "menarche": {
+      "age": 13.09,
+      "year": null
+    },
+    "leaving_home": {
+      "age": 21.9,
+      "year": 2024
+    },
+    "education_completion": {
+      "age": 25.0,
+      "year": 2023
+    },
+    "first_home": {
+      "age": 30.5,
+      "year": 2025
+    },
+    "marriage": {
+      "age": 34.8,
+      "year": 2020
+    },
+    "first_birth": {
+      "age": 30.19,
+      "year": 2024
+    },
+    "fertility_rate": {
+      "value": 1.43,
+      "year": 2023
+    },
+    "menopause": {
+      "age": 51.0,
+      "year": null
+    },
+    "retirement": {
+      "age": 65.1,
+      "year": 2024
+    },
+    "years_after_exit": {
+      "value": 19.7,
+      "year": 2024
+    },
+    "life_expectancy": {
+      "value": 84.1,
+      "year": 2024
+    }
+  },
+  "italy": {
+    "menarche": {
+      "age": 12.5,
+      "year": null
+    },
+    "leaving_home": {
+      "age": 30.1,
+      "year": 2024
+    },
+    "education_completion": {
+      "age": 22.7,
+      "year": 2023
+    },
+    "first_home": {
+      "age": 32.0,
+      "year": 2025
+    },
+    "marriage": {
+      "age": 33.6,
+      "year": 2020
+    },
+    "first_birth": {
+      "age": 31.66,
+      "year": 2022
+    },
+    "fertility_rate": {
+      "value": 1.198,
+      "year": 2023
+    },
+    "menopause": {
+      "age": 51.0,
+      "year": null
+    },
+    "retirement": {
+      "age": 64.0,
+      "year": 2024
+    },
+    "years_after_exit": {
+      "value": 20.7,
+      "year": 2024
+    },
+    "life_expectancy": {
+      "value": 84.0,
+      "year": 2024
+    }
+  },
+  "hook_text": "A 22-year-old Swede and a 30-year-old Italian have something in common -- they are both leaving home for the first time."
+}

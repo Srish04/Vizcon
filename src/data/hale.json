@@ -1,0 +1,98 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "hale": 71.1,
+    "life_expectancy": 84.1,
+    "years_poor_health": 13.0
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "hale": 70.6,
+    "life_expectancy": 84.0,
+    "years_poor_health": 13.4
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2021,
+    "hale": 72.5,
+    "life_expectancy": 83.6,
+    "years_poor_health": 11.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "hale": 70.1,
+    "life_expectancy": 83.0,
+    "years_poor_health": 12.9
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "hale": 70.1,
+    "life_expectancy": 82.3,
+    "years_poor_health": 12.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2021,
+    "hale": 73.4,
+    "life_expectancy": 84.0,
+    "years_poor_health": 10.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2021,
+    "hale": 61.8,
+    "life_expectancy": 76.0,
+    "years_poor_health": 14.2
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2021,
+    "hale": 70.6,
+    "life_expectancy": 83.1,
+    "years_poor_health": 12.5
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "hale": 63.9,
+    "life_expectancy": 78.9,
+    "years_poor_health": 15.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "hale": 68.9,
+    "life_expectancy": 80.8,
+    "years_poor_health": 11.9
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2021,
+    "hale": 58.1,
+    "life_expectancy": 72.2,
+    "years_poor_health": 14.1
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2021,
+    "hale": 61.4,
+    "life_expectancy": 75.3,
+    "years_poor_health": 13.9
+  }
+]

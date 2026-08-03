@@ -1,0 +1,6370 @@
+[
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 17.47,
+    "education_completion_age": 23.47
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 17.39,
+    "education_completion_age": 23.39
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 17.47,
+    "education_completion_age": 23.47
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 17.39,
+    "education_completion_age": 23.39
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 17.46,
+    "education_completion_age": 23.46
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 17.4,
+    "education_completion_age": 23.4
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 17.46,
+    "education_completion_age": 23.46
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 17.4,
+    "education_completion_age": 23.4
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 17.45,
+    "education_completion_age": 23.45
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 17.41,
+    "education_completion_age": 23.41
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 18.97,
+    "education_completion_age": 24.97
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 18.97,
+    "education_completion_age": 24.97
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 19.46,
+    "education_completion_age": 25.46
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 19.56,
+    "education_completion_age": 25.56
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 20.02,
+    "education_completion_age": 26.02
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 20.56,
+    "education_completion_age": 26.56
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 20.18,
+    "education_completion_age": 26.18
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 20.73,
+    "education_completion_age": 26.73
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 20.34,
+    "education_completion_age": 26.34
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 20.9,
+    "education_completion_age": 26.9
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 20.5,
+    "education_completion_age": 26.5
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 21.07,
+    "education_completion_age": 27.07
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 20.66,
+    "education_completion_age": 26.66
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 21.23,
+    "education_completion_age": 27.23
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 20.82,
+    "education_completion_age": 26.82
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 21.4,
+    "education_completion_age": 27.4
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 20.99,
+    "education_completion_age": 26.99
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 21.57,
+    "education_completion_age": 27.57
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 21.15,
+    "education_completion_age": 27.15
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 21.74,
+    "education_completion_age": 27.74
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 21.31,
+    "education_completion_age": 27.31
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 21.91,
+    "education_completion_age": 27.91
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 21.47,
+    "education_completion_age": 27.47
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 22.07,
+    "education_completion_age": 28.07
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 21.63,
+    "education_completion_age": 27.63
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 22.24,
+    "education_completion_age": 28.24
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 21.79,
+    "education_completion_age": 27.79
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 22.41,
+    "education_completion_age": 28.41
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 21.95,
+    "education_completion_age": 27.95
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 22.58,
+    "education_completion_age": 28.58
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 22.11,
+    "education_completion_age": 28.11
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 22.75,
+    "education_completion_age": 28.75
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 22.27,
+    "education_completion_age": 28.27
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 22.91,
+    "education_completion_age": 28.91
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 22.43,
+    "education_completion_age": 28.43
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 23.08,
+    "education_completion_age": 29.08
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 22.59,
+    "education_completion_age": 28.59
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 23.25,
+    "education_completion_age": 29.25
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 22.75,
+    "education_completion_age": 28.75
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 23.42,
+    "education_completion_age": 29.42
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 22.91,
+    "education_completion_age": 28.91
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 23.59,
+    "education_completion_age": 29.59
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 22.51,
+    "education_completion_age": 28.51
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 23.2,
+    "education_completion_age": 29.2
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 21.51,
+    "education_completion_age": 27.51
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 22.4,
+    "education_completion_age": 28.4
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 19.86,
+    "education_completion_age": 25.86
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 21.0,
+    "education_completion_age": 27.0
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 20.75,
+    "education_completion_age": 26.75
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 22.01,
+    "education_completion_age": 28.01
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 20.15,
+    "education_completion_age": 26.15
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 21.74,
+    "education_completion_age": 27.74
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 20.19,
+    "education_completion_age": 26.19
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 21.98,
+    "education_completion_age": 27.98
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 19.84,
+    "education_completion_age": 25.84
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 21.48,
+    "education_completion_age": 27.48
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 19.84,
+    "education_completion_age": 25.84
+  },
+  {
+    "country": "Australia",
+    "country_code": "AUS",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 21.48,
+    "education_completion_age": 27.48
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 13.99,
+    "education_completion_age": 19.99
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 15.21,
+    "education_completion_age": 21.21
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 14.05,
+    "education_completion_age": 20.05
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 15.25,
+    "education_completion_age": 21.25
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 14.11,
+    "education_completion_age": 20.11
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 15.29,
+    "education_completion_age": 21.29
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 14.17,
+    "education_completion_age": 20.17
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 15.33,
+    "education_completion_age": 21.33
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 14.23,
+    "education_completion_age": 20.23
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 15.37,
+    "education_completion_age": 21.37
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 14.3,
+    "education_completion_age": 20.3
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 15.41,
+    "education_completion_age": 21.41
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 14.36,
+    "education_completion_age": 20.36
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 15.45,
+    "education_completion_age": 21.45
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 14.42,
+    "education_completion_age": 20.42
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 15.49,
+    "education_completion_age": 21.49
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 14.49,
+    "education_completion_age": 20.49
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 15.53,
+    "education_completion_age": 21.53
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 14.55,
+    "education_completion_age": 20.55
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 15.57,
+    "education_completion_age": 21.57
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 14.61,
+    "education_completion_age": 20.61
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 15.61,
+    "education_completion_age": 21.61
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 14.68,
+    "education_completion_age": 20.68
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 15.65,
+    "education_completion_age": 21.65
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 14.74,
+    "education_completion_age": 20.74
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 15.69,
+    "education_completion_age": 21.69
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 14.82,
+    "education_completion_age": 20.82
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 15.67,
+    "education_completion_age": 21.67
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 14.91,
+    "education_completion_age": 20.91
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 15.82,
+    "education_completion_age": 21.82
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 14.83,
+    "education_completion_age": 20.83
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 15.66,
+    "education_completion_age": 21.66
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 14.9,
+    "education_completion_age": 20.9
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 15.69,
+    "education_completion_age": 21.69
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 15.02,
+    "education_completion_age": 21.02
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 15.79,
+    "education_completion_age": 21.79
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 15.09,
+    "education_completion_age": 21.09
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 15.92,
+    "education_completion_age": 21.92
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 14.99,
+    "education_completion_age": 20.99
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 15.92,
+    "education_completion_age": 21.92
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 14.97,
+    "education_completion_age": 20.97
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 15.94,
+    "education_completion_age": 21.94
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 14.95,
+    "education_completion_age": 20.95
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 16.22,
+    "education_completion_age": 22.22
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 15.11,
+    "education_completion_age": 21.11
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 16.49,
+    "education_completion_age": 22.49
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 15.11,
+    "education_completion_age": 21.11
+  },
+  {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 16.49,
+    "education_completion_age": 22.49
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 14.14,
+    "education_completion_age": 20.14
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 14.49,
+    "education_completion_age": 20.49
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 14.3,
+    "education_completion_age": 20.3
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 14.66,
+    "education_completion_age": 20.66
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 14.31,
+    "education_completion_age": 20.31
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 14.75,
+    "education_completion_age": 20.75
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 14.63,
+    "education_completion_age": 20.63
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 14.98,
+    "education_completion_age": 20.98
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 14.86,
+    "education_completion_age": 20.86
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 15.25,
+    "education_completion_age": 21.25
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 14.96,
+    "education_completion_age": 20.96
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 15.41,
+    "education_completion_age": 21.41
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 15.12,
+    "education_completion_age": 21.12
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 15.7,
+    "education_completion_age": 21.7
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 15.19,
+    "education_completion_age": 21.19
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 15.97,
+    "education_completion_age": 21.97
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 15.27,
+    "education_completion_age": 21.27
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 16.24,
+    "education_completion_age": 22.24
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 15.87,
+    "education_completion_age": 21.87
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 17.01,
+    "education_completion_age": 23.01
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 15.68,
+    "education_completion_age": 21.68
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 16.74,
+    "education_completion_age": 22.74
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 16.0,
+    "education_completion_age": 22.0
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 17.11,
+    "education_completion_age": 23.11
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 15.65,
+    "education_completion_age": 21.65
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 16.78,
+    "education_completion_age": 22.78
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 15.77,
+    "education_completion_age": 21.77
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 16.97,
+    "education_completion_age": 22.97
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 15.89,
+    "education_completion_age": 21.89
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 17.17,
+    "education_completion_age": 23.17
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 16.17,
+    "education_completion_age": 22.17
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 17.4,
+    "education_completion_age": 23.4
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 16.04,
+    "education_completion_age": 22.04
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 17.26,
+    "education_completion_age": 23.26
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 16.17,
+    "education_completion_age": 22.17
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 17.46,
+    "education_completion_age": 23.46
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 16.04,
+    "education_completion_age": 22.04
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 17.41,
+    "education_completion_age": 23.41
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 16.05,
+    "education_completion_age": 22.05
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 17.39,
+    "education_completion_age": 23.39
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 16.27,
+    "education_completion_age": 22.27
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 17.53,
+    "education_completion_age": 23.53
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 17.72,
+    "education_completion_age": 23.72
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 19.0,
+    "education_completion_age": 25.0
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 18.06,
+    "education_completion_age": 24.06
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 19.31,
+    "education_completion_age": 25.31
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 18.52,
+    "education_completion_age": 24.52
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 19.84,
+    "education_completion_age": 25.84
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 18.45,
+    "education_completion_age": 24.45
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 19.98,
+    "education_completion_age": 25.98
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 18.52,
+    "education_completion_age": 24.52
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 20.09,
+    "education_completion_age": 26.09
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 18.38,
+    "education_completion_age": 24.38
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 19.72,
+    "education_completion_age": 25.72
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 18.22,
+    "education_completion_age": 24.22
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 19.45,
+    "education_completion_age": 25.45
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 18.14,
+    "education_completion_age": 24.14
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 19.33,
+    "education_completion_age": 25.33
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 18.05,
+    "education_completion_age": 24.05
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 19.21,
+    "education_completion_age": 25.21
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 18.04,
+    "education_completion_age": 24.04
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 19.26,
+    "education_completion_age": 25.26
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 18.19,
+    "education_completion_age": 24.19
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 19.38,
+    "education_completion_age": 25.38
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 18.1,
+    "education_completion_age": 24.1
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 19.33,
+    "education_completion_age": 25.33
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 18.1,
+    "education_completion_age": 24.1
+  },
+  {
+    "country": "Denmark",
+    "country_code": "DNK",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 19.33,
+    "education_completion_age": 25.33
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 13.7,
+    "education_completion_age": 19.7
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 14.28,
+    "education_completion_age": 20.28
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 14.17,
+    "education_completion_age": 20.17
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 14.78,
+    "education_completion_age": 20.78
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 14.39,
+    "education_completion_age": 20.39
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 15.02,
+    "education_completion_age": 21.02
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 14.49,
+    "education_completion_age": 20.49
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 15.15,
+    "education_completion_age": 21.15
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 15.45,
+    "education_completion_age": 21.45
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 15.84,
+    "education_completion_age": 21.84
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 15.59,
+    "education_completion_age": 21.59
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 15.96,
+    "education_completion_age": 21.96
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 15.66,
+    "education_completion_age": 21.66
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 16.07,
+    "education_completion_age": 22.07
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 15.58,
+    "education_completion_age": 21.58
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 16.06,
+    "education_completion_age": 22.06
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 15.52,
+    "education_completion_age": 21.52
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 16.01,
+    "education_completion_age": 22.01
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 15.48,
+    "education_completion_age": 21.48
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 15.97,
+    "education_completion_age": 21.97
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 14.72,
+    "education_completion_age": 20.72
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 15.16,
+    "education_completion_age": 21.16
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 14.63,
+    "education_completion_age": 20.63
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 15.08,
+    "education_completion_age": 21.08
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 14.54,
+    "education_completion_age": 20.54
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 15.03,
+    "education_completion_age": 21.03
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 14.58,
+    "education_completion_age": 20.58
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 15.16,
+    "education_completion_age": 21.16
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 14.57,
+    "education_completion_age": 20.57
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 15.14,
+    "education_completion_age": 21.14
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 15.15,
+    "education_completion_age": 21.15
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 15.72,
+    "education_completion_age": 21.72
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 15.14,
+    "education_completion_age": 21.14
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 15.7,
+    "education_completion_age": 21.7
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 15.06,
+    "education_completion_age": 21.06
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 15.65,
+    "education_completion_age": 21.65
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 15.01,
+    "education_completion_age": 21.01
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 15.59,
+    "education_completion_age": 21.59
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 14.97,
+    "education_completion_age": 20.97
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 15.58,
+    "education_completion_age": 21.58
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 15.07,
+    "education_completion_age": 21.07
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 15.7,
+    "education_completion_age": 21.7
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 15.09,
+    "education_completion_age": 21.09
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 15.75,
+    "education_completion_age": 21.75
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 15.15,
+    "education_completion_age": 21.15
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 15.83,
+    "education_completion_age": 21.83
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 15.12,
+    "education_completion_age": 21.12
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 15.8,
+    "education_completion_age": 21.8
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 15.08,
+    "education_completion_age": 21.08
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 15.81,
+    "education_completion_age": 21.81
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 15.18,
+    "education_completion_age": 21.18
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 15.85,
+    "education_completion_age": 21.85
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 15.29,
+    "education_completion_age": 21.29
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 15.96,
+    "education_completion_age": 21.96
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 15.4,
+    "education_completion_age": 21.4
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 16.09,
+    "education_completion_age": 22.09
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 15.49,
+    "education_completion_age": 21.49
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 16.2,
+    "education_completion_age": 22.2
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 15.51,
+    "education_completion_age": 21.51
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 16.24,
+    "education_completion_age": 22.24
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 15.56,
+    "education_completion_age": 21.56
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 16.37,
+    "education_completion_age": 22.37
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 15.6,
+    "education_completion_age": 21.6
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 16.45,
+    "education_completion_age": 22.45
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 15.63,
+    "education_completion_age": 21.63
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 16.57,
+    "education_completion_age": 22.57
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 15.63,
+    "education_completion_age": 21.63
+  },
+  {
+    "country": "France",
+    "country_code": "FRA",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 16.57,
+    "education_completion_age": 22.57
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 15.54,
+    "education_completion_age": 21.54
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 13.22,
+    "education_completion_age": 19.22
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 15.34,
+    "education_completion_age": 21.34
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 13.79,
+    "education_completion_age": 19.79
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 15.11,
+    "education_completion_age": 21.11
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 14.38,
+    "education_completion_age": 20.38
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 15.93,
+    "education_completion_age": 21.93
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 15.0,
+    "education_completion_age": 21.0
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 16.08,
+    "education_completion_age": 22.08
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 15.19,
+    "education_completion_age": 21.19
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 16.15,
+    "education_completion_age": 22.15
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 15.33,
+    "education_completion_age": 21.33
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 16.21,
+    "education_completion_age": 22.21
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 15.5,
+    "education_completion_age": 21.5
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 16.24,
+    "education_completion_age": 22.24
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 15.64,
+    "education_completion_age": 21.64
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 16.3,
+    "education_completion_age": 22.3
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 15.73,
+    "education_completion_age": 21.73
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 16.37,
+    "education_completion_age": 22.37
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 15.81,
+    "education_completion_age": 21.81
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 16.43,
+    "education_completion_age": 22.43
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 15.89,
+    "education_completion_age": 21.89
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 16.49,
+    "education_completion_age": 22.49
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 15.97,
+    "education_completion_age": 21.97
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 16.56,
+    "education_completion_age": 22.56
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 16.05,
+    "education_completion_age": 22.05
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 16.62,
+    "education_completion_age": 22.62
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 16.13,
+    "education_completion_age": 22.13
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 16.68,
+    "education_completion_age": 22.68
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 16.21,
+    "education_completion_age": 22.21
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 16.75,
+    "education_completion_age": 22.75
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 16.29,
+    "education_completion_age": 22.29
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 16.81,
+    "education_completion_age": 22.81
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 16.37,
+    "education_completion_age": 22.37
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 16.87,
+    "education_completion_age": 22.87
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 16.45,
+    "education_completion_age": 22.45
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 16.94,
+    "education_completion_age": 22.94
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 16.53,
+    "education_completion_age": 22.53
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 17.0,
+    "education_completion_age": 23.0
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 16.61,
+    "education_completion_age": 22.61
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 17.06,
+    "education_completion_age": 23.06
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 16.69,
+    "education_completion_age": 22.69
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 17.13,
+    "education_completion_age": 23.13
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 16.77,
+    "education_completion_age": 22.77
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 17.19,
+    "education_completion_age": 23.19
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 16.85,
+    "education_completion_age": 22.85
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 17.26,
+    "education_completion_age": 23.26
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 16.93,
+    "education_completion_age": 22.93
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 17.27,
+    "education_completion_age": 23.27
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 16.97,
+    "education_completion_age": 22.97
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 17.2,
+    "education_completion_age": 23.2
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 17.02,
+    "education_completion_age": 23.02
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 16.84,
+    "education_completion_age": 22.84
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 16.91,
+    "education_completion_age": 22.91
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 16.99,
+    "education_completion_age": 22.99
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 17.0,
+    "education_completion_age": 23.0
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 17.05,
+    "education_completion_age": 23.05
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 17.03,
+    "education_completion_age": 23.03
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 17.27,
+    "education_completion_age": 23.27
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 17.18,
+    "education_completion_age": 23.18
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 17.23,
+    "education_completion_age": 23.23
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 17.22,
+    "education_completion_age": 23.22
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 17.32,
+    "education_completion_age": 23.32
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 17.37,
+    "education_completion_age": 23.37
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 17.27,
+    "education_completion_age": 23.27
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 17.36,
+    "education_completion_age": 23.36
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 17.27,
+    "education_completion_age": 23.27
+  },
+  {
+    "country": "Germany",
+    "country_code": "DEU",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 17.36,
+    "education_completion_age": 23.36
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 9.62,
+    "education_completion_age": 15.62
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 6.69,
+    "education_completion_age": 12.69
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 9.59,
+    "education_completion_age": 15.59
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 6.74,
+    "education_completion_age": 12.74
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 9.56,
+    "education_completion_age": 15.56
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 6.79,
+    "education_completion_age": 12.79
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 9.53,
+    "education_completion_age": 15.53
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 6.85,
+    "education_completion_age": 12.85
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 9.51,
+    "education_completion_age": 15.51
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 6.9,
+    "education_completion_age": 12.9
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 9.48,
+    "education_completion_age": 15.48
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 6.95,
+    "education_completion_age": 12.95
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 9.44,
+    "education_completion_age": 15.44
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 7.0,
+    "education_completion_age": 13.0
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 9.4,
+    "education_completion_age": 15.4
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 7.08,
+    "education_completion_age": 13.08
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 9.38,
+    "education_completion_age": 15.38
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 7.13,
+    "education_completion_age": 13.13
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 9.36,
+    "education_completion_age": 15.36
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 7.18,
+    "education_completion_age": 13.18
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 9.34,
+    "education_completion_age": 15.34
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 7.23,
+    "education_completion_age": 13.23
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 9.83,
+    "education_completion_age": 15.83
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 7.7,
+    "education_completion_age": 13.7
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 9.8,
+    "education_completion_age": 15.8
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 7.86,
+    "education_completion_age": 13.86
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 10.07,
+    "education_completion_age": 16.07
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 8.85,
+    "education_completion_age": 14.85
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 10.32,
+    "education_completion_age": 16.32
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 9.15,
+    "education_completion_age": 15.15
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 10.57,
+    "education_completion_age": 16.57
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 9.44,
+    "education_completion_age": 15.44
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 10.82,
+    "education_completion_age": 16.82
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 9.73,
+    "education_completion_age": 15.73
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 11.07,
+    "education_completion_age": 17.07
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 10.02,
+    "education_completion_age": 16.02
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 11.07,
+    "education_completion_age": 17.07
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 10.26,
+    "education_completion_age": 16.26
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 11.06,
+    "education_completion_age": 17.06
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 10.49,
+    "education_completion_age": 16.49
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 11.39,
+    "education_completion_age": 17.39
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 10.8,
+    "education_completion_age": 16.8
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 11.79,
+    "education_completion_age": 17.79
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 11.31,
+    "education_completion_age": 17.31
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 11.88,
+    "education_completion_age": 17.88
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 11.66,
+    "education_completion_age": 17.66
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 11.63,
+    "education_completion_age": 17.63
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 12.0,
+    "education_completion_age": 18.0
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 11.96,
+    "education_completion_age": 17.96
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 12.39,
+    "education_completion_age": 18.39
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 12.05,
+    "education_completion_age": 18.05
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 12.51,
+    "education_completion_age": 18.51
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 12.31,
+    "education_completion_age": 18.31
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 13.09,
+    "education_completion_age": 19.09
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 12.18,
+    "education_completion_age": 18.18
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 12.87,
+    "education_completion_age": 18.87
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 11.78,
+    "education_completion_age": 17.78
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 11.85,
+    "education_completion_age": 17.85
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 11.68,
+    "education_completion_age": 17.68
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 11.83,
+    "education_completion_age": 17.83
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 12.17,
+    "education_completion_age": 18.17
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 12.08,
+    "education_completion_age": 18.08
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 12.48,
+    "education_completion_age": 18.48
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 12.32,
+    "education_completion_age": 18.32
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 12.98,
+    "education_completion_age": 18.98
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 12.93,
+    "education_completion_age": 18.93
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 12.95,
+    "education_completion_age": 18.95
+  },
+  {
+    "country": "India",
+    "country_code": "IND",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 12.96,
+    "education_completion_age": 18.96
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 13.0,
+    "education_completion_age": 19.0
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 12.92,
+    "education_completion_age": 18.92
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 13.25,
+    "education_completion_age": 19.25
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 13.06,
+    "education_completion_age": 19.06
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 13.57,
+    "education_completion_age": 19.57
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 13.49,
+    "education_completion_age": 19.49
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 13.76,
+    "education_completion_age": 19.76
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 13.9,
+    "education_completion_age": 19.9
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 14.22,
+    "education_completion_age": 20.22
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 14.52,
+    "education_completion_age": 20.52
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 14.5,
+    "education_completion_age": 20.5
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 14.59,
+    "education_completion_age": 20.59
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 14.63,
+    "education_completion_age": 20.63
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 14.82,
+    "education_completion_age": 20.82
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 14.81,
+    "education_completion_age": 20.81
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 15.17,
+    "education_completion_age": 21.17
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 14.81,
+    "education_completion_age": 20.81
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 15.38,
+    "education_completion_age": 21.38
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 14.86,
+    "education_completion_age": 20.86
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 15.33,
+    "education_completion_age": 21.33
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 14.94,
+    "education_completion_age": 20.94
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 15.23,
+    "education_completion_age": 21.23
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 15.17,
+    "education_completion_age": 21.17
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 15.66,
+    "education_completion_age": 21.66
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 15.45,
+    "education_completion_age": 21.45
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 15.85,
+    "education_completion_age": 21.85
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 15.63,
+    "education_completion_age": 21.63
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 16.21,
+    "education_completion_age": 22.21
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 15.67,
+    "education_completion_age": 21.67
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 16.47,
+    "education_completion_age": 22.47
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 15.77,
+    "education_completion_age": 21.77
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 16.62,
+    "education_completion_age": 22.62
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 15.86,
+    "education_completion_age": 21.86
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 16.78,
+    "education_completion_age": 22.78
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 15.92,
+    "education_completion_age": 21.92
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 16.87,
+    "education_completion_age": 22.87
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 15.88,
+    "education_completion_age": 21.88
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 16.84,
+    "education_completion_age": 22.84
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 15.79,
+    "education_completion_age": 21.79
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 16.79,
+    "education_completion_age": 22.79
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 15.75,
+    "education_completion_age": 21.75
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 16.73,
+    "education_completion_age": 22.73
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 15.89,
+    "education_completion_age": 21.89
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 16.91,
+    "education_completion_age": 22.91
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 15.68,
+    "education_completion_age": 21.68
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 16.69,
+    "education_completion_age": 22.69
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 15.57,
+    "education_completion_age": 21.57
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 16.41,
+    "education_completion_age": 22.41
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 15.58,
+    "education_completion_age": 21.58
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 16.36,
+    "education_completion_age": 22.36
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 15.6,
+    "education_completion_age": 21.6
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 16.32,
+    "education_completion_age": 22.32
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 15.57,
+    "education_completion_age": 21.57
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 16.36,
+    "education_completion_age": 22.36
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 15.86,
+    "education_completion_age": 21.86
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 16.46,
+    "education_completion_age": 22.46
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 15.99,
+    "education_completion_age": 21.99
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 16.61,
+    "education_completion_age": 22.61
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 16.03,
+    "education_completion_age": 22.03
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 16.76,
+    "education_completion_age": 22.76
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 16.1,
+    "education_completion_age": 22.1
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 17.0,
+    "education_completion_age": 23.0
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 16.15,
+    "education_completion_age": 22.15
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 17.1,
+    "education_completion_age": 23.1
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 16.2,
+    "education_completion_age": 22.2
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 17.27,
+    "education_completion_age": 23.27
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 16.2,
+    "education_completion_age": 22.2
+  },
+  {
+    "country": "Italy",
+    "country_code": "ITA",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 17.27,
+    "education_completion_age": 23.27
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 13.79,
+    "education_completion_age": 19.79
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 13.32,
+    "education_completion_age": 19.32
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 13.99,
+    "education_completion_age": 19.99
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 13.46,
+    "education_completion_age": 19.46
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 14.04,
+    "education_completion_age": 20.04
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 13.61,
+    "education_completion_age": 19.61
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 14.38,
+    "education_completion_age": 20.38
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 14.0,
+    "education_completion_age": 20.0
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 14.72,
+    "education_completion_age": 20.72
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 14.38,
+    "education_completion_age": 20.38
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 14.8,
+    "education_completion_age": 20.8
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 14.46,
+    "education_completion_age": 20.46
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 14.89,
+    "education_completion_age": 20.89
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 14.55,
+    "education_completion_age": 20.55
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 14.99,
+    "education_completion_age": 20.99
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 14.64,
+    "education_completion_age": 20.64
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 15.08,
+    "education_completion_age": 21.08
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 14.73,
+    "education_completion_age": 20.73
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 15.14,
+    "education_completion_age": 21.14
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 14.78,
+    "education_completion_age": 20.78
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 15.17,
+    "education_completion_age": 21.17
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 14.81,
+    "education_completion_age": 20.81
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 15.19,
+    "education_completion_age": 21.19
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 14.85,
+    "education_completion_age": 20.85
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 15.22,
+    "education_completion_age": 21.22
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 14.88,
+    "education_completion_age": 20.88
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 15.25,
+    "education_completion_age": 21.25
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 14.92,
+    "education_completion_age": 20.92
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 15.27,
+    "education_completion_age": 21.27
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 14.95,
+    "education_completion_age": 20.95
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 15.3,
+    "education_completion_age": 21.3
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 14.99,
+    "education_completion_age": 20.99
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 15.33,
+    "education_completion_age": 21.33
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 15.02,
+    "education_completion_age": 21.02
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 15.36,
+    "education_completion_age": 21.36
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 15.06,
+    "education_completion_age": 21.06
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 15.38,
+    "education_completion_age": 21.38
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 15.09,
+    "education_completion_age": 21.09
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 15.41,
+    "education_completion_age": 21.41
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 15.13,
+    "education_completion_age": 21.13
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 15.44,
+    "education_completion_age": 21.44
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 15.16,
+    "education_completion_age": 21.16
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 15.46,
+    "education_completion_age": 21.46
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 15.2,
+    "education_completion_age": 21.2
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 15.49,
+    "education_completion_age": 21.49
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 15.23,
+    "education_completion_age": 21.23
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 15.52,
+    "education_completion_age": 21.52
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 15.27,
+    "education_completion_age": 21.27
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 15.5,
+    "education_completion_age": 21.5
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 15.3,
+    "education_completion_age": 21.3
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 15.5,
+    "education_completion_age": 21.5
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 15.32,
+    "education_completion_age": 21.32
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 15.43,
+    "education_completion_age": 21.43
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 15.32,
+    "education_completion_age": 21.32
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 15.43,
+    "education_completion_age": 21.43
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 15.34,
+    "education_completion_age": 21.34
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 15.44,
+    "education_completion_age": 21.44
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 15.36,
+    "education_completion_age": 21.36
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 15.47,
+    "education_completion_age": 21.47
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 15.41,
+    "education_completion_age": 21.41
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 15.49,
+    "education_completion_age": 21.49
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 15.42,
+    "education_completion_age": 21.42
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 15.47,
+    "education_completion_age": 21.47
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 15.39,
+    "education_completion_age": 21.39
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 15.55,
+    "education_completion_age": 21.55
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 15.48,
+    "education_completion_age": 21.48
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 15.55,
+    "education_completion_age": 21.55
+  },
+  {
+    "country": "Japan",
+    "country_code": "JPN",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 15.48,
+    "education_completion_age": 21.48
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 12.0,
+    "education_completion_age": 18.0
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 10.36,
+    "education_completion_age": 16.36
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 11.07,
+    "education_completion_age": 17.07
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 10.45,
+    "education_completion_age": 16.45
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 11.15,
+    "education_completion_age": 17.15
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 10.55,
+    "education_completion_age": 16.55
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 11.22,
+    "education_completion_age": 17.22
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 10.64,
+    "education_completion_age": 16.64
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 11.29,
+    "education_completion_age": 17.29
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 10.74,
+    "education_completion_age": 16.74
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 11.42,
+    "education_completion_age": 17.42
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 10.92,
+    "education_completion_age": 16.92
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 11.59,
+    "education_completion_age": 17.59
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 11.07,
+    "education_completion_age": 17.07
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 11.73,
+    "education_completion_age": 17.73
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 11.21,
+    "education_completion_age": 17.21
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 11.88,
+    "education_completion_age": 17.88
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 11.44,
+    "education_completion_age": 17.44
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 12.02,
+    "education_completion_age": 18.02
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 11.68,
+    "education_completion_age": 17.68
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 12.08,
+    "education_completion_age": 18.08
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 11.85,
+    "education_completion_age": 17.85
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 12.06,
+    "education_completion_age": 18.06
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 11.93,
+    "education_completion_age": 17.93
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 12.36,
+    "education_completion_age": 18.36
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 12.3,
+    "education_completion_age": 18.3
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 12.54,
+    "education_completion_age": 18.54
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 12.64,
+    "education_completion_age": 18.64
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 12.63,
+    "education_completion_age": 18.63
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 12.7,
+    "education_completion_age": 18.7
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 12.68,
+    "education_completion_age": 18.68
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 12.76,
+    "education_completion_age": 18.76
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 12.79,
+    "education_completion_age": 18.79
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 12.9,
+    "education_completion_age": 18.9
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 12.92,
+    "education_completion_age": 18.92
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 13.06,
+    "education_completion_age": 19.06
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 13.1,
+    "education_completion_age": 19.1
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 13.28,
+    "education_completion_age": 19.28
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 13.16,
+    "education_completion_age": 19.16
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 13.39,
+    "education_completion_age": 19.39
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 13.31,
+    "education_completion_age": 19.31
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 13.53,
+    "education_completion_age": 19.53
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 13.34,
+    "education_completion_age": 19.34
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 13.58,
+    "education_completion_age": 19.58
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 13.63,
+    "education_completion_age": 19.63
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 13.83,
+    "education_completion_age": 19.83
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 13.83,
+    "education_completion_age": 19.83
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 13.99,
+    "education_completion_age": 19.99
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 13.98,
+    "education_completion_age": 19.98
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 14.18,
+    "education_completion_age": 20.18
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 14.08,
+    "education_completion_age": 20.08
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 14.38,
+    "education_completion_age": 20.38
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 14.48,
+    "education_completion_age": 20.48
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 14.87,
+    "education_completion_age": 20.87
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 14.63,
+    "education_completion_age": 20.63
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 15.07,
+    "education_completion_age": 21.07
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 14.65,
+    "education_completion_age": 20.65
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 15.2,
+    "education_completion_age": 21.2
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 14.62,
+    "education_completion_age": 20.62
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 15.27,
+    "education_completion_age": 21.27
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 14.47,
+    "education_completion_age": 20.47
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 15.18,
+    "education_completion_age": 21.18
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 14.05,
+    "education_completion_age": 20.05
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 14.96,
+    "education_completion_age": 20.96
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 13.92,
+    "education_completion_age": 19.92
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 15.02,
+    "education_completion_age": 21.02
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 13.92,
+    "education_completion_age": 19.92
+  },
+  {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 15.02,
+    "education_completion_age": 21.02
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 13.69,
+    "education_completion_age": 19.69
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 12.16,
+    "education_completion_age": 18.16
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 13.89,
+    "education_completion_age": 19.89
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 12.45,
+    "education_completion_age": 18.45
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 14.02,
+    "education_completion_age": 20.02
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 12.65,
+    "education_completion_age": 18.65
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 14.33,
+    "education_completion_age": 20.33
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 13.11,
+    "education_completion_age": 19.11
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 14.65,
+    "education_completion_age": 20.65
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 13.26,
+    "education_completion_age": 19.26
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 14.91,
+    "education_completion_age": 20.91
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 13.58,
+    "education_completion_age": 19.58
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 15.35,
+    "education_completion_age": 21.35
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 13.92,
+    "education_completion_age": 19.92
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 16.01,
+    "education_completion_age": 22.01
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 14.46,
+    "education_completion_age": 20.46
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 15.87,
+    "education_completion_age": 21.87
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 14.11,
+    "education_completion_age": 20.11
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 16.23,
+    "education_completion_age": 22.23
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 14.32,
+    "education_completion_age": 20.32
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 16.44,
+    "education_completion_age": 22.44
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 14.58,
+    "education_completion_age": 20.58
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 16.54,
+    "education_completion_age": 22.54
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 14.68,
+    "education_completion_age": 20.68
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 16.72,
+    "education_completion_age": 22.72
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 14.84,
+    "education_completion_age": 20.84
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 16.87,
+    "education_completion_age": 22.87
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 15.03,
+    "education_completion_age": 21.03
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 17.03,
+    "education_completion_age": 23.03
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 15.25,
+    "education_completion_age": 21.25
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 17.2,
+    "education_completion_age": 23.2
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 15.47,
+    "education_completion_age": 21.47
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 17.3,
+    "education_completion_age": 23.3
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 15.59,
+    "education_completion_age": 21.59
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 17.43,
+    "education_completion_age": 23.43
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 15.75,
+    "education_completion_age": 21.75
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 17.47,
+    "education_completion_age": 23.47
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 15.84,
+    "education_completion_age": 21.84
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 17.51,
+    "education_completion_age": 23.51
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 15.87,
+    "education_completion_age": 21.87
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 17.57,
+    "education_completion_age": 23.57
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 15.95,
+    "education_completion_age": 21.95
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 17.61,
+    "education_completion_age": 23.61
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 15.99,
+    "education_completion_age": 21.99
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 17.48,
+    "education_completion_age": 23.48
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 15.95,
+    "education_completion_age": 21.95
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 17.37,
+    "education_completion_age": 23.37
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 15.92,
+    "education_completion_age": 21.92
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 17.25,
+    "education_completion_age": 23.25
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 15.9,
+    "education_completion_age": 21.9
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 17.14,
+    "education_completion_age": 23.14
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 15.92,
+    "education_completion_age": 21.92
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 17.0,
+    "education_completion_age": 23.0
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 15.9,
+    "education_completion_age": 21.9
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 16.9,
+    "education_completion_age": 22.9
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 15.88,
+    "education_completion_age": 21.88
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 16.8,
+    "education_completion_age": 22.8
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 15.9,
+    "education_completion_age": 21.9
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 16.75,
+    "education_completion_age": 22.75
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 15.94,
+    "education_completion_age": 21.94
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 16.74,
+    "education_completion_age": 22.74
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 15.97,
+    "education_completion_age": 21.97
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 16.84,
+    "education_completion_age": 22.84
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 16.14,
+    "education_completion_age": 22.14
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 16.92,
+    "education_completion_age": 22.92
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 16.28,
+    "education_completion_age": 22.28
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 16.92,
+    "education_completion_age": 22.92
+  },
+  {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 16.28,
+    "education_completion_age": 22.28
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 12.71,
+    "education_completion_age": 18.71
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 13.21,
+    "education_completion_age": 19.21
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 12.84,
+    "education_completion_age": 18.84
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 13.41,
+    "education_completion_age": 19.41
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 13.11,
+    "education_completion_age": 19.11
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 13.72,
+    "education_completion_age": 19.72
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 14.72,
+    "education_completion_age": 20.72
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 16.08,
+    "education_completion_age": 22.08
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 15.13,
+    "education_completion_age": 21.13
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 16.49,
+    "education_completion_age": 22.49
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 15.34,
+    "education_completion_age": 21.34
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 16.91,
+    "education_completion_age": 22.91
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 15.66,
+    "education_completion_age": 21.66
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 17.42,
+    "education_completion_age": 23.42
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 16.06,
+    "education_completion_age": 22.06
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 18.3,
+    "education_completion_age": 24.3
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 17.01,
+    "education_completion_age": 23.01
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 20.11,
+    "education_completion_age": 26.11
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 17.24,
+    "education_completion_age": 23.24
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 20.44,
+    "education_completion_age": 26.44
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 17.06,
+    "education_completion_age": 23.06
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 20.39,
+    "education_completion_age": 26.39
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 17.01,
+    "education_completion_age": 23.01
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 20.42,
+    "education_completion_age": 26.42
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 17.03,
+    "education_completion_age": 23.03
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 20.14,
+    "education_completion_age": 26.14
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 17.06,
+    "education_completion_age": 23.06
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 20.11,
+    "education_completion_age": 26.11
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 15.17,
+    "education_completion_age": 21.17
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 16.91,
+    "education_completion_age": 22.91
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 15.27,
+    "education_completion_age": 21.27
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 16.76,
+    "education_completion_age": 22.76
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 15.24,
+    "education_completion_age": 21.24
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 16.71,
+    "education_completion_age": 22.71
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 15.08,
+    "education_completion_age": 21.08
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 16.58,
+    "education_completion_age": 22.58
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 15.05,
+    "education_completion_age": 21.05
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 16.58,
+    "education_completion_age": 22.58
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 15.03,
+    "education_completion_age": 21.03
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 16.6,
+    "education_completion_age": 22.6
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 15.24,
+    "education_completion_age": 21.24
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 16.77,
+    "education_completion_age": 22.77
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 15.14,
+    "education_completion_age": 21.14
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 16.64,
+    "education_completion_age": 22.64
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 15.14,
+    "education_completion_age": 21.14
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 16.71,
+    "education_completion_age": 22.71
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 16.85,
+    "education_completion_age": 22.85
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 19.58,
+    "education_completion_age": 25.58
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 16.82,
+    "education_completion_age": 22.82
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 19.42,
+    "education_completion_age": 25.42
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 17.09,
+    "education_completion_age": 23.09
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 19.61,
+    "education_completion_age": 25.61
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 17.3,
+    "education_completion_age": 23.3
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 19.61,
+    "education_completion_age": 25.61
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 17.86,
+    "education_completion_age": 23.86
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 19.92,
+    "education_completion_age": 25.92
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 17.78,
+    "education_completion_age": 23.78
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 20.07,
+    "education_completion_age": 26.07
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 17.32,
+    "education_completion_age": 23.32
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 19.79,
+    "education_completion_age": 25.79
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 17.31,
+    "education_completion_age": 23.31
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 20.07,
+    "education_completion_age": 26.07
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 17.51,
+    "education_completion_age": 23.51
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 20.66,
+    "education_completion_age": 26.66
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 17.39,
+    "education_completion_age": 23.39
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 20.71,
+    "education_completion_age": 26.71
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 17.39,
+    "education_completion_age": 23.39
+  },
+  {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 20.71,
+    "education_completion_age": 26.71
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1990,
+    "sex": "Male",
+    "expected_years": 15.24,
+    "education_completion_age": 21.24
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1990,
+    "sex": "Female",
+    "expected_years": 15.97,
+    "education_completion_age": 21.97
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1991,
+    "sex": "Male",
+    "expected_years": 15.13,
+    "education_completion_age": 21.13
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1991,
+    "sex": "Female",
+    "expected_years": 15.96,
+    "education_completion_age": 21.96
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1992,
+    "sex": "Male",
+    "expected_years": 15.31,
+    "education_completion_age": 21.31
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1992,
+    "sex": "Female",
+    "expected_years": 16.16,
+    "education_completion_age": 22.16
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1993,
+    "sex": "Male",
+    "expected_years": 15.5,
+    "education_completion_age": 21.5
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1993,
+    "sex": "Female",
+    "expected_years": 16.37,
+    "education_completion_age": 22.37
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1994,
+    "sex": "Male",
+    "expected_years": 15.5,
+    "education_completion_age": 21.5
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1994,
+    "sex": "Female",
+    "expected_years": 16.43,
+    "education_completion_age": 22.43
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1995,
+    "sex": "Male",
+    "expected_years": 15.4,
+    "education_completion_age": 21.4
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1995,
+    "sex": "Female",
+    "expected_years": 16.51,
+    "education_completion_age": 22.51
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1996,
+    "sex": "Male",
+    "expected_years": 15.34,
+    "education_completion_age": 21.34
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1996,
+    "sex": "Female",
+    "expected_years": 16.38,
+    "education_completion_age": 22.38
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1997,
+    "sex": "Male",
+    "expected_years": 15.16,
+    "education_completion_age": 21.16
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1997,
+    "sex": "Female",
+    "expected_years": 16.45,
+    "education_completion_age": 22.45
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1998,
+    "sex": "Male",
+    "expected_years": 14.98,
+    "education_completion_age": 20.98
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1998,
+    "sex": "Female",
+    "expected_years": 16.53,
+    "education_completion_age": 22.53
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1999,
+    "sex": "Male",
+    "expected_years": 15.03,
+    "education_completion_age": 21.03
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 1999,
+    "sex": "Female",
+    "expected_years": 16.58,
+    "education_completion_age": 22.58
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2000,
+    "sex": "Male",
+    "expected_years": 15.09,
+    "education_completion_age": 21.09
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2000,
+    "sex": "Female",
+    "expected_years": 16.62,
+    "education_completion_age": 22.62
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2001,
+    "sex": "Male",
+    "expected_years": 15.15,
+    "education_completion_age": 21.15
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2001,
+    "sex": "Female",
+    "expected_years": 16.67,
+    "education_completion_age": 22.67
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2002,
+    "sex": "Male",
+    "expected_years": 15.2,
+    "education_completion_age": 21.2
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2002,
+    "sex": "Female",
+    "expected_years": 16.72,
+    "education_completion_age": 22.72
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2003,
+    "sex": "Male",
+    "expected_years": 15.26,
+    "education_completion_age": 21.26
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2003,
+    "sex": "Female",
+    "expected_years": 16.76,
+    "education_completion_age": 22.76
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2004,
+    "sex": "Male",
+    "expected_years": 15.32,
+    "education_completion_age": 21.32
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2004,
+    "sex": "Female",
+    "expected_years": 16.81,
+    "education_completion_age": 22.81
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2005,
+    "sex": "Male",
+    "expected_years": 15.38,
+    "education_completion_age": 21.38
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2005,
+    "sex": "Female",
+    "expected_years": 16.86,
+    "education_completion_age": 22.86
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2006,
+    "sex": "Male",
+    "expected_years": 15.43,
+    "education_completion_age": 21.43
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2006,
+    "sex": "Female",
+    "expected_years": 16.92,
+    "education_completion_age": 22.92
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2007,
+    "sex": "Male",
+    "expected_years": 15.49,
+    "education_completion_age": 21.49
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2007,
+    "sex": "Female",
+    "expected_years": 16.98,
+    "education_completion_age": 22.98
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2008,
+    "sex": "Male",
+    "expected_years": 15.54,
+    "education_completion_age": 21.54
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2008,
+    "sex": "Female",
+    "expected_years": 17.04,
+    "education_completion_age": 23.04
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2009,
+    "sex": "Male",
+    "expected_years": 15.6,
+    "education_completion_age": 21.6
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2009,
+    "sex": "Female",
+    "expected_years": 17.09,
+    "education_completion_age": 23.09
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2010,
+    "sex": "Male",
+    "expected_years": 15.65,
+    "education_completion_age": 21.65
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2010,
+    "sex": "Female",
+    "expected_years": 17.15,
+    "education_completion_age": 23.15
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2011,
+    "sex": "Male",
+    "expected_years": 15.71,
+    "education_completion_age": 21.71
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2011,
+    "sex": "Female",
+    "expected_years": 17.21,
+    "education_completion_age": 23.21
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2012,
+    "sex": "Male",
+    "expected_years": 15.76,
+    "education_completion_age": 21.76
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2012,
+    "sex": "Female",
+    "expected_years": 17.27,
+    "education_completion_age": 23.27
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2013,
+    "sex": "Male",
+    "expected_years": 15.82,
+    "education_completion_age": 21.82
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2013,
+    "sex": "Female",
+    "expected_years": 17.33,
+    "education_completion_age": 23.33
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2014,
+    "sex": "Male",
+    "expected_years": 15.8,
+    "education_completion_age": 21.8
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2014,
+    "sex": "Female",
+    "expected_years": 17.33,
+    "education_completion_age": 23.33
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2015,
+    "sex": "Male",
+    "expected_years": 15.85,
+    "education_completion_age": 21.85
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2015,
+    "sex": "Female",
+    "expected_years": 17.35,
+    "education_completion_age": 23.35
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2016,
+    "sex": "Male",
+    "expected_years": 16.01,
+    "education_completion_age": 22.01
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2016,
+    "sex": "Female",
+    "expected_years": 17.35,
+    "education_completion_age": 23.35
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2017,
+    "sex": "Male",
+    "expected_years": 16.02,
+    "education_completion_age": 22.02
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2017,
+    "sex": "Female",
+    "expected_years": 17.34,
+    "education_completion_age": 23.34
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2018,
+    "sex": "Male",
+    "expected_years": 15.97,
+    "education_completion_age": 21.97
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2018,
+    "sex": "Female",
+    "expected_years": 17.33,
+    "education_completion_age": 23.33
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2019,
+    "sex": "Male",
+    "expected_years": 15.94,
+    "education_completion_age": 21.94
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2019,
+    "sex": "Female",
+    "expected_years": 17.35,
+    "education_completion_age": 23.35
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2020,
+    "sex": "Male",
+    "expected_years": 15.94,
+    "education_completion_age": 21.94
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2020,
+    "sex": "Female",
+    "expected_years": 17.33,
+    "education_completion_age": 23.33
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2021,
+    "sex": "Male",
+    "expected_years": 15.59,
+    "education_completion_age": 21.59
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2021,
+    "sex": "Female",
+    "expected_years": 17.26,
+    "education_completion_age": 23.26
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2022,
+    "sex": "Male",
+    "expected_years": 15.05,
+    "education_completion_age": 21.05
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2022,
+    "sex": "Female",
+    "expected_years": 16.82,
+    "education_completion_age": 22.82
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2023,
+    "sex": "Male",
+    "expected_years": 15.05,
+    "education_completion_age": 21.05
+  },
+  {
+    "country": "United States",
+    "country_code": "USA",
+    "year": 2023,
+    "sex": "Female",
+    "expected_years": 16.82,
+    "education_completion_age": 22.82
+  }
+]

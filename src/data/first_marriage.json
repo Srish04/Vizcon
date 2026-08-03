@@ -1,0 +1,3322 @@
+[
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2001,
+    "age": 26.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2002,
+    "age": 27.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2003,
+    "age": 27.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2004,
+    "age": 27.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2005,
+    "age": 27.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2006,
+    "age": 27.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2007,
+    "age": 27.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2008,
+    "age": 27.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2009,
+    "age": 27.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2010,
+    "age": 27.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2011,
+    "age": 28.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2012,
+    "age": 28.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2013,
+    "age": 28.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2014,
+    "age": 28.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2015,
+    "age": 28.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2016,
+    "age": 28.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2017,
+    "age": 28.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2018,
+    "age": 29.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2019,
+    "age": 29.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2020,
+    "age": 29.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2001,
+    "age": 29.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2002,
+    "age": 30.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2003,
+    "age": 30.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2004,
+    "age": 30.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2005,
+    "age": 30.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2006,
+    "age": 30.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2007,
+    "age": 31.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2008,
+    "age": 31.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2009,
+    "age": 31.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "age": 31.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "age": 31.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "age": 31.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "age": 31.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "age": 31.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "age": 31.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "age": 32.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "age": 32.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "age": 32.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2019,
+    "age": 32.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "age": 33.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2001,
+    "age": 28.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2002,
+    "age": 28.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "age": 28.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2004,
+    "age": 29.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "age": 29.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2006,
+    "age": 29.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2007,
+    "age": 30.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2008,
+    "age": 30.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2009,
+    "age": 30.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2010,
+    "age": 30.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "age": 30.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "age": 31.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2014,
+    "age": 32.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2015,
+    "age": 32.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2016,
+    "age": 32.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2017,
+    "age": 32.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "age": 33.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "age": 28.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2003,
+    "age": 28.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "age": 28.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2005,
+    "age": 29.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "age": 29.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2007,
+    "age": 29.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2008,
+    "age": 29.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2009,
+    "age": 29.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "age": 30.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "age": 30.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "age": 30.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "age": 30.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "age": 31.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "age": 31.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2001,
+    "age": 28.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2002,
+    "age": 28.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2003,
+    "age": 28.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "age": 28.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2005,
+    "age": 29.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "age": 29.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "age": 29.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "age": 29.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "age": 30.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "age": 30.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "age": 30.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "age": 31.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "age": 31.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "age": 31.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "age": 32.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "age": 32.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2019,
+    "age": 32.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "age": 33.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2001,
+    "age": 27.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2002,
+    "age": 27.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2003,
+    "age": 27.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2004,
+    "age": 27.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2005,
+    "age": 28.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2006,
+    "age": 28.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2007,
+    "age": 28.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2008,
+    "age": 28.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2009,
+    "age": 28.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2010,
+    "age": 28.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2011,
+    "age": 29.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2012,
+    "age": 29.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2013,
+    "age": 29.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2014,
+    "age": 29.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2015,
+    "age": 29.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2016,
+    "age": 29.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2017,
+    "age": 29.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2018,
+    "age": 29.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2019,
+    "age": 29.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2020,
+    "age": 29.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2009,
+    "age": 25.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2010,
+    "age": 26.2,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2011,
+    "age": 26.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2012,
+    "age": 26.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2013,
+    "age": 26.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2014,
+    "age": 27.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2001,
+    "age": 26.78,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2002,
+    "age": 27.01,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2003,
+    "age": 27.27,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2004,
+    "age": 27.52,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2005,
+    "age": 27.72,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2006,
+    "age": 27.79,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2007,
+    "age": 28.09,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2008,
+    "age": 28.32,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2009,
+    "age": 28.71,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2010,
+    "age": 28.91,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2011,
+    "age": 29.14,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2012,
+    "age": 29.41,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2013,
+    "age": 29.59,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2014,
+    "age": 29.81,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2015,
+    "age": 29.96,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2016,
+    "age": 30.11,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2017,
+    "age": 30.24,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2018,
+    "age": 30.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2019,
+    "age": 30.59,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2020,
+    "age": 30.78,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2001,
+    "age": 30.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2002,
+    "age": 30.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2003,
+    "age": 31.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2004,
+    "age": 31.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2005,
+    "age": 31.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2006,
+    "age": 31.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2008,
+    "age": 32.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "age": 32.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "age": 32.7,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "age": 33.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "age": 33.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2013,
+    "age": 33.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "age": 33.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "age": 33.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "age": 33.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "age": 33.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "age": 34.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2019,
+    "age": 34.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "age": 34.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2001,
+    "age": 25.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2002,
+    "age": 25.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2003,
+    "age": 25.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2004,
+    "age": 25.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2005,
+    "age": 25.3,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2006,
+    "age": 25.5,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2007,
+    "age": 25.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2008,
+    "age": 25.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2009,
+    "age": 25.9,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2010,
+    "age": 26.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2011,
+    "age": 26.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2012,
+    "age": 26.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2013,
+    "age": 26.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2014,
+    "age": 27.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2015,
+    "age": 27.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2016,
+    "age": 27.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2017,
+    "age": 27.4,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2018,
+    "age": 27.8,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2019,
+    "age": 28.0,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2020,
+    "age": 28.1,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "age": 28.6,
+    "data_type": "annual",
+    "sex": "Female"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1960,
+    "age": 22.3,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1970,
+    "age": 23.0,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1980,
+    "age": 22.7,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1986,
+    "age": 22.3,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1991,
+    "age": 22.5,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1996,
+    "age": 22.7,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2000,
+    "age": 23.1,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2010,
+    "age": 23.9,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1971,
+    "age": 17.7,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1981,
+    "age": 18.7,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1991,
+    "age": 19.3,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1993,
+    "age": 19.2,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1999,
+    "age": 19.7,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2001,
+    "age": 20.2,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2006,
+    "age": 20.2,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2011,
+    "age": 20.7,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2016,
+    "age": 21.4,
+    "data_type": "census",
+    "sex": "Female"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1971,
+    "sex": "Male",
+    "age": 24.4,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1976,
+    "sex": "Male",
+    "age": 24.4,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1981,
+    "sex": "Male",
+    "age": 25.7,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1986,
+    "sex": "Male",
+    "age": 27.1,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1988,
+    "sex": "Male",
+    "age": 27.9,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1989,
+    "sex": "Male",
+    "age": 28.1,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1990,
+    "sex": "Male",
+    "age": 28.4,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1992,
+    "sex": "Male",
+    "age": 28.6,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1993,
+    "sex": "Male",
+    "age": 28.9,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1994,
+    "sex": "Male",
+    "age": 29.2,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1996,
+    "sex": "Male",
+    "age": 29.9,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1997,
+    "sex": "Male",
+    "age": 30.2,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1999,
+    "sex": "Male",
+    "age": 30.7,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2001,
+    "sex": "Male",
+    "age": 31.0,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2006,
+    "sex": "Male",
+    "age": 31.6,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2011,
+    "sex": "Male",
+    "age": 31.4,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2016,
+    "sex": "Male",
+    "age": 31.2,
+    "data_type": "census"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1960,
+    "sex": "Male",
+    "age": 26.0,
+    "data_type": "census"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1970,
+    "sex": "Male",
+    "age": 26.2,
+    "data_type": "census"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1980,
+    "sex": "Male",
+    "age": 25.5,
+    "data_type": "census"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1991,
+    "sex": "Male",
+    "age": 25.8,
+    "data_type": "census"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1996,
+    "sex": "Male",
+    "age": 25.4,
+    "data_type": "census"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2000,
+    "sex": "Male",
+    "age": 26.2,
+    "data_type": "census"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2010,
+    "sex": "Male",
+    "age": 26.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1987,
+    "sex": "Male",
+    "age": 29.0,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1990,
+    "sex": "Male",
+    "age": 28.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1991,
+    "sex": "Male",
+    "age": 29.3,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1992,
+    "sex": "Male",
+    "age": 29.6,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1993,
+    "sex": "Male",
+    "age": 30.0,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1994,
+    "sex": "Male",
+    "age": 30.3,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "sex": "Male",
+    "age": 32.6,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "sex": "Male",
+    "age": 33.3,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "sex": "Male",
+    "age": 33.6,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "sex": "Male",
+    "age": 29.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2012,
+    "sex": "Male",
+    "age": 34.2,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "sex": "Male",
+    "age": 34.2,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "sex": "Male",
+    "age": 33.6,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "sex": "Male",
+    "age": 33.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "sex": "Male",
+    "age": 33.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "sex": "Male",
+    "age": 33.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1970,
+    "sex": "Male",
+    "age": 25.1,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1971,
+    "sex": "Male",
+    "age": 25.1,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1972,
+    "sex": "Male",
+    "age": 25.4,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1973,
+    "sex": "Male",
+    "age": 25.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1974,
+    "sex": "Male",
+    "age": 26.0,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1975,
+    "sex": "Male",
+    "age": 26.2,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1976,
+    "sex": "Male",
+    "age": 26.5,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1977,
+    "sex": "Male",
+    "age": 26.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1978,
+    "sex": "Male",
+    "age": 27.2,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1979,
+    "sex": "Male",
+    "age": 27.6,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1980,
+    "sex": "Male",
+    "age": 28.0,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1981,
+    "sex": "Male",
+    "age": 28.4,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1982,
+    "sex": "Male",
+    "age": 28.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1983,
+    "sex": "Male",
+    "age": 29.4,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1984,
+    "sex": "Male",
+    "age": 29.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1985,
+    "sex": "Male",
+    "age": 30.2,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1986,
+    "sex": "Male",
+    "age": 30.6,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1987,
+    "sex": "Male",
+    "age": 30.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1988,
+    "sex": "Male",
+    "age": 31.2,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1990,
+    "sex": "Male",
+    "age": 31.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1991,
+    "sex": "Male",
+    "age": 27.3,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1992,
+    "sex": "Male",
+    "age": 32.3,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1994,
+    "sex": "Male",
+    "age": 27.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1995,
+    "sex": "Male",
+    "age": 27.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1996,
+    "sex": "Male",
+    "age": 27.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1997,
+    "sex": "Male",
+    "age": 27.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2001,
+    "sex": "Male",
+    "age": 32.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2002,
+    "sex": "Male",
+    "age": 32.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2003,
+    "sex": "Male",
+    "age": 32.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2004,
+    "sex": "Male",
+    "age": 32.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2005,
+    "sex": "Male",
+    "age": 32.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2006,
+    "sex": "Male",
+    "age": 32.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2007,
+    "sex": "Male",
+    "age": 32.8,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2008,
+    "sex": "Male",
+    "age": 32.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2009,
+    "sex": "Male",
+    "age": 32.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "sex": "Male",
+    "age": 32.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "sex": "Male",
+    "age": 27.4,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "sex": "Male",
+    "age": 33.0,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "sex": "Male",
+    "age": 33.2,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "sex": "Male",
+    "age": 33.3,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "sex": "Male",
+    "age": 33.4,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "sex": "Male",
+    "age": 33.6,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "sex": "Male",
+    "age": 33.7,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "sex": "Male",
+    "age": 33.6,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1970,
+    "sex": "Male",
+    "age": 25.2,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1971,
+    "sex": "Male",
+    "age": 25.0,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1972,
+    "sex": "Male",
+    "age": 24.9,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1973,
+    "sex": "Male",
+    "age": 24.7,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1974,
+    "sex": "Male",
+    "age": 24.6,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1975,
+    "sex": "Male",
+    "age": 25.3,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1976,
+    "sex": "Male",
+    "age": 24.5,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1977,
+    "sex": "Male",
+    "age": 24.6,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1978,
+    "sex": "Male",
+    "age": 24.7,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1979,
+    "sex": "Male",
+    "age": 24.9,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1980,
+    "sex": "Male",
+    "age": 25.1,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1981,
+    "sex": "Male",
+    "age": 25.4,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1982,
+    "sex": "Male",
+    "age": 26.4,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1983,
+    "sex": "Male",
+    "age": 26.5,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1984,
+    "sex": "Male",
+    "age": 26.9,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1985,
+    "sex": "Male",
+    "age": 26.6,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1986,
+    "sex": "Male",
+    "age": 27.0,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1987,
+    "sex": "Male",
+    "age": 27.5,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1988,
+    "sex": "Male",
+    "age": 27.9,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1989,
+    "sex": "Male",
+    "age": 28.4,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1990,
+    "sex": "Male",
+    "age": 29.8,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1991,
+    "sex": "Male",
+    "age": 29.2,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1999,
+    "sex": "Male",
+    "age": 32.2,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2000,
+    "sex": "Male",
+    "age": 32.3,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2001,
+    "sex": "Male",
+    "age": 32.6,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "sex": "Male",
+    "age": 32.9,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "sex": "Male",
+    "age": 33.0,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "sex": "Male",
+    "age": 27.7,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2012,
+    "sex": "Male",
+    "age": 33.6,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "sex": "Male",
+    "age": 33.7,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1971,
+    "sex": "Male",
+    "age": 22.7,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1981,
+    "sex": "Male",
+    "age": 23.4,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1991,
+    "sex": "Male",
+    "age": 24.0,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1993,
+    "sex": "Male",
+    "age": 24.3,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1999,
+    "sex": "Male",
+    "age": 24.9,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2001,
+    "sex": "Male",
+    "age": 24.8,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2006,
+    "sex": "Male",
+    "age": 25.3,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2011,
+    "sex": "Male",
+    "age": 24.9,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2016,
+    "sex": "Male",
+    "age": 26.0,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1971,
+    "sex": "Male",
+    "age": 27.2,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1972,
+    "sex": "Male",
+    "age": 27.1,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1973,
+    "sex": "Male",
+    "age": 27.1,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1981,
+    "sex": "Male",
+    "age": 27.1,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1991,
+    "sex": "Male",
+    "age": 29.3,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1999,
+    "sex": "Male",
+    "age": 31.5,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2000,
+    "sex": "Male",
+    "age": 31.8,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2001,
+    "sex": "Male",
+    "age": 32.0,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2002,
+    "sex": "Male",
+    "age": 32.4,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "sex": "Male",
+    "age": 32.7,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "sex": "Male",
+    "age": 33.3,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "sex": "Male",
+    "age": 33.5,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "sex": "Male",
+    "age": 32.0,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "sex": "Male",
+    "age": 33.8,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "sex": "Male",
+    "age": 34.0,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "sex": "Male",
+    "age": 32.4,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2012,
+    "sex": "Male",
+    "age": 34.3,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "sex": "Male",
+    "age": 34.5,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "sex": "Male",
+    "age": 34.6,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "sex": "Male",
+    "age": 35.1,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "sex": "Male",
+    "age": 35.2,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "sex": "Male",
+    "age": 35.3,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1970,
+    "sex": "Male",
+    "age": 27.5,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1975,
+    "sex": "Male",
+    "age": 27.6,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1980,
+    "sex": "Male",
+    "age": 28.7,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1985,
+    "sex": "Male",
+    "age": 29.6,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1990,
+    "sex": "Male",
+    "age": 30.3,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1995,
+    "sex": "Male",
+    "age": 30.7,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2000,
+    "sex": "Male",
+    "age": 30.8,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2005,
+    "sex": "Male",
+    "age": 31.1,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2010,
+    "sex": "Male",
+    "age": 31.2,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2015,
+    "sex": "Male",
+    "age": 30.5,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1970,
+    "sex": "Male",
+    "age": 27.2,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1975,
+    "sex": "Male",
+    "age": 27.4,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1980,
+    "sex": "Male",
+    "age": 27.3,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1985,
+    "sex": "Male",
+    "age": 27.8,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1990,
+    "sex": "Male",
+    "age": 28.5,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1995,
+    "sex": "Male",
+    "age": 29.3,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2000,
+    "sex": "Male",
+    "age": 30.3,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2005,
+    "sex": "Male",
+    "age": 32.0,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2010,
+    "sex": "Male",
+    "age": 33.2,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2015,
+    "sex": "Male",
+    "age": 33.9,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1970,
+    "sex": "Male",
+    "age": 24.4,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1980,
+    "sex": "Male",
+    "age": 24.1,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1990,
+    "sex": "Male",
+    "age": 24.7,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1995,
+    "sex": "Male",
+    "age": 25.1,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2000,
+    "sex": "Male",
+    "age": 25.0,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2009,
+    "sex": "Male",
+    "age": 26.6,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2010,
+    "sex": "Male",
+    "age": 25.5,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2014,
+    "sex": "Male",
+    "age": 25.5,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2015,
+    "sex": "Male",
+    "age": 25.9,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2016,
+    "sex": "Male",
+    "age": 25.9,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2018,
+    "sex": "Male",
+    "age": 25.9,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2019,
+    "sex": "Male",
+    "age": 25.9,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1970,
+    "sex": "Male",
+    "age": 26.2,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1971,
+    "sex": "Male",
+    "age": 26.7,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1972,
+    "sex": "Male",
+    "age": 26.8,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1973,
+    "sex": "Male",
+    "age": 27.3,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1974,
+    "sex": "Male",
+    "age": 27.6,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1975,
+    "sex": "Male",
+    "age": 28.0,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1976,
+    "sex": "Male",
+    "age": 28.1,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1977,
+    "sex": "Male",
+    "age": 28.6,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1978,
+    "sex": "Male",
+    "age": 29.1,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1979,
+    "sex": "Male",
+    "age": 29.5,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1980,
+    "sex": "Male",
+    "age": 26.2,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1981,
+    "sex": "Male",
+    "age": 30.4,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1982,
+    "sex": "Male",
+    "age": 30.8,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1983,
+    "sex": "Male",
+    "age": 31.3,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1984,
+    "sex": "Male",
+    "age": 31.7,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1985,
+    "sex": "Male",
+    "age": 27.4,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1986,
+    "sex": "Male",
+    "age": 32.4,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1987,
+    "sex": "Male",
+    "age": 33.0,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1988,
+    "sex": "Male",
+    "age": 32.9,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1989,
+    "sex": "Male",
+    "age": 32.4,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1991,
+    "sex": "Male",
+    "age": 32.7,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1992,
+    "sex": "Male",
+    "age": 32.9,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1994,
+    "sex": "Male",
+    "age": 33.3,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1995,
+    "sex": "Male",
+    "age": 33.6,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1996,
+    "sex": "Male",
+    "age": 33.8,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1997,
+    "sex": "Male",
+    "age": 34.0,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1998,
+    "sex": "Male",
+    "age": 34.2,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2001,
+    "sex": "Male",
+    "age": 34.5,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2002,
+    "sex": "Male",
+    "age": 34.5,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2004,
+    "sex": "Male",
+    "age": 34.5,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2005,
+    "sex": "Male",
+    "age": 34.4,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2006,
+    "sex": "Male",
+    "age": 34.3,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2007,
+    "sex": "Male",
+    "age": 34.1,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2008,
+    "sex": "Male",
+    "age": 33.9,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "sex": "Male",
+    "age": 33.7,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "sex": "Male",
+    "age": 33.5,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "sex": "Male",
+    "age": 33.2,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "sex": "Male",
+    "age": 33.2,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "sex": "Male",
+    "age": 33.1,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "sex": "Male",
+    "age": 33.1,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "sex": "Male",
+    "age": 33.1,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "sex": "Male",
+    "age": 33.1,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "sex": "Male",
+    "age": 33.2,
+    "data_type": "census"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1970,
+    "sex": "Male",
+    "age": 23.5,
+    "data_type": "census"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2002,
+    "sex": "Male",
+    "age": 24.0,
+    "data_type": "census"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2010,
+    "sex": "Male",
+    "age": 29.2,
+    "data_type": "census"
+  }
+]

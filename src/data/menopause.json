@@ -1,0 +1,98 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "age": 51.0,
+    "source": "European menopause literature / Scandinavian avg",
+    "data_type": "estimated",
+    "reproductive_years": 37.9
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "age": 51.0,
+    "source": "European menopause literature / Southern Europe avg",
+    "data_type": "estimated",
+    "reproductive_years": 38.5
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "age": 50.0,
+    "source": "WorldPopulationReview",
+    "data_type": "survey",
+    "reproductive_years": 36.1
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "age": 51.0,
+    "source": "European menopause literature / Western Europe avg",
+    "data_type": "estimated",
+    "reproductive_years": 38.0
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "age": 51.0,
+    "source": "European menopause literature / Scandinavian avg",
+    "data_type": "estimated",
+    "reproductive_years": 38.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "age": 50.0,
+    "source": "WorldPopulationReview",
+    "data_type": "survey",
+    "reproductive_years": 37.5
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "age": 51.2,
+    "source": "WorldPopulationReview",
+    "data_type": "survey",
+    "reproductive_years": 38.8
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "age": 51.0,
+    "source": "WorldPopulationReview",
+    "data_type": "survey",
+    "reproductive_years": 38.0
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "age": 51.4,
+    "source": "WorldPopulationReview",
+    "data_type": "survey",
+    "reproductive_years": 38.6
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "age": 51.0,
+    "source": "European menopause literature / Central Europe avg",
+    "data_type": "estimated",
+    "reproductive_years": 38.2
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "age": 45.6,
+    "source": "WorldPopulationReview",
+    "data_type": "survey",
+    "reproductive_years": 31.3
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "age": 47.0,
+    "source": "WorldPopulationReview",
+    "data_type": "survey",
+    "reproductive_years": 34.6
+  }
+]

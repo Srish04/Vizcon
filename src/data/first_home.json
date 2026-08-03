@@ -1,0 +1,98 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "age": 30.5,
+    "year": 2025,
+    "source": "RE/MAX European Housing Trend Report 2025",
+    "data_type": "survey"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "age": 32.0,
+    "year": 2025,
+    "source": "RE/MAX European Housing Trend Report 2025",
+    "data_type": "survey"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "age": 35.0,
+    "year": 2024,
+    "source": "Korean industry reports",
+    "data_type": "survey"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "age": 31.5,
+    "year": 2025,
+    "source": "RE/MAX European Housing Trend Report 2025",
+    "data_type": "survey"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "age": 29.5,
+    "year": 2025,
+    "source": "RE/MAX European Housing Trend Report 2025",
+    "data_type": "survey"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "age": 38.0,
+    "year": 2024,
+    "source": "Japanese industry reports",
+    "data_type": "survey"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "age": null,
+    "year": null,
+    "source": null,
+    "data_type": "survey"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "age": 35.0,
+    "year": 2024,
+    "source": "CoreLogic / news reports",
+    "data_type": "survey"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "age": 35.0,
+    "year": 2025,
+    "source": "NAR / Redfin 2025",
+    "data_type": "survey"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "age": 33.5,
+    "year": 2025,
+    "source": "RE/MAX European Housing Trend Report 2025",
+    "data_type": "survey"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "age": null,
+    "year": null,
+    "source": null,
+    "data_type": "survey"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "age": null,
+    "year": null,
+    "source": null,
+    "data_type": "survey"
+  }
+]

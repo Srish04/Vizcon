@@ -1,0 +1,4610 @@
+[
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1960,
+    "fertility_rate": 3.453
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1961,
+    "fertility_rate": 3.542
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1962,
+    "fertility_rate": 3.425
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1963,
+    "fertility_rate": 3.334
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1964,
+    "fertility_rate": 3.146
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1965,
+    "fertility_rate": 2.979
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1966,
+    "fertility_rate": 2.883
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1967,
+    "fertility_rate": 2.851
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1968,
+    "fertility_rate": 2.889
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1969,
+    "fertility_rate": 2.889
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1970,
+    "fertility_rate": 2.86
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1971,
+    "fertility_rate": 2.948
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1972,
+    "fertility_rate": 2.742
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1973,
+    "fertility_rate": 2.493
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1974,
+    "fertility_rate": 2.376
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1975,
+    "fertility_rate": 2.207
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1976,
+    "fertility_rate": 2.063
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1977,
+    "fertility_rate": 2.019
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1978,
+    "fertility_rate": 1.961
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1979,
+    "fertility_rate": 1.913
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1980,
+    "fertility_rate": 1.901
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1981,
+    "fertility_rate": 1.94
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1982,
+    "fertility_rate": 1.94
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1983,
+    "fertility_rate": 1.931
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1984,
+    "fertility_rate": 1.872
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1985,
+    "fertility_rate": 1.899
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1986,
+    "fertility_rate": 1.872
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1987,
+    "fertility_rate": 1.851
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1988,
+    "fertility_rate": 1.84
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1989,
+    "fertility_rate": 1.843
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1990,
+    "fertility_rate": 1.908
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1991,
+    "fertility_rate": 1.863
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1992,
+    "fertility_rate": 1.892
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1993,
+    "fertility_rate": 1.864
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1994,
+    "fertility_rate": 1.852
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1995,
+    "fertility_rate": 1.825
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1996,
+    "fertility_rate": 1.804
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1997,
+    "fertility_rate": 1.783
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1998,
+    "fertility_rate": 1.765
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 1999,
+    "fertility_rate": 1.764
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2000,
+    "fertility_rate": 1.764
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2001,
+    "fertility_rate": 1.738
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2002,
+    "fertility_rate": 1.765
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2003,
+    "fertility_rate": 1.764
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2004,
+    "fertility_rate": 1.784
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2005,
+    "fertility_rate": 1.849
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2006,
+    "fertility_rate": 1.882
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2007,
+    "fertility_rate": 1.991
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2008,
+    "fertility_rate": 2.02
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2009,
+    "fertility_rate": 1.972
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2010,
+    "fertility_rate": 1.948
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2011,
+    "fertility_rate": 1.922
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2012,
+    "fertility_rate": 1.931
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2013,
+    "fertility_rate": 1.883
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2014,
+    "fertility_rate": 1.805
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2015,
+    "fertility_rate": 1.803
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2016,
+    "fertility_rate": 1.792
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2017,
+    "fertility_rate": 1.745
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2018,
+    "fertility_rate": 1.743
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2019,
+    "fertility_rate": 1.666
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2020,
+    "fertility_rate": 1.593
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2021,
+    "fertility_rate": 1.647
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2022,
+    "fertility_rate": 1.638
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2023,
+    "fertility_rate": 1.638
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1960,
+    "fertility_rate": 6.051
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1961,
+    "fertility_rate": 6.022
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1962,
+    "fertility_rate": 5.984
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1963,
+    "fertility_rate": 5.93
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1964,
+    "fertility_rate": 5.818
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1965,
+    "fertility_rate": 5.677
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1966,
+    "fertility_rate": 5.516
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1967,
+    "fertility_rate": 5.336
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1968,
+    "fertility_rate": 5.165
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1969,
+    "fertility_rate": 5.041
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1970,
+    "fertility_rate": 4.934
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1971,
+    "fertility_rate": 4.838
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1972,
+    "fertility_rate": 4.735
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1973,
+    "fertility_rate": 4.638
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1974,
+    "fertility_rate": 4.502
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1975,
+    "fertility_rate": 4.415
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1976,
+    "fertility_rate": 4.339
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1977,
+    "fertility_rate": 4.267
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1978,
+    "fertility_rate": 4.195
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1979,
+    "fertility_rate": 4.12
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1980,
+    "fertility_rate": 4.037
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1981,
+    "fertility_rate": 3.943
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1982,
+    "fertility_rate": 3.838
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1983,
+    "fertility_rate": 3.723
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1984,
+    "fertility_rate": 3.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1985,
+    "fertility_rate": 3.48
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1986,
+    "fertility_rate": 3.361
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1987,
+    "fertility_rate": 3.232
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1988,
+    "fertility_rate": 3.112
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1989,
+    "fertility_rate": 3.007
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1990,
+    "fertility_rate": 2.896
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1991,
+    "fertility_rate": 2.805
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1992,
+    "fertility_rate": 2.71
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1993,
+    "fertility_rate": 2.66
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1994,
+    "fertility_rate": 2.603
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1995,
+    "fertility_rate": 2.567
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1996,
+    "fertility_rate": 2.511
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1997,
+    "fertility_rate": 2.468
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1998,
+    "fertility_rate": 2.418
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 1999,
+    "fertility_rate": 2.335
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2000,
+    "fertility_rate": 2.247
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2001,
+    "fertility_rate": 2.162
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2002,
+    "fertility_rate": 2.081
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2003,
+    "fertility_rate": 2.006
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2004,
+    "fertility_rate": 1.973
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2005,
+    "fertility_rate": 1.942
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2006,
+    "fertility_rate": 1.896
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2007,
+    "fertility_rate": 1.854
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2008,
+    "fertility_rate": 1.815
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2009,
+    "fertility_rate": 1.799
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2010,
+    "fertility_rate": 1.786
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2011,
+    "fertility_rate": 1.777
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2012,
+    "fertility_rate": 1.766
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2013,
+    "fertility_rate": 1.761
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2014,
+    "fertility_rate": 1.775
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2015,
+    "fertility_rate": 1.777
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2016,
+    "fertility_rate": 1.727
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2017,
+    "fertility_rate": 1.74
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2018,
+    "fertility_rate": 1.744
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2019,
+    "fertility_rate": 1.705
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2020,
+    "fertility_rate": 1.653
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2021,
+    "fertility_rate": 1.638
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2022,
+    "fertility_rate": 1.629
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2023,
+    "fertility_rate": 1.619
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1960,
+    "fertility_rate": 2.561
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1961,
+    "fertility_rate": 2.547
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1962,
+    "fertility_rate": 2.549
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1963,
+    "fertility_rate": 2.655
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1964,
+    "fertility_rate": 2.601
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1965,
+    "fertility_rate": 2.608
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1966,
+    "fertility_rate": 2.607
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1967,
+    "fertility_rate": 2.351
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1968,
+    "fertility_rate": 2.119
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1969,
+    "fertility_rate": 1.998
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1970,
+    "fertility_rate": 1.956
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1971,
+    "fertility_rate": 2.038
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1972,
+    "fertility_rate": 2.026
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1973,
+    "fertility_rate": 1.921
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1974,
+    "fertility_rate": 1.898
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1975,
+    "fertility_rate": 1.908
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1976,
+    "fertility_rate": 1.75
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1977,
+    "fertility_rate": 1.663
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1978,
+    "fertility_rate": 1.661
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1979,
+    "fertility_rate": 1.601
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1980,
+    "fertility_rate": 1.54
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1981,
+    "fertility_rate": 1.44
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1982,
+    "fertility_rate": 1.42
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1983,
+    "fertility_rate": 1.378
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1984,
+    "fertility_rate": 1.398
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1985,
+    "fertility_rate": 1.443
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1986,
+    "fertility_rate": 1.476
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1987,
+    "fertility_rate": 1.497
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1988,
+    "fertility_rate": 1.558
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1989,
+    "fertility_rate": 1.617
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1990,
+    "fertility_rate": 1.664
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1991,
+    "fertility_rate": 1.685
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1992,
+    "fertility_rate": 1.755
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1993,
+    "fertility_rate": 1.75
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1994,
+    "fertility_rate": 1.801
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1995,
+    "fertility_rate": 1.801
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1996,
+    "fertility_rate": 1.751
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1997,
+    "fertility_rate": 1.749
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1998,
+    "fertility_rate": 1.723
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 1999,
+    "fertility_rate": 1.734
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2000,
+    "fertility_rate": 1.765
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2001,
+    "fertility_rate": 1.742
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2002,
+    "fertility_rate": 1.726
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2003,
+    "fertility_rate": 1.756
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2004,
+    "fertility_rate": 1.779
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2005,
+    "fertility_rate": 1.798
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2006,
+    "fertility_rate": 1.841
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2007,
+    "fertility_rate": 1.842
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2008,
+    "fertility_rate": 1.88
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2009,
+    "fertility_rate": 1.84
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2010,
+    "fertility_rate": 1.858
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2011,
+    "fertility_rate": 1.754
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2012,
+    "fertility_rate": 1.723
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2013,
+    "fertility_rate": 1.67
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2014,
+    "fertility_rate": 1.688
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2015,
+    "fertility_rate": 1.712
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2016,
+    "fertility_rate": 1.775
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2017,
+    "fertility_rate": 1.749
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "fertility_rate": 1.726
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2019,
+    "fertility_rate": 1.698
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "fertility_rate": 1.678
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2021,
+    "fertility_rate": 1.73
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2022,
+    "fertility_rate": 1.559
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2023,
+    "fertility_rate": 1.511
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1960,
+    "fertility_rate": 2.735
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1961,
+    "fertility_rate": 2.829
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1962,
+    "fertility_rate": 2.788
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1963,
+    "fertility_rate": 2.873
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1964,
+    "fertility_rate": 2.88
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1965,
+    "fertility_rate": 2.826
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1966,
+    "fertility_rate": 2.781
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1967,
+    "fertility_rate": 2.649
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1968,
+    "fertility_rate": 2.571
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1969,
+    "fertility_rate": 2.526
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1970,
+    "fertility_rate": 2.481
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1971,
+    "fertility_rate": 2.499
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1972,
+    "fertility_rate": 2.427
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1973,
+    "fertility_rate": 2.32
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1974,
+    "fertility_rate": 2.125
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1975,
+    "fertility_rate": 1.935
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1976,
+    "fertility_rate": 1.832
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1977,
+    "fertility_rate": 1.868
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1978,
+    "fertility_rate": 1.83
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1979,
+    "fertility_rate": 1.863
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1980,
+    "fertility_rate": 1.951
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1981,
+    "fertility_rate": 1.947
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1982,
+    "fertility_rate": 1.917
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1983,
+    "fertility_rate": 1.79
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1984,
+    "fertility_rate": 1.806
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1985,
+    "fertility_rate": 1.816
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1986,
+    "fertility_rate": 1.832
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1987,
+    "fertility_rate": 1.804
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1988,
+    "fertility_rate": 1.808
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1989,
+    "fertility_rate": 1.791
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1990,
+    "fertility_rate": 1.782
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1991,
+    "fertility_rate": 1.773
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1992,
+    "fertility_rate": 1.735
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1993,
+    "fertility_rate": 1.661
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1994,
+    "fertility_rate": 1.665
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1995,
+    "fertility_rate": 1.718
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1996,
+    "fertility_rate": 1.74
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1997,
+    "fertility_rate": 1.73
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1998,
+    "fertility_rate": 1.764
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 1999,
+    "fertility_rate": 1.793
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2000,
+    "fertility_rate": 1.876
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2001,
+    "fertility_rate": 1.879
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2002,
+    "fertility_rate": 1.865
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2003,
+    "fertility_rate": 1.873
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2004,
+    "fertility_rate": 1.898
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2005,
+    "fertility_rate": 1.916
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2006,
+    "fertility_rate": 1.974
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2007,
+    "fertility_rate": 1.952
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2008,
+    "fertility_rate": 1.987
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2009,
+    "fertility_rate": 1.99
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2010,
+    "fertility_rate": 2.017
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2011,
+    "fertility_rate": 1.995
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2012,
+    "fertility_rate": 1.99
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "fertility_rate": 1.973
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2014,
+    "fertility_rate": 1.974
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2015,
+    "fertility_rate": 1.927
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2016,
+    "fertility_rate": 1.892
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2017,
+    "fertility_rate": 1.859
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "fertility_rate": 1.837
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2019,
+    "fertility_rate": 1.826
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2020,
+    "fertility_rate": 1.785
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2021,
+    "fertility_rate": 1.799
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2022,
+    "fertility_rate": 1.76
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2023,
+    "fertility_rate": 1.639
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1960,
+    "fertility_rate": 2.381
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1961,
+    "fertility_rate": 2.465
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1962,
+    "fertility_rate": 2.462
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1963,
+    "fertility_rate": 2.523
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1964,
+    "fertility_rate": 2.525
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1965,
+    "fertility_rate": 2.487
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1966,
+    "fertility_rate": 2.503
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1967,
+    "fertility_rate": 2.439
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1968,
+    "fertility_rate": 2.341
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1969,
+    "fertility_rate": 2.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1970,
+    "fertility_rate": 2.024
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1971,
+    "fertility_rate": 1.951
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1972,
+    "fertility_rate": 1.726
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1973,
+    "fertility_rate": 1.551
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1974,
+    "fertility_rate": 1.521
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1975,
+    "fertility_rate": 1.477
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1976,
+    "fertility_rate": 1.494
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1977,
+    "fertility_rate": 1.498
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1978,
+    "fertility_rate": 1.489
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1979,
+    "fertility_rate": 1.494
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1980,
+    "fertility_rate": 1.556
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1981,
+    "fertility_rate": 1.529
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1982,
+    "fertility_rate": 1.504
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1983,
+    "fertility_rate": 1.43
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1984,
+    "fertility_rate": 1.389
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1985,
+    "fertility_rate": 1.378
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1986,
+    "fertility_rate": 1.417
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1987,
+    "fertility_rate": 1.438
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1988,
+    "fertility_rate": 1.464
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1989,
+    "fertility_rate": 1.433
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1990,
+    "fertility_rate": 1.46
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1991,
+    "fertility_rate": 1.344
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1992,
+    "fertility_rate": 1.305
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1993,
+    "fertility_rate": 1.288
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1994,
+    "fertility_rate": 1.254
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1995,
+    "fertility_rate": 1.262
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1996,
+    "fertility_rate": 1.33
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1997,
+    "fertility_rate": 1.377
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1998,
+    "fertility_rate": 1.364
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 1999,
+    "fertility_rate": 1.37
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2000,
+    "fertility_rate": 1.386
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2001,
+    "fertility_rate": 1.354
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2002,
+    "fertility_rate": 1.344
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2003,
+    "fertility_rate": 1.343
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2004,
+    "fertility_rate": 1.361
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2005,
+    "fertility_rate": 1.344
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2006,
+    "fertility_rate": 1.339
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2007,
+    "fertility_rate": 1.378
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2008,
+    "fertility_rate": 1.387
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2009,
+    "fertility_rate": 1.367
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2010,
+    "fertility_rate": 1.4
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2011,
+    "fertility_rate": 1.385
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2012,
+    "fertility_rate": 1.405
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2013,
+    "fertility_rate": 1.415
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2014,
+    "fertility_rate": 1.469
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2015,
+    "fertility_rate": 1.501
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2016,
+    "fertility_rate": 1.591
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "fertility_rate": 1.57
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "fertility_rate": 1.566
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2019,
+    "fertility_rate": 1.541
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2020,
+    "fertility_rate": 1.531
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2021,
+    "fertility_rate": 1.577
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2022,
+    "fertility_rate": 1.46
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2023,
+    "fertility_rate": 1.441
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1960,
+    "fertility_rate": 5.921
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1961,
+    "fertility_rate": 5.937
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1962,
+    "fertility_rate": 5.953
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1963,
+    "fertility_rate": 5.969
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1964,
+    "fertility_rate": 5.979
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1965,
+    "fertility_rate": 5.941
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1966,
+    "fertility_rate": 5.881
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1967,
+    "fertility_rate": 5.825
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1968,
+    "fertility_rate": 5.76
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1969,
+    "fertility_rate": 5.684
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1970,
+    "fertility_rate": 5.624
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1971,
+    "fertility_rate": 5.565
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1972,
+    "fertility_rate": 5.482
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1973,
+    "fertility_rate": 5.402
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1974,
+    "fertility_rate": 5.325
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1975,
+    "fertility_rate": 5.195
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1976,
+    "fertility_rate": 5.13
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1977,
+    "fertility_rate": 5.007
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1978,
+    "fertility_rate": 4.888
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1979,
+    "fertility_rate": 4.808
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1980,
+    "fertility_rate": 4.775
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1981,
+    "fertility_rate": 4.698
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1982,
+    "fertility_rate": 4.62
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1983,
+    "fertility_rate": 4.565
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1984,
+    "fertility_rate": 4.516
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1985,
+    "fertility_rate": 4.432
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1986,
+    "fertility_rate": 4.399
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1987,
+    "fertility_rate": 4.311
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1988,
+    "fertility_rate": 4.222
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1989,
+    "fertility_rate": 4.132
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1990,
+    "fertility_rate": 4.045
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1991,
+    "fertility_rate": 3.959
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1992,
+    "fertility_rate": 3.877
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1993,
+    "fertility_rate": 3.799
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1994,
+    "fertility_rate": 3.723
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1995,
+    "fertility_rate": 3.651
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1996,
+    "fertility_rate": 3.582
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1997,
+    "fertility_rate": 3.514
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1998,
+    "fertility_rate": 3.446
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 1999,
+    "fertility_rate": 3.383
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2000,
+    "fertility_rate": 3.35
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2001,
+    "fertility_rate": 3.303
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2002,
+    "fertility_rate": 3.217
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2003,
+    "fertility_rate": 3.122
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2004,
+    "fertility_rate": 3.046
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2005,
+    "fertility_rate": 2.958
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2006,
+    "fertility_rate": 2.867
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2007,
+    "fertility_rate": 2.775
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2008,
+    "fertility_rate": 2.711
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2009,
+    "fertility_rate": 2.674
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2010,
+    "fertility_rate": 2.598
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2011,
+    "fertility_rate": 2.532
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2012,
+    "fertility_rate": 2.47
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2013,
+    "fertility_rate": 2.399
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2014,
+    "fertility_rate": 2.293
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2015,
+    "fertility_rate": 2.289
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2016,
+    "fertility_rate": 2.284
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2017,
+    "fertility_rate": 2.193
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2018,
+    "fertility_rate": 2.184
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2019,
+    "fertility_rate": 2.12
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2020,
+    "fertility_rate": 2.047
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2021,
+    "fertility_rate": 2.014
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2022,
+    "fertility_rate": 1.994
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2023,
+    "fertility_rate": 1.975
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1960,
+    "fertility_rate": 2.384
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1961,
+    "fertility_rate": 2.42
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1962,
+    "fertility_rate": 2.451
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1963,
+    "fertility_rate": 2.52
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1964,
+    "fertility_rate": 2.662
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1965,
+    "fertility_rate": 2.617
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1966,
+    "fertility_rate": 2.588
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1967,
+    "fertility_rate": 2.509
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1968,
+    "fertility_rate": 2.49
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1969,
+    "fertility_rate": 2.47
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1970,
+    "fertility_rate": 2.396
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1971,
+    "fertility_rate": 2.398
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1972,
+    "fertility_rate": 2.351
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1973,
+    "fertility_rate": 2.315
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1974,
+    "fertility_rate": 2.292
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1975,
+    "fertility_rate": 2.177
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1976,
+    "fertility_rate": 2.056
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1977,
+    "fertility_rate": 1.939
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1978,
+    "fertility_rate": 1.841
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1979,
+    "fertility_rate": 1.733
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1980,
+    "fertility_rate": 1.647
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1981,
+    "fertility_rate": 1.582
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1982,
+    "fertility_rate": 1.561
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1983,
+    "fertility_rate": 1.506
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1984,
+    "fertility_rate": 1.458
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1985,
+    "fertility_rate": 1.416
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1986,
+    "fertility_rate": 1.351
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1987,
+    "fertility_rate": 1.33
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1988,
+    "fertility_rate": 1.355
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1989,
+    "fertility_rate": 1.328
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1990,
+    "fertility_rate": 1.331
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1991,
+    "fertility_rate": 1.303
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1992,
+    "fertility_rate": 1.296
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1993,
+    "fertility_rate": 1.249
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1994,
+    "fertility_rate": 1.208
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1995,
+    "fertility_rate": 1.188
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1996,
+    "fertility_rate": 1.197
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1997,
+    "fertility_rate": 1.21
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1998,
+    "fertility_rate": 1.21
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 1999,
+    "fertility_rate": 1.228
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2000,
+    "fertility_rate": 1.249
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2001,
+    "fertility_rate": 1.247
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2002,
+    "fertility_rate": 1.264
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2003,
+    "fertility_rate": 1.285
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2004,
+    "fertility_rate": 1.337
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2005,
+    "fertility_rate": 1.332
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2006,
+    "fertility_rate": 1.364
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2007,
+    "fertility_rate": 1.393
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2008,
+    "fertility_rate": 1.435
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2009,
+    "fertility_rate": 1.439
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2010,
+    "fertility_rate": 1.443
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2011,
+    "fertility_rate": 1.427
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2012,
+    "fertility_rate": 1.416
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2013,
+    "fertility_rate": 1.38
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2014,
+    "fertility_rate": 1.364
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2015,
+    "fertility_rate": 1.344
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2016,
+    "fertility_rate": 1.336
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2017,
+    "fertility_rate": 1.317
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "fertility_rate": 1.286
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2019,
+    "fertility_rate": 1.259
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "fertility_rate": 1.242
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2021,
+    "fertility_rate": 1.252
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2022,
+    "fertility_rate": 1.24
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2023,
+    "fertility_rate": 1.198
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1960,
+    "fertility_rate": 1.981
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1961,
+    "fertility_rate": 1.928
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1962,
+    "fertility_rate": 1.928
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1963,
+    "fertility_rate": 1.951
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1964,
+    "fertility_rate": 1.998
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1965,
+    "fertility_rate": 2.089
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1966,
+    "fertility_rate": 1.632
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1967,
+    "fertility_rate": 2.158
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1968,
+    "fertility_rate": 2.065
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1969,
+    "fertility_rate": 2.026
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1970,
+    "fertility_rate": 2.035
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1971,
+    "fertility_rate": 2.089
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1972,
+    "fertility_rate": 2.114
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1973,
+    "fertility_rate": 2.145
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1974,
+    "fertility_rate": 2.065
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1975,
+    "fertility_rate": 1.921
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1976,
+    "fertility_rate": 1.841
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1977,
+    "fertility_rate": 1.789
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1978,
+    "fertility_rate": 1.786
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1979,
+    "fertility_rate": 1.769
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1980,
+    "fertility_rate": 1.739
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1981,
+    "fertility_rate": 1.718
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1982,
+    "fertility_rate": 1.738
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1983,
+    "fertility_rate": 1.77
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1984,
+    "fertility_rate": 1.78
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1985,
+    "fertility_rate": 1.736
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1986,
+    "fertility_rate": 1.698
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1987,
+    "fertility_rate": 1.666
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1988,
+    "fertility_rate": 1.625
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1989,
+    "fertility_rate": 1.547
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1990,
+    "fertility_rate": 1.509
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1991,
+    "fertility_rate": 1.504
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1992,
+    "fertility_rate": 1.478
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1993,
+    "fertility_rate": 1.44
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1994,
+    "fertility_rate": 1.468
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1995,
+    "fertility_rate": 1.407
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1996,
+    "fertility_rate": 1.403
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1997,
+    "fertility_rate": 1.376
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1998,
+    "fertility_rate": 1.371
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 1999,
+    "fertility_rate": 1.34
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2000,
+    "fertility_rate": 1.346
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2001,
+    "fertility_rate": 1.325
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2002,
+    "fertility_rate": 1.308
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2003,
+    "fertility_rate": 1.285
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2004,
+    "fertility_rate": 1.277
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2005,
+    "fertility_rate": 1.245
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2006,
+    "fertility_rate": 1.285
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2007,
+    "fertility_rate": 1.305
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2008,
+    "fertility_rate": 1.33
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2009,
+    "fertility_rate": 1.333
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2010,
+    "fertility_rate": 1.357
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2011,
+    "fertility_rate": 1.363
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2012,
+    "fertility_rate": 1.376
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2013,
+    "fertility_rate": 1.389
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2014,
+    "fertility_rate": 1.388
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2015,
+    "fertility_rate": 1.415
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2016,
+    "fertility_rate": 1.408
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2017,
+    "fertility_rate": 1.39
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2018,
+    "fertility_rate": 1.373
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2019,
+    "fertility_rate": 1.323
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2020,
+    "fertility_rate": 1.304
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2021,
+    "fertility_rate": 1.275
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2022,
+    "fertility_rate": 1.256
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2023,
+    "fertility_rate": 1.208
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1960,
+    "fertility_rate": 6.763
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1961,
+    "fertility_rate": 6.777
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1962,
+    "fertility_rate": 6.8
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1963,
+    "fertility_rate": 6.817
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1964,
+    "fertility_rate": 6.833
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1965,
+    "fertility_rate": 6.819
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1966,
+    "fertility_rate": 6.79
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1967,
+    "fertility_rate": 6.753
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1968,
+    "fertility_rate": 6.707
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1969,
+    "fertility_rate": 6.626
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1970,
+    "fertility_rate": 6.529
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1971,
+    "fertility_rate": 6.419
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1972,
+    "fertility_rate": 6.281
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1973,
+    "fertility_rate": 6.121
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1974,
+    "fertility_rate": 5.947
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1975,
+    "fertility_rate": 5.739
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1976,
+    "fertility_rate": 5.543
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1977,
+    "fertility_rate": 5.361
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1978,
+    "fertility_rate": 5.202
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1979,
+    "fertility_rate": 4.964
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1980,
+    "fertility_rate": 4.739
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1981,
+    "fertility_rate": 4.574
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1982,
+    "fertility_rate": 4.425
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1983,
+    "fertility_rate": 4.296
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1984,
+    "fertility_rate": 4.184
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1985,
+    "fertility_rate": 4.087
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1986,
+    "fertility_rate": 3.971
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1987,
+    "fertility_rate": 3.803
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1988,
+    "fertility_rate": 3.64
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1989,
+    "fertility_rate": 3.532
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1990,
+    "fertility_rate": 3.444
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1991,
+    "fertility_rate": 3.363
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1992,
+    "fertility_rate": 3.285
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1993,
+    "fertility_rate": 3.211
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1994,
+    "fertility_rate": 3.132
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1995,
+    "fertility_rate": 3.044
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1996,
+    "fertility_rate": 2.964
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1997,
+    "fertility_rate": 2.886
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1998,
+    "fertility_rate": 2.815
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 1999,
+    "fertility_rate": 2.763
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2000,
+    "fertility_rate": 2.714
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2001,
+    "fertility_rate": 2.671
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2002,
+    "fertility_rate": 2.633
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2003,
+    "fertility_rate": 2.579
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2004,
+    "fertility_rate": 2.536
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2005,
+    "fertility_rate": 2.495
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2006,
+    "fertility_rate": 2.456
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2007,
+    "fertility_rate": 2.421
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2008,
+    "fertility_rate": 2.391
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2009,
+    "fertility_rate": 2.364
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2010,
+    "fertility_rate": 2.34
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2011,
+    "fertility_rate": 2.317
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2012,
+    "fertility_rate": 2.294
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2013,
+    "fertility_rate": 2.269
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2014,
+    "fertility_rate": 2.211
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2015,
+    "fertility_rate": 2.137
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2016,
+    "fertility_rate": 2.086
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2017,
+    "fertility_rate": 2.041
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2018,
+    "fertility_rate": 2.03
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2019,
+    "fertility_rate": 2.02
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2020,
+    "fertility_rate": 1.99
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2021,
+    "fertility_rate": 1.97
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2022,
+    "fertility_rate": 1.94
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2023,
+    "fertility_rate": 1.91
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1960,
+    "fertility_rate": 5.994
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1961,
+    "fertility_rate": 5.803
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1962,
+    "fertility_rate": 5.562
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1963,
+    "fertility_rate": 5.334
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1964,
+    "fertility_rate": 5.068
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1965,
+    "fertility_rate": 4.887
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1966,
+    "fertility_rate": 4.782
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1967,
+    "fertility_rate": 4.615
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1968,
+    "fertility_rate": 4.51
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1969,
+    "fertility_rate": 4.447
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1970,
+    "fertility_rate": 4.459
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1971,
+    "fertility_rate": 4.259
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1972,
+    "fertility_rate": 4.02
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1973,
+    "fertility_rate": 3.803
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1974,
+    "fertility_rate": 3.555
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1975,
+    "fertility_rate": 3.313
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1976,
+    "fertility_rate": 3.119
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1977,
+    "fertility_rate": 2.954
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1978,
+    "fertility_rate": 2.699
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1979,
+    "fertility_rate": 2.748
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1980,
+    "fertility_rate": 2.734
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1981,
+    "fertility_rate": 2.669
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1982,
+    "fertility_rate": 2.431
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1983,
+    "fertility_rate": 2.102
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1984,
+    "fertility_rate": 1.832
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1985,
+    "fertility_rate": 1.705
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1986,
+    "fertility_rate": 1.623
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1987,
+    "fertility_rate": 1.571
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1988,
+    "fertility_rate": 1.558
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1989,
+    "fertility_rate": 1.564
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1990,
+    "fertility_rate": 1.603
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1991,
+    "fertility_rate": 1.702
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1992,
+    "fertility_rate": 1.738
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1993,
+    "fertility_rate": 1.683
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1994,
+    "fertility_rate": 1.67
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1995,
+    "fertility_rate": 1.646
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1996,
+    "fertility_rate": 1.599
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1997,
+    "fertility_rate": 1.555
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1998,
+    "fertility_rate": 1.497
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 1999,
+    "fertility_rate": 1.469
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2000,
+    "fertility_rate": 1.467
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2001,
+    "fertility_rate": 1.342
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2002,
+    "fertility_rate": 1.227
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2003,
+    "fertility_rate": 1.199
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2004,
+    "fertility_rate": 1.164
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2005,
+    "fertility_rate": 1.115
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2006,
+    "fertility_rate": 1.145
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2007,
+    "fertility_rate": 1.215
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2008,
+    "fertility_rate": 1.19
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2009,
+    "fertility_rate": 1.178
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2010,
+    "fertility_rate": 1.226
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2011,
+    "fertility_rate": 1.258
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2012,
+    "fertility_rate": 1.274
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2013,
+    "fertility_rate": 1.206
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2014,
+    "fertility_rate": 1.197
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2015,
+    "fertility_rate": 1.202
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2016,
+    "fertility_rate": 1.14
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2017,
+    "fertility_rate": 1.035
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2018,
+    "fertility_rate": 0.951
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2019,
+    "fertility_rate": 0.881
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2020,
+    "fertility_rate": 0.812
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2021,
+    "fertility_rate": 0.783
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2022,
+    "fertility_rate": 0.78
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2023,
+    "fertility_rate": 0.72
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1960,
+    "fertility_rate": 2.17
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1961,
+    "fertility_rate": 2.202
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1962,
+    "fertility_rate": 2.236
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1963,
+    "fertility_rate": 2.315
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1964,
+    "fertility_rate": 2.448
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1965,
+    "fertility_rate": 2.401
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1966,
+    "fertility_rate": 2.356
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1967,
+    "fertility_rate": 2.266
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1968,
+    "fertility_rate": 2.074
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1969,
+    "fertility_rate": 1.931
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1970,
+    "fertility_rate": 1.921
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1971,
+    "fertility_rate": 1.957
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1972,
+    "fertility_rate": 1.91
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1973,
+    "fertility_rate": 1.868
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1974,
+    "fertility_rate": 1.867
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1975,
+    "fertility_rate": 1.767
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1976,
+    "fertility_rate": 1.682
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1977,
+    "fertility_rate": 1.64
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1978,
+    "fertility_rate": 1.601
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1979,
+    "fertility_rate": 1.65
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1980,
+    "fertility_rate": 1.672
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1981,
+    "fertility_rate": 1.633
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1982,
+    "fertility_rate": 1.618
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1983,
+    "fertility_rate": 1.613
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1984,
+    "fertility_rate": 1.655
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1985,
+    "fertility_rate": 1.734
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1986,
+    "fertility_rate": 1.795
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1987,
+    "fertility_rate": 1.844
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1988,
+    "fertility_rate": 1.956
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1989,
+    "fertility_rate": 2.015
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1990,
+    "fertility_rate": 2.121
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1991,
+    "fertility_rate": 2.109
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1992,
+    "fertility_rate": 2.078
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1993,
+    "fertility_rate": 1.987
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1994,
+    "fertility_rate": 1.878
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1995,
+    "fertility_rate": 1.73
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1996,
+    "fertility_rate": 1.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1997,
+    "fertility_rate": 1.527
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1998,
+    "fertility_rate": 1.506
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 1999,
+    "fertility_rate": 1.501
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2000,
+    "fertility_rate": 1.542
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2001,
+    "fertility_rate": 1.569
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2002,
+    "fertility_rate": 1.648
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2003,
+    "fertility_rate": 1.712
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2004,
+    "fertility_rate": 1.751
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2005,
+    "fertility_rate": 1.772
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2006,
+    "fertility_rate": 1.848
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2007,
+    "fertility_rate": 1.877
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2008,
+    "fertility_rate": 1.905
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2009,
+    "fertility_rate": 1.932
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2010,
+    "fertility_rate": 1.973
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2011,
+    "fertility_rate": 1.902
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2012,
+    "fertility_rate": 1.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2013,
+    "fertility_rate": 1.885
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2014,
+    "fertility_rate": 1.876
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2015,
+    "fertility_rate": 1.847
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2016,
+    "fertility_rate": 1.846
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2017,
+    "fertility_rate": 1.785
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "fertility_rate": 1.754
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2019,
+    "fertility_rate": 1.709
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "fertility_rate": 1.671
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2021,
+    "fertility_rate": 1.668
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2022,
+    "fertility_rate": 1.538
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2023,
+    "fertility_rate": 1.43
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1960,
+    "fertility_rate": 3.732
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1961,
+    "fertility_rate": 3.691
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1962,
+    "fertility_rate": 3.533
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1963,
+    "fertility_rate": 3.39
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1964,
+    "fertility_rate": 3.258
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1965,
+    "fertility_rate": 2.983
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1966,
+    "fertility_rate": 2.769
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1967,
+    "fertility_rate": 2.605
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1968,
+    "fertility_rate": 2.508
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1969,
+    "fertility_rate": 2.504
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1970,
+    "fertility_rate": 2.515
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1971,
+    "fertility_rate": 2.318
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1972,
+    "fertility_rate": 2.057
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1973,
+    "fertility_rate": 1.921
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1974,
+    "fertility_rate": 1.872
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1975,
+    "fertility_rate": 1.815
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1976,
+    "fertility_rate": 1.785
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1977,
+    "fertility_rate": 1.826
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1978,
+    "fertility_rate": 1.804
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1979,
+    "fertility_rate": 1.843
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1980,
+    "fertility_rate": 1.861
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1981,
+    "fertility_rate": 1.847
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1982,
+    "fertility_rate": 1.855
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1983,
+    "fertility_rate": 1.827
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1984,
+    "fertility_rate": 1.827
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1985,
+    "fertility_rate": 1.854
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1986,
+    "fertility_rate": 1.852
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1987,
+    "fertility_rate": 1.885
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1988,
+    "fertility_rate": 1.942
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1989,
+    "fertility_rate": 2.014
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1990,
+    "fertility_rate": 2.072
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1991,
+    "fertility_rate": 2.059
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1992,
+    "fertility_rate": 2.039
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1993,
+    "fertility_rate": 2.01
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1994,
+    "fertility_rate": 1.988
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1995,
+    "fertility_rate": 1.965
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1996,
+    "fertility_rate": 1.96
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1997,
+    "fertility_rate": 1.956
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1998,
+    "fertility_rate": 1.98
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 1999,
+    "fertility_rate": 1.99
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2000,
+    "fertility_rate": 2.03
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2001,
+    "fertility_rate": 2.011
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2002,
+    "fertility_rate": 2.003
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2003,
+    "fertility_rate": 2.025
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2004,
+    "fertility_rate": 2.031
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2005,
+    "fertility_rate": 2.04
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2006,
+    "fertility_rate": 2.087
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2007,
+    "fertility_rate": 2.096
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2008,
+    "fertility_rate": 2.053
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2009,
+    "fertility_rate": 1.987
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2010,
+    "fertility_rate": 1.916
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2011,
+    "fertility_rate": 1.879
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2012,
+    "fertility_rate": 1.862
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2013,
+    "fertility_rate": 1.84
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2014,
+    "fertility_rate": 1.848
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2015,
+    "fertility_rate": 1.832
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2016,
+    "fertility_rate": 1.804
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2017,
+    "fertility_rate": 1.753
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2018,
+    "fertility_rate": 1.715
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2019,
+    "fertility_rate": 1.684
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2020,
+    "fertility_rate": 1.616
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "fertility_rate": 1.634
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2022,
+    "fertility_rate": 1.665
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2023,
+    "fertility_rate": 1.624
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2018,
+    "sex": "Male",
+    "age": 33.2,
+    "data_type": "census"
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2020,
+    "sex": "Female",
+    "age": 34.8,
+    "data_type": "annual"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2018,
+    "sex": "Male",
+    "age": 35.3,
+    "data_type": "census"
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2020,
+    "sex": "Female",
+    "age": 33.6,
+    "data_type": "annual"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2015,
+    "sex": "Male",
+    "age": 33.9,
+    "data_type": "census"
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2020,
+    "sex": "Female",
+    "age": 30.8,
+    "data_type": "annual"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2013,
+    "sex": "Male",
+    "age": 33.7,
+    "data_type": "census"
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2018,
+    "sex": "Female",
+    "age": 33.1,
+    "data_type": "annual"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2018,
+    "sex": "Male",
+    "age": 33.6,
+    "data_type": "census"
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2020,
+    "sex": "Female",
+    "age": 33.0,
+    "data_type": "annual"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2015,
+    "sex": "Male",
+    "age": 30.5,
+    "data_type": "census"
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2020,
+    "sex": "Female",
+    "age": 29.4,
+    "data_type": "annual"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2010,
+    "sex": "Male",
+    "age": 26.8,
+    "data_type": "census"
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2010,
+    "sex": "Female",
+    "age": 23.9,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2016,
+    "sex": "Male",
+    "age": 31.2,
+    "data_type": "census"
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2020,
+    "sex": "Female",
+    "age": 29.2,
+    "data_type": "annual"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2010,
+    "sex": "Male",
+    "age": 29.2,
+    "data_type": "census"
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2021,
+    "sex": "Female",
+    "age": 28.6,
+    "data_type": "annual"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2018,
+    "sex": "Male",
+    "age": 33.9,
+    "data_type": "census"
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2017,
+    "sex": "Female",
+    "age": 31.2,
+    "data_type": "annual"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2016,
+    "sex": "Male",
+    "age": 26.0,
+    "data_type": "census"
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2016,
+    "sex": "Female",
+    "age": 21.4,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2019,
+    "sex": "Male",
+    "age": 25.9,
+    "data_type": "census"
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2014,
+    "sex": "Female",
+    "age": 27.5,
+    "data_type": "annual"
+  }
+]

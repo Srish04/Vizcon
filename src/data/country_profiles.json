@@ -1,0 +1,1634 @@
+[
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "region": "Northern Europe",
+    "milestones": {
+      "menarche": {
+        "value": 13.09,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 25.0,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": 23.1,
+        "year": 2025,
+        "available": true
+      },
+      "cohabitation": {
+        "value": 25.5,
+        "available": true,
+        "source": "Nordic family research / Eurostat",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": 30.5,
+        "year": 2025,
+        "available": true
+      },
+      "marriage": {
+        "value": 34.8,
+        "year": 2020,
+        "available": true
+      },
+      "first_baby": {
+        "value": 30.19,
+        "year": 2024,
+        "available": true
+      },
+      "fertility_rate": {
+        "value": 1.43,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 51.0,
+        "available": true,
+        "data_type": "estimated"
+      },
+      "retirement_age": {
+        "value": 65.1,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 19.7,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 7.344,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 84.1,
+        "year": 2024
+      },
+      "hale": {
+        "value": 71.1,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 13.0,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 37.9,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 62558.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 82.4,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 2.1,
+        "year": 2022
+      },
+      "maternal_mortality": {
+        "value": 4.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 1.7,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.007,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": null,
+        "year": null
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 82.6,
+        "female": 85.6,
+        "gap": 3.0
+      },
+      "hale": {
+        "male": 71.0,
+        "female": 71.2,
+        "gap": 0.2
+      },
+      "marriage_age": {
+        "male": 33.2,
+        "female": 34.8,
+        "gap": -1.6
+      }
+    },
+    "pair": {
+      "partner": "ITA",
+      "tagline": "Same wealth, different adulthood",
+      "narrative": "Both are wealthy EU nations with GDP per capita above $53,000 and life expectancy over 84 years, yet Swedes leave home at 23 while Italians stay until 30. Italy also has one of Europe's lowest fertility rates (1.20) despite later marriage at 33.6, suggesting cultural norms around family proximity, not economics, drive the gap."
+    }
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "region": "Southern Europe",
+    "milestones": {
+      "menarche": {
+        "value": 12.5,
+        "available": true,
+        "data_type": "estimated"
+      },
+      "education": {
+        "value": 22.7,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": 30.2,
+        "year": 2025,
+        "available": true
+      },
+      "cohabitation": {
+        "value": 29.5,
+        "available": true,
+        "source": "Italian family studies",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": 32.0,
+        "year": 2025,
+        "available": true
+      },
+      "marriage": {
+        "value": 33.6,
+        "year": 2020,
+        "available": true
+      },
+      "first_baby": {
+        "value": 31.66,
+        "year": 2022,
+        "available": true
+      },
+      "fertility_rate": {
+        "value": 1.198,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 51.0,
+        "available": true,
+        "data_type": "estimated"
+      },
+      "retirement_age": {
+        "value": 64.0,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 20.7,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 6.324,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 84.0,
+        "year": 2024
+      },
+      "hale": {
+        "value": 70.6,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 13.4,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 38.5,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 53285.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 57.3,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 1.4,
+        "year": 2022
+      },
+      "maternal_mortality": {
+        "value": 6.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 2.9,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.043,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 65.1,
+        "year": 2013
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 82.0,
+        "female": 86.0,
+        "gap": 4.0
+      },
+      "hale": {
+        "male": 70.0,
+        "female": 71.1,
+        "gap": 1.1
+      },
+      "marriage_age": {
+        "male": 35.3,
+        "female": 33.6,
+        "gap": 1.7
+      }
+    },
+    "pair": {
+      "partner": "SWE",
+      "tagline": "Same wealth, different adulthood",
+      "narrative": "Both are wealthy EU nations with GDP per capita above $53,000 and life expectancy over 84 years, yet Italians stay home until 30 while Swedes leave at 23. Italy's female LFPR (57%) is 25 points below Sweden's (82%), and its fertility rate of 1.20 is among the world's lowest."
+    }
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "region": "East Asia",
+    "milestones": {
+      "menarche": {
+        "value": 13.9,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 22.6,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "cohabitation": {
+        "value": null,
+        "available": false,
+        "source": "Marriage-first culture, cohabitation rare",
+        "data_type": "not_applicable"
+      },
+      "first_home": {
+        "value": 35.0,
+        "year": 2024,
+        "available": true
+      },
+      "marriage": {
+        "value": 30.8,
+        "year": 2020,
+        "available": true
+      },
+      "first_baby": {
+        "value": 32.9,
+        "year": 2023,
+        "available": true
+      },
+      "fertility_rate": {
+        "value": 0.72,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 50.0,
+        "available": true,
+        "data_type": "survey"
+      },
+      "retirement_age": {
+        "value": 67.4,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 17.3,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 6.058,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 83.6,
+        "year": 2024
+      },
+      "hale": {
+        "value": 72.5,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 11.1,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 36.1,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 55071.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 64.1,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 1.8,
+        "year": 2022
+      },
+      "maternal_mortality": {
+        "value": 4.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 0.5,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.038,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 84.2,
+        "year": 2021
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 80.8,
+        "female": 86.6,
+        "gap": 5.8
+      },
+      "hale": {
+        "male": 70.7,
+        "female": 74.1,
+        "gap": 3.4
+      },
+      "marriage_age": {
+        "male": 33.9,
+        "female": 30.8,
+        "gap": 3.1
+      }
+    },
+    "pair": {
+      "partner": "FRA",
+      "tagline": "Same lifespan, different retirement",
+      "narrative": "Both countries have similar life expectancy (83-84 years), but the French effectively retire at 62 and spend 22.5 years in retirement, while South Koreans work until 67.4 and get only 17.3 years after exit. South Korea's fertility rate of 0.72 is the lowest in the world, linked to the intense economic pressure on working-age adults."
+    }
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
+    "region": "Western Europe",
+    "milestones": {
+      "menarche": {
+        "value": 13.05,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 22.1,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": 23.8,
+        "year": 2025,
+        "available": true
+      },
+      "cohabitation": {
+        "value": 27.5,
+        "available": true,
+        "source": "INED French family surveys",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": 31.5,
+        "year": 2025,
+        "available": true
+      },
+      "marriage": {
+        "value": 33.1,
+        "year": 2018,
+        "available": true
+      },
+      "first_baby": {
+        "value": 31.08,
+        "year": 2022,
+        "available": true
+      },
+      "fertility_rate": {
+        "value": 1.639,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 51.0,
+        "available": true,
+        "data_type": "estimated"
+      },
+      "retirement_age": {
+        "value": 61.9,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 22.5,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 6.609,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 83.0,
+        "year": 2024
+      },
+      "hale": {
+        "value": 70.1,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 12.9,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 38.0,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 54799.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 71.2,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 1.9,
+        "year": 2016
+      },
+      "maternal_mortality": {
+        "value": 7.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 3.3,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.034,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 78.4,
+        "year": 2010
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 80.2,
+        "female": 85.9,
+        "gap": 5.7
+      },
+      "hale": {
+        "male": 69.1,
+        "female": 71.0,
+        "gap": 1.9
+      },
+      "marriage_age": {
+        "male": 33.7,
+        "female": 33.1,
+        "gap": 0.6
+      }
+    },
+    "pair": {
+      "partner": "KOR",
+      "tagline": "Same lifespan, different retirement",
+      "narrative": "France and South Korea share similar lifespans (83-84 years), but France's early effective retirement at 61.9 yields 22.5 years of post-work life. South Korea's workers exit at 67.4 with only 17.3 years after. France's higher happiness score (6.6 vs 6.1) may reflect the value placed on life beyond work."
+    }
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "region": "Northern Europe",
+    "milestones": {
+      "menarche": {
+        "value": 13.0,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 24.7,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": 21.8,
+        "year": 2025,
+        "available": true
+      },
+      "cohabitation": {
+        "value": 24.5,
+        "available": true,
+        "source": "Nordic family research",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": 29.5,
+        "year": 2025,
+        "available": true
+      },
+      "marriage": {
+        "value": 33.0,
+        "year": 2020,
+        "available": true
+      },
+      "first_baby": {
+        "value": 30.34,
+        "year": 2024,
+        "available": true
+      },
+      "fertility_rate": {
+        "value": 1.511,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 51.0,
+        "available": true,
+        "data_type": "estimated"
+      },
+      "retirement_age": {
+        "value": 66.3,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 17.9,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 7.583,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 82.3,
+        "year": 2024
+      },
+      "hale": {
+        "value": 70.1,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 12.2,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 38.0,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 71035.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 79.7,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 2.08,
+        "year": 2022
+      },
+      "maternal_mortality": {
+        "value": 4.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 1.1,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.003,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": null,
+        "year": null
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 80.4,
+        "female": 84.2,
+        "gap": 3.8
+      },
+      "hale": {
+        "male": 69.7,
+        "female": 70.4,
+        "gap": 0.7
+      },
+      "marriage_age": {
+        "male": 33.6,
+        "female": 33.0,
+        "gap": 0.6
+      }
+    },
+    "pair": {
+      "partner": "JPN",
+      "tagline": "Policy shapes timing",
+      "narrative": "Denmark's generous welfare state enables young people to leave home at 21.8 and marry at 33, while maintaining a happiness score of 7.6 and female LFPR of 80%. Japan's workers stay until 67 before retiring, marry at 29.4, and score only 6.1 on happiness despite similar GDP. Policy design, not wealth, determines when life milestones happen."
+    }
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "region": "East Asia",
+    "milestones": {
+      "menarche": {
+        "value": 12.5,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 21.5,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "cohabitation": {
+        "value": null,
+        "available": false,
+        "source": "Marriage-first culture, cohabitation rare",
+        "data_type": "not_applicable"
+      },
+      "first_home": {
+        "value": 38.0,
+        "year": 2024,
+        "available": true
+      },
+      "marriage": {
+        "value": 29.4,
+        "year": 2020,
+        "available": true
+      },
+      "first_baby": {
+        "value": 30.71,
+        "year": 2023,
+        "available": true
+      },
+      "fertility_rate": {
+        "value": 1.208,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 50.0,
+        "available": true,
+        "data_type": "survey"
+      },
+      "retirement_age": {
+        "value": 66.9,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 18.6,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 6.06,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 84.0,
+        "year": 2024
+      },
+      "hale": {
+        "value": 73.4,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 10.6,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 37.5,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 47480.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 76.5,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 1.52,
+        "year": 2022
+      },
+      "maternal_mortality": {
+        "value": 3.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 1.6,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.059,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 58.3,
+        "year": 2021
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 81.1,
+        "female": 87.1,
+        "gap": 6.0
+      },
+      "hale": {
+        "male": 71.9,
+        "female": 74.8,
+        "gap": 2.9
+      },
+      "marriage_age": {
+        "male": 30.5,
+        "female": 29.4,
+        "gap": 1.1
+      }
+    },
+    "pair": {
+      "partner": "DNK",
+      "tagline": "Policy shapes timing",
+      "narrative": "Japan and Denmark have similar wealth levels but radically different life patterns. Japan's workers exit the labour market at 66.9 with 18.6 years after, while Danes leave at 66.3 but report much higher happiness (7.6 vs 6.1). Japan's fertility crisis (1.21) mirrors South Korea's, driven by similar work-culture pressures."
+    }
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "milestones": {
+      "menarche": {
+        "value": 12.4,
+        "available": true,
+        "data_type": "estimated"
+      },
+      "education": {
+        "value": 21.8,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "cohabitation": {
+        "value": 22.5,
+        "available": true,
+        "source": "DHS / informal union data",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "marriage": {
+        "value": 23.9,
+        "year": 2010,
+        "available": true
+      },
+      "first_baby": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "fertility_rate": {
+        "value": 1.619,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 51.2,
+        "available": true,
+        "data_type": "survey"
+      },
+      "retirement_age": {
+        "value": 63.4,
+        "year": 2022,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 15.1,
+        "year": 2004,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 6.272,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 76.0,
+        "year": 2024
+      },
+      "hale": {
+        "value": 61.8,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 14.2,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 38.8,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 19652.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 61.4,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": null,
+        "year": null
+      },
+      "maternal_mortality": {
+        "value": 67.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 41.5,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.39,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 80.2,
+        "year": 2013
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 73.0,
+        "female": 79.1,
+        "gap": 6.1
+      },
+      "hale": {
+        "male": 60.3,
+        "female": 63.4,
+        "gap": 3.1
+      },
+      "marriage_age": {
+        "male": 26.8,
+        "female": 23.9,
+        "gap": 2.9
+      }
+    },
+    "pair": {
+      "partner": "AUS",
+      "tagline": "Development and convergence",
+      "narrative": "Brazil and Australia represent different development stages converging in some metrics. Australia's GDP per capita ($60,310) is 3x Brazil's ($19,652), yet Brazil's marriage age (23.9) is catching up as urbanization accelerates. Both have similar fertility rates (1.62-1.64), showing how demographic transition outpaces economic convergence."
+    }
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "milestones": {
+      "menarche": {
+        "value": 13.0,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 26.6,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "cohabitation": {
+        "value": 26.5,
+        "available": true,
+        "source": "Australian household surveys",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": 35.0,
+        "year": 2024,
+        "available": true
+      },
+      "marriage": {
+        "value": 29.2,
+        "year": 2020,
+        "available": true
+      },
+      "first_baby": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "fertility_rate": {
+        "value": 1.638,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 51.0,
+        "available": true,
+        "data_type": "survey"
+      },
+      "retirement_age": {
+        "value": 64.9,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 20.9,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 7.057,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 83.1,
+        "year": 2024
+      },
+      "hale": {
+        "value": 70.6,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 12.5,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 38.0,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 60310.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 77.2,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 1.89,
+        "year": 2022
+      },
+      "maternal_mortality": {
+        "value": 2.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 6.4,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.056,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 66.9,
+        "year": 2016
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 81.1,
+        "female": 85.1,
+        "gap": 4.0
+      },
+      "hale": {
+        "male": 70.1,
+        "female": 71.1,
+        "gap": 1.0
+      },
+      "marriage_age": {
+        "male": 31.2,
+        "female": 29.2,
+        "gap": 2.0
+      }
+    },
+    "pair": {
+      "partner": "BRA",
+      "tagline": "Development and convergence",
+      "narrative": "Australia and Brazil share nearly identical fertility rates (1.64 vs 1.62) despite a 3x GDP gap. Australia's women marry at 29.2 with 77% workforce participation, while Brazil's marry at 23.9 with 61% LFPR. The demographic transition has converged even as economic outcomes diverge -- Australia's life expectancy (83.1) is 7 years higher than Brazil's (76.0)."
+    }
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "milestones": {
+      "menarche": {
+        "value": 12.8,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 21.9,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "cohabitation": {
+        "value": 23.5,
+        "available": true,
+        "source": "CDC NSFG / Pew 2019",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": 35.0,
+        "year": 2025,
+        "available": true
+      },
+      "marriage": {
+        "value": 28.6,
+        "year": 2021,
+        "available": true
+      },
+      "first_baby": {
+        "value": 27.85,
+        "year": 2023,
+        "available": true
+      },
+      "fertility_rate": {
+        "value": 1.624,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 51.4,
+        "available": true,
+        "data_type": "survey"
+      },
+      "retirement_age": {
+        "value": 67.3,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 17.0,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 6.725,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 78.9,
+        "year": 2024
+      },
+      "hale": {
+        "value": 63.9,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 15.0,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 38.6,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 75698.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 68.9,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 2.5,
+        "year": 2021
+      },
+      "maternal_mortality": {
+        "value": 17.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 12.4,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.169,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 73.9,
+        "year": 2019
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 76.5,
+        "female": 81.4,
+        "gap": 4.9
+      },
+      "hale": {
+        "male": 62.8,
+        "female": 65.1,
+        "gap": 2.3
+      },
+      "marriage_age": {
+        "male": 29.2,
+        "female": 28.6,
+        "gap": 0.6
+      }
+    },
+    "pair": {
+      "partner": "DEU",
+      "tagline": "The parental leave gap",
+      "narrative": "The US and Germany have similar GDP ($75,698 vs $62,655) but different support structures. Germany offers generous parental leave, contributing to a female LFPR of 76% and home-leaving age of 24.1. The US, with minimal mandated leave, sees women marry at 28.6 and participate at 69%. Yet American life expectancy (78.9) lags Germany's (80.8) by nearly 2 years."
+    }
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "region": "Western Europe",
+    "milestones": {
+      "menarche": {
+        "value": 12.8,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 23.3,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": 24.1,
+        "year": 2025,
+        "available": true
+      },
+      "cohabitation": {
+        "value": 26.5,
+        "available": true,
+        "source": "Eurostat household surveys",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": 33.5,
+        "year": 2025,
+        "available": true
+      },
+      "marriage": {
+        "value": 31.2,
+        "year": 2017,
+        "available": true
+      },
+      "first_baby": {
+        "value": 29.56,
+        "year": 2017,
+        "available": true
+      },
+      "fertility_rate": {
+        "value": 1.441,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 51.0,
+        "available": true,
+        "data_type": "estimated"
+      },
+      "retirement_age": {
+        "value": 64.2,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 19.0,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 6.719,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 80.8,
+        "year": 2024
+      },
+      "hale": {
+        "value": 68.9,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 11.9,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 38.2,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 62655.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 75.9,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 1.63,
+        "year": 2022
+      },
+      "maternal_mortality": {
+        "value": 4.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 5.2,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.057,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 80.3,
+        "year": 2011
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 78.5,
+        "female": 83.2,
+        "gap": 4.7
+      },
+      "hale": {
+        "male": 68.4,
+        "female": 69.4,
+        "gap": 1.0
+      },
+      "marriage_age": {
+        "male": 33.9,
+        "female": 31.2,
+        "gap": 2.7
+      }
+    },
+    "pair": {
+      "partner": "USA",
+      "tagline": "The parental leave gap",
+      "narrative": "Germany and the US are both wealthy nations, but German policy actively supports the transition to parenthood. Germans leave home at 24.1, marry at 31.2, and retire at 64.2 with 19 years after. The US has higher GDP but lower life expectancy (78.9 vs 80.8) and lower female LFPR (69% vs 76%), reflecting different social investment choices."
+    }
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "flag": "🇮🇳",
+    "region": "South Asia",
+    "milestones": {
+      "menarche": {
+        "value": 14.31,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 18.9,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "cohabitation": {
+        "value": null,
+        "available": false,
+        "source": "Marriage-first culture, cohabitation rare",
+        "data_type": "not_applicable"
+      },
+      "first_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "marriage": {
+        "value": 21.4,
+        "year": 2016,
+        "available": true
+      },
+      "first_baby": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "fertility_rate": {
+        "value": 1.975,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 45.6,
+        "available": true,
+        "data_type": "survey"
+      },
+      "retirement_age": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "years_after_exit": {
+        "value": null,
+        "year": null,
+        "available": false
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 4.054,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 72.2,
+        "year": 2024
+      },
+      "hale": {
+        "value": 58.1,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 14.1,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 31.3,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 9416.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 34.8,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": null,
+        "year": null
+      },
+      "maternal_mortality": {
+        "value": 80.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 13.0,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.403,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 66.7,
+        "year": 2021
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 70.7,
+        "female": 73.9,
+        "gap": 3.2
+      },
+      "hale": {
+        "male": 58.0,
+        "female": 58.3,
+        "gap": 0.3
+      },
+      "marriage_age": {
+        "male": 26.0,
+        "female": 21.4,
+        "gap": 4.6
+      }
+    },
+    "pair": {
+      "partner": "MEX",
+      "tagline": "Global south, rapid change",
+      "narrative": "India and Mexico anchor the dataset as rapidly developing nations. India's marriage age (21.4) is the youngest and its female LFPR (35%) the lowest, yet its fertility rate has dropped to 1.98 -- near replacement level. Mexico marries later (27.5) with higher female workforce participation (52%), showing how different paths lead to similar demographic outcomes."
+    }
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "region": "North America",
+    "milestones": {
+      "menarche": {
+        "value": 12.4,
+        "available": true,
+        "data_type": "survey"
+      },
+      "education": {
+        "value": 20.5,
+        "year": 2023,
+        "available": true
+      },
+      "leaving_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "cohabitation": {
+        "value": 21.5,
+        "available": true,
+        "source": "DHS / informal union data",
+        "data_type": "estimated"
+      },
+      "first_home": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "marriage": {
+        "value": 27.5,
+        "year": 2014,
+        "available": true
+      },
+      "first_baby": {
+        "value": null,
+        "year": null,
+        "available": false
+      },
+      "fertility_rate": {
+        "value": 1.91,
+        "year": 2023,
+        "available": true
+      },
+      "menopause": {
+        "value": 47.0,
+        "available": true,
+        "data_type": "survey"
+      },
+      "retirement_age": {
+        "value": 67.8,
+        "year": 2024,
+        "available": true
+      },
+      "years_after_exit": {
+        "value": 15.2,
+        "year": 2024,
+        "available": true
+      }
+    },
+    "outcomes": {
+      "happiness": {
+        "value": 6.678,
+        "year": 2024
+      },
+      "life_expectancy": {
+        "value": 75.3,
+        "year": 2024
+      },
+      "hale": {
+        "value": 61.4,
+        "year": 2021
+      },
+      "years_poor_health": {
+        "value": 13.9,
+        "year": 2021
+      },
+      "reproductive_years": {
+        "value": 34.6,
+        "year": null
+      },
+      "gdp_per_capita": {
+        "value": 21970.0,
+        "year": 2024
+      },
+      "female_lfpr": {
+        "value": 51.7,
+        "year": 2024
+      },
+      "divorce_rate": {
+        "value": 1.28,
+        "year": 2022
+      },
+      "maternal_mortality": {
+        "value": 42.0,
+        "year": 2023
+      },
+      "adolescent_fertility": {
+        "value": 59.3,
+        "year": 2024
+      },
+      "gender_inequality_index": {
+        "value": 0.358,
+        "year": 2023
+      },
+      "contraceptive_prevalence": {
+        "value": 71.8,
+        "year": 2023
+      }
+    },
+    "gender": {
+      "life_expectancy": {
+        "male": 72.4,
+        "female": 78.0,
+        "gap": 5.6
+      },
+      "hale": {
+        "male": 59.5,
+        "female": 63.5,
+        "gap": 4.0
+      },
+      "marriage_age": {
+        "male": 25.9,
+        "female": 27.5,
+        "gap": -1.6
+      }
+    },
+    "pair": {
+      "partner": "IND",
+      "tagline": "Global south, rapid change",
+      "narrative": "Mexico and India are both experiencing rapid demographic transition. Mexico's fertility dropped from 6.76 (1960) to 1.91, while maintaining a later marriage age (27.5) than India (21.4). Mexico's happiness score (6.7) significantly exceeds India's (4.1) despite similar GDP levels, suggesting social connections and work-life balance matter beyond economics."
+    }
+  }
+]
