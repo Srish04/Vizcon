@@ -138,6 +138,17 @@ function RaceAnimation() {
           Every life begins the same way. Culture, policy, and economics decide the rest.
         </motion.p>
       )}
+      {isFinalStep && (
+        <motion.button
+          className="mt-4 text-xs font-body text-white/30 hover:text-white/60 cursor-pointer transition-colors self-end"
+          onClick={() => { setCurrentStep(0); setStarted(false) }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 0.5 }}
+        >
+          ↻ Replay
+        </motion.button>
+      )}
     </div>
   )
 }
@@ -280,6 +291,94 @@ function LongevityCard({ onNavigate }) {
   )
 }
 
+function GenderCard({ onNavigate }) {
+  const ref = useRef(null)
+  const inView = useInView(ref, { amount: 0.3, once: true })
+  return (
+    <motion.div ref={ref} className="flex flex-col md:flex-row-reverse items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#E07A5F40' }}
+      initial={{ opacity: 0, x: 40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
+      <div className="md:w-[30%] flex-shrink-0 text-right">
+        <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#E07A5F]">3.8</p>
+      </div>
+      <div className="md:w-[70%]">
+        {/* Mini stacked bars: France M vs F */}
+        <div className="space-y-2 mb-4 max-w-[250px]">
+          <div>
+            <p className="text-[9px] font-data text-text-muted mb-0.5">France ♀ (14.9 yrs poor health)</p>
+            <div className="flex h-4 rounded-sm overflow-hidden">
+              <div className="bg-[#2D6A4F] h-full" style={{ width: '83%' }} />
+              <div className="bg-[#E07A5F] h-full" style={{ width: '17%' }} />
+            </div>
+          </div>
+          <div>
+            <p className="text-[9px] font-data text-text-muted mb-0.5">France ♂ (11.1 yrs poor health)</p>
+            <div className="flex h-4 rounded-sm overflow-hidden">
+              <div className="bg-[#2D6A4F] h-full" style={{ width: '86%' }} />
+              <div className="bg-[#78909C] h-full" style={{ width: '14%' }} />
+            </div>
+          </div>
+        </div>
+        <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
+          extra years French women spend in poor health compared to French men. The largest gender gap in our data. Women live longer everywhere, but the quality of those years varies dramatically.
+        </p>
+        <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#E07A5F]">
+          Explore the gender dimension →
+        </button>
+      </div>
+    </motion.div>
+  )
+}
+
+// --- Animated World Map Background ---
+function WorldMapBg() {
+  // Simplified world map dots at approximate city locations
+  const dots = [
+    { x: 20, y: 35 }, { x: 25, y: 45 }, { x: 30, y: 60 }, // Americas
+    { x: 15, y: 30 }, { x: 22, y: 28 }, { x: 35, y: 55 },
+    { x: 48, y: 30 }, { x: 50, y: 35 }, { x: 52, y: 28 }, // Europe
+    { x: 47, y: 25 }, { x: 55, y: 30 }, { x: 53, y: 33 },
+    { x: 58, y: 40 }, { x: 62, y: 35 }, { x: 65, y: 45 }, // Middle East/Asia
+    { x: 70, y: 35 }, { x: 75, y: 30 }, { x: 78, y: 38 },
+    { x: 80, y: 28 }, { x: 85, y: 35 }, { x: 82, y: 42 }, // East Asia
+    { x: 50, y: 55 }, { x: 55, y: 60 }, { x: 48, y: 50 }, // Africa
+    { x: 85, y: 60 }, { x: 88, y: 55 }, // Australia
+  ]
+  const connections = [
+    [0, 8], [3, 10], [8, 16], [12, 19],
+  ]
+  return (
+    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      <svg className="w-[80%] h-[80%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" viewBox="0 0 100 80">
+        {/* Animated connecting lines */}
+        {connections.map(([a, b], i) => (
+          <motion.path
+            key={i}
+            d={`M ${dots[a].x} ${dots[a].y} Q ${(dots[a].x + dots[b].x) / 2} ${Math.min(dots[a].y, dots[b].y) - 8} ${dots[b].x} ${dots[b].y}`}
+            stroke={MILESTONE_COLORS[i % MILESTONE_COLORS.length]}
+            strokeWidth="0.3"
+            fill="none"
+            strokeDasharray="4 4"
+            opacity="0.15"
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: [0, 1, 1, 0] }}
+            transition={{ duration: 6, repeat: Infinity, delay: i * 1.5, ease: 'easeInOut' }}
+          />
+        ))}
+        {/* Pulsing city dots */}
+        {dots.map((dot, i) => (
+          <motion.circle
+            key={i}
+            cx={dot.x} cy={dot.y} r="0.6"
+            fill={MILESTONE_COLORS[i % MILESTONE_COLORS.length]}
+            animate={{ opacity: [0.15, 0.45, 0.15] }}
+            transition={{ duration: 2 + Math.random() * 2, repeat: Infinity, delay: Math.random() * 3 }}
+          />
+        ))}
+      </svg>
+    </div>
+  )
+}
+
 // --- Main HomePage ---
 export default function HomePage({ onPairSelected, onNavigate }) {
   const [customSelected, setCustomSelected] = useState([])
@@ -299,8 +398,9 @@ export default function HomePage({ onPairSelected, onNavigate }) {
       <GradientLine />
 
       {/* SECTION 1: Hero (DARK) */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-4 relative" style={{ backgroundColor: '#1a2e3b' }}>
-        <motion.div className="text-center max-w-[750px]"
+      <section className="min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden" style={{ backgroundColor: '#1a2e3b' }}>
+        <WorldMapBg />
+        <motion.div className="text-center max-w-[750px] relative z-10"
           initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <h1 className="font-display text-[40px] md:text-[56px] leading-tight mb-8">
             <span className="font-bold text-white">Same milestones.</span>
@@ -362,6 +462,7 @@ export default function HomePage({ onPairSelected, onNavigate }) {
           <SequenceCard onNavigate={onNavigate} />
           <ScatterCard onNavigate={onNavigate} />
           <LongevityCard onNavigate={onNavigate} />
+          <GenderCard onNavigate={onNavigate} />
         </div>
       </section>
 
