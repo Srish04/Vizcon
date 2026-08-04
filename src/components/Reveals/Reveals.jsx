@@ -30,7 +30,7 @@ function Reveal1Intro() {
     { color: '#E9C46A', label: 'Baby' }, { color: '#E76F51', label: 'Marry' },
   ]
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4 bg-bg">
+    <section ref={ref} className="min-h-screen flex flex-col items-center justify-center px-4 bg-bg">
       <motion.div className="text-center max-w-[600px]"
         initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.6 }}>
         {/* Expected sequence */}
@@ -84,7 +84,7 @@ function Reveal1Viz() {
   const babyBeforeCount = sequences.filter(s => (s.violations || []).includes('baby_before_marriage')).length
 
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4 py-12 bg-bg">
+    <section ref={ref} className="min-h-screen flex flex-col items-center justify-center px-4 py-12 bg-bg">
       <div className="w-full max-w-[800px]">
         <motion.h2 className="font-display text-2xl md:text-[36px] text-center mb-8 text-text"
           initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.5 }}>
@@ -133,7 +133,7 @@ function Reveal2Intro() {
   const ref = useRef(null)
   const inView = useInView(ref, { amount: 0.4, once: true })
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4" style={{ backgroundColor: '#1a2e3b' }}>
+    <section ref={ref} className="min-h-screen flex flex-col items-center justify-center px-4" style={{ backgroundColor: '#1a2e3b' }}>
       <motion.div className="text-center max-w-[600px]"
         initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.6 }}>
         {/* Hub and spoke infographic */}
@@ -189,7 +189,7 @@ function Reveal2Viz() {
   }
 
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4 py-12" style={{ backgroundColor: '#1a2e3b' }}>
+    <section ref={ref} className="min-h-screen flex flex-col items-center justify-center px-4 py-12" style={{ backgroundColor: '#1a2e3b' }}>
       <div className="w-full max-w-[900px]">
         <motion.h2 className="font-display text-2xl md:text-[36px] text-center mb-2 text-white"
           initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.5 }}>
@@ -243,7 +243,7 @@ function Reveal3Intro() {
   const ref = useRef(null)
   const inView = useInView(ref, { amount: 0.4, once: true })
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4 bg-bg">
+    <section ref={ref} className="min-h-screen flex flex-col items-center justify-center px-4 bg-bg">
       <motion.div className="text-center max-w-[500px]"
         initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.6 }}>
         {/* Silhouette infographic */}
@@ -287,7 +287,7 @@ function Reveal3Viz() {
   const maxExtra = Math.max(...longevityData.map(d => d.extraYears))
 
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center px-4 py-12 bg-bg">
+    <section ref={ref} className="min-h-screen flex flex-col items-center px-4 py-12 bg-bg">
       <div className="w-full max-w-[800px]">
         <motion.h2 className="font-display text-2xl md:text-[36px] text-center mb-2 text-text"
           initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.5 }}>
@@ -328,9 +328,9 @@ export default function Reveals({ onComplete, onPickPair, selectedPair }) {
   const introSub = selectedPair ? "Here's what all of them reveal." : '44 countries. Every continent.'
 
   return (
-    <div className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
+    <div className="overflow-y-auto scroll-smooth">
       {/* Intro */}
-      <section className="min-h-screen snap-start flex flex-col items-center justify-center px-4 bg-bg">
+      <section className="min-h-screen flex flex-col items-center justify-center px-4 bg-bg">
         <motion.div className="text-center" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <h2 className="font-display text-2xl md:text-4xl text-text mb-3">{introTitle}</h2>
           <p className="font-display text-xl md:text-3xl text-text-secondary mb-8">{introSub}</p>
@@ -350,7 +350,7 @@ export default function Reveals({ onComplete, onPickPair, selectedPair }) {
       <Reveal3Viz />
 
       {/* Outro */}
-      <section className="min-h-screen snap-start flex flex-col items-center justify-center px-4 bg-bg">
+      <section className="min-h-screen flex flex-col items-center justify-center px-4 bg-bg">
         <motion.div className="text-center" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ amount: 0.5, once: true }} transition={{ duration: 0.8 }}>
           <h2 className="font-display text-2xl md:text-3xl text-text mb-6">Now explore for yourself.</h2>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

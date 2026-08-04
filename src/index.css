@@ -23,3 +23,7 @@
   --font-body: 'Inter', sans-serif;
   --font-data: 'JetBrains Mono', monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
