@@ -4,6 +4,10 @@ import countryProfiles from '../../data/country_profiles.json'
 import globalMetrics from '../../data/global_metrics.json'
 import surpriseMetrics from '../../data/surprise_metrics.json'
 
+console.log('[Reveals] Global metrics loaded:', globalMetrics.length, 'countries')
+console.log('[Reveals] Surprise metrics loaded:', Object.keys(surpriseMetrics).length, 'sections')
+console.log('[Reveals] Country profiles loaded:', countryProfiles.length, 'countries')
+
 const MILESTONE_COLORS = {
   education: '#2D6A4F',
   leave_home: '#2A9D8F',
@@ -50,7 +54,7 @@ function RevealSequence() {
   ).length
 
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4 md:px-8 py-12">
+    <section id="reveal-sequence" ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4 md:px-8 py-12">
       <div className="w-full max-w-[900px]">
         {/* Intro buildup */}
         <motion.p
@@ -165,7 +169,7 @@ function RevealScatter() {
   }
 
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4 md:px-8 py-12 bg-[#264653]">
+    <section id="reveal-onenumber" ref={ref} className="min-h-screen snap-start flex flex-col items-center justify-center px-4 md:px-8 py-12 bg-[#264653]">
       <div className="w-full max-w-[900px]">
         <motion.p
           className="text-white/60 font-body text-sm md:text-base text-center leading-relaxed max-w-[600px] mx-auto mb-6"
@@ -276,7 +280,7 @@ function RevealLongevity() {
   const maxExtra = Math.max(...longevityData.map(d => d.extraYears))
 
   return (
-    <section ref={ref} className="min-h-screen snap-start flex flex-col items-center px-4 md:px-8 py-12 overflow-y-auto">
+    <section id="reveal-longevity" ref={ref} className="min-h-screen snap-start flex flex-col items-center px-4 md:px-8 py-12 overflow-y-auto">
       <div className="w-full max-w-[900px]">
         {/* Intro buildup */}
         <motion.p

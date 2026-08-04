@@ -73,6 +73,7 @@ function App() {
         <Navbar
           currentAct={currentAct}
           hasPair={selectedPair != null}
+          pairNames={selectedPair ? `${selectedPair[0]} & ${selectedPair[1]}` : null}
           onNavigate={handleNavigate}
         />
       )}

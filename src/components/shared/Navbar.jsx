@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
 
-export default function Navbar({ currentAct, hasPair, onNavigate }) {
+export default function Navbar({ currentAct, hasPair, pairNames, onNavigate }) {
   const links = [
-    { key: 'journey', label: 'The Journey', enabled: hasPair },
+    { key: 'journey', label: hasPair && pairNames ? `The Journey: ${pairNames}` : 'The Journey', enabled: hasPair },
     { key: 'reveals', label: 'Discoveries', enabled: true },
     { key: 'explore', label: 'Explore', enabled: true },
     { key: 'quiz', label: 'Quiz', enabled: true },

@@ -169,7 +169,7 @@ function getSuggestedNextPair(currentPair) {
 // --- Connection Section ---
 function ConnectionSection({ conn, profileA, profileB, index, total }) {
   const ref = useRef(null)
-  const isInView = useInView(ref, { amount: 0.4, once: true })
+  const isInView = useInView(ref, { amount: 0.2, once: true })
 
   const milestoneInfo = MILESTONE_META[conn.milestone] || { label: conn.milestone, color: '#666', range: [0, 100] }
   const outcomeInfo = OUTCOME_META[conn.outcome] || { label: conn.outcome, range: [0, 100] }
@@ -354,6 +354,8 @@ export default function Outcomes({ pair, onComplete, onTryPair }) {
   const connections = selectConnections(profileA, profileB)
   const suggestedNext = getSuggestedNextPair(pair)
 
+  console.log('[Outcomes] Rendering with', connections.length, 'connections for', pair[0], 'vs', pair[1])
+
   return (
     <div className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
       {/* Intro */}
@@ -364,14 +366,17 @@ export default function Outcomes({ pair, onComplete, onTryPair }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="font-display text-2xl md:text-4xl text-text mb-3">
+          <h2 className="font-display text-2xl md:text-[40px] text-text mb-3">
             Does timing matter?
           </h2>
-          <p className="text-text-secondary font-body text-base md:text-lg max-w-[500px] mx-auto mb-8">
+          <p className="text-text-secondary font-body text-base md:text-lg max-w-[500px] mx-auto mb-4">
             These two countries time life completely differently. So here's the real question: does it matter?
           </p>
+          <p className="text-text-muted font-body text-sm mb-8">
+            {connections.length} connections found. Scroll to explore.
+          </p>
           <motion.div
-            className="text-text/30"
+            className="text-text-faint"
             animate={{ y: [0, 8, 0] }}
             transition={{ repeat: Infinity, duration: 2 }}
           >
