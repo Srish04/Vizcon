@@ -142,6 +142,144 @@ function RaceAnimation() {
   )
 }
 
+// --- Discovery Card Components (proper hook usage) ---
+function SequenceCard({ onNavigate }) {
+  const ref = useRef(null)
+  const inView = useInView(ref, { amount: 0.3, once: true })
+  const babyFirst = ['SWE', 'ITA', 'FRA', 'DNK', 'DEU', 'USA']
+  const marriageFirst = ['IND', 'MEX', 'BRA', 'JPN', 'KOR', 'AUS']
+  return (
+    <motion.div ref={ref} className="flex flex-col md:flex-row items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#C2185B40' }}
+      initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
+      <div className="md:w-[30%] flex-shrink-0">
+        <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#C2185B]">6 of 12</p>
+      </div>
+      <div className="md:w-[70%]">
+        <div className="mb-4">
+          <p className="text-[10px] font-data text-text-muted mb-2 uppercase tracking-wider">Baby before marriage</p>
+          <div className="space-y-1">
+            {babyFirst.map((code, i) => (
+              <motion.div key={code} className="flex items-center gap-2"
+                initial={{ opacity: 0, x: -10 }} animate={inView ? { opacity: 1, x: 0 } : {}}
+                transition={{ delay: 0.3 + i * 0.1, duration: 0.3 }}>
+                <span className="text-[9px] font-data text-text-muted w-8">{code}</span>
+                <div className="flex items-center gap-1">
+                  <div className="w-3 h-3 rounded-full bg-[#E9C46A]" />
+                  <div className="w-6 h-px bg-text-faint" />
+                  <div className="w-3 h-3 rounded-full bg-[#E76F51]" />
+                </div>
+              </motion.div>
+            ))}
+          </div>
+          <p className="text-[10px] font-data text-text-muted mb-2 mt-4 uppercase tracking-wider">Marriage before baby</p>
+          <div className="space-y-1">
+            {marriageFirst.map((code, i) => (
+              <motion.div key={code} className="flex items-center gap-2"
+                initial={{ opacity: 0, x: -10 }} animate={inView ? { opacity: 1, x: 0 } : {}}
+                transition={{ delay: 0.9 + i * 0.1, duration: 0.3 }}>
+                <span className="text-[9px] font-data text-text-muted w-8">{code}</span>
+                <div className="flex items-center gap-1">
+                  <div className="w-3 h-3 rounded-full bg-[#E76F51]" />
+                  <div className="w-6 h-px bg-text-faint" />
+                  <div className="w-3 h-3 rounded-full bg-[#E9C46A]" />
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+        <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
+          Across cultures and continents, the "normal" life sequence is the minority.
+        </p>
+        <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#C2185B]">
+          Explore the full pattern →
+        </button>
+      </div>
+    </motion.div>
+  )
+}
+
+function ScatterCard({ onNavigate }) {
+  const ref = useRef(null)
+  const inView = useInView(ref, { amount: 0.3, once: true })
+  const scatterData = globalMetrics.filter(c => c.marriage_age_female != null && c.gdp_per_capita != null)
+  return (
+    <motion.div ref={ref} className="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#E76F5140' }}
+      initial={{ opacity: 0, x: 40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
+      <div className="md:w-[30%] flex-shrink-0 text-right">
+        <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#E76F51]">75%</p>
+      </div>
+      <div className="md:w-[70%]">
+        <div className="mb-4">
+          <svg viewBox="0 0 200 120" className="w-full max-w-[300px] h-[120px]">
+            {scatterData.map((c, i) => {
+              const x = ((c.marriage_age_female - 17) / (35 - 17)) * 180 + 10
+              const maxGdp = Math.max(...scatterData.map(d => d.gdp_per_capita))
+              const y = 110 - (c.gdp_per_capita / maxGdp) * 100
+              return (
+                <motion.circle key={c.country_code} r="2.5" fill="#E76F51"
+                  initial={{ cx: 100, cy: 60, opacity: 0 }}
+                  animate={inView ? { cx: x, cy: y, opacity: 0.6 } : {}}
+                  transition={{ delay: 0.5 + i * 0.02, duration: 1.2, ease: 'easeOut' }} />
+              )
+            })}
+          </svg>
+        </div>
+        <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
+          of a country's wealth can be predicted from one number: when women marry. Validated across 44 countries.
+        </p>
+        <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#E76F51]">
+          See all four predictions →
+        </button>
+      </div>
+    </motion.div>
+  )
+}
+
+function LongevityCard({ onNavigate }) {
+  const ref = useRef(null)
+  const inView = useInView(ref, { amount: 0.3, once: true })
+  const longevityCount = globalMetrics.filter(c => c.longevity_tax_pct != null && c.longevity_tax_pct > 50).length
+  const exampleBars = [
+    { code: 'SWE', pct: 93 }, { code: 'IND', pct: 91 }, { code: 'FRA', pct: 67 }, { code: 'MEX', pct: 29 }, { code: 'KOR', pct: 41 },
+  ]
+  return (
+    <motion.div ref={ref} className="flex flex-col md:flex-row items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#7B2D8E40' }}
+      initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
+      <div className="md:w-[30%] flex-shrink-0">
+        <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#7B2D8E]">{longevityCount} of 43</p>
+      </div>
+      <div className="md:w-[70%]">
+        <div className="space-y-1.5 mb-4 max-w-[280px]">
+          {exampleBars.map((bar, i) => (
+            <motion.div key={bar.code} className="flex items-center gap-2"
+              initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}}
+              transition={{ delay: 0.4 + i * 0.15, duration: 0.4 }}>
+              <span className="text-[9px] font-data text-text-muted w-8">{bar.code}</span>
+              <div className="flex-1 h-4 rounded-sm overflow-hidden bg-[#1a3340]/5 flex">
+                <motion.div className="h-full bg-[#2D6A4F]"
+                  initial={{ width: '100%' }}
+                  animate={inView ? { width: `${100 - bar.pct}%` } : {}}
+                  transition={{ delay: 0.8 + i * 0.15, duration: 1, ease: 'easeOut' }} />
+                <motion.div className="h-full bg-[#E07A5F]"
+                  initial={{ width: '0%' }}
+                  animate={inView ? { width: `${bar.pct}%` } : {}}
+                  transition={{ delay: 0.8 + i * 0.15, duration: 1, ease: 'easeOut' }} />
+              </div>
+              <span className="text-[9px] font-data text-text-muted w-8">{bar.pct}%</span>
+            </motion.div>
+          ))}
+        </div>
+        <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
+          countries where more than half of women's extra years of life are spent in poor health.
+        </p>
+        <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#7B2D8E]">
+          See all 44 countries →
+        </button>
+      </div>
+    </motion.div>
+  )
+}
+
 // --- Main HomePage ---
 export default function HomePage({ onPairSelected, onNavigate }) {
   const [customSelected, setCustomSelected] = useState([])
@@ -221,148 +359,9 @@ export default function HomePage({ onPairSelected, onNavigate }) {
             Three things we didn't expect to find
           </motion.h2>
 
-          {/* CARD 1: Sequence — mini strips showing baby vs marriage order */}
-          {(() => {
-            const c1Ref = useRef(null)
-            const c1InView = useInView(c1Ref, { amount: 0.3, once: true })
-            const babyFirst = ['SWE', 'ITA', 'FRA', 'DNK', 'DEU', 'USA']
-            const marriageFirst = ['IND', 'MEX', 'BRA', 'JPN', 'KOR', 'AUS']
-            return (
-              <motion.div ref={c1Ref} className="flex flex-col md:flex-row items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#C2185B40' }}
-                initial={{ opacity: 0, x: -40 }} animate={c1InView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
-                <div className="md:w-[30%] flex-shrink-0">
-                  <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#C2185B]">6 of 12</p>
-                </div>
-                <div className="md:w-[70%]">
-                  <div className="mb-4">
-                    <p className="text-[10px] font-data text-text-muted mb-2 uppercase tracking-wider">Baby before marriage</p>
-                    <div className="space-y-1">
-                      {babyFirst.map((code, i) => (
-                        <motion.div key={code} className="flex items-center gap-2"
-                          initial={{ opacity: 0, x: -10 }} animate={c1InView ? { opacity: 1, x: 0 } : {}}
-                          transition={{ delay: 0.3 + i * 0.1, duration: 0.3 }}>
-                          <span className="text-[9px] font-data text-text-muted w-8">{code}</span>
-                          <div className="flex items-center gap-1">
-                            <div className="w-3 h-3 rounded-full bg-[#E9C46A]" title="Baby" />
-                            <div className="w-6 h-px bg-text-faint" />
-                            <div className="w-3 h-3 rounded-full bg-[#E76F51]" title="Marriage" />
-                          </div>
-                        </motion.div>
-                      ))}
-                    </div>
-                    <p className="text-[10px] font-data text-text-muted mb-2 mt-4 uppercase tracking-wider">Marriage before baby</p>
-                    <div className="space-y-1">
-                      {marriageFirst.map((code, i) => (
-                        <motion.div key={code} className="flex items-center gap-2"
-                          initial={{ opacity: 0, x: -10 }} animate={c1InView ? { opacity: 1, x: 0 } : {}}
-                          transition={{ delay: 0.9 + i * 0.1, duration: 0.3 }}>
-                          <span className="text-[9px] font-data text-text-muted w-8">{code}</span>
-                          <div className="flex items-center gap-1">
-                            <div className="w-3 h-3 rounded-full bg-[#E76F51]" title="Marriage" />
-                            <div className="w-6 h-px bg-text-faint" />
-                            <div className="w-3 h-3 rounded-full bg-[#E9C46A]" title="Baby" />
-                          </div>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </div>
-                  <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
-                    Across cultures and continents, the "normal" life sequence is the minority.
-                  </p>
-                  <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#C2185B]">
-                    Explore the full pattern →
-                  </button>
-                </div>
-              </motion.div>
-            )
-          })()}
-
-          {/* CARD 2: One Number — mini scatter plot (reversed layout) */}
-          {(() => {
-            const c2Ref = useRef(null)
-            const c2InView = useInView(c2Ref, { amount: 0.3, once: true })
-            const scatterData = globalMetrics.filter(c => c.marriage_age_female != null && c.gdp_per_capita != null)
-            return (
-              <motion.div ref={c2Ref} className="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#E76F5140' }}
-                initial={{ opacity: 0, x: 40 }} animate={c2InView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
-                <div className="md:w-[30%] flex-shrink-0 text-right">
-                  <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#E76F51]">75%</p>
-                </div>
-                <div className="md:w-[70%]">
-                  {/* Mini scatter */}
-                  <div className="mb-4">
-                    <svg viewBox="0 0 200 120" className="w-full max-w-[300px] h-[120px]">
-                      {scatterData.map((c, i) => {
-                        const x = ((c.marriage_age_female - 17) / (35 - 17)) * 180 + 10
-                        const maxGdp = Math.max(...scatterData.map(d => d.gdp_per_capita))
-                        const y = 110 - (c.gdp_per_capita / maxGdp) * 100
-                        return (
-                          <motion.circle key={c.country_code} r="2.5" fill="#E76F51"
-                            initial={{ cx: 100, cy: 60, opacity: 0 }}
-                            animate={c2InView ? { cx: x, cy: y, opacity: 0.6 } : {}}
-                            transition={{ delay: 0.5 + i * 0.02, duration: 1.2, ease: 'easeOut' }} />
-                        )
-                      })}
-                    </svg>
-                  </div>
-                  <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
-                    of a country's wealth can be predicted from one number: when women marry. Validated across 44 countries.
-                  </p>
-                  <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#E76F51]">
-                    See all four predictions →
-                  </button>
-                </div>
-              </motion.div>
-            )
-          })()}
-
-          {/* CARD 3: Longevity Tax — mini stacked bars */}
-          {(() => {
-            const c3Ref = useRef(null)
-            const c3InView = useInView(c3Ref, { amount: 0.3, once: true })
-            const longevityCount = globalMetrics.filter(c => c.longevity_tax_pct != null && c.longevity_tax_pct > 50).length
-            const exampleBars = [
-              { code: 'SWE', pct: 93 }, { code: 'IND', pct: 91 }, { code: 'FRA', pct: 67 }, { code: 'MEX', pct: 29 }, { code: 'KOR', pct: 41 },
-            ]
-            console.log('[HomePage] Countries with longevity_tax > 50%:', longevityCount)
-            return (
-              <motion.div ref={c3Ref} className="flex flex-col md:flex-row items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#7B2D8E40' }}
-                initial={{ opacity: 0, x: -40 }} animate={c3InView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
-                <div className="md:w-[30%] flex-shrink-0">
-                  <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#7B2D8E]">{longevityCount} of 43</p>
-                </div>
-                <div className="md:w-[70%]">
-                  {/* Mini stacked bars */}
-                  <div className="space-y-1.5 mb-4 max-w-[280px]">
-                    {exampleBars.map((bar, i) => (
-                      <motion.div key={bar.code} className="flex items-center gap-2"
-                        initial={{ opacity: 0 }} animate={c3InView ? { opacity: 1 } : {}}
-                        transition={{ delay: 0.4 + i * 0.15, duration: 0.4 }}>
-                        <span className="text-[9px] font-data text-text-muted w-8">{bar.code}</span>
-                        <div className="flex-1 h-4 rounded-sm overflow-hidden bg-[#1a3340]/5 flex">
-                          <motion.div className="h-full bg-[#2D6A4F]"
-                            initial={{ width: '100%' }}
-                            animate={c3InView ? { width: `${100 - bar.pct}%` } : {}}
-                            transition={{ delay: 0.8 + i * 0.15, duration: 1, ease: 'easeOut' }} />
-                          <motion.div className="h-full bg-[#E07A5F]"
-                            initial={{ width: '0%' }}
-                            animate={c3InView ? { width: `${bar.pct}%` } : {}}
-                            transition={{ delay: 0.8 + i * 0.15, duration: 1, ease: 'easeOut' }} />
-                        </div>
-                        <span className="text-[9px] font-data text-text-muted w-8">{bar.pct}%</span>
-                      </motion.div>
-                    ))}
-                  </div>
-                  <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
-                    countries where more than half of women's extra years of life are spent in poor health.
-                  </p>
-                  <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#7B2D8E]">
-                    See all 44 countries →
-                  </button>
-                </div>
-              </motion.div>
-            )
-          })()}
+          <SequenceCard onNavigate={onNavigate} />
+          <ScatterCard onNavigate={onNavigate} />
+          <LongevityCard onNavigate={onNavigate} />
         </div>
       </section>
 
