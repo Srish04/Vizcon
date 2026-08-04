@@ -98,13 +98,13 @@ function RaceAnimation() {
           return (
             <div key={country.code} className="flex items-center h-5 md:h-6">
               <div className="w-14 md:w-20 flex-shrink-0 text-right pr-2">
-                <span className="text-[9px] md:text-[10px] font-body text-white/60">{country.code}</span>
+                <span className="text-[10px] md:text-xs font-body text-white/80">{country.code}</span>
               </div>
               <div className="flex-1 relative h-full">
-                <div className="absolute top-1/2 left-0 right-0 h-px bg-white/8" />
+                <div className="absolute top-1/2 left-0 right-0 h-px bg-white/12" />
                 {isFinalStep && (
                   <motion.div className="absolute top-1/2 -translate-y-1/2 h-1 rounded-full"
-                    style={{ left: `${startPct}%`, backgroundColor: '#FAFAF8', opacity: 0.12 }}
+                    style={{ left: `${startPct}%`, backgroundColor: '#FAFAF8', opacity: 0.25 }}
                     initial={{ width: 0 }} animate={{ width: `${endPct - startPct}%` }}
                     transition={{ duration: 0.8, ease: 'easeOut' }} />
                 )}
@@ -112,7 +112,7 @@ function RaceAnimation() {
                   <motion.div className="absolute top-1/2 -translate-y-1/2"
                     initial={{ left: `${startPct}%` }} animate={{ left: `${pos ?? startPct}%` }}
                     transition={{ duration: 1.5, ease: 'easeInOut' }}>
-                    <motion.div className="w-2 h-2 md:w-2.5 md:h-2.5 rounded-full shadow-[0_0_8px_rgba(255,255,255,0.4)]"
+                    <motion.div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full shadow-[0_0_10px_rgba(255,255,255,0.5)]"
                       animate={{ backgroundColor: getDotColor(), scale: [1, 1.3, 1] }}
                       transition={{ backgroundColor: { duration: 0.3 }, scale: { duration: 0.5 } }}
                       key={`${country.code}-${currentStep}`} />
@@ -124,11 +124,11 @@ function RaceAnimation() {
         })}
       </div>
       <div className="ml-14 md:ml-20 relative h-6">
-        <div className="absolute top-0 left-0 right-0 h-px bg-white/15" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-white/25" />
         {AGE_TICKS.map(age => (
           <div key={age} className="absolute top-0 flex flex-col items-center" style={{ left: `${ageToPercent(age)}%`, transform: 'translateX(-50%)' }}>
-            <div className="w-px h-1.5 bg-white/15" />
-            <span className="text-[8px] font-data text-white/40 mt-0.5">{age}</span>
+            <div className="w-px h-1.5 bg-white/25" />
+            <span className="text-[9px] font-data text-white/50 mt-0.5">{age}</span>
           </div>
         ))}
       </div>
@@ -201,6 +201,11 @@ function SequenceCard({ onNavigate }) {
         <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
           Across cultures and continents, the "normal" life sequence is the minority.
         </p>
+        {/* Legend */}
+        <div className="flex items-center gap-4 mb-3 text-[10px] font-data text-text-muted">
+          <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-[#E9C46A] inline-block" /> First child</span>
+          <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-[#E76F51] inline-block" /> Marriage</span>
+        </div>
         <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#C2185B]">
           Explore the full pattern →
         </button>
@@ -221,19 +226,34 @@ function ScatterCard({ onNavigate }) {
       </div>
       <div className="md:w-[70%]">
         <div className="mb-4">
-          <svg viewBox="0 0 200 120" className="w-full max-w-[300px] h-[120px]">
-            {scatterData.map((c, i) => {
-              const x = ((c.marriage_age_female - 17) / (35 - 17)) * 180 + 10
-              const maxGdp = Math.max(...scatterData.map(d => d.gdp_per_capita))
-              const y = 110 - (c.gdp_per_capita / maxGdp) * 100
-              return (
-                <motion.circle key={c.country_code} r="2.5" fill="#E76F51"
-                  initial={{ cx: 100, cy: 60, opacity: 0 }}
-                  animate={inView ? { cx: x, cy: y, opacity: 0.6 } : {}}
-                  transition={{ delay: 0.5 + i * 0.02, duration: 1.2, ease: 'easeOut' }} />
-              )
-            })}
-          </svg>
+          <p className="text-[10px] font-data text-text-muted mb-1">Marriage age vs GDP per capita (44 countries)</p>
+          <div className="relative">
+            <svg viewBox="0 0 220 140" className="w-full max-w-[320px] h-[140px]">
+              {/* Y-axis label */}
+              <text x="4" y="10" className="text-[6px]" fill="#4a6e7f">GDP ($)</text>
+              {/* X-axis label */}
+              <text x="110" y="136" textAnchor="middle" className="text-[6px]" fill="#4a6e7f">Marriage age (years)</text>
+              {/* Axis lines */}
+              <line x1="15" y1="120" x2="210" y2="120" stroke="#1a334015" strokeWidth="0.5" />
+              <line x1="15" y1="5" x2="15" y2="120" stroke="#1a334015" strokeWidth="0.5" />
+              {/* X ticks */}
+              <text x="60" y="128" textAnchor="middle" className="text-[5px]" fill="#6b8f9e">20</text>
+              <text x="120" y="128" textAnchor="middle" className="text-[5px]" fill="#6b8f9e">27</text>
+              <text x="190" y="128" textAnchor="middle" className="text-[5px]" fill="#6b8f9e">34</text>
+              {scatterData.map((c, i) => {
+                const x = ((c.marriage_age_female - 17) / (35 - 17)) * 190 + 15
+                const maxGdp = Math.max(...scatterData.map(d => d.gdp_per_capita))
+                const y = 115 - (c.gdp_per_capita / maxGdp) * 105
+                return (
+                  <motion.circle key={c.country_code} r="2.5" fill="#E76F51"
+                    initial={{ cx: 110, cy: 60, opacity: 0 }}
+                    animate={inView ? { cx: x, cy: y, opacity: 0.65 } : {}}
+                    transition={{ delay: 0.5 + i * 0.02, duration: 1.2, ease: 'easeOut' }} />
+                )
+              })}
+            </svg>
+          </div>
+          <p className="text-[9px] font-data text-text-faint">Each dot = 1 country. R² = 0.75</p>
         </div>
         <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
           of a country's wealth can be predicted from one number: when women marry. Validated across 44 countries.
@@ -260,7 +280,13 @@ function LongevityCard({ onNavigate }) {
         <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#7B2D8E]">{longevityCount} of 43</p>
       </div>
       <div className="md:w-[70%]">
-        <div className="space-y-1.5 mb-4 max-w-[280px]">
+        <div className="mb-4 max-w-[280px]">
+          <p className="text-[10px] font-data text-text-muted mb-1.5">Women's extra years: healthy vs unhealthy</p>
+          <div className="flex items-center gap-3 mb-2 text-[9px] font-data text-text-faint">
+            <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-sm bg-[#2D6A4F] inline-block" /> Healthy</span>
+            <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-sm bg-[#E07A5F] inline-block" /> Unhealthy</span>
+          </div>
+          <div className="space-y-1.5">
           {exampleBars.map((bar, i) => (
             <motion.div key={bar.code} className="flex items-center gap-2"
               initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}}
@@ -279,6 +305,8 @@ function LongevityCard({ onNavigate }) {
               <span className="text-[9px] font-data text-text-muted w-8">{bar.pct}%</span>
             </motion.div>
           ))}
+          </div>
+          <p className="text-[9px] font-data text-text-faint mt-1">% = portion of extra years that are unhealthy</p>
         </div>
         <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
           countries where more than half of women's extra years of life are spent in poor health.
@@ -331,34 +359,38 @@ function GenderCard({ onNavigate }) {
 
 // --- Animated World Map Background ---
 function WorldMapBg() {
-  // Simplified world map dots at approximate city locations
   const dots = [
-    { x: 20, y: 35 }, { x: 25, y: 45 }, { x: 30, y: 60 }, // Americas
+    { x: 20, y: 35 }, { x: 25, y: 45 }, { x: 30, y: 60 },
     { x: 15, y: 30 }, { x: 22, y: 28 }, { x: 35, y: 55 },
-    { x: 48, y: 30 }, { x: 50, y: 35 }, { x: 52, y: 28 }, // Europe
+    { x: 48, y: 30 }, { x: 50, y: 35 }, { x: 52, y: 28 },
     { x: 47, y: 25 }, { x: 55, y: 30 }, { x: 53, y: 33 },
-    { x: 58, y: 40 }, { x: 62, y: 35 }, { x: 65, y: 45 }, // Middle East/Asia
+    { x: 58, y: 40 }, { x: 62, y: 35 }, { x: 65, y: 45 },
     { x: 70, y: 35 }, { x: 75, y: 30 }, { x: 78, y: 38 },
-    { x: 80, y: 28 }, { x: 85, y: 35 }, { x: 82, y: 42 }, // East Asia
-    { x: 50, y: 55 }, { x: 55, y: 60 }, { x: 48, y: 50 }, // Africa
-    { x: 85, y: 60 }, { x: 88, y: 55 }, // Australia
+    { x: 80, y: 28 }, { x: 85, y: 35 }, { x: 82, y: 42 },
+    { x: 50, y: 55 }, { x: 55, y: 60 }, { x: 48, y: 50 },
+    { x: 85, y: 60 }, { x: 88, y: 55 },
   ]
-  const connections = [
-    [0, 8], [3, 10], [8, 16], [12, 19],
-  ]
+  const connections = [[0, 8], [3, 10], [8, 16], [12, 19]]
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       <svg className="w-[80%] h-[80%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" viewBox="0 0 100 80">
+        {/* Simplified continent outlines */}
+        <path d="M12 25 C15 20, 22 18, 28 22 C32 25, 35 30, 33 38 C30 45, 25 50, 22 55 C20 60, 18 65, 20 68 C22 70, 28 72, 32 70 C35 67, 34 62, 33 58"
+          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
+        <path d="M44 20 C47 18, 52 17, 56 19 C58 20, 57 24, 55 26 C53 28, 50 30, 48 32 C46 34, 44 33, 43 30 C42 27, 43 23, 44 20"
+          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
+        <path d="M46 38 C48 36, 52 35, 56 37 C60 39, 62 42, 60 48 C58 52, 55 55, 52 58 C49 60, 46 58, 45 54 C44 50, 45 44, 46 38"
+          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
+        <path d="M60 22 C65 20, 72 19, 78 22 C82 24, 85 28, 86 33 C87 38, 85 42, 82 44 C78 46, 72 44, 68 40 C64 36, 62 30, 60 22"
+          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
+        <path d="M82 52 C85 50, 90 51, 92 54 C93 57, 91 60, 88 62 C85 63, 82 61, 81 58 C80 55, 81 53, 82 52"
+          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
         {/* Animated connecting lines */}
         {connections.map(([a, b], i) => (
-          <motion.path
-            key={i}
+          <motion.path key={i}
             d={`M ${dots[a].x} ${dots[a].y} Q ${(dots[a].x + dots[b].x) / 2} ${Math.min(dots[a].y, dots[b].y) - 8} ${dots[b].x} ${dots[b].y}`}
-            stroke={MILESTONE_COLORS[i % MILESTONE_COLORS.length]}
-            strokeWidth="0.3"
-            fill="none"
-            strokeDasharray="4 4"
-            opacity="0.15"
+            stroke={MILESTONE_COLORS[i % MILESTONE_COLORS.length]} strokeWidth="0.3" fill="none"
+            strokeDasharray="4 4" opacity="0.2"
             initial={{ pathLength: 0 }}
             animate={{ pathLength: [0, 1, 1, 0] }}
             transition={{ duration: 6, repeat: Infinity, delay: i * 1.5, ease: 'easeInOut' }}
@@ -366,9 +398,7 @@ function WorldMapBg() {
         ))}
         {/* Pulsing city dots */}
         {dots.map((dot, i) => (
-          <motion.circle
-            key={i}
-            cx={dot.x} cy={dot.y} r="0.6"
+          <motion.circle key={i} cx={dot.x} cy={dot.y} r="0.6"
             fill={MILESTONE_COLORS[i % MILESTONE_COLORS.length]}
             animate={{ opacity: [0.15, 0.45, 0.15] }}
             transition={{ duration: 2 + Math.random() * 2, repeat: Infinity, delay: Math.random() * 3 }}
@@ -446,8 +476,8 @@ export default function HomePage({ onPairSelected, onNavigate }) {
         </motion.div>
       </section>
 
-      {/* SECTION 2: Race Animation (DARK, continuous) */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-4 py-12" style={{ backgroundColor: '#1a2e3b' }}>
+      {/* SECTION 2: Race Animation (DARK, continuous — no gap from hero) */}
+      <section className="flex flex-col items-center justify-center px-4 py-16 pb-24" style={{ backgroundColor: '#1a2e3b' }}>
         <RaceAnimation />
       </section>
 
