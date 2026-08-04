@@ -2,7 +2,10 @@
 
 @theme {
   --color-bg: #FAFAF8;
-  --color-text: #264653;
+  --color-text: #1a3340;
+  --color-text-secondary: #3d5a68;
+  --color-text-muted: #4a6e7f;
+  --color-text-faint: #6b8f9e;
   --color-menarche: #C2185B;
   --color-education: #2D6A4F;
   --color-leaving-home: #2A9D8F;
