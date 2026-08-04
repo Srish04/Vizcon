@@ -109,13 +109,16 @@ function RaceAnimation() {
                     transition={{ duration: 0.8, ease: 'easeOut' }} />
                 )}
                 {!hidden && started && (
-                  <motion.div className="absolute top-1/2 -translate-y-1/2"
+                  <motion.div className="absolute top-1/2 -translate-y-1/2 flex flex-col items-center"
                     initial={{ left: `${startPct}%` }} animate={{ left: `${pos ?? startPct}%` }}
                     transition={{ duration: 1.5, ease: 'easeInOut' }}>
                     <motion.div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full shadow-[0_0_10px_rgba(255,255,255,0.5)]"
                       animate={{ backgroundColor: getDotColor(), scale: [1, 1.3, 1] }}
                       transition={{ backgroundColor: { duration: 0.3 }, scale: { duration: 0.5 } }}
                       key={`${country.code}-${currentStep}`} />
+                    {isFinalStep && (
+                      <span className="text-[7px] font-data text-white/50 mt-0.5">{Math.round(country.lifeExp)}</span>
+                    )}
                   </motion.div>
                 )}
               </div>
@@ -163,11 +166,12 @@ function SequenceCard({ onNavigate }) {
     <motion.div ref={ref} className="flex flex-col md:flex-row items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#C2185B40' }}
       initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
       <div className="md:w-[30%] flex-shrink-0">
-        <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#C2185B]">6 of 12</p>
+        <p className="font-display text-5xl md:text-[72px] font-bold leading-none text-[#C2185B]">50%</p>
+        <p className="text-xs font-data text-text-muted mt-2">of countries studied</p>
       </div>
       <div className="md:w-[70%]">
         <div className="mb-4">
-          <p className="text-[10px] font-data text-text-muted mb-2 uppercase tracking-wider">Baby before marriage</p>
+          <p className="text-[10px] font-data text-text-muted mb-2 uppercase tracking-wider">Baby before marriage (6 countries)</p>
           <div className="space-y-1">
             {babyFirst.map((code, i) => (
               <motion.div key={code} className="flex items-center gap-2"
@@ -182,7 +186,7 @@ function SequenceCard({ onNavigate }) {
               </motion.div>
             ))}
           </div>
-          <p className="text-[10px] font-data text-text-muted mb-2 mt-4 uppercase tracking-wider">Marriage before baby</p>
+          <p className="text-[10px] font-data text-text-muted mb-2 mt-4 uppercase tracking-wider">Marriage before baby (6 countries)</p>
           <div className="space-y-1">
             {marriageFirst.map((code, i) => (
               <motion.div key={code} className="flex items-center gap-2"
@@ -199,7 +203,7 @@ function SequenceCard({ onNavigate }) {
           </div>
         </div>
         <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
-          Across cultures and continents, the "normal" life sequence is the minority.
+          have baby before marriage. Across rich and poor nations, across continents. The "normal" sequence is a myth.
         </p>
         {/* Legend */}
         <div className="flex items-center gap-4 mb-3 text-[10px] font-data text-text-muted">
@@ -412,49 +416,47 @@ export default function HomePage({ onPairSelected, onNavigate }) {
     <div className="scroll-smooth">
       <GradientLine />
 
-      {/* SECTION 1: Hero (DARK) */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden" style={{ backgroundColor: '#1a2e3b' }}>
-        <WorldMapBg />
-        <motion.div className="text-center max-w-[750px] relative z-10"
-          initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-          <h1 className="font-display text-[40px] md:text-[56px] leading-tight mb-8">
-            <span className="font-bold text-white">Same milestones.</span>
-            <br />
-            <span className="font-normal text-[#E07A5F]">Different lives.</span>
-          </h1>
-          <p className="font-body text-lg md:text-[22px] text-white/70 mb-2 leading-relaxed">
-            From first period to last breath, every human life follows
-          </p>
-          <p className="font-body text-lg md:text-[22px] text-white/70 mb-8 leading-relaxed">
-            the same milestones. But when they happen changes everything.
-          </p>
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, duration: 0.8 }}>
-            {/* Animated counter row */}
-            <div className="flex items-center justify-center gap-8 md:gap-16 mb-6">
-              {[{ val: 11, label: 'milestones' }, { val: 12, label: 'countries' }, { val: 44, label: 'for validation' }].map((item, i) => (
-                <motion.div key={item.label} className="text-center"
-                  initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1.2 + i * 0.3, duration: 0.6 }}>
-                  <motion.span className="font-data text-4xl md:text-5xl text-white font-medium block"
-                    initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-                    transition={{ delay: 1.4 + i * 0.3, duration: 0.8 }}>
-                    {item.val}
-                  </motion.span>
-                  <span className="font-body text-xs md:text-sm text-white/40">{item.label}</span>
-                </motion.div>
-              ))}
-            </div>
-            {/* Pulsing dots */}
-            <div className="flex items-center gap-2 justify-center">
-              {MILESTONE_COLORS.map((color, i) => (
-                <motion.div key={i} className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }}
-                  animate={{ opacity: [0.3, 1, 0.3], scale: [0.8, 1.2, 0.8] }}
-                  transition={{ duration: 2, repeat: Infinity, delay: i * 0.18 }} />
-              ))}
+      {/* SECTION 1: Hero (DARK) — text left, dots right */}
+      <section className="min-h-screen flex items-center px-4 md:px-12 relative overflow-hidden" style={{ backgroundColor: '#1a2e3b' }}>
+        <div className="max-w-[1200px] mx-auto w-full flex flex-col md:flex-row items-center gap-8 relative z-10">
+          {/* Left: Text */}
+          <motion.div className="md:w-[55%] text-left"
+            initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
+            <h1 className="font-display text-[36px] md:text-[52px] leading-tight mb-6">
+              <span className="font-bold text-white">Same milestones.</span>
+              <br />
+              <span className="font-normal text-[#E07A5F]">Different lives.</span>
+            </h1>
+            <p className="font-body text-base md:text-xl text-white/70 mb-2 leading-relaxed">
+              From first period to last breath, every human life follows
+            </p>
+            <p className="font-body text-base md:text-xl text-white/70 mb-6 leading-relaxed">
+              the same milestones. But when they happen changes everything.
+            </p>
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, duration: 0.8 }}>
+              <div className="flex items-center gap-6 md:gap-12 mb-4">
+                {[{ val: 11, label: 'milestones' }, { val: 12, label: 'countries' }, { val: 44, label: 'for validation' }].map((item, i) => (
+                  <motion.div key={item.label} className="text-left"
+                    initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 1.2 + i * 0.3, duration: 0.6 }}>
+                    <span className="font-data text-3xl md:text-4xl text-white font-medium block">{item.val}</span>
+                    <span className="font-body text-xs text-white/40">{item.label}</span>
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+          </motion.div>
+
+          {/* Right: Animated dots */}
+          <motion.div className="md:w-[45%] flex items-center justify-center"
+            initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5, duration: 0.8 }}>
+            <div className="relative w-full h-[300px] md:h-[400px]">
+              <WorldMapBg />
             </div>
           </motion.div>
-        </motion.div>
-        <motion.div className="absolute bottom-8 text-white/30" animate={{ y: [0, 8, 0] }} transition={{ repeat: Infinity, duration: 2 }}>
+        </div>
+
+        <motion.div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/30" animate={{ y: [0, 8, 0] }} transition={{ repeat: Infinity, duration: 2 }}>
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
