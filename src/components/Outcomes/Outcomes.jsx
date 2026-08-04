@@ -4,262 +4,109 @@ import countryProfiles from '../../data/country_profiles.json'
 import correlationData from '../../data/correlation_narratives.json'
 import pairStoryData from '../../data/pair_story_analysis.json'
 
-const MILESTONE_META = {
-  marriage_age: { label: 'Marriage Age', unit: 'years old', color: '#E76F51', range: [18, 40] },
-  education_completion_age: { label: 'Education Completion', unit: 'years old', color: '#2D6A4F', range: [14, 30] },
-  menarche_age: { label: 'Puberty (Menarche)', unit: 'years old', color: '#C2185B', range: [10, 18] },
-  menopause_age: { label: 'Menopause', unit: 'years old', color: '#AB47BC', range: [44, 55] },
-  first_birth_age: { label: 'Age at First Child', unit: 'years old', color: '#E9C46A', range: [18, 38] },
-  cohabitation_age: { label: 'First Partnership', unit: 'years old', color: '#00897B', range: [18, 35] },
-  first_home_age: { label: 'First Home', unit: 'years old', color: '#48BFE3', range: [20, 42] },
-  retirement_age: { label: 'Retirement Age', unit: 'years old', color: '#457B9D', range: [55, 75] },
-  hale: { label: 'Healthy Life Expectancy', unit: 'years', color: '#7B2D8E', range: [55, 80] },
-  fertility_rate: { label: 'Fertility Rate', unit: 'children', color: '#E9C46A', range: [0.5, 4] },
-}
-
-const OUTCOME_META = {
-  gender_inequality_index: { label: 'Gender Inequality Index', unit: '', range: [0, 0.6] },
-  maternal_mortality: { label: 'Maternal Mortality', unit: 'per 100k', range: [0, 150] },
-  life_expectancy: { label: 'Life Expectancy', unit: 'years', range: [60, 90] },
-  hale: { label: 'Healthy Life Years', unit: 'years', range: [55, 80] },
-  gdp_per_capita: { label: 'GDP per Capita', unit: '$', range: [0, 70000] },
-  happiness: { label: 'Happiness Score', unit: '/10', range: [3, 8] },
-  female_lfpr: { label: 'Female Labor Force', unit: '%', range: [20, 90] },
-  adolescent_fertility: { label: 'Teen Pregnancies', unit: 'per 1000', range: [0, 80] },
-  fertility_rate: { label: 'Fertility Rate', unit: 'children', range: [0.5, 4] },
-}
-
-const MECHANISM_LABELS = {
-  causal: { emoji: '🔗', text: 'This timing directly shapes this outcome.' },
-  common_cause: { emoji: '🌐', text: "These aren't directly connected. Both are shaped by deeper forces: wealth, policy, infrastructure." },
-  feedback: { emoji: '🔄', text: 'These reinforce each other. Later marriage creates more opportunity, and more opportunity allows later marriage.' },
-}
-
-function getProfile(code) {
-  return countryProfiles.find(c => c.country === code)
-}
-
-// Map correlation_narratives milestone keys to country_profiles.milestones keys
 const MILESTONE_KEY_MAP = {
-  marriage_age: 'marriage',
-  education_completion_age: 'education',
-  menarche_age: 'menarche',
-  menopause_age: 'menopause',
-  first_birth_age: 'first_baby',
-  cohabitation_age: 'cohabitation',
-  first_home_age: 'first_home',
-  retirement_age: 'retirement_age',
-  hale: 'hale',
-  fertility_rate: 'fertility_rate',
+  marriage_age: 'marriage', education_completion_age: 'education',
+  menarche_age: 'menarche', menopause_age: 'menopause',
+  first_birth_age: 'first_baby', cohabitation_age: 'cohabitation',
+  first_home_age: 'first_home', retirement_age: 'retirement_age',
+  hale: 'hale', fertility_rate: 'fertility_rate',
 }
 
-function getMilestoneVal(profile, milestoneKey) {
-  const pKey = MILESTONE_KEY_MAP[milestoneKey] || milestoneKey
+const MECHANISM_COLORS = { causal: '#2D6A4F', common_cause: '#457B9D', feedback: '#E76F51' }
+
+// Outcome metrics for the dashboard
+const DASHBOARD_METRICS = [
+  { key: 'happiness', label: 'Happiness', range: [3, 8], format: v => v.toFixed(1), higherBetter: true },
+  { key: 'life_expectancy', label: 'Life Expectancy', range: [60, 90], format: v => v.toFixed(1), higherBetter: true },
+  { key: 'hale', label: 'Healthy Years (HALE)', range: [50, 80], format: v => v.toFixed(1), higherBetter: true },
+  { key: 'gdp_per_capita', label: 'GDP per Capita', range: [0, 70000], format: v => `$${(v/1000).toFixed(0)}k`, higherBetter: true },
+  { key: 'female_lfpr', label: 'Women Working (LFPR)', range: [20, 90], format: v => `${v.toFixed(0)}%`, higherBetter: true },
+  { key: 'gender_inequality_index', label: 'Gender Inequality', range: [0, 0.6], format: v => v.toFixed(2), higherBetter: false },
+  { key: 'years_poor_health', label: 'Years in Poor Health', range: [5, 20], format: v => `${v.toFixed(1)}yr`, higherBetter: false },
+  { key: 'fertility_rate', label: 'Fertility Rate', range: [0.5, 4], format: v => v.toFixed(2), higherBetter: null },
+]
+
+function getProfile(code) { return countryProfiles.find(c => c.country === code) }
+
+function getMilestoneVal(profile, key) {
+  const pKey = MILESTONE_KEY_MAP[key] || key
   const ms = profile.milestones?.[pKey]
-  if (ms && ms.value !== null && ms.value !== undefined) return ms.value
+  if (ms?.value != null) return ms.value
   const oc = profile.outcomes?.[pKey]
-  if (oc && oc.value !== null && oc.value !== undefined) return oc.value
+  if (oc?.value != null) return oc.value
   return null
 }
 
-function getOutcomeVal(profile, outcomeKey) {
-  const oc = profile.outcomes?.[outcomeKey]
-  if (oc && oc.value !== null && oc.value !== undefined) return oc.value
-  // Some outcomes live in milestones
-  const ms = profile.milestones?.[outcomeKey]
-  if (ms && ms.value !== null && ms.value !== undefined) return ms.value
+function getOutcomeVal(profile, key) {
+  const oc = profile.outcomes?.[key]
+  if (oc?.value != null) return oc.value
+  const ms = profile.milestones?.[key]
+  if (ms?.value != null) return ms.value
   return null
 }
 
 function selectConnections(profileA, profileB) {
-  console.log(`\n=== Loading correlations for ${profileA.name} vs ${profileB.name} ===`)
-  console.log(`Total correlations in file: ${correlationData.correlations.length}`)
-
-  const corrs = correlationData.correlations.filter(c =>
-    c.group !== 'artifact' && c.confidence !== 'low'
-  )
-  console.log(`After filtering (non-artifact, non-low): ${corrs.length}`)
-
-  // For each correlation, check data availability and compute milestone gap
-  const usable = corrs
-    .map(c => {
-      const mA = getMilestoneVal(profileA, c.milestone)
-      const mB = getMilestoneVal(profileB, c.milestone)
-      const oA = getOutcomeVal(profileA, c.outcome)
-      const oB = getOutcomeVal(profileB, c.outcome)
-      if (mA === null || mB === null || oA === null || oB === null) return null
-      const gap = Math.abs(mA - mB)
-      const score = gap * Math.abs(c.r)
-      return { ...c, mA, mB, oA, oB, gap, score }
-    })
-    .filter(Boolean)
-
-  console.log(`Usable (both countries have data): ${usable.length}`)
-
-  // Group by milestone, pick best correlation (highest score = gap * |r|) per milestone
+  const corrs = correlationData.correlations.filter(c => c.group !== 'artifact' && c.confidence !== 'low')
+  const usable = corrs.map(c => {
+    const mA = getMilestoneVal(profileA, c.milestone)
+    const mB = getMilestoneVal(profileB, c.milestone)
+    const oA = getOutcomeVal(profileA, c.outcome)
+    const oB = getOutcomeVal(profileB, c.outcome)
+    if (mA == null || mB == null || oA == null || oB == null) return null
+    const gap = Math.abs(mA - mB)
+    return { ...c, mA, mB, oA, oB, gap, score: gap * Math.abs(c.r) }
+  }).filter(Boolean)
   const byMilestone = {}
-  for (const c of usable) {
-    if (!byMilestone[c.milestone] || c.score > byMilestone[c.milestone].score) {
-      byMilestone[c.milestone] = c
-    }
-  }
-
-  console.log(`Unique milestones with connections: ${Object.keys(byMilestone).length}`)
-
-  // Rank milestones by score (gap * |r|), take top 4
-  const ranked = Object.values(byMilestone).sort((a, b) => b.score - a.score)
-  const selected = ranked.slice(0, 4)
-
-  console.log('Selected connections:')
-  selected.forEach((c, i) => {
-    console.log(`  ${i + 1}. ${c.milestone} -> ${c.outcome} (gap: ${c.gap.toFixed(1)}, r: ${c.r}, score: ${c.score.toFixed(1)})`)
-    console.log(`     ${profileA.name}: milestone=${c.mA}, outcome=${c.oA}`)
-    console.log(`     ${profileB.name}: milestone=${c.mB}, outcome=${c.oB}`)
-    console.log(`     "${c.one_liner}"`)
-  })
-
-  return selected
+  usable.forEach(c => { if (!byMilestone[c.milestone] || c.score > byMilestone[c.milestone].score) byMilestone[c.milestone] = c })
+  return Object.values(byMilestone).sort((a, b) => b.score - a.score).slice(0, 4)
 }
 
 function fillTemplate(template, profileA, profileB, conn) {
-  // Determine high/low based on milestone value
   const highIsA = conn.mA >= conn.mB
   const high = highIsA ? profileA : profileB
   const low = highIsA ? profileB : profileA
-  const highVal = highIsA ? conn.mA : conn.mB
-  const lowVal = highIsA ? conn.mB : conn.mA
-  const highOutcome = highIsA ? conn.oA : conn.oB
-  const lowOutcome = highIsA ? conn.oB : conn.oA
-  const gap = Math.abs(conn.mA - conn.mB).toFixed(1)
-
-  let text = template
-    .replace(/{high_country}/g, high.name)
-    .replace(/{low_country}/g, low.name)
-    .replace(/{high_val}/g, highVal)
-    .replace(/{low_val}/g, lowVal)
-    .replace(/{high_outcome}/g, highOutcome)
-    .replace(/{low_outcome}/g, lowOutcome)
-    .replace(/{gap}/g, gap)
-
-  return text
+  return template
+    .replace(/{high_country}/g, high.name).replace(/{low_country}/g, low.name)
+    .replace(/{high_val}/g, highIsA ? conn.mA : conn.mB).replace(/{low_val}/g, highIsA ? conn.mB : conn.mA)
+    .replace(/{high_outcome}/g, highIsA ? conn.oA : conn.oB).replace(/{low_outcome}/g, highIsA ? conn.oB : conn.oA)
+    .replace(/{gap}/g, Math.abs(conn.mA - conn.mB).toFixed(1))
 }
 
 function getSuggestedNextPair(currentPair) {
   const rankings = pairStoryData.pair_story_rankings || []
   const [cA, cB] = currentPair
-  const next = rankings.find(p =>
-    p.country_a !== cA && p.country_a !== cB &&
-    p.country_b !== cA && p.country_b !== cB
-  )
+  const next = rankings.find(p => p.country_a !== cA && p.country_a !== cB && p.country_b !== cA && p.country_b !== cB)
   if (!next) return null
-  const pA = getProfile(next.country_a)
-  const pB = getProfile(next.country_b)
-  return {
-    codes: [next.country_a, next.country_b],
-    nameA: pA?.name || next.name_a,
-    nameB: pB?.name || next.name_b,
-    flagA: pA?.flag || '',
-    flagB: pB?.flag || '',
-    tagline: next.top5_stories?.[0]
-      ? `${Math.abs(next.top5_stories[0].abs_gap).toFixed(0)}-point gap on ${next.top5_stories[0].metric.replace(/_/g, ' ')}`
-      : 'A compelling comparison',
-  }
+  const pA = getProfile(next.country_a), pB = getProfile(next.country_b)
+  return { codes: [next.country_a, next.country_b], nameA: pA?.name, nameB: pB?.name, flagA: pA?.flag, flagB: pB?.flag }
 }
 
-// --- Connection Section ---
-function ConnectionSection({ conn, profileA, profileB, index, total }) {
-  const milestoneInfo = MILESTONE_META[conn.milestone] || { label: conn.milestone, color: '#666', range: [0, 100] }
-  const outcomeInfo = OUTCOME_META[conn.outcome] || { label: conn.outcome, range: [0, 100] }
-  const mechanism = MECHANISM_LABELS[conn.group] || MECHANISM_LABELS.common_cause
-  const narrative = fillTemplate(conn.template, profileA, profileB, conn)
-
-  const mRange = milestoneInfo.range
-  const oRange = outcomeInfo.range
-  const mPctA = ((conn.mA - mRange[0]) / (mRange[1] - mRange[0])) * 100
-  const mPctB = ((conn.mB - mRange[0]) / (mRange[1] - mRange[0])) * 100
-  const oPctA = ((conn.oA - oRange[0]) / (oRange[1] - oRange[0])) * 100
-  const oPctB = ((conn.oB - oRange[0]) / (oRange[1] - oRange[0])) * 100
+// --- Dashboard Bar ---
+function DashboardRow({ metric, valA, valB, profileA, profileB }) {
+  const [min, max] = metric.range
+  const pctA = Math.max(0, Math.min(100, ((valA - min) / (max - min)) * 100))
+  const pctB = Math.max(0, Math.min(100, ((valB - min) / (max - min)) * 100))
 
   return (
-    <section className="min-h-screen snap-start flex flex-col items-center justify-center px-4 md:px-8 py-12">
-      <div className="w-full max-w-[900px]">
-        {/* Eyebrow */}
-        <p className="text-xs font-data text-white/40 text-center mb-3 uppercase tracking-wider">
-          Connection {index + 1} of {total}
-        </p>
-
-        {/* One-liner headline */}
-        <h2 className="font-display text-xl md:text-3xl text-center mb-8" style={{ color: milestoneInfo.color }}>
-          {conn.one_liner}
-        </h2>
-
-        {/* Visualization: Milestone → Outcome */}
-        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 mb-8">
-          {/* Left: Milestone */}
-          <div className="flex-1 w-full">
-            <p className="text-xs font-data text-white/50 mb-2 text-center">{milestoneInfo.label}</p>
-            <MiniBar flag={profileA.flag} name={profileA.name} value={conn.mA}
-              pct={Math.min(Math.max(mPctA, 3), 100)} color={milestoneInfo.color} delay={0} />
-            <MiniBar flag={profileB.flag} name={profileB.name} value={conn.mB}
-              pct={Math.min(Math.max(mPctB, 3), 100)} color={milestoneInfo.color} opacity={0.6} delay={0.1} />
-          </div>
-
-          {/* Arrow */}
-          <div className="flex-shrink-0 flex items-center justify-center">
-            <svg className="w-12 h-8 md:w-16 md:h-10" viewBox="0 0 64 40" fill="none">
-              <path d="M4 20 H52 M44 12 L54 20 L44 28" stroke={milestoneInfo.color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </div>
-
-          {/* Right: Outcome */}
-          <div className="flex-1 w-full">
-            <p className="text-xs font-data text-white/50 mb-2 text-center">{outcomeInfo.label}</p>
-            <MiniBar flag={profileA.flag} name={profileA.name} value={conn.oA}
-              pct={Math.min(Math.max(oPctA, 3), 100)} color={milestoneInfo.color} delay={0.2} />
-            <MiniBar flag={profileB.flag} name={profileB.name} value={conn.oB}
-              pct={Math.min(Math.max(oPctB, 3), 100)} color={milestoneInfo.color} opacity={0.6} delay={0.3} />
-          </div>
+    <div className="py-3 border-b border-white/8">
+      <p className="text-xs font-data text-white/50 mb-1.5">{metric.label}</p>
+      <div className="flex items-center gap-3">
+        <span className="text-sm font-data text-[#48BFE3] w-16 text-right">{metric.format(valA)}</span>
+        <div className="flex-1 relative h-3 bg-white/8 rounded-full overflow-hidden">
+          <motion.div className="absolute inset-y-0 left-0 rounded-full bg-[#48BFE3]"
+            initial={{ width: 0 }} animate={{ width: `${pctA}%` }}
+            transition={{ duration: 0.8, ease: 'easeOut' }} />
+          <motion.div className="absolute inset-y-0 left-0 rounded-full bg-[#E07A5F]"
+            style={{ opacity: 0.5 }}
+            initial={{ width: 0 }} animate={{ width: `${pctB}%` }}
+            transition={{ duration: 0.8, delay: 0.1, ease: 'easeOut' }} />
         </div>
-
-        {/* Narrative */}
-        <p className="text-white/70 font-body text-sm md:text-base text-center leading-relaxed max-w-[700px] mx-auto mb-5">
-          {narrative}
-        </p>
-
-        {/* Mechanism tag */}
-        <div className="text-center">
-          <span className="inline-block px-3 py-1 rounded-full text-xs font-data bg-white/8 text-white/50">
-            {mechanism.emoji} {mechanism.text}
-          </span>
-        </div>
+        <span className="text-sm font-data text-[#E07A5F] w-16">{metric.format(valB)}</span>
       </div>
-    </section>
-  )
-}
-
-// --- Mini Bar (reusable) ---
-function MiniBar({ flag, name, value, pct, color, opacity = 1, delay = 0 }) {
-  const displayVal = typeof value === 'number'
-    ? (value >= 1000 ? `$${(value / 1000).toFixed(0)}k` : value % 1 === 0 ? value : value.toFixed(1))
-    : value
-
-  return (
-    <div className="flex items-center gap-2 mb-2">
-      <span className="text-xs font-body text-white/60 w-16 md:w-20 text-right truncate">
-        {flag} {name}
-      </span>
-      <div className="flex-1 relative h-5 bg-white/8 rounded-full overflow-hidden">
-        <motion.div
-          className="absolute inset-y-0 left-0 rounded-full"
-          style={{ backgroundColor: color, opacity }}
-          initial={{ width: '0%' }}
-          animate={{ width: `${pct}%` }}
-          transition={{ delay, duration: 0.6, ease: 'easeOut' }}
-        />
+      <div className="flex justify-between mt-0.5">
+        <span className="text-[9px] font-data text-white/30">{profileA.flag} {profileA.name}</span>
+        <span className="text-[9px] font-data text-white/30">{profileB.flag} {profileB.name}</span>
       </div>
-      <span className="text-xs font-data text-white/70 w-12 md:w-14">
-        {displayVal}
-      </span>
     </div>
   )
 }
@@ -271,95 +118,99 @@ export default function Outcomes({ pair, onComplete, onTryPair }) {
   const connections = selectConnections(profileA, profileB)
   const suggestedNext = getSuggestedNextPair(pair)
 
-  console.log('[Outcomes] Rendering with', connections.length, 'connections for', pair[0], 'vs', pair[1])
+  // Get dashboard metrics
+  const dashMetrics = DASHBOARD_METRICS.map(m => {
+    const valA = getOutcomeVal(profileA, m.key)
+    const valB = getOutcomeVal(profileB, m.key)
+    if (valA == null || valB == null) return null
+    return { ...m, valA, valB }
+  }).filter(Boolean)
 
   return (
-    <div className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth" style={{ backgroundColor: '#1a2e3b' }}>
-      {/* Intro */}
-      <section className="min-h-screen snap-start flex flex-col items-center justify-center px-4">
-        <motion.div
-          className="text-center"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <h2 className="font-display text-2xl md:text-[40px] text-white mb-3">
-            Does timing matter?
-          </h2>
-          <p className="text-white/60 font-body text-base md:text-lg max-w-[500px] mx-auto mb-4">
-            These two countries time life completely differently. So here's the real question: does it matter?
-          </p>
-          <p className="text-white/40 font-body text-sm mb-8">
-            {connections.length} connections found. Scroll to explore.
-          </p>
-          <motion.div
-            className="text-white/30"
-            animate={{ y: [0, 8, 0] }}
-            transition={{ repeat: Infinity, duration: 2 }}
-          >
-            <svg className="w-5 h-5 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
+    <div className="min-h-screen scroll-smooth" style={{ backgroundColor: '#1a2e3b' }}>
+      {/* SECTION 1: Intro + Dashboard */}
+      <section className="min-h-screen flex flex-col items-center justify-center px-4 py-16">
+        <div className="max-w-[700px] w-full">
+          <motion.p className="text-white/50 font-body text-base text-center mb-3"
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
+            These two countries time life completely differently.
+          </motion.p>
+          <motion.h2 className="font-display text-2xl md:text-[36px] text-white text-center mb-10"
+            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.6 }}>
+            What timing changes
+          </motion.h2>
+
+          {/* Dashboard rows */}
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6, duration: 0.6 }}>
+            {dashMetrics.map((m, i) => (
+              <DashboardRow key={m.key} metric={m} valA={m.valA} valB={m.valB} profileA={profileA} profileB={profileB} />
+            ))}
           </motion.div>
-        </motion.div>
+
+          {/* Legend */}
+          <div className="flex justify-center gap-6 mt-4 text-[10px] font-data">
+            <span className="text-[#48BFE3]">■ {profileA.flag} {profileA.name}</span>
+            <span className="text-[#E07A5F]">■ {profileB.flag} {profileB.name}</span>
+          </div>
+        </div>
       </section>
 
-      {/* Connection sections */}
-      {connections.map((conn, i) => (
-        <ConnectionSection
-          key={`${conn.milestone}-${conn.outcome}-${i}`}
-          conn={conn}
-          profileA={profileA}
-          profileB={profileB}
-          index={i}
-          total={connections.length}
-        />
-      ))}
-
-      {/* Outro / What's next */}
-      <section className="min-h-screen snap-start flex flex-col items-center justify-center px-4">
-        <motion.div
-          className="text-center max-w-[600px]"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ amount: 0.5, once: true }}
-          transition={{ duration: 0.8 }}
-        >
-          <h2 className="font-display text-2xl md:text-3xl text-white mb-3">
-            You followed {profileA.flag} {profileA.name} & {profileB.flag} {profileB.name} through life.
-          </h2>
-          <p className="text-white/60 font-body text-base mb-8">
-            But there are 66 possible pairs in this data, and each one tells a different story.
+      {/* SECTION 2: Connection narratives */}
+      <section className="px-4 py-16">
+        <div className="max-w-[650px] mx-auto">
+          <p className="text-white/40 text-sm font-body text-center mb-16">
+            But why? Scroll to see the connections.
           </p>
 
-          {/* Suggested next pair */}
-          {suggestedNext && onTryPair && (
-            <div className="mb-8">
-              <p className="text-text/50 text-sm font-body mb-3">Try another pair:</p>
-              <motion.button
-                onClick={() => onTryPair(suggestedNext.codes)}
-                className="px-5 py-3 rounded-xl border border-text/10 bg-white/60 hover:bg-white hover:shadow-md transition-all cursor-pointer text-left w-full max-w-[400px] mx-auto block"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <span className="font-body font-medium text-sm text-text">
-                  {suggestedNext.flagA} {suggestedNext.nameA} & {suggestedNext.flagB} {suggestedNext.nameB}
+          {connections.map((conn, i) => {
+            const narrative = fillTemplate(conn.template, profileA, profileB, conn)
+            const mechColor = MECHANISM_COLORS[conn.group] || '#457B9D'
+            return (
+              <motion.div key={`${conn.milestone}-${conn.outcome}`} className="mb-20"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ amount: 0.3, once: true }}
+                transition={{ duration: 0.6 }}>
+                <p className="font-display text-xl md:text-2xl text-white italic mb-4 leading-relaxed">
+                  {conn.one_liner}
+                </p>
+                <p className="font-body text-base md:text-lg text-white/65 leading-relaxed mb-4">
+                  {narrative}
+                </p>
+                <span className="inline-block px-3 py-1 rounded-full text-[11px] font-data" style={{ color: mechColor, backgroundColor: mechColor + '15' }}>
+                  {conn.group === 'causal' && 'Causal'}
+                  {conn.group === 'common_cause' && 'Common cause'}
+                  {conn.group === 'feedback' && 'Feedback loop'}
                 </span>
-                <p className="text-xs text-text/50 italic mt-1">{suggestedNext.tagline}</p>
-              </motion.button>
+              </motion.div>
+            )
+          })}
+
+          {/* Transition */}
+          <motion.div className="text-center mt-16 mb-8"
+            initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
+            <p className="text-white/60 font-body text-base mb-2">
+              These patterns hold beyond just two countries. Across 44 nations, the same story repeats.
+            </p>
+            <p className="text-white/40 font-body text-sm mb-8">↓ See the evidence</p>
+            <motion.button onClick={onComplete}
+              className="px-8 py-3 rounded-full border border-white/20 font-body text-sm text-white cursor-pointer hover:bg-white/10 transition-all"
+              whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
+              See what all 12 countries reveal →
+            </motion.button>
+          </motion.div>
+
+          {/* Try another pair */}
+          {suggestedNext && onTryPair && (
+            <div className="text-center mt-8">
+              <p className="text-white/30 text-xs font-body mb-2">Or try another pair:</p>
+              <button onClick={() => onTryPair(suggestedNext.codes)}
+                className="text-xs text-white/40 hover:text-white/70 cursor-pointer font-body">
+                {suggestedNext.flagA} {suggestedNext.nameA} & {suggestedNext.flagB} {suggestedNext.nameB}
+              </button>
             </div>
           )}
-
-          {/* Continue to reveals */}
-          <motion.button
-            onClick={onComplete}
-            className="px-6 py-3 rounded-xl border border-text/20 font-body text-sm text-text hover:bg-white hover:shadow-md transition-all cursor-pointer"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            See what all 12 countries reveal →
-          </motion.button>
-        </motion.div>
+        </div>
       </section>
     </div>
   )
