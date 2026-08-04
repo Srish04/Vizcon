@@ -1,35 +1,27 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Explore from './components/Explore/CorrelationExplorer'
-import PairComparison from './components/PairComparison'
-import Discoveries from './components/Reveals/Reveals'
-import Quiz from './components/Explore/Quiz'
-import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="bg-bg text-text font-body">
+    <div className="bg-[#FAFAF8] text-[#264653]">
       <Navbar />
       <Hero />
-      <section id="explore" className="py-16 px-4 md:px-8">
-        <div className="max-w-[900px] mx-auto">
-          <h2 className="font-display text-2xl md:text-[32px] text-text mb-2">Explore the Data</h2>
-          <p className="font-body text-sm text-text-secondary mb-8">Pick any two metrics. See what connects.</p>
-          <Explore />
-        </div>
+      <section id="explore" className="min-h-screen flex items-center justify-center">
+        <p className="text-2xl opacity-40 font-body">Explore — coming next</p>
       </section>
-      <PairComparison />
-      <section id="discoveries">
-        <Discoveries onComplete={() => {}} onPickPair={() => {}} selectedPair={null} />
+      <section id="compare" className="min-h-screen flex items-center justify-center">
+        <p className="text-2xl opacity-40 font-body">Compare — coming next</p>
       </section>
-      <section id="quiz" className="py-16 px-4 md:px-8 bg-[#F0E6D3]">
-        <div className="max-w-[600px] mx-auto">
-          <h2 className="font-display text-2xl md:text-[32px] text-text mb-2 text-center">Test Your Intuition</h2>
-          <p className="font-body text-sm text-text-secondary mb-8 text-center">8 questions. Most people get half wrong.</p>
-          <Quiz />
-        </div>
+      <section id="discoveries" className="min-h-screen flex items-center justify-center">
+        <p className="text-2xl opacity-40 font-body">Discoveries — coming next</p>
       </section>
-      <Footer />
+      <section id="quiz" className="min-h-screen flex items-center justify-center">
+        <p className="text-2xl opacity-40 font-body">Quiz — coming next</p>
+      </section>
+      <footer id="footer" className="bg-[#264653] text-white p-16 text-center">
+        <p className="font-display text-lg">Life Milestones: How the World Grows Up</p>
+        <p className="font-body text-sm text-white/50 mt-2">VizCon 2026</p>
+      </footer>
     </div>
   )
 }
