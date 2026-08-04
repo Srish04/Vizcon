@@ -323,8 +323,8 @@ export default function Timeline({ pair, onComplete }) {
         <h2 className="font-display text-xl md:text-2xl text-text mb-1">{profileA.flag} {profileA.name} vs {profileB.flag} {profileB.name}</h2>
         <p className="text-text-muted font-body text-sm mb-2">Hover to highlight on the timeline.</p>
         <GenderToggle genderView={genderView} setGenderView={setGenderView} />
-        {milestones.map((m, i) => (
-          <MilestoneCard key={m.key} milestone={m} profileA={profileA} profileB={profileB} index={i} onHover={setHoveredIndex} genderView={genderView} />
+        {(genderView ? milestones.filter(m => GENDER_MILESTONES.has(m.key) && GENDER_DATA[profileA.country]?.[m.key] && GENDER_DATA[profileB.country]?.[m.key]) : milestones).map((m, i) => (
+          <MilestoneCard key={m.key} milestone={m} profileA={profileA} profileB={profileB} index={milestones.indexOf(m)} onHover={setHoveredIndex} genderView={genderView} />
         ))}
         <div className="mt-8 py-8 text-center">
           <p className="font-body text-sm text-text-secondary mb-2">{profileA.name}: {socialMs.length} milestones across {spanA} years.</p>
