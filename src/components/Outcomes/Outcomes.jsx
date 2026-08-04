@@ -191,7 +191,7 @@ function ConnectionSection({ conn, profileA, profileB, index, total }) {
       <div className="w-full max-w-[900px]">
         {/* Eyebrow */}
         <motion.p
-          className="text-xs font-data text-text/40 text-center mb-3 uppercase tracking-wider"
+          className="text-xs font-data text-white/40 text-center mb-3 uppercase tracking-wider"
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 0.3 }}
@@ -219,7 +219,7 @@ function ConnectionSection({ conn, profileA, profileB, index, total }) {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ delay: 0.3, duration: 0.5 }}
           >
-            <p className="text-xs font-data text-text/50 mb-2 text-center">{milestoneInfo.label}</p>
+            <p className="text-xs font-data text-white/50 mb-2 text-center">{milestoneInfo.label}</p>
             <MiniBar
               flag={profileA.flag}
               name={profileA.name}
@@ -266,7 +266,7 @@ function ConnectionSection({ conn, profileA, profileB, index, total }) {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ delay: 0.8, duration: 0.5 }}
           >
-            <p className="text-xs font-data text-text/50 mb-2 text-center">{outcomeInfo.label}</p>
+            <p className="text-xs font-data text-white/50 mb-2 text-center">{outcomeInfo.label}</p>
             <MiniBar
               flag={profileA.flag}
               name={profileA.name}
@@ -291,7 +291,7 @@ function ConnectionSection({ conn, profileA, profileB, index, total }) {
 
         {/* Narrative */}
         <motion.p
-          className="text-text/70 font-body text-sm md:text-base text-center leading-relaxed max-w-[700px] mx-auto mb-5"
+          className="text-white/70 font-body text-sm md:text-base text-center leading-relaxed max-w-[700px] mx-auto mb-5"
           initial={{ opacity: 0, y: 10 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 1.2, duration: 0.4 }}
@@ -306,7 +306,7 @@ function ConnectionSection({ conn, profileA, profileB, index, total }) {
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 1.4, duration: 0.3 }}
         >
-          <span className="inline-block px-3 py-1 rounded-full text-xs font-data bg-text/5 text-text/50">
+          <span className="inline-block px-3 py-1 rounded-full text-xs font-data bg-white/8 text-white/50">
             {mechanism.emoji} {mechanism.text}
           </span>
         </motion.div>
@@ -323,10 +323,10 @@ function MiniBar({ flag, name, value, pct, color, opacity = 1, isInView, delay }
 
   return (
     <div className="flex items-center gap-2 mb-2">
-      <span className="text-xs font-body text-text/60 w-16 md:w-20 text-right truncate">
+      <span className="text-xs font-body text-white/60 w-16 md:w-20 text-right truncate">
         {flag} {name}
       </span>
-      <div className="flex-1 relative h-5 bg-text/5 rounded-full overflow-hidden">
+      <div className="flex-1 relative h-5 bg-white/8 rounded-full overflow-hidden">
         <motion.div
           className="absolute inset-y-0 left-0 rounded-full"
           style={{ backgroundColor: color, opacity }}
@@ -336,7 +336,7 @@ function MiniBar({ flag, name, value, pct, color, opacity = 1, isInView, delay }
         />
       </div>
       <motion.span
-        className="text-xs font-data text-text/70 w-12 md:w-14"
+        className="text-xs font-data text-white/70 w-12 md:w-14"
         initial={{ opacity: 0 }}
         animate={isInView ? { opacity: 1 } : {}}
         transition={{ delay: delay + 0.4, duration: 0.3 }}
@@ -357,7 +357,7 @@ export default function Outcomes({ pair, onComplete, onTryPair }) {
   console.log('[Outcomes] Rendering with', connections.length, 'connections for', pair[0], 'vs', pair[1])
 
   return (
-    <div className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
+    <div className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth" style={{ backgroundColor: '#1a2e3b' }}>
       {/* Intro */}
       <section className="min-h-screen snap-start flex flex-col items-center justify-center px-4">
         <motion.div
@@ -366,17 +366,17 @@ export default function Outcomes({ pair, onComplete, onTryPair }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="font-display text-2xl md:text-[40px] text-text mb-3">
+          <h2 className="font-display text-2xl md:text-[40px] text-white mb-3">
             Does timing matter?
           </h2>
-          <p className="text-text-secondary font-body text-base md:text-lg max-w-[500px] mx-auto mb-4">
+          <p className="text-white/60 font-body text-base md:text-lg max-w-[500px] mx-auto mb-4">
             These two countries time life completely differently. So here's the real question: does it matter?
           </p>
-          <p className="text-text-muted font-body text-sm mb-8">
+          <p className="text-white/40 font-body text-sm mb-8">
             {connections.length} connections found. Scroll to explore.
           </p>
           <motion.div
-            className="text-text-faint"
+            className="text-white/30"
             animate={{ y: [0, 8, 0] }}
             transition={{ repeat: Infinity, duration: 2 }}
           >
@@ -408,10 +408,10 @@ export default function Outcomes({ pair, onComplete, onTryPair }) {
           viewport={{ amount: 0.5, once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="font-display text-2xl md:text-3xl text-text mb-3">
+          <h2 className="font-display text-2xl md:text-3xl text-white mb-3">
             You followed {profileA.flag} {profileA.name} & {profileB.flag} {profileB.name} through life.
           </h2>
-          <p className="text-text-secondary font-body text-base mb-8">
+          <p className="text-white/60 font-body text-base mb-8">
             But there are 66 possible pairs in this data, and each one tells a different story.
           </p>
 
