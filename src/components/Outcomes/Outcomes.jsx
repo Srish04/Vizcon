@@ -236,9 +236,7 @@ function ConnectionSection({ conn, profileA, profileB, index, total }) {
     </section>
   )
 }
-  const mPctA = ((conn.mA - mRange[0]) / (mRange[1] - mRange[0])) * 100
-  const mPctB = ((conn.mB - mRange[0]) / (mRange[1] - mRange[0])) * 100
-  const oPctA = ((conn.oA - oRange[0]) / (oRange[1] - oRange[0])) * 100
+
 // --- Mini Bar (reusable) ---
 function MiniBar({ flag, name, value, pct, color, opacity = 1, delay = 0 }) {
   const displayVal = typeof value === 'number'
