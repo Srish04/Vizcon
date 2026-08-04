@@ -1,5 +1,5 @@
-import { useState, useRef } from 'react'
-import { motion, useInView } from 'framer-motion'
+import { useState } from 'react'
+import { motion } from 'framer-motion'
 import countryProfiles from '../../data/country_profiles.json'
 import correlationData from '../../data/correlation_narratives.json'
 import pairStoryData from '../../data/pair_story_analysis.json'
@@ -168,9 +168,6 @@ function getSuggestedNextPair(currentPair) {
 
 // --- Connection Section ---
 function ConnectionSection({ conn, profileA, profileB, index, total }) {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { amount: 0.2, once: true })
-
   const milestoneInfo = MILESTONE_META[conn.milestone] || { label: conn.milestone, color: '#666', range: [0, 100] }
   const outcomeInfo = OUTCOME_META[conn.outcome] || { label: conn.outcome, range: [0, 100] }
   const mechanism = MECHANISM_LABELS[conn.group] || MECHANISM_LABELS.common_cause
@@ -184,139 +181,66 @@ function ConnectionSection({ conn, profileA, profileB, index, total }) {
   const oPctB = ((conn.oB - oRange[0]) / (oRange[1] - oRange[0])) * 100
 
   return (
-    <section
-      ref={ref}
-      className="min-h-screen snap-start flex flex-col items-center justify-center px-4 md:px-8 py-12"
-    >
+    <section className="min-h-screen snap-start flex flex-col items-center justify-center px-4 md:px-8 py-12">
       <div className="w-full max-w-[900px]">
         {/* Eyebrow */}
-        <motion.p
-          className="text-xs font-data text-white/40 text-center mb-3 uppercase tracking-wider"
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.3 }}
-        >
+        <p className="text-xs font-data text-white/40 text-center mb-3 uppercase tracking-wider">
           Connection {index + 1} of {total}
-        </motion.p>
+        </p>
 
         {/* One-liner headline */}
-        <motion.h2
-          className="font-display text-xl md:text-3xl text-center mb-8"
-          style={{ color: milestoneInfo.color }}
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.1, duration: 0.4 }}
-        >
+        <h2 className="font-display text-xl md:text-3xl text-center mb-8" style={{ color: milestoneInfo.color }}>
           {conn.one_liner}
-        </motion.h2>
+        </h2>
 
         {/* Visualization: Milestone → Outcome */}
         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 mb-8">
           {/* Left: Milestone */}
-          <motion.div
-            className="flex-1 w-full"
-            initial={{ opacity: 0, x: -20 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ delay: 0.3, duration: 0.5 }}
-          >
+          <div className="flex-1 w-full">
             <p className="text-xs font-data text-white/50 mb-2 text-center">{milestoneInfo.label}</p>
-            <MiniBar
-              flag={profileA.flag}
-              name={profileA.name}
-              value={conn.mA}
-              pct={Math.min(Math.max(mPctA, 3), 100)}
-              color={milestoneInfo.color}
-              isInView={isInView}
-              delay={0.4}
-            />
-            <MiniBar
-              flag={profileB.flag}
-              name={profileB.name}
-              value={conn.mB}
-              pct={Math.min(Math.max(mPctB, 3), 100)}
-              color={milestoneInfo.color}
-              opacity={0.6}
-              isInView={isInView}
-              delay={0.5}
-            />
-          </motion.div>
+            <MiniBar flag={profileA.flag} name={profileA.name} value={conn.mA}
+              pct={Math.min(Math.max(mPctA, 3), 100)} color={milestoneInfo.color} delay={0} />
+            <MiniBar flag={profileB.flag} name={profileB.name} value={conn.mB}
+              pct={Math.min(Math.max(mPctB, 3), 100)} color={milestoneInfo.color} opacity={0.6} delay={0.1} />
+          </div>
 
           {/* Arrow */}
-          <motion.div
-            className="flex-shrink-0 flex items-center justify-center"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={isInView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ delay: 0.7, duration: 0.4 }}
-          >
+          <div className="flex-shrink-0 flex items-center justify-center">
             <svg className="w-12 h-8 md:w-16 md:h-10" viewBox="0 0 64 40" fill="none">
-              <path
-                d="M4 20 H52 M44 12 L54 20 L44 28"
-                stroke={milestoneInfo.color}
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
+              <path d="M4 20 H52 M44 12 L54 20 L44 28" stroke={milestoneInfo.color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-          </motion.div>
+          </div>
 
           {/* Right: Outcome */}
-          <motion.div
-            className="flex-1 w-full"
-            initial={{ opacity: 0, x: 20 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ delay: 0.8, duration: 0.5 }}
-          >
+          <div className="flex-1 w-full">
             <p className="text-xs font-data text-white/50 mb-2 text-center">{outcomeInfo.label}</p>
-            <MiniBar
-              flag={profileA.flag}
-              name={profileA.name}
-              value={conn.oA}
-              pct={Math.min(Math.max(oPctA, 3), 100)}
-              color={milestoneInfo.color}
-              isInView={isInView}
-              delay={0.9}
-            />
-            <MiniBar
-              flag={profileB.flag}
-              name={profileB.name}
-              value={conn.oB}
-              pct={Math.min(Math.max(oPctB, 3), 100)}
-              color={milestoneInfo.color}
-              opacity={0.6}
-              isInView={isInView}
-              delay={1.0}
-            />
-          </motion.div>
+            <MiniBar flag={profileA.flag} name={profileA.name} value={conn.oA}
+              pct={Math.min(Math.max(oPctA, 3), 100)} color={milestoneInfo.color} delay={0.2} />
+            <MiniBar flag={profileB.flag} name={profileB.name} value={conn.oB}
+              pct={Math.min(Math.max(oPctB, 3), 100)} color={milestoneInfo.color} opacity={0.6} delay={0.3} />
+          </div>
         </div>
 
         {/* Narrative */}
-        <motion.p
-          className="text-white/70 font-body text-sm md:text-base text-center leading-relaxed max-w-[700px] mx-auto mb-5"
-          initial={{ opacity: 0, y: 10 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 1.2, duration: 0.4 }}
-        >
+        <p className="text-white/70 font-body text-sm md:text-base text-center leading-relaxed max-w-[700px] mx-auto mb-5">
           {narrative}
-        </motion.p>
+        </p>
 
         {/* Mechanism tag */}
-        <motion.div
-          className="text-center"
-          initial={{ opacity: 0 }}
-          animate={isInView ? { opacity: 1 } : {}}
-          transition={{ delay: 1.4, duration: 0.3 }}
-        >
+        <div className="text-center">
           <span className="inline-block px-3 py-1 rounded-full text-xs font-data bg-white/8 text-white/50">
             {mechanism.emoji} {mechanism.text}
           </span>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
 }
-
+  const mPctA = ((conn.mA - mRange[0]) / (mRange[1] - mRange[0])) * 100
+  const mPctB = ((conn.mB - mRange[0]) / (mRange[1] - mRange[0])) * 100
+  const oPctA = ((conn.oA - oRange[0]) / (oRange[1] - oRange[0])) * 100
 // --- Mini Bar (reusable) ---
-function MiniBar({ flag, name, value, pct, color, opacity = 1, isInView, delay }) {
+function MiniBar({ flag, name, value, pct, color, opacity = 1, delay = 0 }) {
   const displayVal = typeof value === 'number'
     ? (value >= 1000 ? `$${(value / 1000).toFixed(0)}k` : value % 1 === 0 ? value : value.toFixed(1))
     : value
@@ -331,18 +255,13 @@ function MiniBar({ flag, name, value, pct, color, opacity = 1, isInView, delay }
           className="absolute inset-y-0 left-0 rounded-full"
           style={{ backgroundColor: color, opacity }}
           initial={{ width: '0%' }}
-          animate={isInView ? { width: `${pct}%` } : { width: '0%' }}
+          animate={{ width: `${pct}%` }}
           transition={{ delay, duration: 0.6, ease: 'easeOut' }}
         />
       </div>
-      <motion.span
-        className="text-xs font-data text-white/70 w-12 md:w-14"
-        initial={{ opacity: 0 }}
-        animate={isInView ? { opacity: 1 } : {}}
-        transition={{ delay: delay + 0.4, duration: 0.3 }}
-      >
+      <span className="text-xs font-data text-white/70 w-12 md:w-14">
         {displayVal}
-      </motion.span>
+      </span>
     </div>
   )
 }
