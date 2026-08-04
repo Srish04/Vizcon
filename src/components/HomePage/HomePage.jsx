@@ -442,12 +442,10 @@ export default function HomePage({ onPairSelected, onNavigate }) {
             </motion.div>
           </motion.div>
 
-          {/* Right: Animated dots */}
-          <motion.div className="md:w-[45%] flex items-center justify-center"
+          {/* Right: Race animation inline */}
+          <motion.div className="md:w-[45%]"
             initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5, duration: 0.8 }}>
-            <div className="relative w-full h-[300px] md:h-[400px]">
-              <WorldMapBg />
-            </div>
+            <RaceAnimation />
           </motion.div>
         </div>
 
@@ -456,11 +454,6 @@ export default function HomePage({ onPairSelected, onNavigate }) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </motion.div>
-      </section>
-
-      {/* SECTION 2: Race Animation (DARK, continuous — no gap from hero) */}
-      <section className="flex flex-col items-center justify-center px-4 py-16 pb-24" style={{ backgroundColor: '#1a2e3b' }}>
-        <RaceAnimation />
       </section>
 
       {/* SECTION 3: Discovery Teasers with INFOGRAPHICS (CREAM) */}
