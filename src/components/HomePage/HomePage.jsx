@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
+import globalMetrics from '../../data/global_metrics.json'
 
 const COUNTRIES = [
   { code: 'SWE', name: 'Sweden', flag: '🇸🇪', menarche: 13.1, education: 25.0, marriage: 34.8, retirement: 65.1, lifeExp: 84.1 },
@@ -155,12 +156,6 @@ export default function HomePage({ onPairSelected, onNavigate }) {
     }
   }
 
-  const TEASERS = [
-    { number: '6 of 12', text: "countries have baby before marriage. The life sequence you assume is normal? It's the minority.", color: '#C2185B' },
-    { number: '75%', text: "of a country's wealth can be predicted from a single number: when women marry. Not GDP growth, not education spending, not trade policy. One number.", color: '#E76F51' },
-    { number: '93%', text: "of Swedish women's extra years of life are spent in poor health. Women live longer everywhere. But not all extra years are equal.", color: '#7B2D8E' },
-  ]
-
   return (
     <div className="scroll-smooth">
       <GradientLine />
@@ -181,10 +176,23 @@ export default function HomePage({ onPairSelected, onNavigate }) {
             the same milestones. But when they happen changes everything.
           </p>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, duration: 0.8 }}>
-            <p className="font-body text-base md:text-lg text-white/50 mb-1">11 milestones. 12 countries. 44 for validation.</p>
-            <p className="font-body text-base md:text-lg text-white/50">This is what the data reveals.</p>
+            {/* Animated counter row */}
+            <div className="flex items-center justify-center gap-8 md:gap-16 mb-6">
+              {[{ val: 11, label: 'milestones' }, { val: 12, label: 'countries' }, { val: 44, label: 'for validation' }].map((item, i) => (
+                <motion.div key={item.label} className="text-center"
+                  initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1.2 + i * 0.3, duration: 0.6 }}>
+                  <motion.span className="font-data text-4xl md:text-5xl text-white font-medium block"
+                    initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+                    transition={{ delay: 1.4 + i * 0.3, duration: 0.8 }}>
+                    {item.val}
+                  </motion.span>
+                  <span className="font-body text-xs md:text-sm text-white/40">{item.label}</span>
+                </motion.div>
+              ))}
+            </div>
             {/* Pulsing dots */}
-            <div className="flex items-center gap-2 justify-center mt-6">
+            <div className="flex items-center gap-2 justify-center">
               {MILESTONE_COLORS.map((color, i) => (
                 <motion.div key={i} className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }}
                   animate={{ opacity: [0.3, 1, 0.3], scale: [0.8, 1.2, 0.8] }}
@@ -205,41 +213,156 @@ export default function HomePage({ onPairSelected, onNavigate }) {
         <RaceAnimation />
       </section>
 
-      {/* SECTION 3: Discovery Teasers (CREAM, magazine layout) */}
+      {/* SECTION 3: Discovery Teasers with INFOGRAPHICS (CREAM) */}
       <section className="min-h-screen flex flex-col justify-center px-4 md:px-8 py-16 bg-bg">
         <div className="max-w-[900px] w-full mx-auto">
           <motion.h2 className="font-display text-2xl md:text-[36px] text-text mb-12 text-left"
             initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             Three things we didn't expect to find
           </motion.h2>
-          <div className="space-y-0">
-            {TEASERS.map((card, i) => {
-              const cardRef = useRef(null)
-              const cardInView = useInView(cardRef, { amount: 0.4, once: true })
-              const reversed = i === 1
-              return (
-                <motion.div key={i} ref={cardRef}
-                  className={`flex flex-col md:flex-row items-center gap-6 md:gap-10 py-10 border-t-2`}
-                  style={{ borderColor: card.color + '40', flexDirection: reversed ? 'row-reverse' : 'row' }}
-                  initial={{ opacity: 0, x: reversed ? 40 : -40 }}
-                  animate={cardInView ? { opacity: 1, x: 0 } : {}}
-                  transition={{ delay: i * 0.15, duration: 0.5 }}>
-                  <div className="md:w-[35%] flex-shrink-0">
-                    <p className="font-display text-6xl md:text-[96px] font-bold leading-none" style={{ color: card.color }}>
-                      {card.number}
-                    </p>
+
+          {/* CARD 1: Sequence — mini strips showing baby vs marriage order */}
+          {(() => {
+            const c1Ref = useRef(null)
+            const c1InView = useInView(c1Ref, { amount: 0.3, once: true })
+            const babyFirst = ['SWE', 'ITA', 'FRA', 'DNK', 'DEU', 'USA']
+            const marriageFirst = ['IND', 'MEX', 'BRA', 'JPN', 'KOR', 'AUS']
+            return (
+              <motion.div ref={c1Ref} className="flex flex-col md:flex-row items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#C2185B40' }}
+                initial={{ opacity: 0, x: -40 }} animate={c1InView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
+                <div className="md:w-[30%] flex-shrink-0">
+                  <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#C2185B]">6 of 12</p>
+                </div>
+                <div className="md:w-[70%]">
+                  <div className="mb-4">
+                    <p className="text-[10px] font-data text-text-muted mb-2 uppercase tracking-wider">Baby before marriage</p>
+                    <div className="space-y-1">
+                      {babyFirst.map((code, i) => (
+                        <motion.div key={code} className="flex items-center gap-2"
+                          initial={{ opacity: 0, x: -10 }} animate={c1InView ? { opacity: 1, x: 0 } : {}}
+                          transition={{ delay: 0.3 + i * 0.1, duration: 0.3 }}>
+                          <span className="text-[9px] font-data text-text-muted w-8">{code}</span>
+                          <div className="flex items-center gap-1">
+                            <div className="w-3 h-3 rounded-full bg-[#E9C46A]" title="Baby" />
+                            <div className="w-6 h-px bg-text-faint" />
+                            <div className="w-3 h-3 rounded-full bg-[#E76F51]" title="Marriage" />
+                          </div>
+                        </motion.div>
+                      ))}
+                    </div>
+                    <p className="text-[10px] font-data text-text-muted mb-2 mt-4 uppercase tracking-wider">Marriage before baby</p>
+                    <div className="space-y-1">
+                      {marriageFirst.map((code, i) => (
+                        <motion.div key={code} className="flex items-center gap-2"
+                          initial={{ opacity: 0, x: -10 }} animate={c1InView ? { opacity: 1, x: 0 } : {}}
+                          transition={{ delay: 0.9 + i * 0.1, duration: 0.3 }}>
+                          <span className="text-[9px] font-data text-text-muted w-8">{code}</span>
+                          <div className="flex items-center gap-1">
+                            <div className="w-3 h-3 rounded-full bg-[#E76F51]" title="Marriage" />
+                            <div className="w-6 h-px bg-text-faint" />
+                            <div className="w-3 h-3 rounded-full bg-[#E9C46A]" title="Baby" />
+                          </div>
+                        </motion.div>
+                      ))}
+                    </div>
                   </div>
-                  <div className="md:w-[65%]">
-                    <p className="font-body text-base md:text-lg text-text-secondary leading-relaxed mb-3">{card.text}</p>
-                    <button onClick={() => onNavigate('reveals')}
-                      className="text-sm font-body cursor-pointer transition-colors hover:underline" style={{ color: card.color }}>
-                      See the data →
-                    </button>
+                  <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
+                    Across cultures and continents, the "normal" life sequence is the minority.
+                  </p>
+                  <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#C2185B]">
+                    Explore the full pattern →
+                  </button>
+                </div>
+              </motion.div>
+            )
+          })()}
+
+          {/* CARD 2: One Number — mini scatter plot (reversed layout) */}
+          {(() => {
+            const c2Ref = useRef(null)
+            const c2InView = useInView(c2Ref, { amount: 0.3, once: true })
+            const scatterData = globalMetrics.filter(c => c.marriage_age_female != null && c.gdp_per_capita != null)
+            return (
+              <motion.div ref={c2Ref} className="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#E76F5140' }}
+                initial={{ opacity: 0, x: 40 }} animate={c2InView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
+                <div className="md:w-[30%] flex-shrink-0 text-right">
+                  <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#E76F51]">75%</p>
+                </div>
+                <div className="md:w-[70%]">
+                  {/* Mini scatter */}
+                  <div className="mb-4">
+                    <svg viewBox="0 0 200 120" className="w-full max-w-[300px] h-[120px]">
+                      {scatterData.map((c, i) => {
+                        const x = ((c.marriage_age_female - 17) / (35 - 17)) * 180 + 10
+                        const maxGdp = Math.max(...scatterData.map(d => d.gdp_per_capita))
+                        const y = 110 - (c.gdp_per_capita / maxGdp) * 100
+                        return (
+                          <motion.circle key={c.country_code} r="2.5" fill="#E76F51"
+                            initial={{ cx: 100, cy: 60, opacity: 0 }}
+                            animate={c2InView ? { cx: x, cy: y, opacity: 0.6 } : {}}
+                            transition={{ delay: 0.5 + i * 0.02, duration: 1.2, ease: 'easeOut' }} />
+                        )
+                      })}
+                    </svg>
                   </div>
-                </motion.div>
-              )
-            })}
-          </div>
+                  <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
+                    of a country's wealth can be predicted from one number: when women marry. Validated across 44 countries.
+                  </p>
+                  <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#E76F51]">
+                    See all four predictions →
+                  </button>
+                </div>
+              </motion.div>
+            )
+          })()}
+
+          {/* CARD 3: Longevity Tax — mini stacked bars */}
+          {(() => {
+            const c3Ref = useRef(null)
+            const c3InView = useInView(c3Ref, { amount: 0.3, once: true })
+            const longevityCount = globalMetrics.filter(c => c.longevity_tax_pct != null && c.longevity_tax_pct > 50).length
+            const exampleBars = [
+              { code: 'SWE', pct: 93 }, { code: 'IND', pct: 91 }, { code: 'FRA', pct: 67 }, { code: 'MEX', pct: 29 }, { code: 'KOR', pct: 41 },
+            ]
+            console.log('[HomePage] Countries with longevity_tax > 50%:', longevityCount)
+            return (
+              <motion.div ref={c3Ref} className="flex flex-col md:flex-row items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#7B2D8E40' }}
+                initial={{ opacity: 0, x: -40 }} animate={c3InView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
+                <div className="md:w-[30%] flex-shrink-0">
+                  <p className="font-display text-6xl md:text-[80px] font-bold leading-none text-[#7B2D8E]">{longevityCount} of 43</p>
+                </div>
+                <div className="md:w-[70%]">
+                  {/* Mini stacked bars */}
+                  <div className="space-y-1.5 mb-4 max-w-[280px]">
+                    {exampleBars.map((bar, i) => (
+                      <motion.div key={bar.code} className="flex items-center gap-2"
+                        initial={{ opacity: 0 }} animate={c3InView ? { opacity: 1 } : {}}
+                        transition={{ delay: 0.4 + i * 0.15, duration: 0.4 }}>
+                        <span className="text-[9px] font-data text-text-muted w-8">{bar.code}</span>
+                        <div className="flex-1 h-4 rounded-sm overflow-hidden bg-[#1a3340]/5 flex">
+                          <motion.div className="h-full bg-[#2D6A4F]"
+                            initial={{ width: '100%' }}
+                            animate={c3InView ? { width: `${100 - bar.pct}%` } : {}}
+                            transition={{ delay: 0.8 + i * 0.15, duration: 1, ease: 'easeOut' }} />
+                          <motion.div className="h-full bg-[#E07A5F]"
+                            initial={{ width: '0%' }}
+                            animate={c3InView ? { width: `${bar.pct}%` } : {}}
+                            transition={{ delay: 0.8 + i * 0.15, duration: 1, ease: 'easeOut' }} />
+                        </div>
+                        <span className="text-[9px] font-data text-text-muted w-8">{bar.pct}%</span>
+                      </motion.div>
+                    ))}
+                  </div>
+                  <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
+                    countries where more than half of women's extra years of life are spent in poor health.
+                  </p>
+                  <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#7B2D8E]">
+                    See all 44 countries →
+                  </button>
+                </div>
+              </motion.div>
+            )
+          })()}
         </div>
       </section>
 
