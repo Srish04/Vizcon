@@ -357,51 +357,36 @@ function GenderCard({ onNavigate }) {
   )
 }
 
-// --- Animated World Map Background ---
+// --- Animated Background (dots + connections, no map) ---
 function WorldMapBg() {
   const dots = [
-    { x: 20, y: 35 }, { x: 25, y: 45 }, { x: 30, y: 60 },
-    { x: 15, y: 30 }, { x: 22, y: 28 }, { x: 35, y: 55 },
-    { x: 48, y: 30 }, { x: 50, y: 35 }, { x: 52, y: 28 },
-    { x: 47, y: 25 }, { x: 55, y: 30 }, { x: 53, y: 33 },
-    { x: 58, y: 40 }, { x: 62, y: 35 }, { x: 65, y: 45 },
-    { x: 70, y: 35 }, { x: 75, y: 30 }, { x: 78, y: 38 },
-    { x: 80, y: 28 }, { x: 85, y: 35 }, { x: 82, y: 42 },
-    { x: 50, y: 55 }, { x: 55, y: 60 }, { x: 48, y: 50 },
-    { x: 85, y: 60 }, { x: 88, y: 55 },
+    { x: 12, y: 20 }, { x: 18, y: 35 }, { x: 25, y: 50 },
+    { x: 15, y: 60 }, { x: 30, y: 28 }, { x: 35, y: 65 },
+    { x: 45, y: 22 }, { x: 50, y: 38 }, { x: 48, y: 55 },
+    { x: 55, y: 28 }, { x: 60, y: 45 }, { x: 58, y: 62 },
+    { x: 65, y: 20 }, { x: 70, y: 35 }, { x: 72, y: 55 },
+    { x: 78, y: 25 }, { x: 82, y: 40 }, { x: 85, y: 58 },
+    { x: 88, y: 30 }, { x: 92, y: 50 },
   ]
-  const connections = [[0, 8], [3, 10], [8, 16], [12, 19]]
+  const connections = [[0, 6], [4, 9], [7, 13], [10, 16]]
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      <svg className="w-[80%] h-[80%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" viewBox="0 0 100 80">
-        {/* Simplified continent outlines */}
-        <path d="M12 25 C15 20, 22 18, 28 22 C32 25, 35 30, 33 38 C30 45, 25 50, 22 55 C20 60, 18 65, 20 68 C22 70, 28 72, 32 70 C35 67, 34 62, 33 58"
-          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
-        <path d="M44 20 C47 18, 52 17, 56 19 C58 20, 57 24, 55 26 C53 28, 50 30, 48 32 C46 34, 44 33, 43 30 C42 27, 43 23, 44 20"
-          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
-        <path d="M46 38 C48 36, 52 35, 56 37 C60 39, 62 42, 60 48 C58 52, 55 55, 52 58 C49 60, 46 58, 45 54 C44 50, 45 44, 46 38"
-          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
-        <path d="M60 22 C65 20, 72 19, 78 22 C82 24, 85 28, 86 33 C87 38, 85 42, 82 44 C78 46, 72 44, 68 40 C64 36, 62 30, 60 22"
-          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
-        <path d="M82 52 C85 50, 90 51, 92 54 C93 57, 91 60, 88 62 C85 63, 82 61, 81 58 C80 55, 81 53, 82 52"
-          stroke="rgba(255,255,255,0.06)" fill="none" strokeWidth="0.4" />
-        {/* Animated connecting lines */}
+      <svg className="w-full h-full absolute inset-0" viewBox="0 0 100 80" preserveAspectRatio="xMidYMid slice">
         {connections.map(([a, b], i) => (
           <motion.path key={i}
-            d={`M ${dots[a].x} ${dots[a].y} Q ${(dots[a].x + dots[b].x) / 2} ${Math.min(dots[a].y, dots[b].y) - 8} ${dots[b].x} ${dots[b].y}`}
-            stroke={MILESTONE_COLORS[i % MILESTONE_COLORS.length]} strokeWidth="0.3" fill="none"
-            strokeDasharray="4 4" opacity="0.2"
+            d={`M ${dots[a].x} ${dots[a].y} Q ${(dots[a].x + dots[b].x) / 2} ${Math.min(dots[a].y, dots[b].y) - 10} ${dots[b].x} ${dots[b].y}`}
+            stroke={MILESTONE_COLORS[i * 2 % MILESTONE_COLORS.length]} strokeWidth="0.2" fill="none"
+            opacity="0.2"
             initial={{ pathLength: 0 }}
             animate={{ pathLength: [0, 1, 1, 0] }}
-            transition={{ duration: 6, repeat: Infinity, delay: i * 1.5, ease: 'easeInOut' }}
+            transition={{ duration: 6, repeat: Infinity, delay: i * 1.8, ease: 'easeInOut' }}
           />
         ))}
-        {/* Pulsing city dots */}
         {dots.map((dot, i) => (
-          <motion.circle key={i} cx={dot.x} cy={dot.y} r="0.6"
+          <motion.circle key={i} cx={dot.x} cy={dot.y} r="0.5"
             fill={MILESTONE_COLORS[i % MILESTONE_COLORS.length]}
-            animate={{ opacity: [0.15, 0.45, 0.15] }}
-            transition={{ duration: 2 + Math.random() * 2, repeat: Infinity, delay: Math.random() * 3 }}
+            animate={{ opacity: [0.1, 0.4, 0.1] }}
+            transition={{ duration: 2.5 + (i % 4) * 0.5, repeat: Infinity, delay: (i % 7) * 0.4 }}
           />
         ))}
       </svg>
