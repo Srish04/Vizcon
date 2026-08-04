@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import HomePage from './components/HomePage/HomePage'
-import MilestoneWalk from './components/MilestoneWalk/MilestoneWalk'
-import FullPicture from './components/FullPicture/FullPicture'
+import Timeline from './components/Journey/Timeline'
 import Outcomes from './components/Outcomes/Outcomes'
 import Reveals from './components/Reveals/Reveals'
 import Explore from './components/Explore/Explore'
@@ -18,8 +17,7 @@ function App() {
     window.scrollTo(0, 0)
   }
 
-  function handleJourneyComplete() { setCurrentAct('fullpicture') }
-  function handleFullPictureComplete() { setCurrentAct('outcomes') }
+  function handleJourneyComplete() { setCurrentAct('outcomes') }
   function handleOutcomesComplete() { setCurrentAct('reveals') }
 
   function handleRevealsComplete(target) {
@@ -87,11 +85,7 @@ function App() {
         )}
 
         {currentAct === 'journey' && selectedPair && (
-          <MilestoneWalk pair={selectedPair} onComplete={handleJourneyComplete} />
-        )}
-
-        {currentAct === 'fullpicture' && selectedPair && (
-          <FullPicture pair={selectedPair} onComplete={handleFullPictureComplete} />
+          <Timeline pair={selectedPair} onComplete={handleJourneyComplete} />
         )}
 
         {currentAct === 'outcomes' && selectedPair && (
