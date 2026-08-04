@@ -1,14 +1,13 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Explore from './components/Explore'
 
 function App() {
   return (
     <div className="bg-[#FAFAF8] text-[#264653]">
       <Navbar />
       <Hero />
-      <section id="explore" className="min-h-screen flex items-center justify-center">
-        <p className="text-2xl opacity-40 font-body">Explore — coming next</p>
-      </section>
+      <Explore />
       <section id="compare" className="min-h-screen flex items-center justify-center">
         <p className="text-2xl opacity-40 font-body">Compare — coming next</p>
       </section>
