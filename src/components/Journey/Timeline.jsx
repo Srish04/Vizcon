@@ -154,11 +154,14 @@ function TimelineLeft({ profileA, profileB, milestones, hoveredIndex, genderView
         {milestones.map((m, i) => {
           const isHovered = hoveredIndex === i
           const isActive = hoveredIndex === -1 || isHovered
-          const hasGender = genderView && GENDER_MILESTONES.has(m.key)
-          const gA = GENDER_DATA[profileA.country]?.[m.key]
-          const gB = GENDER_DATA[profileB.country]?.[m.key]
+          const hasGender = GENDER_MILESTONES.has(m.key) && GENDER_DATA[profileA.country]?.[m.key] && GENDER_DATA[profileB.country]?.[m.key]
 
-          if (hasGender && gA && gB) {
+          // In gender view, hide milestones without gender data
+          if (genderView && !hasGender) return null
+
+          if (genderView && hasGender) {
+            const gA = GENDER_DATA[profileA.country]?.[m.key]
+            const gB = GENDER_DATA[profileB.country]?.[m.key]
             const yAm = ageToY(gA.male, h), yAf = ageToY(gA.female, h)
             const yBm = ageToY(gB.male, h), yBf = ageToY(gB.female, h)
             return (
