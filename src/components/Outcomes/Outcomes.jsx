@@ -81,31 +81,45 @@ function getSuggestedNextPair(currentPair) {
   return { codes: [next.country_a, next.country_b], nameA: pA?.name, nameB: pB?.name, flagA: pA?.flag, flagB: pB?.flag }
 }
 
-// --- Dashboard Bar ---
+// --- Dashboard Bar (diverging style showing difference clearly) ---
 function DashboardRow({ metric, valA, valB, profileA, profileB }) {
   const [min, max] = metric.range
   const pctA = Math.max(0, Math.min(100, ((valA - min) / (max - min)) * 100))
   const pctB = Math.max(0, Math.min(100, ((valB - min) / (max - min)) * 100))
+  const diff = Math.abs(valA - valB)
+  const better = metric.higherBetter === true ? (valA > valB ? 'A' : 'B') : metric.higherBetter === false ? (valA < valB ? 'A' : 'B') : null
 
   return (
     <div className="py-3 border-b border-white/8">
-      <p className="text-xs font-data text-white/50 mb-1.5">{metric.label}</p>
-      <div className="flex items-center gap-3">
-        <span className="text-sm font-data text-[#48BFE3] w-16 text-right">{metric.format(valA)}</span>
-        <div className="flex-1 relative h-3 bg-white/8 rounded-full overflow-hidden">
-          <motion.div className="absolute inset-y-0 left-0 rounded-full bg-[#48BFE3]"
-            initial={{ width: 0 }} animate={{ width: `${pctA}%` }}
-            transition={{ duration: 0.8, ease: 'easeOut' }} />
-          <motion.div className="absolute inset-y-0 left-0 rounded-full bg-[#E07A5F]"
-            style={{ opacity: 0.5 }}
-            initial={{ width: 0 }} animate={{ width: `${pctB}%` }}
-            transition={{ duration: 0.8, delay: 0.1, ease: 'easeOut' }} />
-        </div>
-        <span className="text-sm font-data text-[#E07A5F] w-16">{metric.format(valB)}</span>
+      <div className="flex justify-between items-center mb-1.5">
+        <p className="text-xs font-body text-white/60">{metric.label}</p>
+        <span className="text-[10px] font-data text-white/30">
+          {better && (better === 'A' ? `${profileA.name} leads` : `${profileB.name} leads`)}
+        </span>
       </div>
-      <div className="flex justify-between mt-0.5">
-        <span className="text-[9px] font-data text-white/30">{profileA.flag} {profileA.name}</span>
-        <span className="text-[9px] font-data text-white/30">{profileB.flag} {profileB.name}</span>
+      <div className="flex items-center gap-2">
+        {/* Country A value */}
+        <span className={`text-sm font-data w-16 text-right ${better === 'A' ? 'text-[#48BFE3] font-bold' : 'text-[#48BFE3]/70'}`}>
+          {metric.format(valA)}
+        </span>
+        {/* Dual bars */}
+        <div className="flex-1 relative h-5 flex gap-0.5">
+          <div className="flex-1 flex justify-end">
+            <motion.div className="h-full rounded-l bg-[#48BFE3]"
+              initial={{ width: 0 }} animate={{ width: `${pctA}%` }}
+              transition={{ duration: 0.8, ease: 'easeOut' }} />
+          </div>
+          <div className="w-px bg-white/20" />
+          <div className="flex-1">
+            <motion.div className="h-full rounded-r bg-[#E07A5F]"
+              initial={{ width: 0 }} animate={{ width: `${pctB}%` }}
+              transition={{ duration: 0.8, delay: 0.1, ease: 'easeOut' }} />
+          </div>
+        </div>
+        {/* Country B value */}
+        <span className={`text-sm font-data w-16 ${better === 'B' ? 'text-[#E07A5F] font-bold' : 'text-[#E07A5F]/70'}`}>
+          {metric.format(valB)}
+        </span>
       </div>
     </div>
   )
@@ -139,6 +153,19 @@ export default function Outcomes({ pair, onComplete, onTryPair }) {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.6 }}>
             What timing changes
           </motion.h2>
+
+          {/* Country face-off header */}
+          <div className="flex items-center justify-center gap-8 mb-8">
+            <div className="text-center">
+              <span className="text-3xl">{profileA.flag}</span>
+              <p className="text-sm font-body text-[#48BFE3] mt-1">{profileA.name}</p>
+            </div>
+            <span className="text-white/30 font-display text-2xl">vs</span>
+            <div className="text-center">
+              <span className="text-3xl">{profileB.flag}</span>
+              <p className="text-sm font-body text-[#E07A5F] mt-1">{profileB.name}</p>
+            </div>
+          </div>
 
           {/* Dashboard rows */}
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6, duration: 0.6 }}>

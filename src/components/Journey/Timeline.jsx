@@ -133,20 +133,39 @@ function TimelineLeft({ profileA, profileB, milestones, hoveredIndex }) {
 function MilestoneCard({ milestone, profileA, profileB, index, onHover }) {
   const narrative = generateNarrative(milestone, profileA, profileB)
   const gap = Math.abs(milestone.valueA - milestone.valueB)
+  const maxVal = Math.max(milestone.valueA, milestone.valueB)
+  const pctA = milestone.key === 'fertility_rate' ? (milestone.valueA / 4) * 100 : (milestone.valueA / AGE_MAX) * 100
+  const pctB = milestone.key === 'fertility_rate' ? (milestone.valueB / 4) * 100 : (milestone.valueB / AGE_MAX) * 100
 
   return (
-    <div className="py-6 border-b border-text-faint/10"
+    <div className="py-5 border-b border-text-faint/10"
       onMouseEnter={() => onHover(index)}
       onMouseLeave={() => onHover(-1)}>
       <div className="flex items-start gap-3 cursor-default">
         <div className="w-3 h-3 rounded-full mt-1.5 flex-shrink-0" style={{ backgroundColor: milestone.color }} />
         <div className="flex-1">
           <h4 className="font-display text-base md:text-lg mb-2" style={{ color: milestone.color }}>{milestone.label}</h4>
-          <div className="flex gap-6 mb-2 text-sm font-data">
-            <span className="text-text">{profileA.flag} {milestone.key === 'fertility_rate' ? milestone.valueA.toFixed(2) : milestone.valueA.toFixed(1)}</span>
-            <span className="text-text">{profileB.flag} {milestone.key === 'fertility_rate' ? milestone.valueB.toFixed(2) : milestone.valueB.toFixed(1)}</span>
-            <span className="font-medium" style={{ color: milestone.color }}>Gap: {gap.toFixed(milestone.key === 'fertility_rate' ? 2 : 1)}</span>
+
+          {/* Mini comparison bars */}
+          <div className="space-y-1.5 mb-3">
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] font-data text-text-muted w-14">{profileA.flag} {milestone.key === 'fertility_rate' ? milestone.valueA.toFixed(2) : milestone.valueA.toFixed(1)}</span>
+              <div className="flex-1 h-2.5 bg-[#1a3340]/6 rounded-full overflow-hidden max-w-[200px]">
+                <motion.div className="h-full rounded-full" style={{ backgroundColor: milestone.color, width: `${pctA}%` }} />
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] font-data text-text-muted w-14">{profileB.flag} {milestone.key === 'fertility_rate' ? milestone.valueB.toFixed(2) : milestone.valueB.toFixed(1)}</span>
+              <div className="flex-1 h-2.5 bg-[#1a3340]/6 rounded-full overflow-hidden max-w-[200px]">
+                <motion.div className="h-full rounded-full" style={{ backgroundColor: milestone.color, opacity: 0.6, width: `${pctB}%` }} />
+              </div>
+            </div>
           </div>
+
+          <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-data font-medium mb-2"
+            style={{ backgroundColor: milestone.color + '15', color: milestone.color }}>
+            Gap: {gap.toFixed(milestone.key === 'fertility_rate' ? 2 : 1)} {milestone.unit === 'children' ? 'children' : 'years'}
+          </span>
           <p className="font-body text-sm text-text-secondary leading-relaxed">{narrative}</p>
         </div>
       </div>

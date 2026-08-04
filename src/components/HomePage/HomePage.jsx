@@ -160,56 +160,51 @@ function RaceAnimation() {
 function SequenceCard({ onNavigate }) {
   const ref = useRef(null)
   const inView = useInView(ref, { amount: 0.3, once: true })
-  const babyFirst = ['SWE', 'ITA', 'FRA', 'DNK', 'DEU', 'USA']
-  const marriageFirst = ['IND', 'MEX', 'BRA', 'JPN', 'KOR', 'AUS']
+  // OECD Family Database SF2.4: % births outside marriage (proxy for baby before/without marriage)
+  const data = [
+    { code: 'COL', pct: 84 }, { code: 'CHL', pct: 74 }, { code: 'ISL', pct: 70 },
+    { code: 'MEX', pct: 69 }, { code: 'FRA', pct: 63 }, { code: 'BRA', pct: 62 },
+    { code: 'NOR', pct: 58 }, { code: 'BEL', pct: 56 }, { code: 'SWE', pct: 55 },
+    { code: 'DNK', pct: 55 }, { code: 'NLD', pct: 53 }, { code: 'GBR', pct: 51 },
+    { code: 'USA', pct: 40 }, { code: 'ITA', pct: 39 }, { code: 'DEU', pct: 33 },
+    { code: 'AUS', pct: 34 }, { code: 'JPN', pct: 2 }, { code: 'KOR', pct: 3 },
+    { code: 'IND', pct: 5 }, { code: 'TUR', pct: 3 },
+  ]
+  const overHalf = data.filter(c => c.pct > 50).length
   return (
     <motion.div ref={ref} className="flex flex-col md:flex-row items-start gap-6 md:gap-10 py-10 border-t-2" style={{ borderColor: '#C2185B40' }}
       initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.5 }}>
-      <div className="md:w-[30%] flex-shrink-0">
-        <p className="font-display text-5xl md:text-[72px] font-bold leading-none text-[#C2185B]">50%</p>
-        <p className="text-xs font-data text-text-muted mt-2">of countries studied</p>
+      <div className="md:w-[25%] flex-shrink-0">
+        <p className="font-display text-5xl md:text-[64px] font-bold leading-none text-[#C2185B]">{overHalf}</p>
+        <p className="text-xs font-data text-text-muted mt-1">of 20 countries</p>
+        <p className="text-[10px] font-data text-text-faint mt-0.5">majority births outside marriage</p>
       </div>
-      <div className="md:w-[70%]">
-        <div className="mb-4">
-          <p className="text-[10px] font-data text-text-muted mb-2 uppercase tracking-wider">Baby before marriage (6 countries)</p>
-          <div className="space-y-1">
-            {babyFirst.map((code, i) => (
-              <motion.div key={code} className="flex items-center gap-2"
-                initial={{ opacity: 0, x: -10 }} animate={inView ? { opacity: 1, x: 0 } : {}}
-                transition={{ delay: 0.3 + i * 0.1, duration: 0.3 }}>
-                <span className="text-[9px] font-data text-text-muted w-8">{code}</span>
-                <div className="flex items-center gap-1">
-                  <div className="w-3 h-3 rounded-full bg-[#E9C46A]" />
-                  <div className="w-6 h-px bg-text-faint" />
-                  <div className="w-3 h-3 rounded-full bg-[#E76F51]" />
-                </div>
-              </motion.div>
-            ))}
-          </div>
-          <p className="text-[10px] font-data text-text-muted mb-2 mt-4 uppercase tracking-wider">Marriage before baby (6 countries)</p>
-          <div className="space-y-1">
-            {marriageFirst.map((code, i) => (
-              <motion.div key={code} className="flex items-center gap-2"
-                initial={{ opacity: 0, x: -10 }} animate={inView ? { opacity: 1, x: 0 } : {}}
-                transition={{ delay: 0.9 + i * 0.1, duration: 0.3 }}>
-                <span className="text-[9px] font-data text-text-muted w-8">{code}</span>
-                <div className="flex items-center gap-1">
-                  <div className="w-3 h-3 rounded-full bg-[#E76F51]" />
-                  <div className="w-6 h-px bg-text-faint" />
-                  <div className="w-3 h-3 rounded-full bg-[#E9C46A]" />
-                </div>
-              </motion.div>
-            ))}
-          </div>
+      <div className="md:w-[75%]">
+        <p className="text-[10px] font-data text-text-muted mb-2 uppercase tracking-wider">% of births outside marriage by country</p>
+        <div className="space-y-1 mb-4">
+          {data.map((c, i) => (
+            <motion.div key={c.code} className="flex items-center gap-2"
+              initial={{ opacity: 0, x: -10 }} animate={inView ? { opacity: 1, x: 0 } : {}}
+              transition={{ delay: 0.2 + i * 0.04, duration: 0.3 }}>
+              <span className="text-[9px] font-data text-text-muted w-7">{c.code}</span>
+              <div className="flex-1 h-2.5 bg-[#1a3340]/5 rounded-full overflow-hidden max-w-[200px]">
+                <motion.div className="h-full rounded-full"
+                  style={{ backgroundColor: c.pct > 50 ? '#E9C46A' : '#E76F51' }}
+                  initial={{ width: 0 }} animate={inView ? { width: `${c.pct}%` } : {}}
+                  transition={{ delay: 0.3 + i * 0.04, duration: 0.5 }} />
+              </div>
+              <span className="text-[8px] font-data text-text-faint w-7">{c.pct}%</span>
+            </motion.div>
+          ))}
         </div>
-        <p className="font-body text-sm md:text-base text-text-secondary leading-relaxed mb-2">
-          have baby before marriage. Across rich and poor nations, across continents. The "normal" sequence is a myth.
+        <div className="flex items-center gap-4 mb-2 text-[9px] font-data text-text-faint">
+          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-[#E9C46A] inline-block" /> Over 50% (baby before/without marriage is norm)</span>
+          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-[#E76F51] inline-block" /> Under 50%</span>
+        </div>
+        <p className="font-body text-sm text-text-secondary leading-relaxed mb-2">
+          In Colombia, 84% of births happen outside marriage. In Iceland, 70%. The assumed life script is a minority pattern globally.
         </p>
-        {/* Legend */}
-        <div className="flex items-center gap-4 mb-3 text-[10px] font-data text-text-muted">
-          <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-[#E9C46A] inline-block" /> First child</span>
-          <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-full bg-[#E76F51] inline-block" /> Marriage</span>
-        </div>
+        <p className="text-[9px] font-data text-text-faint mb-2">Source: OECD Family Database SF2.4, 2020-2022</p>
         <button onClick={() => onNavigate('reveals')} className="text-sm font-body cursor-pointer transition-colors hover:underline text-[#C2185B]">
           Explore the full pattern →
         </button>
