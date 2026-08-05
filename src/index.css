@@ -2,10 +2,10 @@
 
 @theme {
   --color-bg: #FAFAF8;
-  --color-text: #1a3340;
-  --color-text-secondary: #3d5a68;
-  --color-text-muted: #4a6e7f;
-  --color-text-faint: #6b8f9e;
+  --color-text: #1a2a32;
+  --color-text-secondary: #1a2a32;
+  --color-text-muted: #2d4a56;
+  --color-text-faint: #3d5a68;
   --color-menarche: #C2185B;
   --color-education: #2D6A4F;
   --color-leaving-home: #2A9D8F;
@@ -27,3 +27,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Global: replace light grays with darker readable text */
+.text-gray-400 { color: #374151 !important; }
+.text-gray-500 { color: #1f2937 !important; }
+.text-gray-600 { color: #111827 !important; }
+.text-\[\#475569\] { color: #1e293b !important; }
+.text-\[\#64748b\] { color: #334155 !important; }
+.text-\[\#94a3b8\] { color: #475569 !important; }
