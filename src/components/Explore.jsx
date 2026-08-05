@@ -9,17 +9,17 @@ import retirementData from '../data/retirement.json'
 
 // === METRIC MAP ===
 const METRIC_MAP = {
-  'Puberty Age': { key: 'menarche_age', unit: 'years', color: '#C2185B', cat: 'milestone', desc: 'Average age of first menstruation, ranging from 12.4 (Brazil) to 14.3 (India)' },
-  'Education Age': { key: 'education_completion_age', unit: 'years', color: '#2D6A4F', cat: 'milestone', desc: 'Age at which education is typically completed, from 18.9 (India) to 26.6 (Australia)' },
-  'Leave Home Age': { key: 'leaving_home_age', unit: 'years', color: '#2A9D8F', cat: 'milestone', desc: 'Age of leaving parental home, from 21.8 (Denmark) to 30.2 (Italy)' },
-  'Cohabitation Age': { key: 'cohabitation_age', unit: 'years', color: '#00897B', cat: 'milestone', desc: 'Age of first cohabitation with a partner' },
-  'First Home Age': { key: 'first_home_age', unit: 'years', color: '#48BFE3', cat: 'milestone', desc: 'Average age of purchasing first home' },
-  'Marriage Age (F)': { key: 'marriage_age', unit: 'years', color: '#E76F51', cat: 'milestone', desc: 'Average age women first marry, from 21.4 (India) to 34.8 (Sweden)' },
-  'First Child Age': { key: 'first_birth_age', unit: 'years', color: '#E9C46A', cat: 'milestone', desc: 'Average age at first birth' },
-  'Menopause Age': { key: 'menopause_age', unit: 'years', color: '#AB47BC', cat: 'milestone', desc: 'Average age of menopause onset' },
-  'Retirement Age': { key: 'retirement_age', unit: 'years', color: '#457B9D', cat: 'milestone', desc: 'Effective average retirement age' },
-  'Fertility Rate': { key: 'fertility_rate', unit: 'children/woman', color: '#264653', cat: 'milestone', desc: 'Total fertility rate, from 0.72 (S. Korea) to 1.98 (India)' },
-  'HALE': { key: 'hale', unit: 'years', color: '#7B2D8E', cat: 'milestone', desc: 'Healthy life expectancy (years lived without major disease/disability)' },
+  'Puberty Age': { key: 'menarche_age', unit: 'years', color: '#C2185B', cat: 'marker', desc: 'Average age of first menstruation, ranging from 12.4 (Brazil) to 14.3 (India)' },
+  'Education Age': { key: 'education_completion_age', unit: 'years', color: '#2D6A4F', cat: 'marker', desc: 'Age at which education is typically completed, from 18.9 (India) to 26.6 (Australia)' },
+  'Leave Home Age': { key: 'leaving_home_age', unit: 'years', color: '#2A9D8F', cat: 'marker', desc: 'Age of leaving parental home, from 21.8 (Denmark) to 30.2 (Italy)' },
+  'Cohabitation Age': { key: 'cohabitation_age', unit: 'years', color: '#00897B', cat: 'marker', desc: 'Age of first cohabitation with a partner' },
+  'First Home Age': { key: 'first_home_age', unit: 'years', color: '#48BFE3', cat: 'marker', desc: 'Average age of purchasing first home' },
+  'Marriage Age (F)': { key: 'marriage_age', unit: 'years', color: '#E76F51', cat: 'marker', desc: 'Average age women first marry, from 21.4 (India) to 34.8 (Sweden)' },
+  'First Child Age': { key: 'first_birth_age', unit: 'years', color: '#E9C46A', cat: 'marker', desc: 'Average age at first birth' },
+  'Menopause Age': { key: 'menopause_age', unit: 'years', color: '#AB47BC', cat: 'marker', desc: 'Average age of menopause onset' },
+  'Retirement Age': { key: 'retirement_age', unit: 'years', color: '#457B9D', cat: 'marker', desc: 'Effective average retirement age' },
+  'Fertility Rate': { key: 'fertility_rate', unit: 'children/woman', color: '#264653', cat: 'marker', desc: 'Total fertility rate, from 0.72 (S. Korea) to 1.98 (India)' },
+  'HALE (Healthy Years)': { key: 'hale', unit: 'years', color: '#7B2D8E', cat: 'marker', desc: 'Healthy life expectancy (HALE): years lived in good health, without major disease or disability' },
   'GDP per Capita': { key: 'gdp_per_capita', unit: 'PPP $', color: '#457B9D', cat: 'outcome', desc: 'GDP per person adjusted for purchasing power' },
   'Happiness Score': { key: 'happiness', unit: '/10', color: '#457B9D', cat: 'outcome', desc: 'Gallup World Poll life satisfaction, from 4.1 (India) to 7.6 (Denmark)' },
   'Life Expectancy': { key: 'life_expectancy', unit: 'years', color: '#457B9D', cat: 'outcome', desc: 'Average life expectancy at birth' },
@@ -32,7 +32,7 @@ const METRIC_MAP = {
 }
 
 const METRIC_NAMES = Object.keys(METRIC_MAP)
-const MILESTONE_METRICS = METRIC_NAMES.filter(n => METRIC_MAP[n].cat === 'milestone')
+const MARKER_METRICS = METRIC_NAMES.filter(n => METRIC_MAP[n].cat === 'marker')
 const OUTCOME_METRICS = METRIC_NAMES.filter(n => METRIC_MAP[n].cat === 'outcome')
 
 const COUNTRY_CONFIG = {
@@ -94,19 +94,18 @@ function MetricPill({ name, metric, isSelected, axisLabel, onClick, mode }) {
       draggable={mode === 'scatter'}
       onDragStart={e => { e.dataTransfer.setData('text/plain', name); e.dataTransfer.effectAllowed = 'copy' }}
       onClick={() => onClick && onClick(name)}
-      className={`h-8 flex items-center gap-1 px-2 rounded-md border-[1.5px] cursor-pointer transition-all hover:shadow-sm
-        ${isSelected ? 'border-opacity-100 ring-1 ring-offset-1' : 'border-opacity-40'}`}
+      className={`min-h-[32px] py-1 flex items-center gap-1 px-2 rounded-md border-2 cursor-pointer transition-all hover:shadow-sm
+        ${isSelected ? 'shadow-md scale-[1.03]' : 'hover:opacity-100'}`}
       style={{
-        backgroundColor: `${c}14`,
-        borderColor: isSelected ? c : `${c}66`,
-        ringColor: isSelected ? c : undefined,
+        backgroundColor: isSelected ? `${c}30` : `${c}0a`,
+        borderColor: isSelected ? c : `${c}55`,
       }}>
       {isSelected && axisLabel && (
         <span className="w-4 h-4 rounded text-[9px] font-data font-bold flex items-center justify-center text-white shrink-0" style={{ backgroundColor: c }}>
           {axisLabel}
         </span>
       )}
-      <span className="text-[11px] font-body font-semibold truncate" style={{ color: c }}>{shortName}</span>
+      <span className={`text-[11px] font-body ${isSelected ? 'font-bold' : 'font-semibold'}`} style={{ color: isSelected ? c : '#1e293b' }}>{shortName}</span>
     </div>
   )
 }
@@ -117,9 +116,9 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
     if (mode === 'rankings' || mode === 'radar' || mode === 'timeline') {
       setRankMetric(name)
     } else {
-      // Scatter mode: Milestones go to X, Outcomes go to Y
+      // Scatter mode: Markers go to X, Outcomes go to Y
       const clickedMetric = METRIC_MAP[name]
-      if (clickedMetric.cat === 'milestone') {
+      if (clickedMetric.cat === 'marker') {
         setXMetric(name)
       } else {
         setYMetric(name)
@@ -154,16 +153,16 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
               None
             </button>
           </div>
-          <div className="space-y-0.5">
+          <div className="space-y-1">
             {ALL_CODES.map(code => {
               const active = selectedCountries.includes(code)
               const c = COUNTRY_CONFIG[code]
               return (
                 <button key={code}
                   onClick={() => setSelectedCountries(prev => active ? prev.filter(x=>x!==code) : [...prev, code])}
-                  className="w-full flex items-center gap-1.5 h-6 cursor-pointer transition-all hover:bg-gray-50 rounded px-1">
-                  <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: c.color, opacity: active ? 1 : 0.3 }}/>
-                  <span className={`text-[12px] font-body ${active ? 'text-[#1a2a32]' : 'text-[#94a3b8]'}`}>{c.name}</span>
+                  className="w-full flex items-center gap-2 h-7 cursor-pointer transition-all hover:bg-gray-50 rounded px-1">
+                  <span className="w-3 h-3 rounded-full shrink-0 transition-opacity" style={{ backgroundColor: c.color, opacity: active ? 1 : 0.3 }}/>
+                  <span className={`text-[13px] font-body transition-all ${active ? 'text-[#1a2a32] font-semibold' : 'text-[#94a3b8]'}`}>{c.name}</span>
                 </button>
               )
             })}
@@ -174,9 +173,9 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
       {/* Two-column: Milestones left, Outcomes right */}
       <div className="flex gap-2">
         <div className="flex-1 min-w-0">
-          <p className="text-[10px] font-body font-bold uppercase text-[#1e293b] tracking-wider border-b border-[#e5e7eb] pb-1 mb-2">Milestones</p>
+          <p className="text-[10px] font-body font-bold uppercase text-[#1e293b] tracking-wider border-b border-[#e5e7eb] pb-1 mb-2">Markers</p>
           <div className="space-y-1">
-            {(mode === 'timeline' ? MILESTONE_METRICS.filter(n => TIMELINE_METRIC_NAMES.includes(n)) : MILESTONE_METRICS).map(name => (
+            {(mode === 'timeline' ? MARKER_METRICS.filter(n => TIMELINE_METRIC_NAMES.includes(n)) : MARKER_METRICS).map(name => (
               <MetricPill key={name} name={name} metric={METRIC_MAP[name]}
                 isSelected={isSelected(name)} axisLabel={getLabel(name)}
                 onClick={handlePillClick} mode={mode}/>
@@ -199,7 +198,7 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
 
       {/* Interaction hint */}
       <p className="text-[11px] font-body text-[#475569] mt-3 italic">
-        {mode === 'scatter' ? 'Milestones go to X-axis. Outcomes go to Y-axis.' : 'Click to select metric.'}
+        {mode === 'scatter' ? 'Markers go to X-axis. Outcomes go to Y-axis.' : 'Click to select metric.'}
       </p>
       </>
       )}
@@ -211,32 +210,32 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
 function CountryFilter({ selectedCountries, setSelectedCountries, activeView, narrative, r, xMetric, yMetric, rankMetric }) {
   return (
     <div className="w-[380px] shrink-0 sticky top-[80px] self-start max-h-[calc(100vh-100px)] overflow-y-auto pl-4 border-l border-[#e5e7eb]">
-      <div className="flex gap-4">
+      <div className="flex gap-3">
         {/* Countries column */}
-        <div className="w-[120px] shrink-0">
+        <div className="w-[110px] shrink-0">
           <div className="flex items-center gap-2 mb-2">
-            <p className="text-[11px] font-body font-bold uppercase text-[#1e293b] tracking-wider">Countries</p>
+            <p className="text-[12px] font-body font-bold uppercase text-[#264653] tracking-wider">Countries</p>
           </div>
-          <div className="flex gap-1 mb-2">
+          <div className="flex gap-2 mb-3">
             <button onClick={() => setSelectedCountries(ALL_CODES)}
-              className={`text-[10px] font-body cursor-pointer px-1.5 py-0.5 rounded ${selectedCountries.length === 12 ? 'font-bold text-[#264653] bg-[#264653]/10' : 'text-[#1e293b]'}`}>
+              className={`text-[11px] font-body cursor-pointer px-2 py-1 rounded-md transition-all ${selectedCountries.length === 12 ? 'font-bold text-white bg-[#264653]' : 'text-[#1e293b] bg-gray-100 hover:bg-gray-200'}`}>
               All
             </button>
             <button onClick={() => setSelectedCountries([])}
-              className={`text-[10px] font-body cursor-pointer px-1.5 py-0.5 rounded ${selectedCountries.length === 0 ? 'font-bold text-[#E76F51]' : 'text-[#1e293b]'}`}>
+              className={`text-[11px] font-body cursor-pointer px-2 py-1 rounded-md transition-all ${selectedCountries.length === 0 ? 'font-bold text-white bg-[#E76F51]' : 'text-[#1e293b] bg-gray-100 hover:bg-gray-200'}`}>
               None
             </button>
           </div>
-          <div className="space-y-0.5">
+          <div className="space-y-1">
             {ALL_CODES.map(code => {
               const active = selectedCountries.includes(code)
               const c = COUNTRY_CONFIG[code]
               return (
                 <button key={code}
                   onClick={() => setSelectedCountries(prev => active ? prev.filter(x=>x!==code) : [...prev, code])}
-                  className="w-full flex items-center gap-1.5 h-6 cursor-pointer transition-all hover:bg-gray-50 rounded px-1">
-                  <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: c.color, opacity: active ? 1 : 0.3 }}/>
-                  <span className={`text-[12px] font-body ${active ? 'text-[#1a2a32]' : 'text-[#94a3b8]'}`}>{c.name}</span>
+                  className="w-full flex items-center gap-2 h-7 cursor-pointer transition-all hover:bg-gray-50 rounded px-1">
+                  <span className="w-3 h-3 rounded-full shrink-0 transition-opacity" style={{ backgroundColor: c.color, opacity: active ? 1 : 0.3 }}/>
+                  <span className={`text-[13px] font-body transition-all ${active ? 'text-[#1a2a32] font-semibold' : 'text-[#94a3b8]'}`}>{c.name}</span>
                 </button>
               )
             })}
@@ -279,7 +278,7 @@ function CountryFilter({ selectedCountries, setSelectedCountries, activeView, na
                     {narrative.group === 'feedback' && 'Feedback loop'}
                     {narrative.group === 'common_cause' && 'Shared drivers'}
                   </p>
-                  <p className="text-[9px] font-body text-[#475569] mt-0.5 leading-relaxed">{narrative.mechanism?.slice(0, 120)}</p>
+                  <p className="text-[9px] font-body text-[#475569] mt-0.5 leading-relaxed">{narrative.mechanism}</p>
                 </div>
               </div>
               <p className="text-[9px] font-body italic text-[#64748b] mt-1.5">N=12. Correlation only.</p>
@@ -325,7 +324,7 @@ function CountryFilter({ selectedCountries, setSelectedCountries, activeView, na
                   const descriptions = {
                     'Education Age': 'How the age of completing education has shifted since 1990. Rising lines reflect longer time in school and expanding higher education access.',
                     'Marriage Age (F)': 'How the average age women first marry has changed since 2001. Nearly all countries show a rising trend as marriage is delayed.',
-                    'Fertility Rate': 'How fertility rates have fallen since 1960. The dashed line at 2.1 marks replacement level — below it, populations shrink without immigration.',
+                    'Fertility Rate': 'How fertility rates have fallen since 1960. The dashed line at 2.1 marks replacement level. Below it, populations shrink without immigration.',
                     'Retirement Age': 'How effective retirement ages have shifted since 1970. Rising lines reflect policy changes to address aging populations and pension sustainability.',
                   }
                   return descriptions[rankMetric] || `${rankMetric} over time. Each line = one country.`
@@ -452,7 +451,6 @@ function ScatterView({ selectedCountries, xMetric, yMetric, setXMetric, setYMetr
             })}
             {/* X axis label */}
             <text x={M.l+pw/2} y={H-15} textAnchor="middle" fill="#264653" fontSize="15" fontFamily="Inter" fontWeight="600">{xMetric}</text>
-            <text x={M.l+pw/2} y={H-0} textAnchor="middle" fill="#475569" fontSize="13" fontFamily="Inter" fontStyle="italic">{xM.desc?.slice(0,80)}</text>
             {/* Y axis label */}
             <text x={16} y={M.t+ph/2} textAnchor="middle" fill="#264653" fontSize="15" fontFamily="Inter" fontWeight="600" transform={`rotate(-90,16,${M.t+ph/2})`}>{yMetric}</text>
             {/* Average reference lines */}
@@ -519,7 +517,7 @@ const RADAR_AXES = [
   { key: 'education_completion_age', label: 'Education' },
   { key: 'marriage_age', label: 'Marriage (F)' },
   { key: 'fertility_rate', label: 'Fertility Rate' },
-  { key: 'hale', label: 'HALE' },
+  { key: 'hale', label: 'HALE (Healthy Years)' },
   { key: 'happiness', label: 'Happiness' },
   { key: 'gdp_per_capita', label: 'GDP' },
   { key: 'gender_inequality_index', label: 'GII (inv)', inverted: true },
@@ -527,7 +525,8 @@ const RADAR_AXES = [
 ]
 
 function RadarView({ selectedCountries }) {
-  const [radarCountries, setRadarCountries] = useState(['SWE', 'IND'])
+  // Use up to 3 selected countries for radar comparison
+  const radarCountries = selectedCountries.slice(0, 3)
   const [hovered, setHovered] = useState(null)
 
   // Compute min/max for normalization
@@ -568,37 +567,10 @@ function RadarView({ selectedCountries }) {
     })
   }
 
-  function toggleRadarCountry(code) {
-    setRadarCountries(prev => {
-      if (prev.includes(code)) return prev.filter(c => c !== code)
-      if (prev.length >= 3) return [...prev.slice(1), code]
-      return [...prev, code]
-    })
-  }
-
   return (
     <div>
-      {/* Country selector for radar */}
-      <p className="text-[14px] font-body text-[#475569] mb-3">Select 2-3 countries to compare (max 3):</p>
-      <div className="flex flex-wrap gap-2 mb-6">
-        {ALL_CODES.map(code => {
-          const active = radarCountries.includes(code)
-          const c = COUNTRY_CONFIG[code]
-          return (
-            <button key={code} onClick={() => toggleRadarCountry(code)}
-              className={`flex items-center gap-1.5 h-8 px-3 rounded-lg cursor-pointer transition-all border
-                ${active ? 'font-semibold' : ''}`}
-              style={active ? { backgroundColor: `${c.color}14`, borderColor: c.color, color: c.color } : { borderColor: '#e5e7eb', color: '#475569' }}>
-              {active && (
-                <svg width="12" height="12" viewBox="0 0 12 12"><path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round"/></svg>
-              )}
-              <span className="text-[13px] font-body">{c.name}</span>
-            </button>
-          )
-        })}
-      </div>
-
       {/* Radar chart */}
+      <p className="text-[14px] font-body text-[#475569] mb-4">Select 2-3 countries from the left panel to compare (max 3)</p>
       <ExpandableChart title="Radar Comparison">
       <div className="flex justify-center">
         <svg width="400" height="400" viewBox="0 0 400 400">
@@ -671,6 +643,14 @@ function RadarView({ selectedCountries }) {
         Values normalized 0-1 within the 12-country range. GII is inverted (higher = more equal).
       </p>
       </ExpandableChart>
+
+      {/* What this shows - inline for radar since right panel is hidden */}
+      <div className="bg-[#f8fafc] rounded-lg p-4 border border-gray-200 mt-6 max-w-[600px] mx-auto">
+        <p className="text-[12px] font-body font-bold text-[#1e293b] mb-1">What this shows</p>
+        <p className="text-[11px] font-body text-[#334155] leading-relaxed">
+          Compare 2-3 countries across 8 normalized metrics. Each axis scales 0-1 within the 12-country range. Larger shape = higher values. Select countries from the left panel (first 3 selected will be shown).
+        </p>
+      </div>
     </div>
   )
 }
@@ -694,28 +674,29 @@ function RankingsView({ selectedCountries, rankMetric }) {
 
   return (
     <div>
-      <p className="text-[14px] font-body text-[#475569] mb-1">{rankMetric} -- ranked highest to lowest</p>
+      <p className="text-[14px] font-body text-[#475569] mb-1">{rankMetric}. ranked highest to lowest</p>
       <p className="text-[14px] font-body text-[#475569] mb-6">{m.desc}</p>
 
       <ExpandableChart title={`${rankMetric} Rankings`}>
       <div className="relative">
-        {/* Average line */}
-        <div className="absolute top-0 bottom-8 border-l-2 border-dashed border-[#E76F51] z-10"
-          style={{ left: `calc(120px + ${avgPct}% * 0.75)` }}/>
-
         <div className="space-y-2">
           {data.map((d, i) => {
             const pct = (d.value / maxVal) * 100
             return (
               <div key={d.code} className="flex items-center gap-3 group">
                 <span className="w-[120px] text-right text-[15px] font-body font-bold text-[#264653] shrink-0">{d.name}</span>
-                <div className="flex-1 relative h-9">
+                <div className="flex-1 relative h-10">
                   <div className="absolute inset-0 bg-[#f1f5f9] rounded-r-lg"/>
                   <div className="absolute top-0 left-0 h-full rounded-r-lg transition-all duration-500"
                     style={{ width: `${pct}%`, backgroundColor: d.color, opacity: 0.85 }}/>
+                  {/* Average line inside each bar row */}
+                  {i === 0 && (
+                    <div className="absolute top-0 h-[calc(100%*12+100%*11)] border-l-2 border-dashed border-[#E76F51] z-10 pointer-events-none"
+                      style={{ left: `${avgPct}%`, height: `${data.length * 48}px` }}/>
+                  )}
                 </div>
-                <span className="w-[80px] text-[15px] font-data font-bold text-[#264653] shrink-0">
-                  {formatVal(m.key, d.value)} {m.unit.split(' ')[0]}
+                <span className="w-[120px] text-[14px] font-data font-bold text-[#264653] shrink-0 text-right whitespace-nowrap">
+                  {formatVal(m.key, d.value)} {m.unit}
                 </span>
               </div>
             )
@@ -848,7 +829,7 @@ function TimelineView({ selectedCountries, rankMetric }) {
                   <line x1={sx(lastPt.year)} y1={sy(lastPt.value) - 5} x2={sx(lastPt.year) - 30} y2={sy(lastPt.value) - 30} stroke="#264653" strokeWidth="1"/>
                   <rect x={sx(lastPt.year) - 180} y={sy(lastPt.value) - 46} width="150" height="22" rx="4" fill="white" stroke="#e5e7eb"/>
                   <text x={sx(lastPt.year) - 105} y={sy(lastPt.value) - 32} textAnchor="middle" fill="#264653" fontSize="11" fontFamily="Inter">
-                    0.72 — steepest decline ever
+                    0.72: steepest decline ever
                   </text>
                 </g>
               )
@@ -870,19 +851,19 @@ export default function Explore() {
   const [selectedCountries, setSelectedCountries] = useState(ALL_CODES)
   const [xMetric, setXMetric] = useState('Marriage Age (F)')
   const [yMetric, setYMetric] = useState('GDP per Capita')
-  const [rankMetric, setRankMetric] = useState('Marriage Age (F)')
+  const [rankMetric, setRankMetric] = useState('Fertility Rate')
 
   return (
-    <section id="explore" className="bg-white py-20 px-6 relative overflow-hidden">
+    <section id="explore" className="bg-white py-20 px-6 relative">
       {/* Background - diverse crowd from above */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80&auto=format" alt="" className="w-full h-full object-cover" loading="lazy"/>
         <div className="absolute inset-0" style={{ backgroundColor: '#ffffff', opacity: 0.94 }}/>
       </div>
       <div className="max-w-[1280px] mx-auto relative z-10">
         {/* Header */}
         <h2 className="font-display text-[36px] text-[#264653] mb-2">Explore the Data</h2>
-        <p className="font-body text-[18px] text-[#475569] mb-6">Pick a milestone. Pick an outcome. Watch the pattern emerge.</p>
+        <p className="font-body text-[18px] text-[#475569] mb-6">Pick a marker. Pick an outcome. Watch the pattern emerge.</p>
 
         {/* View switcher */}
         <div className="flex gap-2 mb-8">
@@ -921,6 +902,7 @@ export default function Explore() {
               <TimelineView selectedCountries={selectedCountries} rankMetric={rankMetric}/>
             )}
           </div>
+          {activeView !== 'Radar' && (
           <CountryFilter selectedCountries={selectedCountries} setSelectedCountries={setSelectedCountries} activeView={activeView}
             rankMetric={rankMetric}
             narrative={(() => {
@@ -936,8 +918,11 @@ export default function Explore() {
               return pearsonR(pts.map(p=>p[xM.key]), pts.map(p=>p[yM.key]))
             })()}
             xMetric={xMetric} yMetric={yMetric}/>
+          )}
         </div>
       </div>
     </section>
   )
 }
+
+

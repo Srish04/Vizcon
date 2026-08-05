@@ -1,10 +1,10 @@
-{
+﻿{
   "metadata": {
     "description": "Narrative templates for milestone→outcome correlations. Used by the app to dynamically generate the 'Does Timing Matter?' section for any country pair.",
     "groups": {
       "causal": "Plausible causal path from milestone to outcome",
       "common_cause": "A third factor (development, policy, wealth) drives both",
-      "feedback": "Bidirectional reinforcement — both cause each other",
+      "feedback": "Bidirectional reinforcement, both cause each other",
       "artifact": "Likely driven by small N, noisy data, or outlier countries"
     }
   },
@@ -16,7 +16,7 @@
       "n": 12,
       "group": "causal",
       "confidence": "high",
-      "template": "In {high_country}, women marry at {high_val} — and gender inequality is among the lowest in the world ({high_outcome}). In {low_country}, women marry at {low_val}, and inequality remains high ({low_outcome}). When women marry later, they have more years to build education, careers, and economic independence before entering partnerships.",
+      "template": "In {high_country}, women marry at {high_val}, and gender inequality is among the lowest in the world ({high_outcome}). In {low_country}, women marry at {low_val}, and inequality remains high ({low_outcome}). When women marry later, they have more years to build education, careers, and economic independence before entering partnerships.",
       "one_liner": "Later marriage → more equality",
       "mechanism": "Later marriage gives women more years to build autonomy before domestic obligations. Early marriage often removes women from education and the labor force entirely."
     },
@@ -27,7 +27,7 @@
       "n": 12,
       "group": "causal",
       "confidence": "high",
-      "template": "In {low_country}, where women marry at {low_val}, maternal mortality is {low_outcome} per 100,000 births. In {high_country}, where they marry at {high_val}, it drops to {high_outcome}. Later marriage means later first pregnancy — and pregnancies after age 25 carry significantly lower medical risk.",
+      "template": "In {low_country}, where women marry at {low_val}, maternal mortality is {low_outcome} per 100,000 births. In {high_country}, where they marry at {high_val}, it drops to {high_outcome}. Later marriage means later first pregnancy, and pregnancies after age 25 carry significantly lower medical risk.",
       "one_liner": "Later marriage → safer pregnancies",
       "mechanism": "Later marriage delays first pregnancy past the high-risk teenage years. Also correlates with better healthcare access and family planning."
     },
@@ -38,7 +38,7 @@
       "n": 12,
       "group": "feedback",
       "confidence": "high",
-      "template": "{high_country} marries at {high_val} and lives to {high_outcome}. {low_country} marries at {low_val} and lives to {low_outcome}. Later marriage correlates with longer lives — but longer-lived societies also tend to be ones where people have the freedom to delay marriage.",
+      "template": "{high_country} marries at {high_val} and lives to {high_outcome}. {low_country} marries at {low_val} and lives to {low_outcome}. Later marriage correlates with longer lives, but longer-lived societies also tend to be ones where people have the freedom to delay marriage.",
       "one_liner": "Later marriage ↔ longer lives",
       "mechanism": "Bidirectional: later marriage reduces early-pregnancy risks and allows more resource accumulation. But societies with longer lifespans are also wealthier and more permissive of delayed marriage."
     },
@@ -49,7 +49,7 @@
       "n": 12,
       "group": "feedback",
       "confidence": "high",
-      "template": "{high_country} marries at {high_val} and stays healthy until {high_outcome}. {low_country} marries at {low_val} and healthy life ends at {low_outcome}. Countries where people marry later tend to have longer healthy lifespans — a gap of {gap} healthy years.",
+      "template": "{high_country} marries at {high_val} and stays healthy until {high_outcome}. {low_country} marries at {low_val} and healthy life ends at {low_outcome}. Countries where people marry later tend to have longer healthy lifespans, a gap of {gap} healthy years.",
       "one_liner": "Later marriage ↔ more healthy years",
       "mechanism": "Similar to life expectancy: later marriage tracks with better health systems, higher income, and fewer early-pregnancy complications. Reinforcing cycle."
     },
@@ -60,7 +60,7 @@
       "n": 12,
       "group": "feedback",
       "confidence": "high",
-      "template": "{high_country} marries at {high_val} with GDP of ${high_outcome}. {low_country} marries at {low_val} with GDP of ${low_outcome}. More productive working years before marriage contributes to higher output — but wealthier economies also reduce the economic pressure to marry early.",
+      "template": "{high_country} marries at {high_val} with GDP of ${high_outcome}. {low_country} marries at {low_val} with GDP of ${low_outcome}. More productive working years before marriage contributes to higher output, but wealthier economies also reduce the economic pressure to marry early.",
       "one_liner": "Later marriage ↔ higher GDP",
       "mechanism": "Both directions: delayed marriage means more working/earning years, boosting GDP. But higher GDP means less economic pressure to form households early."
     },
@@ -71,9 +71,9 @@
       "n": 12,
       "group": "feedback",
       "confidence": "high",
-      "template": "{high_country} marries at {high_val} and scores {high_outcome} on happiness. {low_country} marries at {low_val} and scores {low_outcome}. The freedom to choose when to marry — without economic or social pressure — is itself part of what makes a society happier.",
+      "template": "{high_country} marries at {high_val} and scores {high_outcome} on happiness. {low_country} marries at {low_val} and scores {low_outcome}. The freedom to choose when to marry, without economic or social pressure, is itself part of what makes a society happier.",
       "one_liner": "Later marriage ↔ more happiness",
-      "mechanism": "Societies that allow delayed marriage tend to offer more personal freedom, stronger safety nets, and less social coercion — all of which independently drive happiness."
+      "mechanism": "Societies that allow delayed marriage tend to offer more personal freedom, stronger safety nets, and less social coercion, all of which independently drive happiness."
     },
     {
       "milestone": "marriage_age",
@@ -93,7 +93,7 @@
       "n": 12,
       "group": "causal",
       "confidence": "medium",
-      "template": "Where women marry young, teen pregnancies follow. {low_country} marries at {low_val} and has {low_outcome} adolescent births per 1,000. {high_country} marries at {high_val} — just {high_outcome}.",
+      "template": "Where women marry young, teen pregnancies follow. {low_country} marries at {low_val} and has {low_outcome} adolescent births per 1,000. {high_country} marries at {high_val}, just {high_outcome}.",
       "one_liner": "Earlier marriage → more teen pregnancies",
       "mechanism": "Early marriage directly leads to early pregnancy. Access to contraception, education continuation, and cultural norms around marriage age all mediate this."
     },
@@ -104,7 +104,7 @@
       "n": 12,
       "group": "causal",
       "confidence": "medium",
-      "template": "{low_country} marries at {low_val} with a fertility rate of {low_outcome}. {high_country} marries at {high_val} with {high_outcome}. Later marriage compresses the window for having children — but the relationship is complicated. Some late-marrying countries (France, Sweden) maintain moderate fertility through policy support.",
+      "template": "{low_country} marries at {low_val} with a fertility rate of {low_outcome}. {high_country} marries at {high_val} with {high_outcome}. Later marriage compresses the window for having children, but the relationship is complicated. Some late-marrying countries (France, Sweden) maintain moderate fertility through policy support.",
       "one_liner": "Later marriage → fewer children (usually)",
       "mechanism": "Delayed marriage shortens the reproductive window within partnership. But strong parental leave and childcare policies can partially offset this compression."
     },
@@ -115,7 +115,7 @@
       "n": 12,
       "group": "causal",
       "confidence": "high",
-      "template": "In {high_country}, education ends at {high_val} and {high_outcome}% of women work. In {low_country}, education ends at {low_val} and only {low_outcome}% do. Longer education builds human capital — the skills that make women employable and economically independent.",
+      "template": "In {high_country}, education ends at {high_val} and {high_outcome}% of women work. In {low_country}, education ends at {low_val} and only {low_outcome}% do. Longer education builds human capital, the skills that make women employable and economically independent.",
       "one_liner": "More education → more women working",
       "mechanism": "Direct human capital effect: longer education produces higher-skilled workers who are more likely to enter and stay in the workforce. One of the most studied relationships in development economics."
     },
@@ -126,7 +126,7 @@
       "n": 12,
       "group": "feedback",
       "confidence": "high",
-      "template": "{high_country} finishes education at {high_val} and scores {high_outcome} on happiness. {low_country} finishes at {low_val} and scores {low_outcome}. Education builds both economic opportunity and personal agency — but happier, wealthier societies also invest more in their education systems.",
+      "template": "{high_country} finishes education at {high_val} and scores {high_outcome} on happiness. {low_country} finishes at {low_val} and scores {low_outcome}. Education builds both economic opportunity and personal agency, but happier, wealthier societies also invest more in their education systems.",
       "one_liner": "More education ↔ more happiness",
       "mechanism": "Education improves income, health literacy, and agency. But the cycle is reinforcing: happier societies fund better education, which produces happier citizens."
     },
@@ -137,7 +137,7 @@
       "n": 12,
       "group": "causal",
       "confidence": "high",
-      "template": "{high_country} keeps students in school until {high_val} and has a GII of {high_outcome}. {low_country} finishes at {low_val} with a GII of {low_outcome}. Education — especially female education — is one of the strongest predictors of gender equality anywhere in the world.",
+      "template": "{high_country} keeps students in school until {high_val} and has a GII of {high_outcome}. {low_country} finishes at {low_val} with a GII of {low_outcome}. Education, especially female education, is one of the strongest predictors of gender equality anywhere in the world.",
       "one_liner": "More education → more equality",
       "mechanism": "Education gives women economic independence, political voice, and reproductive autonomy. Countries that educate women longer consistently score better on every gender equality measure."
     },
@@ -148,7 +148,7 @@
       "n": 12,
       "group": "feedback",
       "confidence": "high",
-      "template": "{high_country} educates until {high_val} with GDP of ${high_outcome}. {low_country} until {low_val} with ${low_outcome}. More education produces a more productive economy — but richer countries can also afford to keep people in school longer.",
+      "template": "{high_country} educates until {high_val} with GDP of ${high_outcome}. {low_country} until {low_val} with ${low_outcome}. More education produces a more productive economy, but richer countries can also afford to keep people in school longer.",
       "one_liner": "More education ↔ higher GDP",
       "mechanism": "Bidirectional: education builds human capital and productivity, raising GDP. Higher GDP funds longer education. A virtuous cycle when it works, a poverty trap when it doesn't."
     },
@@ -159,7 +159,7 @@
       "n": 12,
       "group": "common_cause",
       "confidence": "high",
-      "template": "{high_country} finishes education at {high_val} and lives to {high_outcome}. {low_country} finishes at {low_val} and lives to {low_outcome}. Both are driven by national development — the same investments that build schools also build hospitals.",
+      "template": "{high_country} finishes education at {high_val} and lives to {high_outcome}. {low_country} finishes at {low_val} and lives to {low_outcome}. Both are driven by national development, the same investments that build schools also build hospitals.",
       "one_liner": "More education ↔ longer life (development drives both)",
       "mechanism": "National development level drives both: wealthier countries invest in education AND healthcare. Education also has a direct health literacy effect, but the dominant driver is shared investment capacity."
     },
@@ -170,7 +170,7 @@
       "n": 12,
       "group": "causal",
       "confidence": "high",
-      "template": "Where education is longer, fewer mothers die. {high_country} educates until {high_val} — maternal mortality is {high_outcome}. {low_country} until {low_val} — mortality is {low_outcome}. Educated women have more access to prenatal care, family planning, and safer delivery options.",
+      "template": "Where education is longer, fewer mothers die. {high_country} educates until {high_val}, maternal mortality is {high_outcome}. {low_country} until {low_val}, mortality is {low_outcome}. Educated women have more access to prenatal care, family planning, and safer delivery options.",
       "one_liner": "More education → fewer maternal deaths",
       "mechanism": "Education delays childbearing (reducing high-risk teen pregnancies), increases health literacy, and correlates with better healthcare access. Both direct and indirect effects."
     },
@@ -192,7 +192,7 @@
       "n": 12,
       "group": "common_cause",
       "confidence": "high",
-      "template": "Menopause at {high_val} in {high_country} where {high_outcome}% of women work. Menopause at {low_val} in {low_country} where {low_outcome}% work. These aren't directly connected — both reflect a country's nutrition, healthcare, and opportunities for women.",
+      "template": "Menopause at {high_val} in {high_country} where {high_outcome}% of women work. Menopause at {low_val} in {low_country} where {low_outcome}% work. These aren't directly connected, both reflect a country's nutrition, healthcare, and opportunities for women.",
       "one_liner": "Later menopause ↔ more women working (health drives both)",
       "mechanism": "Not causal. Better nutrition and healthcare delay menopause. The same development conditions that produce better health also produce more economic opportunity for women."
     },
@@ -203,7 +203,7 @@
       "n": 12,
       "group": "common_cause",
       "confidence": "high",
-      "template": "Menopause age tracks wealth — {high_val} in {high_country} (GDP ${high_outcome}), {low_val} in {low_country} (GDP ${low_outcome}). This isn't because later menopause creates wealth. It's because the same nutrition and healthcare that delay menopause are products of a wealthier society.",
+      "template": "Menopause age tracks wealth, {high_val} in {high_country} (GDP ${high_outcome}), {low_val} in {low_country} (GDP ${low_outcome}). This isn't because later menopause creates wealth. It's because the same nutrition and healthcare that delay menopause are products of a wealthier society.",
       "one_liner": "Later menopause ↔ higher GDP (wealth drives both)",
       "mechanism": "Pure common cause. GDP enables better nutrition and healthcare, which delays menopause. No plausible direct causal path from menopause timing to economic output."
     },
@@ -214,7 +214,7 @@
       "n": 12,
       "group": "common_cause",
       "confidence": "high",
-      "template": "Countries with later menopause ({high_val} in {high_country}) tend to be happier ({high_outcome}). Countries with earlier menopause ({low_val} in {low_country}) less so ({low_outcome}). Menopause timing is a marker of overall development — not a driver of happiness.",
+      "template": "Countries with later menopause ({high_val} in {high_country}) tend to be happier ({high_outcome}). Countries with earlier menopause ({low_val} in {low_country}) less so ({low_outcome}). Menopause timing is a marker of overall development, not a driver of happiness.",
       "one_liner": "Later menopause ↔ more happiness (development drives both)",
       "mechanism": "Menopause age is a proxy for nutritional and healthcare quality. The same conditions that produce later menopause produce happier societies. No direct causal link."
     },
@@ -225,7 +225,7 @@
       "n": 12,
       "group": "common_cause",
       "confidence": "high",
-      "template": "Later menopause and longer life go together — {high_val}/{high_outcome} in {high_country} vs {low_val}/{low_outcome} in {low_country}. Both are outputs of the same healthcare system.",
+      "template": "Later menopause and longer life go together, {high_val}/{high_outcome} in {high_country} vs {low_val}/{low_outcome} in {low_country}. Both are outputs of the same healthcare system.",
       "one_liner": "Later menopause ↔ longer life (healthcare drives both)",
       "mechanism": "Shared driver: healthcare and nutrition quality affect both reproductive longevity and overall longevity."
     },
@@ -269,7 +269,7 @@
       "n": 10,
       "group": "common_cause",
       "confidence": "medium",
-      "template": "Countries with later menopause tend to have higher divorce rates — not because biology drives divorce, but because both correlate with women's economic independence and social freedom.",
+      "template": "Countries with later menopause tend to have higher divorce rates, not because biology drives divorce, but because both correlate with women's economic independence and social freedom.",
       "one_liner": "Later menopause ↔ higher divorce (women's independence drives both)",
       "mechanism": "Common cause: women's autonomy and economic independence allow both later menopause (better health) and higher divorce rates (freedom to leave unhappy marriages)."
     },
@@ -291,7 +291,7 @@
       "n": 8,
       "group": "feedback",
       "confidence": "medium",
-      "template": "Later first births ({high_val} in {high_country}) correlate with more healthy years ({high_outcome}). Earlier first births ({low_val} in {low_country}) with fewer ({low_outcome}). Delaying childbirth reduces health risks — but healthier societies also enable delayed childbirth.",
+      "template": "Later first births ({high_val} in {high_country}) correlate with more healthy years ({high_outcome}). Earlier first births ({low_val} in {low_country}) with fewer ({low_outcome}). Delaying childbirth reduces health risks, but healthier societies also enable delayed childbirth.",
       "one_liner": "Later first birth ↔ more healthy years",
       "mechanism": "Delayed childbirth reduces maternal health complications. But healthier societies also provide the contraception and economic conditions that enable delayed childbirth. N=8, interpret with caution."
     },
@@ -313,7 +313,7 @@
       "n": 8,
       "group": "causal",
       "confidence": "medium",
-      "template": "When women have their first child later ({high_val} in {high_country}), they tend to have fewer children total ({high_outcome}). In {low_country}, first birth at {low_val} and fertility rate {low_outcome}. The biological window narrows — and so do family size expectations.",
+      "template": "When women have their first child later ({high_val} in {high_country}), they tend to have fewer children total ({high_outcome}). In {low_country}, first birth at {low_val} and fertility rate {low_outcome}. The biological window narrows, and so do family size expectations.",
       "one_liner": "Later first birth → fewer children",
       "mechanism": "Direct biological and social mechanism: later first birth leaves fewer reproductive years and shifts social norms toward smaller families. The Korean compression is the extreme example."
     },
@@ -324,7 +324,7 @@
       "n": 9,
       "group": "causal",
       "confidence": "medium",
-      "template": "This is the one milestone where 'later' means worse. In {low_country}, people buy their first home at {low_val} and happiness is {low_outcome}. In {high_country}, it's {high_val} — and happiness drops to {high_outcome}. Late home buying isn't a choice. It's a sign of unaffordable housing.",
+      "template": "This is the one milestone where 'later' means worse. In {low_country}, people buy their first home at {low_val} and happiness is {low_outcome}. In {high_country}, it's {high_val}, and happiness drops to {high_outcome}. Late home buying isn't a choice. It's a sign of unaffordable housing.",
       "one_liner": "Later home purchase → less happiness (unaffordability)",
       "mechanism": "Unlike other milestones, delayed home purchase reflects economic constraint, not opportunity. Housing unaffordability directly reduces life satisfaction and financial security."
     },
@@ -336,7 +336,7 @@
       "group": "artifact",
       "confidence": "low",
       "template": "",
-      "one_liner": "Likely artifact — driven by Japan outlier",
+      "one_liner": "Likely artifact, driven by Japan outlier",
       "mechanism": "Japan has the latest home purchase age (38) and moderate GII. Denmark has the earliest (29.5) and lowest GII. With N=9, this is likely a Japan-driven artifact, not a real pattern."
     },
     {
@@ -346,7 +346,7 @@
       "n": 9,
       "group": "common_cause",
       "confidence": "medium",
-      "template": "Later cohabitation ({high_val} in {high_country}) and longer life ({high_outcome}) go together — but cohabitation age is estimated from surveys (low confidence data). Both reflect development level, not a direct connection.",
+      "template": "Later cohabitation ({high_val} in {high_country}) and longer life ({high_outcome}) go together, but cohabitation age is estimated from surveys (low confidence data). Both reflect development level, not a direct connection.",
       "one_liner": "Later cohabitation ↔ longer life (development, but low confidence data)",
       "mechanism": "Common cause (development), but cohabitation data is survey-estimated and LOW confidence. Treat with caution. N=9."
     },
@@ -357,7 +357,7 @@
       "n": 9,
       "group": "common_cause",
       "confidence": "medium",
-      "template": "Cohabitation timing and healthy lifespan correlate — but the cohabitation data is estimated, not measured. Both are likely driven by overall development level.",
+      "template": "Cohabitation timing and healthy lifespan correlate, but the cohabitation data is estimated, not measured. Both are likely driven by overall development level.",
       "one_liner": "Later cohabitation ↔ more healthy years (low confidence data)",
       "mechanism": "Common cause. Cohabitation data is LOW confidence. N=9."
     },
@@ -379,7 +379,7 @@
       "n": 9,
       "group": "common_cause",
       "confidence": "medium",
-      "template": "Later cohabitation and lower gender inequality go together — both reflect societies where women have more autonomy and freedom to delay partnership.",
+      "template": "Later cohabitation and lower gender inequality go together, both reflect societies where women have more autonomy and freedom to delay partnership.",
       "one_liner": "Later cohabitation ↔ more equality (women's autonomy drives both)",
       "mechanism": "Common cause: women's autonomy. Cohabitation data is LOW confidence. N=9."
     },
@@ -412,7 +412,7 @@
       "n": 12,
       "group": "common_cause",
       "confidence": "medium",
-      "template": "Earlier menarche ({low_val} in {low_country}, happiness {low_outcome}) and later menarche ({high_val} in {high_country}, happiness {high_outcome}) — but the connection is indirect. Earlier menarche reflects better childhood nutrition, which reflects national development, which drives happiness.",
+      "template": "Earlier menarche ({low_val} in {low_country}, happiness {low_outcome}) and later menarche ({high_val} in {high_country}, happiness {high_outcome}), but the connection is indirect. Earlier menarche reflects better childhood nutrition, which reflects national development, which drives happiness.",
       "one_liner": "Earlier menarche ↔ more happiness (nutrition/development drives both)",
       "mechanism": "Common cause: better childhood nutrition triggers earlier puberty AND is a marker of national development (which drives happiness). The negative r means later menarche (poorer nutrition) correlates with less happiness."
     },
@@ -424,7 +424,7 @@
       "group": "artifact",
       "confidence": "low",
       "template": "",
-      "one_liner": "Likely artifact — Korea/Japan effect with N=8",
+      "one_liner": "Likely artifact, Korea/Japan effect with N=8",
       "mechanism": "Counterintuitive: later first births correlate with LOWER GDP. Driven by Korea and Japan having extremely late first births but not the highest GDPs. With N=8, this is too noisy to interpret reliably."
     },
     {
@@ -445,7 +445,7 @@
       "n": 8,
       "group": "feedback",
       "confidence": "low",
-      "template": "Countries with later first births tend to have fewer years in poor health — but with only 8 data points, this pattern is suggestive, not conclusive.",
+      "template": "Countries with later first births tend to have fewer years in poor health, but with only 8 data points, this pattern is suggestive, not conclusive.",
       "one_liner": "Later first birth → fewer unhealthy years (suggestive)",
       "mechanism": "Plausible but N=8. Later first birth reduces maternal health complications and may correlate with better lifetime health management."
     },
@@ -457,8 +457,11 @@
       "group": "artifact",
       "confidence": "low",
       "template": "",
-      "one_liner": "Likely artifact — N=8, mixed directions",
+      "one_liner": "Likely artifact, N=8, mixed directions",
       "mechanism": "Counterintuitive direction and small sample. Not reliable enough to present."
     }
   ]
 }
+
+
+

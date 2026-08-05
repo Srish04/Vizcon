@@ -46,7 +46,11 @@ function ProgressDots({ current, answers, questions }) {
 function checkCorrect(q, answer) {
   if (q.type === 'multiple_choice' || q.type === 'binary') return answer === q.answer
   if (q.type === 'slider') return Math.abs(answer - q.answer_value) <= 2
-  if (q.type === 'rank') return JSON.stringify(answer) === JSON.stringify(q.answer)
+  if (q.type === 'rank') {
+    // Count how many items are in the correct position
+    const correctCount = q.answer.filter((item, i) => answer[i] === item).length
+    return correctCount >= Math.ceil(q.answer.length / 2) // At least half correct
+  }
   return false
 }
 
@@ -126,10 +130,12 @@ function SliderQuestion({ question, onAnswer, answered, userAnswer }) {
       {answered && (
         <div className="text-center space-y-2">
           <p className="font-data text-[16px] text-[#475569]">Your guess: <span className="text-[#264653] font-bold">{userAnswer}</span></p>
-          <p className="font-data text-[16px] text-[#475569]">Actual: <span className="text-[#E76F51] font-bold">{question.answer_value}</span></p>
-          <p className="font-data text-[14px] text-[#94a3b8]">
-            You were {Math.abs(userAnswer - question.answer_value).toFixed(1)} years {userAnswer > question.answer_value ? 'too high' : 'too low'}
-          </p>
+          <p className="font-data text-[16px] text-[#475569]">Actual: <span className="text-[#2D6A4F] font-bold">{question.answer_value}</span></p>
+          {Math.abs(userAnswer - question.answer_value) <= 2 ? (
+            <p className="font-body text-[14px] text-[#2D6A4F] font-semibold">✓ Close enough! Only {Math.abs(userAnswer - question.answer_value).toFixed(1)} years off.</p>
+          ) : (
+            <p className="font-body text-[14px] text-[#E76F51]">Off by {Math.abs(userAnswer - question.answer_value).toFixed(1)} years.</p>
+          )}
         </div>
       )}
     </div>
@@ -276,7 +282,7 @@ export default function Quiz() {
       <div className="max-w-[600px] mx-auto relative z-10">
         <h2 className="font-display text-[36px] md:text-[40px] text-[#264653] mb-2 text-center">Test Your Intuition</h2>
         <p className="font-body text-[18px] text-[#475569] mb-8 text-center">
-          {total} questions about life milestones. Most people get fewer than half right.
+          {total} questions about life markers. Most people get fewer than half right.
         </p>
 
         <ProgressDots current={currentQ} answers={answers} questions={quizData}/>
@@ -314,3 +320,5 @@ export default function Quiz() {
     </section>
   )
 }
+
+

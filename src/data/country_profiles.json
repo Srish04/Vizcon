@@ -288,15 +288,15 @@
         "available": true
       },
       "leaving_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 26.0,
+        "year": 2022,
+        "available": true
       },
       "cohabitation": {
-        "value": null,
-        "available": false,
+        "value": 28.0,
+        "available": true,
         "source": "Marriage-first culture, cohabitation rare",
-        "data_type": "not_applicable"
+        "data_type": "survey"
       },
       "first_home": {
         "value": 35.0,
@@ -696,15 +696,15 @@
         "available": true
       },
       "leaving_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 25.0,
+        "year": 2022,
+        "available": true
       },
       "cohabitation": {
-        "value": null,
-        "available": false,
+        "value": 27.0,
+        "available": true,
         "source": "Marriage-first culture, cohabitation rare",
-        "data_type": "not_applicable"
+        "data_type": "survey"
       },
       "first_home": {
         "value": 38.0,
@@ -832,9 +832,9 @@
         "available": true
       },
       "leaving_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 25.5,
+        "year": 2022,
+        "available": true
       },
       "cohabitation": {
         "value": 22.5,
@@ -843,9 +843,9 @@
         "data_type": "estimated"
       },
       "first_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 32.0,
+        "year": 2022,
+        "available": true
       },
       "marriage": {
         "value": 23.9,
@@ -853,9 +853,9 @@
         "available": true
       },
       "first_baby": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 21.3,
+        "year": 2019,
+        "available": true
       },
       "fertility_rate": {
         "value": 1.619,
@@ -968,9 +968,9 @@
         "available": true
       },
       "leaving_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 24.2,
+        "year": 2022,
+        "available": true
       },
       "cohabitation": {
         "value": 26.5,
@@ -989,9 +989,9 @@
         "available": true
       },
       "first_baby": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 29.4,
+        "year": 2022,
+        "available": true
       },
       "fertility_rate": {
         "value": 1.638,
@@ -1084,7 +1084,7 @@
     "pair": {
       "partner": "BRA",
       "tagline": "Development and convergence",
-      "narrative": "Australia and Brazil share nearly identical fertility rates (1.64 vs 1.62) despite a 3x GDP gap. Australia's women marry at 29.2 with 77% workforce participation, while Brazil's marry at 23.9 with 61% LFPR. The demographic transition has converged even as economic outcomes diverge -- Australia's life expectancy (83.1) is 7 years higher than Brazil's (76.0)."
+      "narrative": "Australia and Brazil share nearly identical fertility rates (1.64 vs 1.62) despite a 3x GDP gap. Australia's women marry at 29.2 with 77% workforce participation, while Brazil's marry at 23.9 with 61% LFPR. The demographic transition has converged even as economic outcomes diverge. Australia's life expectancy (83.1) is 7 years higher than Brazil's (76.0)."
     }
   },
   {
@@ -1104,9 +1104,9 @@
         "available": true
       },
       "leaving_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 24.0,
+        "year": 2022,
+        "available": true
       },
       "cohabitation": {
         "value": 23.5,
@@ -1376,20 +1376,20 @@
         "available": true
       },
       "leaving_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 24.0,
+        "year": 2021,
+        "available": true
       },
       "cohabitation": {
-        "value": null,
-        "available": false,
-        "source": "Marriage-first culture, cohabitation rare",
-        "data_type": "not_applicable"
+        "value": 21.4,
+        "available": true,
+        "source": "Marriage-first culture",
+        "data_type": "estimate"
       },
       "first_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 35.0,
+        "year": 2022,
+        "available": true
       },
       "marriage": {
         "value": 21.4,
@@ -1397,9 +1397,9 @@
         "available": true
       },
       "first_baby": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 21.2,
+        "year": 2021,
+        "available": true
       },
       "fertility_rate": {
         "value": 1.975,
@@ -1412,9 +1412,9 @@
         "data_type": "survey"
       },
       "retirement_age": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 58.0,
+        "year": 2024,
+        "available": true
       },
       "years_after_exit": {
         "value": null,
@@ -1492,7 +1492,7 @@
     "pair": {
       "partner": "MEX",
       "tagline": "Global south, rapid change",
-      "narrative": "India and Mexico anchor the dataset as rapidly developing nations. India's marriage age (21.4) is the youngest and its female LFPR (35%) the lowest, yet its fertility rate has dropped to 1.98 -- near replacement level. Mexico marries later (27.5) with higher female workforce participation (52%), showing how different paths lead to similar demographic outcomes."
+      "narrative": "India and Mexico anchor the dataset as rapidly developing nations. India's marriage age (21.4) is the youngest and its female LFPR (35%) the lowest, yet its fertility rate has dropped to 1.98. near replacement level. Mexico marries later (27.5) with higher female workforce participation (52%), showing how different paths lead to similar demographic outcomes."
     }
   },
   {
@@ -1512,9 +1512,9 @@
         "available": true
       },
       "leaving_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 26.5,
+        "year": 2022,
+        "available": true
       },
       "cohabitation": {
         "value": 21.5,
@@ -1523,9 +1523,9 @@
         "data_type": "estimated"
       },
       "first_home": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 34.0,
+        "year": 2022,
+        "available": true
       },
       "marriage": {
         "value": 27.5,
@@ -1533,9 +1533,9 @@
         "available": true
       },
       "first_baby": {
-        "value": null,
-        "year": null,
-        "available": false
+        "value": 21.3,
+        "year": 2018,
+        "available": true
       },
       "fertility_rate": {
         "value": 1.91,
@@ -1632,3 +1632,4 @@
     }
   }
 ]
+

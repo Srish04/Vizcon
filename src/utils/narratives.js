@@ -14,9 +14,9 @@ export function fillNarrative(template, context) {
 }
 
 /**
- * Generate a one-line contrast sentence for a milestone.
+ * Generate a one-line contrast sentence for a marker.
  */
-export function milestoneContrast(milestone, nameA, valueA, nameB, valueB) {
+export function markerContrast(milestone, nameA, valueA, nameB, valueB) {
   const gap = Math.abs(valueA - valueB).toFixed(1)
   const higher = valueA > valueB ? nameA : nameB
   const lower = valueA > valueB ? nameB : nameA

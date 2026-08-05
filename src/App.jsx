@@ -22,9 +22,9 @@ function App() {
         <div className="max-w-[1200px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div>
-              <h3 className="font-display text-lg mb-3">Life Milestones</h3>
+              <h3 className="font-display text-lg mb-3">Life Markers</h3>
               <p className="font-body text-sm text-white/60 leading-relaxed">
-                How the world grows up. An interactive exploration of life milestones across 12 countries, revealing the patterns hidden in demographic data.
+                How the world grows up. An interactive exploration of life markers across 12 countries, revealing the patterns hidden in demographic data.
               </p>
             </div>
             <div>
@@ -49,7 +49,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-white/10 pt-6 text-center">
-            <p className="font-display text-base">Life Milestones: How the World Grows Up</p>
+            <p className="font-display text-base">Life Markers: How the World Grows Up</p>
             <p className="font-body text-xs text-white/40 mt-2">VizCon 2026</p>
           </div>
         </div>

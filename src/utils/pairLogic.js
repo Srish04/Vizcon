@@ -1,26 +1,26 @@
 /**
- * Pair logic utilities: select milestones, correlations, and gender stories for a pair.
+ * Pair logic utilities: select markers, correlations, and gender stories for a pair.
  */
 
-import { getPairMilestones, getPairCorrelations, getPairGenderStories } from './dataLoader'
+import { getPairMarkers, getPairCorrelations, getPairGenderStories } from './dataLoader'
 
 /**
  * Get full pair analysis bundle for rendering.
  */
 export function getPairBundle(codeA, codeB) {
-  const milestones = getPairMilestones(codeA, codeB)
+  const markers = getPairMarkers(codeA, codeB)
   const correlations = getPairCorrelations(codeA, codeB)
   const genderStories = getPairGenderStories(codeA, codeB)
 
   // Top contrast (largest normalized gap)
-  const topContrast = [...milestones].sort((a, b) => b.normGap - a.normGap).slice(0, 3)
+  const topContrast = [...markers].sort((a, b) => b.normGap - a.normGap).slice(0, 3)
 
   return {
-    milestones,
+    markers,
     correlations,
     genderStories,
     topContrast,
-    sharedCount: milestones.length,
+    sharedCount: markers.length,
     hasGenderData: genderStories.length > 0,
   }
 }

@@ -10,3 +10,5 @@ export default function SectionDivider({ from = '#ffffff', to = '#f1f5f9' }) {
     </div>
   )
 }
+
+

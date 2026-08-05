@@ -7,7 +7,7 @@ const LINKS = [
   { id: 'quiz', label: 'Quiz' },
 ]
 
-const MILESTONE_COLORS = ['#C2185B','#2D6A4F','#2A9D8F','#00897B','#48BFE3','#E76F51','#E9C46A','#AB47BC','#457B9D','#7B2D8E','#264653']
+const MARKER_COLORS = ['#C2185B','#2D6A4F','#2A9D8F','#00897B','#48BFE3','#E76F51','#E9C46A','#AB47BC','#457B9D','#7B2D8E','#264653']
 
 export default function Navbar() {
   const [active, setActive] = useState('')
@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="max-w-[1200px] mx-auto w-full flex items-center justify-between">
           <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="font-display text-lg font-bold text-[#264653] cursor-pointer hover:opacity-70 transition-opacity">
-            Life Milestones
+            Life Markers
           </button>
           <div className="flex items-center gap-2 md:gap-5">
             {LINKS.map(l => (
@@ -59,9 +59,11 @@ export default function Navbar() {
         <div className="h-full transition-all duration-100"
           style={{
             width: `${scrollPct * 100}%`,
-            background: `linear-gradient(90deg, ${MILESTONE_COLORS.join(', ')})`
+            background: `linear-gradient(90deg, ${MARKER_COLORS.join(', ')})`
           }} />
       </div>
     </nav>
   )
 }
+
+

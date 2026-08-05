@@ -1,16 +1,16 @@
 /**
- * Data utility layer for Life Milestones visualization.
+ * Data utility layer for Life Markers visualization.
  * Loads and filters processed JSON data for the app.
  */
 
 import countryProfiles from '../data/country_profiles.json'
 import correlationsData from '../data/correlations.json'
 import genderPairAnalysis from '../data/gender_pair_analysis.json'
-import milestoneCorrelations from '../data/milestone_outcome_correlations.json'
+import markerCorrelations from '../data/milestone_outcome_correlations.json'
 import optimalPairs from '../data/optimal_pairs_v2.json'
 
-// Milestone chronological order and colors
-const MILESTONE_ORDER = [
+// Marker chronological order and colors
+const MARKER_ORDER = [
   { key: 'menarche_age', label: 'Menarche', color: 'var(--color-menarche)' },
   { key: 'education_completion_age', label: 'Education Complete', color: 'var(--color-education)' },
   { key: 'leaving_home_age', label: 'Leaving Home', color: 'var(--color-leaving-home)' },
@@ -36,12 +36,12 @@ const corrByCode = Object.fromEntries(correlationsData.map(r => [r.country, r]))
 
 // Compute ranges for normalization
 const ranges = {}
-for (const milestone of MILESTONE_ORDER) {
+for (const marker of MARKER_ORDER) {
   const values = correlationsData
-    .map(r => r[milestone.key])
+    .map(r => r[marker.key])
     .filter(v => v != null)
   if (values.length > 0) {
-    ranges[milestone.key] = Math.max(...values) - Math.min(...values)
+    ranges[marker.key] = Math.max(...values) - Math.min(...values)
   }
 }
 
@@ -56,12 +56,12 @@ export function getCountryProfile(countryCode) {
  * Get milestones where BOTH countries have non-null values.
  * Returns array sorted in chronological order.
  */
-export function getPairMilestones(codeA, codeB) {
+export function getPairMarkers(codeA, codeB) {
   const corrA = corrByCode[codeA]
   const corrB = corrByCode[codeB]
   if (!corrA || !corrB) return []
 
-  return MILESTONE_ORDER
+  return MARKER_ORDER
     .filter(m => corrA[m.key] != null && corrB[m.key] != null)
     .map(m => {
       const valueA = corrA[m.key]
@@ -69,7 +69,7 @@ export function getPairMilestones(codeA, codeB) {
       const gap = Math.abs(valueA - valueB)
       const normGap = ranges[m.key] ? gap / ranges[m.key] : 0
       return {
-        milestone: m.key,
+        marker: m.key,
         label: m.label,
         valueA,
         valueB,
@@ -90,7 +90,7 @@ export function getPairCorrelations(codeA, codeB) {
   const corrB = corrByCode[codeB]
   if (!corrA || !corrB) return []
 
-  return milestoneCorrelations
+  return markerCorrelations
     .filter(c => c.strength === 'STRONG' && c.p_value < 0.05)
     .filter(c => {
       // Both countries must have data for both the milestone and outcome
