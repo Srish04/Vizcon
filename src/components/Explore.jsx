@@ -139,7 +139,7 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
   }
 
   return (
-    <div className="w-[320px] shrink-0 sticky top-[80px] self-start max-h-[calc(100vh-100px)] overflow-y-auto pr-2">
+    <div className="w-[420px] shrink-0 sticky top-[80px] self-start max-h-[calc(100vh-100px)] overflow-y-auto pr-2">
       {mode === 'radar' ? (
         <div>
           <p className="text-[10px] font-body font-bold uppercase text-[#1e293b] tracking-wider border-b border-[#e5e7eb] pb-1 mb-2">Countries</p>
@@ -170,10 +170,10 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
         </div>
       ) : (
       <>
-      {/* Two-column: Milestones left, Outcomes right */}
+      {/* Three-column: Markers, Outcomes, Countries */}
       <div className="flex gap-2">
         <div className="flex-1 min-w-0">
-          <p className="text-[10px] font-body font-bold uppercase text-[#1e293b] tracking-wider border-b border-[#e5e7eb] pb-1 mb-2">Markers</p>
+          <p className="text-[9px] font-body font-bold uppercase text-[#1e293b] tracking-wider border-b border-[#e5e7eb] pb-1 mb-2">Markers</p>
           <div className="space-y-1">
             {(mode === 'timeline' ? MARKER_METRICS.filter(n => TIMELINE_METRIC_NAMES.includes(n)) : MARKER_METRICS).map(name => (
               <MetricPill key={name} name={name} metric={METRIC_MAP[name]}
@@ -184,7 +184,7 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
         </div>
         {mode !== 'timeline' && (
         <div className="flex-1 min-w-0">
-          <p className="text-[10px] font-body font-bold uppercase text-[#1e293b] tracking-wider border-b border-[#e5e7eb] pb-1 mb-2">Outcomes</p>
+          <p className="text-[9px] font-body font-bold uppercase text-[#1e293b] tracking-wider border-b border-[#e5e7eb] pb-1 mb-2">Outcomes</p>
           <div className="space-y-1">
             {OUTCOME_METRICS.map(name => (
               <MetricPill key={name} name={name} metric={METRIC_MAP[name]}
@@ -194,6 +194,33 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
           </div>
         </div>
         )}
+        <div className="w-[100px] shrink-0">
+          <p className="text-[9px] font-body font-bold uppercase text-[#1e293b] tracking-wider border-b border-[#e5e7eb] pb-1 mb-2">Countries</p>
+          <div className="flex gap-1 mb-2">
+            <button onClick={() => setSelectedCountries(ALL_CODES)}
+              className={`text-[9px] font-body cursor-pointer px-1.5 py-0.5 rounded-md transition-all ${selectedCountries.length === 12 ? 'font-bold text-white bg-[#264653]' : 'text-[#1e293b] bg-gray-100 hover:bg-gray-200'}`}>
+              All
+            </button>
+            <button onClick={() => setSelectedCountries([])}
+              className={`text-[9px] font-body cursor-pointer px-1.5 py-0.5 rounded-md transition-all ${selectedCountries.length === 0 ? 'font-bold text-white bg-[#E76F51]' : 'text-[#1e293b] bg-gray-100 hover:bg-gray-200'}`}>
+              None
+            </button>
+          </div>
+          <div className="space-y-0.5">
+            {ALL_CODES.map(code => {
+              const active = selectedCountries.includes(code)
+              const c = COUNTRY_CONFIG[code]
+              return (
+                <button key={code}
+                  onClick={() => setSelectedCountries(prev => active ? prev.filter(x=>x!==code) : [...prev, code])}
+                  className="w-full flex items-center gap-1.5 h-6 cursor-pointer transition-all hover:bg-gray-50 rounded px-1">
+                  <span className="w-2.5 h-2.5 rounded-full shrink-0 transition-opacity" style={{ backgroundColor: c.color, opacity: active ? 1 : 0.3 }}/>
+                  <span className={`text-[11px] font-body transition-all ${active ? 'text-[#1a2a32] font-semibold' : 'text-[#94a3b8]'}`}>{c.name}</span>
+                </button>
+              )
+            })}
+          </div>
+        </div>
       </div>
 
       {/* Interaction hint */}
@@ -209,132 +236,97 @@ function LeftPane({ selectedCountries, setSelectedCountries, mode, xMetric, yMet
 // === RIGHT PANE: Country filter + What this shows (side by side) ===
 function CountryFilter({ selectedCountries, setSelectedCountries, activeView, narrative, r, xMetric, yMetric, rankMetric }) {
   return (
-    <div className="w-[380px] shrink-0 sticky top-[80px] self-start max-h-[calc(100vh-100px)] overflow-y-auto pl-4 border-l border-[#e5e7eb]">
-      <div className="flex gap-3">
-        {/* Countries column */}
-        <div className="w-[110px] shrink-0">
-          <div className="flex items-center gap-2 mb-2">
-            <p className="text-[12px] font-body font-bold uppercase text-[#264653] tracking-wider">Countries</p>
-          </div>
-          <div className="flex gap-2 mb-3">
-            <button onClick={() => setSelectedCountries(ALL_CODES)}
-              className={`text-[11px] font-body cursor-pointer px-2 py-1 rounded-md transition-all ${selectedCountries.length === 12 ? 'font-bold text-white bg-[#264653]' : 'text-[#1e293b] bg-gray-100 hover:bg-gray-200'}`}>
-              All
-            </button>
-            <button onClick={() => setSelectedCountries([])}
-              className={`text-[11px] font-body cursor-pointer px-2 py-1 rounded-md transition-all ${selectedCountries.length === 0 ? 'font-bold text-white bg-[#E76F51]' : 'text-[#1e293b] bg-gray-100 hover:bg-gray-200'}`}>
-              None
-            </button>
-          </div>
-          <div className="space-y-1">
-            {ALL_CODES.map(code => {
-              const active = selectedCountries.includes(code)
-              const c = COUNTRY_CONFIG[code]
-              return (
-                <button key={code}
-                  onClick={() => setSelectedCountries(prev => active ? prev.filter(x=>x!==code) : [...prev, code])}
-                  className="w-full flex items-center gap-2 h-7 cursor-pointer transition-all hover:bg-gray-50 rounded px-1">
-                  <span className="w-3 h-3 rounded-full shrink-0 transition-opacity" style={{ backgroundColor: c.color, opacity: active ? 1 : 0.3 }}/>
-                  <span className={`text-[13px] font-body transition-all ${active ? 'text-[#1a2a32] font-semibold' : 'text-[#94a3b8]'}`}>{c.name}</span>
-                </button>
-              )
-            })}
-          </div>
-        </div>
-
-        {/* What this shows column */}
-        <div className="flex-1 min-w-0">
-          {activeView === 'Scatter' && narrative && (
-            <div className="bg-[#f8fafc] rounded-lg p-2.5 border border-gray-200">
-              <p className="text-[11px] font-body font-bold text-[#1e293b] mb-1.5">What this shows</p>
-              <p className="text-[10px] font-body text-[#334155] leading-relaxed mb-2">{narrative.one_liner}</p>
-              <div className="space-y-1.5">
-                <div className="bg-white rounded p-1.5 border border-gray-100">
-                  <p className="text-[9px] font-data text-[#475569]">Direction</p>
-                  <p className="text-[10px] font-body text-[#1e293b]">{r > 0 ? 'Later' : 'Earlier'} {xMetric?.split(' ')[0]} = {r > 0 ? 'higher' : 'lower'} {yMetric}</p>
-                </div>
-                <div className="bg-white rounded p-1.5 border border-gray-100">
-                  <p className="text-[9px] font-data text-[#475569]">Strength</p>
-                  <p className="text-[12px] font-data font-bold text-[#264653]">r = {r?.toFixed(2)}</p>
-                  <p className="text-[9px] font-body text-[#475569]">({Math.abs(r) > 0.7 ? 'strong' : Math.abs(r) > 0.4 ? 'moderate' : 'weak'})</p>
-                </div>
-                <div className="bg-white rounded p-1.5 border border-gray-100">
-                  <div className="flex items-center gap-1">
-                    <p className="text-[9px] font-data text-[#475569]">Type</p>
-                    <div className="relative group">
-                      <svg width="10" height="10" viewBox="0 0 10 10" className="cursor-pointer text-[#475569]">
-                        <circle cx="5" cy="5" r="4.5" fill="none" stroke="currentColor" strokeWidth="0.8"/>
-                        <text x="5" y="7.5" textAnchor="middle" fill="currentColor" fontSize="7" fontFamily="Inter" fontWeight="700">i</text>
-                      </svg>
-                      <div className="hidden group-hover:block absolute bottom-full left-0 mb-1 w-[160px] bg-[#1e293b] text-white rounded-lg p-2 z-50 shadow-xl">
-                        <p className="text-[9px] font-body leading-relaxed mb-0.5"><span className="font-bold">Causal:</span> A causes B directly.</p>
-                        <p className="text-[9px] font-body leading-relaxed mb-0.5"><span className="font-bold">Feedback:</span> A and B reinforce each other.</p>
-                        <p className="text-[9px] font-body leading-relaxed"><span className="font-bold">Shared:</span> Third factor drives both.</p>
-                      </div>
-                    </div>
+    <div className="w-[280px] shrink-0 sticky top-[80px] self-start max-h-[calc(100vh-100px)] overflow-y-auto pl-4 border-l border-[#e5e7eb]">
+      {/* What this shows - prominent insight card */}
+      {activeView === 'Scatter' && narrative && (
+        <div className="bg-gradient-to-br from-[#f8fafc] to-[#f0f9ff] rounded-xl p-4 border border-[#264653]/15 shadow-sm">
+          <p className="text-[13px] font-body font-bold text-[#264653] mb-2">What this shows</p>
+          <p className="text-[13px] font-body text-[#334155] leading-relaxed mb-3 font-medium">{narrative.one_liner}</p>
+          <div className="space-y-2">
+            <div className="bg-white rounded-lg p-2.5 border border-gray-100">
+              <p className="text-[10px] font-data text-[#475569] mb-0.5">Direction</p>
+              <p className="text-[12px] font-body font-semibold text-[#1e293b]">{r > 0 ? 'Later' : 'Earlier'} {xMetric?.split(' ')[0]} = {r > 0 ? 'higher' : 'lower'} {yMetric}</p>
+            </div>
+            <div className="bg-white rounded-lg p-2.5 border border-gray-100">
+              <p className="text-[10px] font-data text-[#475569] mb-0.5">Strength</p>
+              <p className="text-[16px] font-data font-bold text-[#264653]">r = {r?.toFixed(2)}</p>
+              <p className="text-[11px] font-body text-[#475569]">({Math.abs(r) > 0.7 ? 'strong' : Math.abs(r) > 0.4 ? 'moderate' : 'weak'})</p>
+            </div>
+            <div className="bg-white rounded-lg p-2.5 border border-gray-100">
+              <div className="flex items-center gap-1 mb-1">
+                <p className="text-[10px] font-data text-[#475569]">Type</p>
+                <div className="relative group">
+                  <svg width="10" height="10" viewBox="0 0 10 10" className="cursor-pointer text-[#475569]">
+                    <circle cx="5" cy="5" r="4.5" fill="none" stroke="currentColor" strokeWidth="0.8"/>
+                    <text x="5" y="7.5" textAnchor="middle" fill="currentColor" fontSize="7" fontFamily="Inter" fontWeight="700">i</text>
+                  </svg>
+                  <div className="hidden group-hover:block absolute bottom-full left-0 mb-1 w-[160px] bg-[#1e293b] text-white rounded-lg p-2 z-50 shadow-xl">
+                    <p className="text-[9px] font-body leading-relaxed mb-0.5"><span className="font-bold">Causal:</span> A causes B directly.</p>
+                    <p className="text-[9px] font-body leading-relaxed mb-0.5"><span className="font-bold">Feedback:</span> A and B reinforce each other.</p>
+                    <p className="text-[9px] font-body leading-relaxed"><span className="font-bold">Shared:</span> Third factor drives both.</p>
                   </div>
-                  <p className="text-[10px] font-body font-semibold text-[#1e293b]">
-                    {narrative.group === 'causal' && 'Causal'}
-                    {narrative.group === 'feedback' && 'Feedback loop'}
-                    {narrative.group === 'common_cause' && 'Shared drivers'}
-                  </p>
-                  <p className="text-[9px] font-body text-[#475569] mt-0.5 leading-relaxed">{narrative.mechanism}</p>
                 </div>
               </div>
-              <p className="text-[9px] font-body italic text-[#64748b] mt-1.5">N=12. Correlation only.</p>
-            </div>
-          )}
-          {activeView === 'Scatter' && !narrative && xMetric && yMetric && r !== 0 && (
-            <div className="bg-[#f8fafc] rounded-lg p-2.5 border border-gray-200">
-              <p className="text-[11px] font-body font-bold text-[#1e293b] mb-1.5">What this shows</p>
-              <p className="text-[10px] font-body text-[#334155] leading-relaxed mb-2">
-                {r > 0 ? 'Higher' : 'Lower'} {xMetric} tends to correlate with {r > 0 ? 'higher' : 'lower'} {yMetric} across these countries.
+              <p className="text-[12px] font-body font-semibold text-[#1e293b]">
+                {narrative.group === 'causal' && 'Causal'}
+                {narrative.group === 'feedback' && 'Feedback loop'}
+                {narrative.group === 'common_cause' && 'Shared drivers'}
               </p>
-              <div className="space-y-1.5">
-                <div className="bg-white rounded p-1.5 border border-gray-100">
-                  <p className="text-[9px] font-data text-[#475569]">Direction</p>
-                  <p className="text-[10px] font-body text-[#1e293b]">{r > 0 ? 'Positive' : 'Negative'}: as one rises, the other {r > 0 ? 'rises' : 'falls'}</p>
-                </div>
-                <div className="bg-white rounded p-1.5 border border-gray-100">
-                  <p className="text-[9px] font-data text-[#475569]">Strength</p>
-                  <p className="text-[12px] font-data font-bold text-[#264653]">r = {r?.toFixed(2)}</p>
-                  <p className="text-[9px] font-body text-[#475569]">({Math.abs(r) > 0.7 ? 'strong' : Math.abs(r) > 0.4 ? 'moderate' : 'weak'})</p>
-                </div>
-              </div>
-              <p className="text-[9px] font-body italic text-[#64748b] mt-1.5">N=12. Correlation only.</p>
+              <p className="text-[11px] font-body text-[#475569] mt-1 leading-relaxed">{narrative.mechanism}</p>
             </div>
-          )}
-          {activeView === 'Scatter' && !narrative && (!xMetric || !yMetric) && (
-            <div className="bg-[#f8fafc] rounded-lg p-2.5 border border-gray-200">
-              <p className="text-[11px] font-body text-[#475569]">Select two metrics to see correlation analysis.</p>
-            </div>
-          )}
-          {activeView !== 'Scatter' && (
-            <div className="bg-[#f8fafc] rounded-lg p-2.5 border border-gray-200">
-              <p className="text-[11px] font-body font-bold text-[#1e293b] mb-1">What this shows</p>
-              <p className="text-[10px] font-body text-[#334155] leading-relaxed">
-                {activeView === 'Rankings' && rankMetric && METRIC_MAP[rankMetric] && (
-                  `${rankMetric} ranked highest to lowest across 12 countries. ${METRIC_MAP[rankMetric].desc} Dashed line = 12-country average.`
-                )}
-                {activeView === 'Rankings' && (!rankMetric || !METRIC_MAP[rankMetric]) && 'Select a metric to rank countries.'}
-                {activeView === 'Radar' && 'Compare 2-3 countries across 8 normalized metrics. Each axis scales 0-1 within the 12-country range. Larger shape = higher values. GII is inverted (higher = more equal).'}
-                {activeView === 'Timeline' && rankMetric && (() => {
-                  const tm = TIMELINE_METRICS.find(m => m.metricName === rankMetric)
-                  if (!tm) return 'Select a metric to see trends over time.'
-                  const descriptions = {
-                    'Education Age': 'How the age of completing education has shifted since 1990. Rising lines reflect longer time in school and expanding higher education access.',
-                    'Marriage Age (F)': 'How the average age women first marry has changed since 2001. Nearly all countries show a rising trend as marriage is delayed.',
-                    'Fertility Rate': 'How fertility rates have fallen since 1960. The dashed line at 2.1 marks replacement level. Below it, populations shrink without immigration.',
-                    'Retirement Age': 'How effective retirement ages have shifted since 1970. Rising lines reflect policy changes to address aging populations and pension sustainability.',
-                  }
-                  return descriptions[rankMetric] || `${rankMetric} over time. Each line = one country.`
-                })()}
-                {activeView === 'Timeline' && !rankMetric && 'Select a metric to see trends over time.'}
-              </p>
-            </div>
-          )}
+          </div>
+          <p className="text-[10px] font-body italic text-[#64748b] mt-2">N=12. Correlation only.</p>
         </div>
-      </div>
+      )}
+      {activeView === 'Scatter' && !narrative && xMetric && yMetric && r !== 0 && (
+        <div className="bg-gradient-to-br from-[#f8fafc] to-[#f0f9ff] rounded-xl p-4 border border-[#264653]/15 shadow-sm">
+          <p className="text-[13px] font-body font-bold text-[#264653] mb-2">What this shows</p>
+          <p className="text-[12px] font-body text-[#334155] leading-relaxed mb-3">
+            {r > 0 ? 'Higher' : 'Lower'} {xMetric} tends to correlate with {r > 0 ? 'higher' : 'lower'} {yMetric} across these countries.
+          </p>
+          <div className="space-y-2">
+            <div className="bg-white rounded-lg p-2.5 border border-gray-100">
+              <p className="text-[10px] font-data text-[#475569]">Direction</p>
+              <p className="text-[12px] font-body font-semibold text-[#1e293b]">{r > 0 ? 'Positive' : 'Negative'}: as one rises, the other {r > 0 ? 'rises' : 'falls'}</p>
+            </div>
+            <div className="bg-white rounded-lg p-2.5 border border-gray-100">
+              <p className="text-[10px] font-data text-[#475569]">Strength</p>
+              <p className="text-[16px] font-data font-bold text-[#264653]">r = {r?.toFixed(2)}</p>
+              <p className="text-[11px] font-body text-[#475569]">({Math.abs(r) > 0.7 ? 'strong' : Math.abs(r) > 0.4 ? 'moderate' : 'weak'})</p>
+            </div>
+          </div>
+          <p className="text-[10px] font-body italic text-[#64748b] mt-2">N=12. Correlation only.</p>
+        </div>
+      )}
+      {activeView === 'Scatter' && !narrative && (!xMetric || !yMetric) && (
+        <div className="bg-[#f8fafc] rounded-xl p-4 border border-gray-200">
+          <p className="text-[12px] font-body text-[#475569]">Select two metrics to see correlation analysis.</p>
+        </div>
+      )}
+      {activeView !== 'Scatter' && (
+        <div className="bg-gradient-to-br from-[#f8fafc] to-[#f0f9ff] rounded-xl p-4 border border-[#264653]/15 shadow-sm">
+          <p className="text-[13px] font-body font-bold text-[#264653] mb-2">What this shows</p>
+          <p className="text-[12px] font-body text-[#334155] leading-relaxed">
+            {activeView === 'Rankings' && rankMetric && METRIC_MAP[rankMetric] && (
+              `${rankMetric} ranked highest to lowest across 12 countries. ${METRIC_MAP[rankMetric].desc} Dashed line = 12-country average.`
+            )}
+            {activeView === 'Rankings' && (!rankMetric || !METRIC_MAP[rankMetric]) && 'Select a metric to rank countries.'}
+            {activeView === 'Radar' && 'Compare 2-3 countries across 8 normalized metrics. Each axis scales 0-1 within the 12-country range. Larger shape = higher values. GII is inverted (higher = more equal).'}
+            {activeView === 'Timeline' && rankMetric && (() => {
+              const tm = TIMELINE_METRICS.find(m => m.metricName === rankMetric)
+              if (!tm) return 'Select a metric to see trends over time.'
+              const descriptions = {
+                'Education Age': 'How the age of completing education has shifted since 1990. Rising lines reflect longer time in school and expanding higher education access.',
+                'Marriage Age (F)': 'How the average age women first marry has changed since 2001. Nearly all countries show a rising trend as marriage is delayed.',
+                'Fertility Rate': 'How fertility rates have fallen since 1960. The dashed line at 2.1 marks replacement level. Below it, populations shrink without immigration.',
+                'Retirement Age': 'How effective retirement ages have shifted since 1970. Rising lines reflect policy changes to address aging populations and pension sustainability.',
+              }
+              return descriptions[rankMetric] || `${rankMetric} over time. Each line = one country.`
+            })()}
+            {activeView === 'Timeline' && !rankMetric && 'Select a metric to see trends over time.'}
+          </p>
+        </div>
+      )}
     </div>
   )
 }
