@@ -85,8 +85,8 @@ function generateAnswer(question) {
   const country = findCountry(lower)
   const metric = findMetric(lower)
 
-  // Highest/lowest questions
-  if (lower.includes('highest') || lower.includes('lowest') || lower.includes('most') || lower.includes('least') || lower.includes('best') || lower.includes('worst')) {
+  // Highest/lowest questions - clear intent, answer directly
+  if (lower.includes('highest') || lower.includes('lowest') || lower.includes('most') || lower.includes('least') || lower.includes('best') || lower.includes('worst') || lower.includes('happiest')) {
     const m = metric || 'gdp_per_capita'
     const sorted = [...globalMetrics].sort((a, b) => (b[m] || 0) - (a[m] || 0))
     const isLow = lower.includes('lowest') || lower.includes('least') || lower.includes('worst')
@@ -94,7 +94,7 @@ function generateAnswer(question) {
     const label = getMetricLabel(m)
     const name = COUNTRIES[target.country_code]
     const val = formatMetricValue(m, target[m])
-    return `${name} has the ${isLow ? 'lowest' : 'highest'} ${label} at ${val} among our 12 countries.`
+    return `${name} has the ${isLow ? 'lowest' : 'highest'} ${label} at ${val} among our 12 countries.\n\n🔗 Related: Want to know why? Ask "How to improve ${label}?" or "Which factors affect ${label}?"`
   }
 
   // Compare two countries
@@ -103,44 +103,66 @@ function generateAnswer(question) {
   for (const [alias, code] of allCountries) {
     if (lower.includes(alias) && !found.includes(code)) found.push(code)
   }
+
+  // Two countries but no metric - ask what to compare
+  if (found.length >= 2 && !metric) {
+    return `I can compare ${COUNTRIES[found[0]]} and ${COUNTRIES[found[1]]}! Which metric would you like to compare?\n\n• GDP per capita\n• Life expectancy\n• Happiness score\n• Fertility rate\n• Marriage age\n• Education years\n\nJust say e.g. "Compare them on GDP"`
+  }
+
   if (found.length >= 2 && metric) {
     const [c1, c2] = found
     const v1 = getMetricValue(c1, metric)
     const v2 = getMetricValue(c2, metric)
     const label = getMetricLabel(metric)
-    return `${COUNTRIES[c1]}: ${formatMetricValue(metric, v1)} vs ${COUNTRIES[c2]}: ${formatMetricValue(metric, v2)} (${label}).`
+    const higher = (v1 || 0) > (v2 || 0) ? COUNTRIES[c1] : COUNTRIES[c2]
+    return `📊 ${label}:\n• ${COUNTRIES[c1]}: ${formatMetricValue(metric, v1)}\n• ${COUNTRIES[c2]}: ${formatMetricValue(metric, v2)}\n\n${higher} leads on this metric.\n\n🔗 Want to dig deeper? Ask "Why is ${higher}'s ${label} higher?" or "How does marriage age affect ${label}?"`
   }
 
-  // Single country + metric
+  // Single country + metric - direct answer
   if (country && metric) {
     const value = getMetricValue(country, metric)
     const label = getMetricLabel(metric)
-    return `${COUNTRIES[country]}'s ${label} is ${formatMetricValue(metric, value)}.`
+    return `${COUNTRIES[country]}'s ${label} is ${formatMetricValue(metric, value)}.\n\n🔗 Follow up: "How does ${COUNTRIES[country]} compare to others?" or "What drives ${label}?"`
   }
 
-  // Country profile
-  if (country) {
+  // Country mentioned but no metric - ask what they want to know
+  if (country && !metric) {
+    return `I have lots of data on ${COUNTRIES[country]}! What would you like to know?\n\n• GDP & economy\n• Life expectancy & health\n• Happiness score\n• Fertility rate\n• Marriage & family age\n• Education years\n• Gender equality\n\nOr just say "Tell me everything about ${COUNTRIES[country]}"`
+  }
+
+  // "Tell me everything" pattern
+  if (country && (lower.includes('everything') || lower.includes('all') || lower.includes('profile') || lower.includes('tell me about'))) {
     const data = globalMetrics.find(d => d.country_code === country)
     if (data) {
-      return `${COUNTRIES[country]}: GDP $${Math.round(data.gdp_per_capita || 0).toLocaleString()}, Life Expectancy ${data.life_exp_female?.toFixed(1) || '?'}yrs (F), Fertility Rate ${data.fertility_rate?.toFixed(2) || '?'}, Marriage Age ${data.marriage_age_female?.toFixed(1) || '?'}, Happiness ${data.happiness_score?.toFixed(1) || '?'}/10.`
+      return `📋 ${COUNTRIES[country]} Profile:\n• GDP: $${Math.round(data.gdp_per_capita || 0).toLocaleString()}\n• Life Expectancy: ${data.life_exp_female?.toFixed(1) || '?'}yrs (F)\n• Fertility Rate: ${data.fertility_rate?.toFixed(2) || '?'}\n• Marriage Age: ${data.marriage_age_female?.toFixed(1) || '?'}\n• Happiness: ${data.happiness_score?.toFixed(1) || '?'}/10\n• Female LFPR: ${data.female_lfpr?.toFixed(1) || '?'}%\n\n🔗 Ask about any metric to learn more!`
     }
   }
 
-  // Correlation questions
-  if (lower.includes('correlat') || lower.includes('relationship') || lower.includes('affect') || lower.includes('impact') || lower.includes('improve') || lower.includes('how to')) {
+  // Metric mentioned but no country - ask which country or show ranking
+  if (metric && !country) {
+    const label = getMetricLabel(metric)
+    const sorted = [...globalMetrics].filter(d => d[metric] != null).sort((a, b) => (b[metric] || 0) - (a[metric] || 0))
+    const top = sorted[0]
+    const bottom = sorted[sorted.length - 1]
+    return `📊 ${label} across our 12 countries:\n• Highest: ${COUNTRIES[top?.country_code]} (${formatMetricValue(metric, top?.[metric])})\n• Lowest: ${COUNTRIES[bottom?.country_code]} (${formatMetricValue(metric, bottom?.[metric])})\n\nWant details for a specific country? Just name one!\nOr ask "How to improve ${label}?" for the causal story.`
+  }
+
+  // Correlation/improvement questions
+  if (lower.includes('correlat') || lower.includes('relationship') || lower.includes('affect') || lower.includes('impact') || lower.includes('improve') || lower.includes('how to') || lower.includes('why') || lower.includes('factor') || lower.includes('drive')) {
     const corr = correlationNarratives.correlations?.find(c => {
-      const m = metric || ''
-      return c.outcome === m || c.milestone === m || lower.includes(c.outcome?.replace(/_/g, ' ')) || lower.includes(c.milestone?.replace(/_/g, ' '))
+      return lower.includes(c.outcome?.replace(/_/g, ' ')) || lower.includes(c.milestone?.replace(/_/g, ' '))
     })
     if (corr) {
-      let answer = `${corr.one_liner} (r=${corr.r}, ${corr.confidence} confidence). ${corr.mechanism}`
-      if (corr.improvement_path) answer += `\n\n💡 ${corr.improvement_path}`
+      let answer = `📈 ${corr.one_liner}\n\nStrength: r = ${corr.r} (${Math.abs(corr.r) > 0.7 ? 'strong' : Math.abs(corr.r) > 0.4 ? 'moderate' : 'weak'})\nType: ${corr.group === 'causal' ? 'Causal' : corr.group === 'feedback' ? 'Feedback loop' : 'Shared drivers'}\n\n${corr.mechanism}`
+      if (corr.improvement_path) answer += `\n\n💡 Path to improvement:\n${corr.improvement_path}`
       return answer
     }
+    // No exact match - suggest available correlations
+    return `I can explain how life markers drive outcomes. Try asking about:\n\n• "How does marriage age affect GDP?"\n• "How to improve life expectancy?"\n• "What drives happiness?"\n• "How does education affect inequality?"\n• "Impact of marriage on maternal mortality"`
   }
 
-  // Fallback suggestions
-  return `I can answer questions about our 12 countries and their life markers.\n\nTry asking:\n• "What is India's GDP?"\n• "Which country has the lowest fertility rate?"\n• "Compare Sweden and USA on happiness"\n• "How does education affect GDP?"\n• "Tell me about Japan"`
+  // Fallback - guide the user
+  return `I'm Titan — I can help you explore connections in our 12-country dataset.\n\nTry:\n• A country: "Tell me about Japan"\n• A comparison: "Compare India and Sweden"\n• A ranking: "Lowest fertility rate?"\n• A causal chain: "How does education affect GDP?"\n\nWhat would you like to explore?`
 }
 
 const SUGGESTIONS = [
