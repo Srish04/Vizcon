@@ -22,7 +22,7 @@ const METRIC_ALIASES = {
   gdp: 'gdp_per_capita', 'gdp per capita': 'gdp_per_capita',
   fertility: 'fertility_rate', 'fertility rate': 'fertility_rate',
   'life expectancy': 'life_exp_female', lifespan: 'life_exp_female',
-  happiness: 'happiness', 'happiness score': 'happiness',
+  happiness: 'happiness_score', 'happiness score': 'happiness_score', happiest: 'happiness_score',
   marriage: 'marriage_age_female', 'marriage age': 'marriage_age_female',
   education: 'education_completion_age', 'education age': 'education_completion_age',
   retirement: 'retirement_age', 'retirement age': 'retirement_age',
@@ -68,7 +68,7 @@ function getMetricLabel(key) {
     gdp_per_capita: 'GDP per capita',
     fertility_rate: 'fertility rate',
     life_exp_female: 'life expectancy (female)',
-    happiness: 'happiness score',
+    happiness_score: 'happiness score',
     marriage_age_female: 'marriage age (female)',
     education_completion_age: 'education completion age',
     hale_female: 'healthy life expectancy (HALE)',
@@ -122,7 +122,7 @@ function generateAnswer(question) {
   if (country) {
     const data = globalMetrics.find(d => d.country_code === country)
     if (data) {
-      return `${COUNTRIES[country]}: GDP $${Math.round(data.gdp_per_capita || 0).toLocaleString()}, Life Expectancy ${data.life_exp_female?.toFixed(1) || '?'}yrs (F), Fertility Rate ${data.fertility_rate?.toFixed(2) || '?'}, Marriage Age ${data.marriage_age_female?.toFixed(1) || '?'}, Happiness ${data.happiness?.toFixed(1) || '?'}/10.`
+      return `${COUNTRIES[country]}: GDP $${Math.round(data.gdp_per_capita || 0).toLocaleString()}, Life Expectancy ${data.life_exp_female?.toFixed(1) || '?'}yrs (F), Fertility Rate ${data.fertility_rate?.toFixed(2) || '?'}, Marriage Age ${data.marriage_age_female?.toFixed(1) || '?'}, Happiness ${data.happiness_score?.toFixed(1) || '?'}/10.`
     }
   }
 
