@@ -94,7 +94,10 @@ function generateAnswer(question) {
     const label = getMetricLabel(m)
     const name = COUNTRIES[target.country_code]
     const val = formatMetricValue(m, target[m])
-    return `${name} has the ${isLow ? 'lowest' : 'highest'} ${label} at ${val} among our 12 countries.\n\n🔗 Related: Want to know why? Ask "How to improve ${label}?" or "Which factors affect ${label}?"`
+    return {
+      text: `${name} has the ${isLow ? 'lowest' : 'highest'} ${label} at ${val} among our 12 countries.`,
+      followUps: [`Why is ${name}'s ${label} ${isLow ? 'low' : 'high'}?`, `How to improve ${label}?`, `Tell me about ${name}`]
+    }
   }
 
   // Compare two countries
@@ -106,7 +109,10 @@ function generateAnswer(question) {
 
   // Two countries but no metric - ask what to compare
   if (found.length >= 2 && !metric) {
-    return `I can compare ${COUNTRIES[found[0]]} and ${COUNTRIES[found[1]]}! Which metric would you like to compare?\n\n• GDP per capita\n• Life expectancy\n• Happiness score\n• Fertility rate\n• Marriage age\n• Education years\n\nJust say e.g. "Compare them on GDP"`
+    return {
+      text: `I can compare ${COUNTRIES[found[0]]} and ${COUNTRIES[found[1]]}! Which metric?`,
+      followUps: [`Compare on GDP`, `Compare on happiness`, `Compare on life expectancy`, `Compare on fertility rate`]
+    }
   }
 
   if (found.length >= 2 && metric) {
@@ -115,36 +121,49 @@ function generateAnswer(question) {
     const v2 = getMetricValue(c2, metric)
     const label = getMetricLabel(metric)
     const higher = (v1 || 0) > (v2 || 0) ? COUNTRIES[c1] : COUNTRIES[c2]
-    return `📊 ${label}:\n• ${COUNTRIES[c1]}: ${formatMetricValue(metric, v1)}\n• ${COUNTRIES[c2]}: ${formatMetricValue(metric, v2)}\n\n${higher} leads on this metric.\n\n🔗 Want to dig deeper? Ask "Why is ${higher}'s ${label} higher?" or "How does marriage age affect ${label}?"`
+    return {
+      text: `📊 ${label}:\n• ${COUNTRIES[c1]}: ${formatMetricValue(metric, v1)}\n• ${COUNTRIES[c2]}: ${formatMetricValue(metric, v2)}\n\n${higher} leads on this metric.`,
+      followUps: [`Why is ${higher}'s ${label} higher?`, `Compare on happiness`, `How to improve ${label}?`]
+    }
   }
 
   // Single country + metric - direct answer
   if (country && metric) {
     const value = getMetricValue(country, metric)
     const label = getMetricLabel(metric)
-    return `${COUNTRIES[country]}'s ${label} is ${formatMetricValue(metric, value)}.\n\n🔗 Follow up: "How does ${COUNTRIES[country]} compare to others?" or "What drives ${label}?"`
-  }
-
-  // Country mentioned but no metric - ask what they want to know
-  if (country && !metric) {
-    return `I have lots of data on ${COUNTRIES[country]}! What would you like to know?\n\n• GDP & economy\n• Life expectancy & health\n• Happiness score\n• Fertility rate\n• Marriage & family age\n• Education years\n• Gender equality\n\nOr just say "Tell me everything about ${COUNTRIES[country]}"`
-  }
-
-  // "Tell me everything" pattern
-  if (country && (lower.includes('everything') || lower.includes('all') || lower.includes('profile') || lower.includes('tell me about'))) {
-    const data = globalMetrics.find(d => d.country_code === country)
-    if (data) {
-      return `📋 ${COUNTRIES[country]} Profile:\n• GDP: $${Math.round(data.gdp_per_capita || 0).toLocaleString()}\n• Life Expectancy: ${data.life_exp_female?.toFixed(1) || '?'}yrs (F)\n• Fertility Rate: ${data.fertility_rate?.toFixed(2) || '?'}\n• Marriage Age: ${data.marriage_age_female?.toFixed(1) || '?'}\n• Happiness: ${data.happiness_score?.toFixed(1) || '?'}/10\n• Female LFPR: ${data.female_lfpr?.toFixed(1) || '?'}%\n\n🔗 Ask about any metric to learn more!`
+    return {
+      text: `${COUNTRIES[country]}'s ${label} is ${formatMetricValue(metric, value)}.`,
+      followUps: [`How does ${COUNTRIES[country]} compare to others?`, `What drives ${label}?`, `Tell me more about ${COUNTRIES[country]}`]
     }
   }
 
-  // Metric mentioned but no country - ask which country or show ranking
+  // Country mentioned but no metric - ask what they want
+  if (country && !metric) {
+    if (lower.includes('everything') || lower.includes('all') || lower.includes('profile') || lower.includes('tell me')) {
+      const data = globalMetrics.find(d => d.country_code === country)
+      if (data) {
+        return {
+          text: `📋 ${COUNTRIES[country]} Profile:\n• GDP: $${Math.round(data.gdp_per_capita || 0).toLocaleString()}\n• Life Expectancy: ${data.life_exp_female?.toFixed(1) || '?'}yrs (F)\n• Fertility Rate: ${data.fertility_rate?.toFixed(2) || '?'}\n• Marriage Age: ${data.marriage_age_female?.toFixed(1) || '?'}\n• Happiness: ${data.happiness_score?.toFixed(1) || '?'}/10\n• Female LFPR: ${data.female_lfpr?.toFixed(1) || '?'}%`,
+          followUps: [`${COUNTRIES[country]}'s GDP details`, `Compare ${COUNTRIES[country]} to Sweden`, `How to improve ${COUNTRIES[country]}'s outcomes?`]
+        }
+      }
+    }
+    return {
+      text: `I have lots of data on ${COUNTRIES[country]}! What would you like to know?`,
+      followUps: [`${COUNTRIES[country]}'s GDP`, `${COUNTRIES[country]}'s life expectancy`, `${COUNTRIES[country]}'s happiness`, `Tell me everything about ${COUNTRIES[country]}`]
+    }
+  }
+
+  // Metric mentioned but no country - show ranking
   if (metric && !country) {
     const label = getMetricLabel(metric)
     const sorted = [...globalMetrics].filter(d => d[metric] != null).sort((a, b) => (b[metric] || 0) - (a[metric] || 0))
     const top = sorted[0]
     const bottom = sorted[sorted.length - 1]
-    return `📊 ${label} across our 12 countries:\n• Highest: ${COUNTRIES[top?.country_code]} (${formatMetricValue(metric, top?.[metric])})\n• Lowest: ${COUNTRIES[bottom?.country_code]} (${formatMetricValue(metric, bottom?.[metric])})\n\nWant details for a specific country? Just name one!\nOr ask "How to improve ${label}?" for the causal story.`
+    return {
+      text: `📊 ${label} across 12 countries:\n• Highest: ${COUNTRIES[top?.country_code]} (${formatMetricValue(metric, top?.[metric])})\n• Lowest: ${COUNTRIES[bottom?.country_code]} (${formatMetricValue(metric, bottom?.[metric])})`,
+      followUps: [`Tell me about ${COUNTRIES[top?.country_code]}`, `Tell me about ${COUNTRIES[bottom?.country_code]}`, `How to improve ${label}?`]
+    }
   }
 
   // Correlation/improvement questions
@@ -154,15 +173,23 @@ function generateAnswer(question) {
     })
     if (corr) {
       let answer = `📈 ${corr.one_liner}\n\nStrength: r = ${corr.r} (${Math.abs(corr.r) > 0.7 ? 'strong' : Math.abs(corr.r) > 0.4 ? 'moderate' : 'weak'})\nType: ${corr.group === 'causal' ? 'Causal' : corr.group === 'feedback' ? 'Feedback loop' : 'Shared drivers'}\n\n${corr.mechanism}`
-      if (corr.improvement_path) answer += `\n\n💡 Path to improvement:\n${corr.improvement_path}`
-      return answer
+      if (corr.improvement_path) answer += `\n\n💡 ${corr.improvement_path}`
+      return {
+        text: answer,
+        followUps: [`Which country does this best?`, `Lowest ${corr.outcome?.replace(/_/g, ' ')}?`, `Compare two countries`]
+      }
     }
-    // No exact match - suggest available correlations
-    return `I can explain how life markers drive outcomes. Try asking about:\n\n• "How does marriage age affect GDP?"\n• "How to improve life expectancy?"\n• "What drives happiness?"\n• "How does education affect inequality?"\n• "Impact of marriage on maternal mortality"`
+    return {
+      text: `I can explain how life markers drive outcomes.`,
+      followUps: [`Marriage age → GDP?`, `Education → life expectancy?`, `How to improve happiness?`, `Marriage → inequality?`]
+    }
   }
 
-  // Fallback - guide the user
-  return `I'm Titan — I can help you explore connections in our 12-country dataset.\n\nTry:\n• A country: "Tell me about Japan"\n• A comparison: "Compare India and Sweden"\n• A ranking: "Lowest fertility rate?"\n• A causal chain: "How does education affect GDP?"\n\nWhat would you like to explore?`
+  // Fallback
+  return {
+    text: `I'm Titan — I help you explore connections in our 12-country dataset. What would you like to explore?`,
+    followUps: [`Happiest country?`, `Tell me about India`, `Compare Japan & Sweden`, `How does education affect GDP?`]
+  }
 }
 
 const SUGGESTIONS = [
@@ -177,7 +204,7 @@ const SUGGESTIONS = [
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false)
   const [messages, setMessages] = useState([
-    { role: 'bot', text: "Hey! I'm Titan, your data guide. Ask me anything about life markers, country stats, or how outcomes connect across our 12 countries. 🌍" }
+    { role: 'bot', text: "Hey! I'm Titan, your data guide. Ask me anything about life markers, country stats, or how outcomes connect across our 12 countries. 🌍", followUps: ["Happiest country?", "Compare Japan & India", "How does education affect GDP?"] }
   ])
   const [input, setInput] = useState('')
   const messagesEndRef = useRef(null)
@@ -192,8 +219,8 @@ export default function Chatbot() {
     setMessages(prev => [...prev, { role: 'user', text: question }])
     setInput('')
     setTimeout(() => {
-      const answer = generateAnswer(question)
-      setMessages(prev => [...prev, { role: 'bot', text: answer }])
+      const result = generateAnswer(question)
+      setMessages(prev => [...prev, { role: 'bot', text: result.text, followUps: result.followUps }])
     }, 400)
   }
 
@@ -281,35 +308,36 @@ export default function Chatbot() {
             {/* Messages */}
             <div className="flex-1 overflow-y-auto px-4 py-4 space-y-3 max-h-[360px] bg-[#f8fafb]">
               {messages.map((msg, i) => (
-                <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'} gap-2`}>
-                  {msg.role === 'bot' && (
-                    <div className="w-7 h-7 rounded-full bg-gradient-to-br from-[#264653] to-[#2a9d8f] flex items-center justify-center shrink-0 mt-0.5">
-                      <span className="text-[10px] text-white font-bold">T</span>
+                <div key={i}>
+                  <div className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'} gap-2`}>
+                    {msg.role === 'bot' && (
+                      <div className="w-7 h-7 rounded-full bg-gradient-to-br from-[#264653] to-[#2a9d8f] flex items-center justify-center shrink-0 mt-0.5">
+                        <span className="text-[10px] text-white font-bold">T</span>
+                      </div>
+                    )}
+                    <div className={`max-w-[80%] px-3.5 py-2.5 rounded-2xl text-[13px] font-body leading-relaxed whitespace-pre-line ${
+                      msg.role === 'user'
+                        ? 'bg-[#264653] text-white rounded-br-md'
+                        : 'bg-white text-[#1e293b] rounded-bl-md shadow-sm border border-gray-100'
+                    }`}>
+                      {msg.text}
+                    </div>
+                  </div>
+                  {/* Clickable follow-up buttons */}
+                  {msg.role === 'bot' && msg.followUps && i === messages.length - 1 && (
+                    <div className="ml-9 mt-2 flex flex-wrap gap-1.5">
+                      {msg.followUps.map(q => (
+                        <button key={q} onClick={() => handleSend(q)}
+                          className="text-[11px] font-body px-3 py-1.5 rounded-full bg-gradient-to-r from-[#f0f9ff] to-[#ecfdf5] text-[#264653] border border-[#2a9d8f]/20 cursor-pointer hover:border-[#2a9d8f]/50 hover:shadow-sm transition-all">
+                          {q}
+                        </button>
+                      ))}
                     </div>
                   )}
-                  <div className={`max-w-[80%] px-3.5 py-2.5 rounded-2xl text-[13px] font-body leading-relaxed whitespace-pre-line ${
-                    msg.role === 'user'
-                      ? 'bg-[#264653] text-white rounded-br-md'
-                      : 'bg-white text-[#1e293b] rounded-bl-md shadow-sm border border-gray-100'
-                  }`}>
-                    {msg.text}
-                  </div>
                 </div>
               ))}
               <div ref={messagesEndRef}/>
             </div>
-
-            {/* Suggestions */}
-            {messages.length <= 2 && (
-              <div className="px-4 py-2 bg-white border-t border-gray-100 flex flex-wrap gap-1.5">
-                {SUGGESTIONS.map(s => (
-                  <button key={s} onClick={() => handleSend(s)}
-                    className="text-[11px] font-body px-3 py-1.5 rounded-full bg-gradient-to-r from-[#f0f9ff] to-[#ecfdf5] text-[#264653] border border-[#264653]/10 cursor-pointer hover:shadow-sm hover:border-[#264653]/30 transition-all">
-                    {s}
-                  </button>
-                ))}
-              </div>
-            )}
 
             {/* Input */}
             <div className="bg-white border-t border-gray-200 px-4 py-3 flex gap-2">
