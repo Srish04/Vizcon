@@ -6,9 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <title>Life Markers: How the World Grows Up</title>
+    <style>
+      @keyframes flipPulse {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.05); opacity: 1; }
+      }
+      @keyframes shimmer {
+        0% { background-position: -100% 0; }
+        100% { background-position: 200% 0; }
+      }
+      .flip-cta-enhanced {
+        position: absolute !important;
+        bottom: 12px !important;
+        right: 12px !important;
+        top: auto !important;
+        left: auto !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        color: #264653 !important;
+        background: linear-gradient(135deg, #e0f2fe, #dbeafe) !important;
+        padding: 6px 14px !important;
+        border-radius: 20px !important;
+        border: 1px solid #93c5fd !important;
+        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15) !important;
+        animation: flipPulse 2.5s ease-in-out infinite !important;
+        cursor: pointer !important;
+        transition: all 0.2s ease !important;
+      }
+      .flip-cta-enhanced:hover {
+        background: linear-gradient(135deg, #bfdbfe, #93c5fd) !important;
+        transform: scale(1.1) !important;
+        box-shadow: 0 4px 14px rgba(59, 130, 246, 0.3) !important;
+        animation: none !important;
+      }
+      .flip-cta-enhanced svg { width: 14px !important; height: 14px !important; }
+      .tap-reveal-enhanced {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        padding: 8px 16px !important;
+        border-radius: 8px !important;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent) !important;
+        background-size: 200% 100% !important;
+        animation: shimmer 3s ease-in-out infinite !important;
+        border: 1.5px solid currentColor !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 6px !important;
+        margin-top: 12px !important;
+        transition: all 0.2s ease !important;
+      }
+      .tap-reveal-enhanced:hover { transform: translateX(4px); opacity: 0.8; }
+    </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+    // === ALL ENHANCEMENTS ===
+    (function(){
+      // --- 1. SLOW DOWN INSIGHT CARD SLIDES (handled in Hero.jsx) ---
+      // --- 2. INTERACTIVE HEALTH SECTION ---
+      const COUNTRY_DATA={'Germany':{haleFemale:69.4,haleMale:68.4,leFemale:83.2,leMale:78.5},'France':{haleFemale:71.0,haleMale:69.1,leFemale:85.9,leMale:80.2},'India':{haleFemale:58.3,haleMale:58.0,leFemale:73.9,leMale:70.7},'Denmark':{haleFemale:70.4,haleMale:69.7,leFemale:84.2,leMale:80.4},'Australia':{haleFemale:71.1,haleMale:70.1,leFemale:85.1,leMale:81.1},'Sweden':{haleFemale:71.2,haleMale:71.0,leFemale:85.6,leMale:82.6},'Japan':{haleFemale:74.8,haleMale:71.9,leFemale:87.1,leMale:81.1},'Italy':{haleFemale:71.1,haleMale:70.0,leFemale:86.0,leMale:82.0},'Brazil':{haleFemale:63.4,haleMale:60.3,leFemale:79.1,leMale:73.0},'S. Korea':{haleFemale:74.1,haleMale:70.7,leFemale:86.6,leMale:80.8},'USA':{haleFemale:65.1,haleMale:62.8,leFemale:81.4,leMale:76.5},'Mexico':{haleFemale:63.5,haleMale:59.5,leFemale:78.0,leMale:72.4}};
+      let lockedCountry=null,tooltip=null;
+      function createTooltip(){tooltip=document.createElement('div');tooltip.id='health-tooltip';tooltip.style.cssText='position:fixed;z-index:9999;pointer-events:none;background:white;border-radius:12px;padding:16px 20px;box-shadow:0 20px 40px rgba(0,0,0,0.15),0 4px 12px rgba(0,0,0,0.1);border:1px solid #e2e8f0;max-width:300px;font-family:Inter,sans-serif;opacity:0;transition:opacity 0.2s ease,transform 0.2s ease;transform:translateY(4px);';document.body.appendChild(tooltip);}
+      function showTooltip(name,x,y){const data=COUNTRY_DATA[name];if(!data||!tooltip)return;const poorF=(data.leFemale-data.haleFemale).toFixed(1),poorM=(data.leMale-data.haleMale).toFixed(1),pctF=(data.haleFemale/data.leFemale*100).toFixed(1),pctM=(data.haleMale/data.leMale*100).toFixed(1);tooltip.innerHTML=`<div style="font-weight:700;font-size:15px;color:#264653;margin-bottom:10px;border-bottom:1px solid #e2e8f0;padding-bottom:8px;">${name}</div><div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:6px 12px;font-size:13px;"><span></span><span style="font-weight:600;color:#AB47BC;text-align:center;">♀ Women</span><span style="font-weight:600;color:#457B9D;text-align:center;">♂ Men</span><span style="color:#64748b;">Life Expectancy</span><span style="text-align:center;font-weight:600;">${data.leFemale} yrs</span><span style="text-align:center;font-weight:600;">${data.leMale} yrs</span><span style="color:#64748b;">Healthy Years</span><span style="text-align:center;font-weight:600;color:#AB47BC;">${data.haleFemale} yrs</span><span style="text-align:center;font-weight:600;color:#457B9D;">${data.haleMale} yrs</span><span style="color:#64748b;">Years Poor Health</span><span style="text-align:center;font-weight:600;color:#E76F51;">${poorF} yrs</span><span style="text-align:center;font-weight:600;color:#E76F51;">${poorM} yrs</span><span style="color:#64748b;">% Life Healthy</span><span style="text-align:center;font-weight:600;color:#AB47BC;">${pctF}%</span><span style="text-align:center;font-weight:600;color:#457B9D;">${pctM}%</span></div><div style="margin-top:10px;padding-top:8px;border-top:1px solid #e2e8f0;font-size:11px;color:#94a3b8;text-align:center;">Click to ${lockedCountry===name?'unlock':'lock'} • Gap: ${(pctM-pctF).toFixed(1)} pts</div>`;tooltip.style.left=Math.min(x+16,window.innerWidth-320)+'px';tooltip.style.top=Math.min(y-10,window.innerHeight-300)+'px';tooltip.style.opacity='1';tooltip.style.transform='translateY(0)';}
+      function hideTooltip(){if(tooltip){tooltip.style.opacity='0';tooltip.style.transform='translateY(4px)';}}
+      function getCountryName(row){const l=row.querySelector('span');return l?l.textContent.trim():null;}
+      function enhanceHealth(){const headings=document.querySelectorAll('h3');let section=null;for(const h of headings){if(h.textContent.includes('Women live longer')){section=h.closest('[class*="bg-white"]')||h.parentElement;break;}}if(!section)return false;const rows=section.querySelectorAll('[class*="flex items-center gap-3 mb-3"]');if(rows.length===0)return false;if(!tooltip)createTooltip();rows.forEach(row=>{if(row.dataset.enhanced)return;row.dataset.enhanced='1';row.style.cursor='pointer';row.style.transition='all 0.2s ease';row.addEventListener('click',e=>{const name=getCountryName(row);if(lockedCountry===name){lockedCountry=null;rows.forEach(r=>{r.style.boxShadow='';r.style.border='';r.style.transform='';r.style.opacity='1';});hideTooltip();}else{lockedCountry=name;rows.forEach(r=>{const rn=getCountryName(r);if(rn===name){r.style.boxShadow='0 4px 12px rgba(38,70,83,0.15)';r.style.border='1px solid #264653';r.style.borderRadius='8px';r.style.transform='scale(1.02)';}else{r.style.boxShadow='';r.style.border='';r.style.transform='';r.style.opacity='0.5';}});showTooltip(name,e.clientX,e.clientY);}});row.addEventListener('mousemove',e=>{if(!lockedCountry)showTooltip(getCountryName(row),e.clientX,e.clientY);});row.addEventListener('mouseleave',()=>{if(!lockedCountry)hideTooltip();});});return true;}
+
+      // --- 3. PROMINENT CTAs ---
+      function enhanceCTAs(){document.querySelectorAll('[class*="absolute top-2 right-2"]').forEach(el=>{if(el.textContent.trim().includes('flip')&&!el.classList.contains('flip-cta-enhanced')){el.classList.add('flip-cta-enhanced');const svg=el.querySelector('svg');el.innerHTML=(svg?svg.outerHTML:'')+' Click to flip';}});document.querySelectorAll('[class*="flex items-center gap-1 mt-4"]').forEach(el=>{const span=el.querySelector('span');if(span&&span.textContent.includes('Tap to reveal')&&!el.classList.contains('tap-reveal-enhanced')){el.classList.add('tap-reveal-enhanced');span.textContent='👆 Tap to reveal data';}});}
+
+      // --- 4. MOVE COUNTRIES FILTER TO LEFT ---
+      function moveCountries(){const h2s=document.querySelectorAll('h2');let sec=null;for(const h of h2s){if(h.textContent.includes('Explore the Data')){sec=h.closest('[class*="relative z-10"]')||h.parentElement;break;}}if(!sec)return;const flex=sec.querySelector('[class*="flex gap-6"]');if(!flex)return;const children=Array.from(flex.children);const left=children[0];if(!left||!left.className.includes('w-[320px]'))return;if(left.querySelector('#countries-moved'))return;const right=children.find(el=>el.className&&el.className.includes('w-[380px]'));if(!right)return;const inner=right.querySelector('[class*="flex gap-3"]');if(!inner)return;const rc=Array.from(inner.children);const cd=rc.find(el=>el.className&&el.className.includes('w-[110px]'));if(!cd)return;cd.style.width='100%';cd.style.marginTop='14px';cd.style.paddingTop='12px';cd.style.borderTop='1px solid #e5e7eb';const mk=document.createElement('div');mk.id='countries-moved';mk.style.display='none';cd.appendChild(mk);left.appendChild(cd);right.style.width='250px';inner.style.gap='0';const narr=rc.find(el=>el!==cd);if(narr)narr.style.width='100%';}
+
+      // --- 5. HIDE "When each milestone" SECTION ---
+      function hideMilestone(){document.querySelectorAll('p').forEach(p=>{if(p.textContent.includes('When each milestone actually happens')){const c=p.closest('[class*="max-w-[1050px]"]')||p.closest('[style*="maxHeight"]');if(c)c.style.display='none';}});}
+
+      // --- 6. DIVERGENCE LEGEND ---
+      const ML=[{key:'menarche',label:'Puberty',color:'#C2185B'},{key:'education',label:'Education',color:'#2D6A4F'},{key:'leaving_home',label:'Leave Home',color:'#2A9D8F'},{key:'cohabitation',label:'Cohabitation',color:'#00897B'},{key:'first_home',label:'First Home',color:'#48BFE3'},{key:'marriage',label:'Marriage',color:'#E76F51'},{key:'first_baby',label:'First Child',color:'#E9C46A'},{key:'menopause',label:'Menopause',color:'#AB47BC'},{key:'retirement_age',label:'Retirement',color:'#457B9D'}];
+      const CM={'Sweden':{menarche:13,education:25.5,leaving_home:23.1,cohabitation:26,first_home:31,marriage:35,first_baby:30,menopause:51.5,retirement_age:66},'Italy':{menarche:12.5,education:24,leaving_home:30.2,cohabitation:27.5,first_home:31,marriage:33.5,first_baby:31.8,menopause:51,retirement_age:64},'France':{menarche:12.8,education:23.5,leaving_home:24,cohabitation:25,first_home:30,marriage:33.5,first_baby:29,menopause:51,retirement_age:61.9},'Denmark':{menarche:13,education:25,leaving_home:21,cohabitation:24.5,first_home:29,marriage:33,first_baby:29.5,menopause:51.5,retirement_age:66.5},'Germany':{menarche:12.8,education:24.5,leaving_home:24,cohabitation:25.5,first_home:30.5,marriage:32.5,first_baby:30,menopause:51,retirement_age:65},'S.Korea':{menarche:12.6,education:26,leaving_home:28,cohabitation:28.5,first_home:32,marriage:31.3,first_baby:33,menopause:50,retirement_age:62},'Japan':{menarche:12.5,education:24,leaving_home:26,cohabitation:27,first_home:32,marriage:29.7,first_baby:30.9,menopause:50.5,retirement_age:65},'Australia':{menarche:13,education:24,leaving_home:24,cohabitation:25.5,first_home:31,marriage:31.5,first_baby:29.5,menopause:51,retirement_age:67},'USA':{menarche:12.5,education:23,leaving_home:24,cohabitation:24.5,first_home:30,marriage:28.5,first_baby:27,menopause:51,retirement_age:67.3},'Mexico':{menarche:12.4,education:21,leaving_home:23,cohabitation:22.5,first_home:28,marriage:27.5,first_baby:21.5,menopause:49.5,retirement_age:65},'Brazil':{menarche:12.4,education:22,leaving_home:24.5,cohabitation:23,first_home:27,marriage:28,first_baby:22,menopause:49,retirement_age:60},'India':{menarche:12.5,education:20,leaving_home:21.4,cohabitation:21,first_home:26,marriage:21.4,first_baby:22,menopause:47,retirement_age:60}};
+      const AVG={};ML.forEach(m=>{const v=Object.values(CM).map(c=>c[m.key]).filter(x=>x!=null);AVG[m.key]=v.length>0?(v.reduce((a,b)=>a+b,0)/v.length).toFixed(1):'—';});
+      let divTip=null;
+      function createDivTip(){divTip=document.createElement('div');divTip.id='div-tooltip';divTip.style.cssText='position:fixed;z-index:9999;pointer-events:none;background:rgba(15,23,42,0.95);border-radius:10px;padding:10px 14px;box-shadow:0 8px 24px rgba(0,0,0,0.4);border:1px solid rgba(255,255,255,0.15);font-family:Inter,sans-serif;opacity:0;transition:opacity 0.15s ease,transform 0.15s ease;transform:translateY(4px);color:white;font-size:13px;max-width:220px;';document.body.appendChild(divTip);}
+      function enhanceDivergence(){document.querySelectorAll('p').forEach(p=>{if(p.textContent.includes('When each milestone actually happens')){const c=p.closest('[class*="max-w-[1050px]"]')||p.closest('[style*="maxHeight"]');if(c)c.style.display='none';}});let ds=null;document.querySelectorAll('p').forEach(p=>{if(p.textContent.includes('The divergence'))ds=p.closest('[class*="max-w-[1100px]"]')||p.parentElement;});if(!ds||document.getElementById('div-legend'))return;const legend=document.createElement('div');legend.id='div-legend';legend.style.cssText='margin-top:16px;background:rgba(15,23,42,0.8);border-radius:12px;padding:14px 16px;border:1px solid rgba(255,255,255,0.1);display:flex;flex-wrap:wrap;gap:4px 16px;justify-content:center;';legend.innerHTML=ML.map(m=>`<div style="display:flex;align-items:center;gap:6px;"><div style="width:10px;height:10px;border-radius:50%;background:${m.color};"></div><span style="font-size:12px;color:white;">${m.label}</span><span style="font-size:11px;color:rgba(255,255,255,0.5);">${AVG[m.key]}</span></div>`).join('');ds.appendChild(legend);if(!divTip)createDivTip();ds.querySelectorAll('[class*="absolute top-1/2 -translate-y-1/2 rounded-full"]').forEach(dot=>{if(dot.style.width==='7px'&&!dot.dataset.tip){dot.dataset.tip='1';dot.style.cursor='pointer';dot.style.transition='transform 0.15s ease';dot.addEventListener('mouseenter',e=>{dot.style.transform='translate(-50%,-50%) scale(1.8)';dot.style.zIndex='50';const row=dot.closest('[class*="flex items-center h-7"]');const cs=row?row.querySelector('span'):null;const country=cs?cs.textContent.trim():'';const ml=ML.find(m=>{const el=document.createElement('div');el.style.color=m.color;document.body.appendChild(el);const c=getComputedStyle(el).color;document.body.removeChild(el);return c===getComputedStyle(dot).backgroundColor;});if(ml&&country){const d=CM[country];const age=d?d[ml.key]:null;if(age!=null){divTip.innerHTML=`<div style="font-weight:700;font-size:14px;margin-bottom:6px;display:flex;align-items:center;gap:8px;"><span style="width:10px;height:10px;border-radius:50%;background:${ml.color};display:inline-block;"></span>${ml.label}</div><div style="display:flex;justify-content:space-between;gap:16px;"><div><div style="font-size:11px;color:rgba(255,255,255,0.6);">${country}</div><div style="font-size:16px;font-weight:700;">${age}</div></div><div><div style="font-size:11px;color:rgba(255,255,255,0.6);">Avg</div><div style="font-size:16px;font-weight:700;color:rgba(255,255,255,0.7);">${AVG[ml.key]}</div></div></div>`;divTip.style.left=Math.min(e.clientX+14,window.innerWidth-240)+'px';divTip.style.top=(e.clientY-80)+'px';divTip.style.opacity='1';divTip.style.transform='translateY(0)';}}});dot.addEventListener('mouseleave',()=>{dot.style.transform='';dot.style.zIndex='';if(divTip){divTip.style.opacity='0';divTip.style.transform='translateY(4px)';}});dot.addEventListener('mousemove',e=>{if(divTip&&divTip.style.opacity==='1'){divTip.style.left=Math.min(e.clientX+14,window.innerWidth-240)+'px';divTip.style.top=(e.clientY-80)+'px';}});}});}
+
+      // --- MAIN LOOP ---
+      function runAll(){enhanceHealth();enhanceCTAs();moveCountries();hideMilestone();enhanceDivergence();}
+      const obs=new MutationObserver(runAll);obs.observe(document.body,{childList:true,subtree:true});
+      window.addEventListener('load',()=>{setTimeout(runAll,1000);setTimeout(runAll,3000);setTimeout(runAll,5000);});
+      setInterval(runAll,500);
+    })();
+    </script>
   </body>
 </html>

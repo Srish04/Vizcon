@@ -116,7 +116,7 @@ export default function Hero() {
   }, [])
 
   useEffect(() => {
-    const t = setInterval(() => setFactIdx(i => (i + 1) % FACTS.length), 3500)
+    const t = setInterval(() => setFactIdx(i => (i + 1) % FACTS.length), 10000)
     return () => clearInterval(t)
   }, [])
 
