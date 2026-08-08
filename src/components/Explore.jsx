@@ -275,6 +275,12 @@ function CountryFilter({ selectedCountries, setSelectedCountries, activeView, na
               <p className="text-[11px] font-body text-[#475569] mt-1 leading-relaxed">{narrative.mechanism}</p>
             </div>
           </div>
+          {narrative.improvement_path && (
+            <div className="bg-[#ecfdf5] rounded-lg p-2.5 border border-[#10b981]/20 mt-2">
+              <p className="text-[10px] font-body font-bold text-[#065f46] mb-1">💡 How to improve this</p>
+              <p className="text-[11px] font-body text-[#065f46] leading-relaxed">{narrative.improvement_path}</p>
+            </div>
+          )}
           <p className="text-[10px] font-body italic text-[#64748b] mt-2">N=12. Correlation only.</p>
         </div>
       )}
