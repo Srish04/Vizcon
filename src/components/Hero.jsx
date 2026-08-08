@@ -817,17 +817,6 @@ export default function Hero() {
             )
           })}
         </div>
-        {phase < 6 && (
-          <button
-            onClick={() => document.getElementById('explore')?.scrollIntoView({ behavior: 'smooth' })}
-            className={`absolute bottom-6 right-6 z-50 px-4 py-2 rounded-lg text-[13px] font-body font-semibold cursor-pointer transition-all ${
-              phase === 1 || phase === 5
-                ? 'bg-white/15 border border-white/30 text-white/70 hover:bg-white/25 hover:text-white'
-                : 'bg-[#264653]/10 border border-[#264653]/30 text-[#264653]/70 hover:bg-[#264653]/20 hover:text-[#264653]'
-            }`}>
-            Skip intro ↓
-          </button>
-        )}
       </div>
     </section>
   )
