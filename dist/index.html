@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <title>Life Markers: How the World Grows Up</title>
+    <script type="module" crossorigin src="/assets/index-CXqDGuqO.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-FalqQo7u.css">
+    <style>
+      /* Make flip CTAs more prominent */
+      @keyframes flipPulse {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.05); opacity: 1; }
+      }
+      @keyframes shimmer {
+        0% { background-position: -100% 0; }
+        100% { background-position: 200% 0; }
+      }
+      /* Override the tiny "flip" indicator on cards */
+      .flip-cta-enhanced {
+        position: absolute !important;
+        bottom: 12px !important;
+        right: 12px !important;
+        top: auto !important;
+        left: auto !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        color: #264653 !important;
+        background: linear-gradient(135deg, #e0f2fe, #dbeafe) !important;
+        padding: 6px 14px !important;
+        border-radius: 20px !important;
+        border: 1px solid #93c5fd !important;
+        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15) !important;
+        animation: flipPulse 2.5s ease-in-out infinite !important;
+        cursor: pointer !important;
+        transition: all 0.2s ease !important;
+      }
+      .flip-cta-enhanced:hover {
+        background: linear-gradient(135deg, #bfdbfe, #93c5fd) !important;
+        transform: scale(1.1) !important;
+        box-shadow: 0 4px 14px rgba(59, 130, 246, 0.3) !important;
+        animation: none !important;
+      }
+      .flip-cta-enhanced svg {
+        width: 14px !important;
+        height: 14px !important;
+      }
+      /* Override "Tap to reveal" in insight cards */
+      .tap-reveal-enhanced {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        padding: 8px 16px !important;
+        border-radius: 8px !important;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent) !important;
+        background-size: 200% 100% !important;
+        animation: shimmer 3s ease-in-out infinite !important;
+        border: 1.5px solid currentColor !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 6px !important;
+        margin-top: 12px !important;
+        transition: all 0.2s ease !important;
+      }
+      .tap-reveal-enhanced:hover {
+        transform: translateX(4px);
+        opacity: 0.8;
+      }
+      /* Hide "When each milestone actually happens" section */
+      [style*="maxHeight: calc(100vh - 100px)"] {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+    // Enhancement: Make "Women live longer. Men live healthier." section more interactive
+    (function() {
+      const COUNTRY_DATA = {
+        'Germany': { haleFemale: 69.4, haleMale: 68.4, leFemale: 83.2, leMale: 78.5 },
+        'France': { haleFemale: 71.0, haleMale: 69.1, leFemale: 85.9, leMale: 80.2 },
+        'India': { haleFemale: 58.3, haleMale: 58.0, leFemale: 73.9, leMale: 70.7 },
+        'Denmark': { haleFemale: 70.4, haleMale: 69.7, leFemale: 84.2, leMale: 80.4 },
+        'Australia': { haleFemale: 71.1, haleMale: 70.1, leFemale: 85.1, leMale: 81.1 },
+        'Sweden': { haleFemale: 71.2, haleMale: 71.0, leFemale: 85.6, leMale: 82.6 },
+        'Japan': { haleFemale: 74.8, haleMale: 71.9, leFemale: 87.1, leMale: 81.1 },
+        'Italy': { haleFemale: 71.1, haleMale: 70.0, leFemale: 86.0, leMale: 82.0 },
+        'Brazil': { haleFemale: 63.4, haleMale: 60.3, leFemale: 79.1, leMale: 73.0 },
+        'S. Korea': { haleFemale: 74.1, haleMale: 70.7, leFemale: 86.6, leMale: 80.8 },
+        'USA': { haleFemale: 65.1, haleMale: 62.8, leFemale: 81.4, leMale: 76.5 },
+        'Mexico': { haleFemale: 63.5, haleMale: 59.5, leFemale: 78.0, leMale: 72.4 }
+      };
+
+      let lockedCountry = null;
+      let tooltip = null;
+      let sortBtn = null;
+      let sortedByGap = true;
+
+      function createTooltip() {
+        tooltip = document.createElement('div');
+        tooltip.id = 'health-tooltip';
+        tooltip.style.cssText = `
+          position: fixed; z-index: 9999; pointer-events: none;
+          background: white; border-radius: 12px; padding: 16px 20px;
+          box-shadow: 0 20px 40px rgba(0,0,0,0.15), 0 4px 12px rgba(0,0,0,0.1);
+          border: 1px solid #e2e8f0; max-width: 300px;
+          font-family: 'Inter', sans-serif; opacity: 0;
+          transition: opacity 0.2s ease, transform 0.2s ease;
+          transform: translateY(4px);
+        `;
+        document.body.appendChild(tooltip);
+      }
+
+      function showTooltip(name, x, y) {
+        const data = COUNTRY_DATA[name];
+        if (!data || !tooltip) return;
+        const poorF = (data.leFemale - data.haleFemale).toFixed(1);
+        const poorM = (data.leMale - data.haleMale).toFixed(1);
+        const pctF = (data.haleFemale / data.leFemale * 100).toFixed(1);
+        const pctM = (data.haleMale / data.leMale * 100).toFixed(1);
+
+        tooltip.innerHTML = `
+          <div style="font-weight:700;font-size:15px;color:#264653;margin-bottom:10px;border-bottom:1px solid #e2e8f0;padding-bottom:8px;">${name}</div>
+          <div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:6px 12px;font-size:13px;">
+            <span></span>
+            <span style="font-weight:600;color:#AB47BC;text-align:center;">♀ Women</span>
+            <span style="font-weight:600;color:#457B9D;text-align:center;">♂ Men</span>
+            <span style="color:#64748b;">Life Expectancy</span>
+            <span style="text-align:center;font-weight:600;">${data.leFemale} yrs</span>
+            <span style="text-align:center;font-weight:600;">${data.leMale} yrs</span>
+            <span style="color:#64748b;">Healthy Years (HALE)</span>
+            <span style="text-align:center;font-weight:600;color:#AB47BC;">${data.haleFemale} yrs</span>
+            <span style="text-align:center;font-weight:600;color:#457B9D;">${data.haleMale} yrs</span>
+            <span style="color:#64748b;">Years in Poor Health</span>
+            <span style="text-align:center;font-weight:600;color:#E76F51;">${poorF} yrs</span>
+            <span style="text-align:center;font-weight:600;color:#E76F51;">${poorM} yrs</span>
+            <span style="color:#64748b;">% Life Healthy</span>
+            <span style="text-align:center;font-weight:600;color:#AB47BC;">${pctF}%</span>
+            <span style="text-align:center;font-weight:600;color:#457B9D;">${pctM}%</span>
+          </div>
+          <div style="margin-top:10px;padding-top:8px;border-top:1px solid #e2e8f0;font-size:11px;color:#94a3b8;text-align:center;">
+            Click to ${lockedCountry === name ? 'unlock' : 'lock'} • Gap: ${(pctM - pctF).toFixed(1)} pts
+          </div>
+        `;
+        const rect = document.documentElement;
+        const tipX = Math.min(x + 16, window.innerWidth - 320);
+        const tipY = Math.min(y - 10, window.innerHeight - 300);
+        tooltip.style.left = tipX + 'px';
+        tooltip.style.top = tipY + 'px';
+        tooltip.style.opacity = '1';
+        tooltip.style.transform = 'translateY(0)';
+      }
+
+      function hideTooltip() {
+        if (tooltip) {
+          tooltip.style.opacity = '0';
+          tooltip.style.transform = 'translateY(4px)';
+        }
+      }
+
+      function getCountryName(row) {
+        const label = row.querySelector('span');
+        return label ? label.textContent.trim() : null;
+      }
+
+      function enhanceSection() {
+        // Find the section by its heading text
+        const headings = document.querySelectorAll('h3');
+        let section = null;
+        for (const h of headings) {
+          if (h.textContent.includes('Women live longer')) {
+            section = h.closest('[class*="bg-white"]') || h.parentElement;
+            break;
+          }
+        }
+        if (!section) return false;
+
+        // Find all country rows (they have onMouseEnter behavior from React)
+        const rows = section.querySelectorAll('[class*="flex items-center gap-3 mb-3"]');
+        if (rows.length === 0) return false;
+
+        createTooltip();
+
+        // Add click-to-lock and enhanced hover behavior
+        rows.forEach(row => {
+          row.style.cursor = 'pointer';
+          row.style.transition = 'all 0.2s ease';
+
+          row.addEventListener('click', (e) => {
+            const name = getCountryName(row);
+            if (lockedCountry === name) {
+              lockedCountry = null;
+              rows.forEach(r => {
+                r.style.boxShadow = '';
+                r.style.border = '';
+                r.style.transform = '';
+              });
+              hideTooltip();
+            } else {
+              lockedCountry = name;
+              rows.forEach(r => {
+                const rName = getCountryName(r);
+                if (rName === name) {
+                  r.style.boxShadow = '0 4px 12px rgba(38,70,83,0.15)';
+                  r.style.border = '1px solid #264653';
+                  r.style.borderRadius = '8px';
+                  r.style.transform = 'scale(1.02)';
+                } else {
+                  r.style.boxShadow = '';
+                  r.style.border = '';
+                  r.style.transform = '';
+                  r.style.opacity = '0.5';
+                }
+              });
+              showTooltip(name, e.clientX, e.clientY);
+            }
+            // If unlocked, restore all
+            if (!lockedCountry) {
+              rows.forEach(r => { r.style.opacity = '1'; });
+            }
+          });
+
+          row.addEventListener('mousemove', (e) => {
+            const name = getCountryName(row);
+            if (!lockedCountry) {
+              showTooltip(name, e.clientX, e.clientY);
+            }
+          });
+
+          row.addEventListener('mouseleave', () => {
+            if (!lockedCountry) {
+              hideTooltip();
+            }
+          });
+        });
+
+        // Add sort toggle button near the chart header
+        const chartTitle = section.querySelector('[class*="flex items-center gap-3 mb-4 ml-"]');
+        if (chartTitle && !document.getElementById('sort-health-btn')) {
+          sortBtn = document.createElement('button');
+          sortBtn.id = 'sort-health-btn';
+          sortBtn.textContent = '↕ Sort: Gap Size';
+          sortBtn.style.cssText = `
+            position: absolute; top: -36px; right: 0;
+            padding: 5px 12px; border-radius: 6px; border: 1px solid #e2e8f0;
+            background: white; font-size: 12px; font-weight: 600; color: #475569;
+            cursor: pointer; transition: all 0.15s ease; font-family: 'Inter', sans-serif;
+          `;
+          sortBtn.addEventListener('mouseenter', () => { sortBtn.style.background = '#f1f5f9'; });
+          sortBtn.addEventListener('mouseleave', () => { sortBtn.style.background = 'white'; });
+          sortBtn.addEventListener('click', () => {
+            sortedByGap = !sortedByGap;
+            sortBtn.textContent = sortedByGap ? '↕ Sort: Gap Size' : '↕ Sort: A → Z';
+            const container = chartTitle.parentElement;
+            if (container) {
+              const rowArr = Array.from(rows);
+              rowArr.sort((a, b) => {
+                const nameA = getCountryName(a);
+                const nameB = getCountryName(b);
+                if (!sortedByGap) return nameA.localeCompare(nameB);
+                const dataA = COUNTRY_DATA[nameA];
+                const dataB = COUNTRY_DATA[nameB];
+                if (!dataA || !dataB) return 0;
+                const gapA = (dataA.haleMale/dataA.leMale*100) - (dataA.haleFemale/dataA.leFemale*100);
+                const gapB = (dataB.haleMale/dataB.leMale*100) - (dataB.haleFemale/dataB.leFemale*100);
+                return gapB - gapA;
+              });
+              rowArr.forEach((row, i) => {
+                row.style.order = i;
+                row.parentElement.style.display = 'flex';
+                row.parentElement.style.flexDirection = 'column';
+              });
+            }
+          });
+          const wrapper = chartTitle.parentElement;
+          if (wrapper) {
+            wrapper.style.position = 'relative';
+            wrapper.appendChild(sortBtn);
+          }
+        }
+
+        // Add animated pulse to the gap values
+        const gapVals = section.querySelectorAll('[class*="text-[#E76F51]"]');
+        gapVals.forEach(el => {
+          el.style.transition = 'transform 0.2s ease';
+          el.addEventListener('mouseenter', () => { el.style.transform = 'scale(1.3)'; });
+          el.addEventListener('mouseleave', () => { el.style.transform = 'scale(1)'; });
+        });
+
+        return true;
+      }
+
+      // Run after React renders (retry with observer)
+      let attempts = 0;
+      const observer = new MutationObserver(() => {
+        attempts++;
+        if (enhanceSection()) {
+          observer.disconnect();
+        } else if (attempts > 100) {
+          observer.disconnect();
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+
+      // Also try on load
+      window.addEventListener('load', () => {
+        setTimeout(enhanceSection, 1000);
+      });
+    })();
+
+    // Enhancement: Make flip & "Tap to reveal" CTAs more prominent
+    (function() {
+      function enhanceCTAs() {
+        let enhanced = false;
+
+        // Enhance "flip" indicators on cards (tiny gray text in top-right)
+        document.querySelectorAll('[class*="absolute top-2 right-2"]').forEach(el => {
+          if (el.textContent.trim().includes('flip') && !el.classList.contains('flip-cta-enhanced')) {
+            el.classList.add('flip-cta-enhanced');
+            // Replace text with more prominent label
+            const svg = el.querySelector('svg');
+            const svgHtml = svg ? svg.outerHTML : '';
+            el.innerHTML = svgHtml + ' Click to flip';
+            enhanced = true;
+          }
+        });
+
+        // Enhance "Tap to reveal" links in insight/findings cards
+        document.querySelectorAll('[class*="flex items-center gap-1 mt-4"]').forEach(el => {
+          const span = el.querySelector('span');
+          if (span && (span.textContent.includes('Tap to reveal') || span.textContent.includes('Showing data'))) {
+            if (!el.classList.contains('tap-reveal-enhanced')) {
+              el.classList.add('tap-reveal-enhanced');
+              if (span.textContent.includes('Tap to reveal')) {
+                span.textContent = '👆 Tap to reveal data';
+              }
+              enhanced = true;
+            }
+          }
+        });
+
+        return enhanced;
+      }
+
+      // Observe DOM for React rendering these sections
+      let ctaAttempts = 0;
+      const ctaObserver = new MutationObserver(() => {
+        ctaAttempts++;
+        enhanceCTAs();
+        if (ctaAttempts > 200) ctaObserver.disconnect();
+      });
+      ctaObserver.observe(document.body, { childList: true, subtree: true });
+
+      // Retry periodically in case of lazy loading / scroll-triggered sections
+      window.addEventListener('load', () => {
+        setTimeout(enhanceCTAs, 1500);
+        setTimeout(enhanceCTAs, 3000);
+        setTimeout(enhanceCTAs, 5000);
+      });
+
+      // Also enhance on scroll (for sections that animate in)
+      let scrollTimer;
+      window.addEventListener('scroll', () => {
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(enhanceCTAs, 200);
+      }, { passive: true });
+    })();
+
+    // Enhancement: Divergence section - legend + hover tooltips + hide "When each milestone" section
+    (function() {
+      const MILESTONE_LEGEND = [
+        { key: 'menarche', label: 'Puberty', color: '#C2185B' },
+        { key: 'education', label: 'Education', color: '#2D6A4F' },
+        { key: 'leaving_home', label: 'Leave Home', color: '#2A9D8F' },
+        { key: 'cohabitation', label: 'Cohabitation', color: '#00897B' },
+        { key: 'first_home', label: 'First Home', color: '#48BFE3' },
+        { key: 'marriage', label: 'Marriage', color: '#E76F51' },
+        { key: 'first_baby', label: 'First Child', color: '#E9C46A' },
+        { key: 'menopause', label: 'Menopause', color: '#AB47BC' },
+        { key: 'retirement_age', label: 'Retirement', color: '#457B9D' }
+      ];
+
+      // Milestone data per country (ages)
+      const COUNTRY_MILESTONES = {
+        'Sweden': { menarche: 13.0, education: 25.5, leaving_home: 23.1, cohabitation: 26.0, first_home: 31.0, marriage: 35.0, first_baby: 30.0, menopause: 51.5, retirement_age: 66.0 },
+        'Italy': { menarche: 12.5, education: 24.0, leaving_home: 30.2, cohabitation: 27.5, first_home: 31.0, marriage: 33.5, first_baby: 31.8, menopause: 51.0, retirement_age: 64.0 },
+        'France': { menarche: 12.8, education: 23.5, leaving_home: 24.0, cohabitation: 25.0, first_home: 30.0, marriage: 33.5, first_baby: 29.0, menopause: 51.0, retirement_age: 61.9 },
+        'Denmark': { menarche: 13.0, education: 25.0, leaving_home: 21.0, cohabitation: 24.5, first_home: 29.0, marriage: 33.0, first_baby: 29.5, menopause: 51.5, retirement_age: 66.5 },
+        'Germany': { menarche: 12.8, education: 24.5, leaving_home: 24.0, cohabitation: 25.5, first_home: 30.5, marriage: 32.5, first_baby: 30.0, menopause: 51.0, retirement_age: 65.0 },
+        'S.Korea': { menarche: 12.6, education: 26.0, leaving_home: 28.0, cohabitation: 28.5, first_home: 32.0, marriage: 31.3, first_baby: 33.0, menopause: 50.0, retirement_age: 62.0 },
+        'Japan': { menarche: 12.5, education: 24.0, leaving_home: 26.0, cohabitation: 27.0, first_home: 32.0, marriage: 29.7, first_baby: 30.9, menopause: 50.5, retirement_age: 65.0 },
+        'Australia': { menarche: 13.0, education: 24.0, leaving_home: 24.0, cohabitation: 25.5, first_home: 31.0, marriage: 31.5, first_baby: 29.5, menopause: 51.0, retirement_age: 67.0 },
+        'USA': { menarche: 12.5, education: 23.0, leaving_home: 24.0, cohabitation: 24.5, first_home: 30.0, marriage: 28.5, first_baby: 27.0, menopause: 51.0, retirement_age: 67.3 },
+        'Mexico': { menarche: 12.4, education: 21.0, leaving_home: 23.0, cohabitation: 22.5, first_home: 28.0, marriage: 27.5, first_baby: 21.5, menopause: 49.5, retirement_age: 65.0 },
+        'Brazil': { menarche: 12.4, education: 22.0, leaving_home: 24.5, cohabitation: 23.0, first_home: 27.0, marriage: 28.0, first_baby: 22.0, menopause: 49.0, retirement_age: 60.0 },
+        'India': { menarche: 12.5, education: 20.0, leaving_home: 21.4, cohabitation: 21.0, first_home: 26.0, marriage: 21.4, first_baby: 22.0, menopause: 47.0, retirement_age: 60.0 }
+      };
+
+      // Average across all countries for each milestone
+      const AVERAGES = {};
+      MILESTONE_LEGEND.forEach(m => {
+        const vals = Object.values(COUNTRY_MILESTONES).map(c => c[m.key]).filter(v => v != null);
+        AVERAGES[m.key] = vals.length > 0 ? (vals.reduce((a,b) => a+b, 0) / vals.length).toFixed(1) : '—';
+      });
+
+      let divTooltip = null;
+
+      function createDivTooltip() {
+        divTooltip = document.createElement('div');
+        divTooltip.id = 'divergence-tooltip';
+        divTooltip.style.cssText = `
+          position: fixed; z-index: 9999; pointer-events: none;
+          background: rgba(15, 23, 42, 0.95); border-radius: 10px; padding: 10px 14px;
+          box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+          border: 1px solid rgba(255,255,255,0.15);
+          font-family: 'Inter', sans-serif; opacity: 0;
+          transition: opacity 0.15s ease, transform 0.15s ease;
+          transform: translateY(4px); color: white; font-size: 13px;
+          max-width: 220px;
+        `;
+        document.body.appendChild(divTooltip);
+      }
+
+      function showDivTooltip(country, milestone, age, color, x, y) {
+        if (!divTooltip) return;
+        const avg = AVERAGES[milestone] || '—';
+        const legendItem = MILESTONE_LEGEND.find(m => m.key === milestone);
+        const label = legendItem ? legendItem.label : milestone;
+        divTooltip.innerHTML = `
+          <div style="font-weight:700;font-size:14px;margin-bottom:6px;display:flex;align-items:center;gap:8px;">
+            <span style="width:10px;height:10px;border-radius:50%;background:${color};display:inline-block;"></span>
+            ${label}
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;">
+            <div>
+              <div style="font-size:11px;color:rgba(255,255,255,0.6);">${country}</div>
+              <div style="font-size:16px;font-weight:700;">${age}</div>
+            </div>
+            <div>
+              <div style="font-size:11px;color:rgba(255,255,255,0.6);">12-country avg</div>
+              <div style="font-size:16px;font-weight:700;color:rgba(255,255,255,0.7);">${avg}</div>
+            </div>
+          </div>
+        `;
+        const tipX = Math.min(x + 14, window.innerWidth - 240);
+        const tipY = y - 80;
+        divTooltip.style.left = tipX + 'px';
+        divTooltip.style.top = tipY + 'px';
+        divTooltip.style.opacity = '1';
+        divTooltip.style.transform = 'translateY(0)';
+      }
+
+      function hideDivTooltip() {
+        if (divTooltip) {
+          divTooltip.style.opacity = '0';
+          divTooltip.style.transform = 'translateY(4px)';
+        }
+      }
+
+      function enhanceDivergence() {
+        // 1. REMOVE "When each milestone actually happens" section
+        const allHeadings = document.querySelectorAll('p');
+        for (const p of allHeadings) {
+          if (p.textContent.includes('When each milestone actually happens')) {
+            // Find the container (the scroll-based sticky section container)
+            const container = p.closest('[class*="max-w-[1050px]"]') || p.closest('[style*="maxHeight"]');
+            if (container) {
+              container.style.display = 'none';
+              break;
+            }
+          }
+        }
+
+        // 2. FIND the divergence section
+        const divergenceHeadings = document.querySelectorAll('p');
+        let divSection = null;
+        for (const p of divergenceHeadings) {
+          if (p.textContent.includes('The divergence')) {
+            divSection = p.closest('[class*="max-w-[1100px]"]') || p.parentElement;
+            break;
+          }
+        }
+        if (!divSection) return false;
+
+        // 3. ADD LEGEND to the divergence section
+        if (!document.getElementById('divergence-legend')) {
+          const legend = document.createElement('div');
+          legend.id = 'divergence-legend';
+          legend.style.cssText = `
+            position: absolute; top: 60px; right: -220px;
+            background: rgba(15, 23, 42, 0.8); border-radius: 12px;
+            padding: 16px 18px; border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(8px); min-width: 190px;
+          `;
+          legend.innerHTML = `
+            <p style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:rgba(255,255,255,0.5);margin-bottom:10px;">Legend</p>
+            ${MILESTONE_LEGEND.map(m => `
+              <div style="display:flex;align-items:center;gap:10px;margin-bottom:7px;">
+                <div style="width:12px;height:12px;border-radius:50%;background:${m.color};flex-shrink:0;"></div>
+                <span style="font-size:13px;font-weight:500;color:white;">${m.label}</span>
+                <span style="font-size:12px;color:rgba(255,255,255,0.5);margin-left:auto;">avg ${AVERAGES[m.key]}</span>
+              </div>
+            `).join('')}
+          `;
+
+          // Position it relative to the section
+          divSection.style.position = 'relative';
+
+          // On smaller screens, put legend below instead
+          if (window.innerWidth < 1400) {
+            legend.style.position = 'relative';
+            legend.style.top = 'auto';
+            legend.style.right = 'auto';
+            legend.style.marginTop = '16px';
+            legend.style.display = 'flex';
+            legend.style.flexWrap = 'wrap';
+            legend.style.gap = '4px 16px';
+            legend.style.justifyContent = 'center';
+            divSection.appendChild(legend);
+          } else {
+            divSection.appendChild(legend);
+          }
+        }
+
+        // 4. ADD HOVER TOOLTIPS to the dots
+        createDivTooltip();
+
+        // The small dots (7px) in the chart represent milestones
+        const dots = divSection.querySelectorAll('[class*="absolute top-1/2 -translate-y-1/2 rounded-full"]');
+        const countryNames = ['Sweden','Italy','France','Denmark','Germany','S.Korea','Japan','Australia','USA','Mexico','Brazil','India'];
+
+        dots.forEach(dot => {
+          if (dot.style.width === '7px') {
+            // This is a milestone dot
+            dot.style.cursor = 'pointer';
+            dot.style.transition = 'transform 0.15s ease, width 0.15s ease, height 0.15s ease';
+
+            dot.addEventListener('mouseenter', (e) => {
+              dot.style.transform = 'translate(-50%, -50%) scale(1.8)';
+              dot.style.zIndex = '50';
+
+              // Determine which country (which row)
+              const row = dot.closest('[class*="flex items-center h-7"]');
+              const countrySpan = row ? row.querySelector('span') : null;
+              const country = countrySpan ? countrySpan.textContent.trim() : '';
+
+              // Determine which milestone by color
+              const color = dot.style.backgroundColor;
+              const milestone = MILESTONE_LEGEND.find(m => {
+                // Normalize color comparison
+                const el = document.createElement('div');
+                el.style.color = m.color;
+                document.body.appendChild(el);
+                const computed = getComputedStyle(el).color;
+                document.body.removeChild(el);
+                const dotColor = getComputedStyle(dot).backgroundColor;
+                return computed === dotColor;
+              });
+
+              if (milestone && country) {
+                const data = COUNTRY_MILESTONES[country];
+                const age = data ? data[milestone.key] : null;
+                if (age != null) {
+                  showDivTooltip(country, milestone.key, age, milestone.color, e.clientX, e.clientY);
+                }
+              }
+            });
+
+            dot.addEventListener('mouseleave', () => {
+              dot.style.transform = '';
+              dot.style.zIndex = '';
+              hideDivTooltip();
+            });
+
+            dot.addEventListener('mousemove', (e) => {
+              if (divTooltip && divTooltip.style.opacity === '1') {
+                divTooltip.style.left = Math.min(e.clientX + 14, window.innerWidth - 240) + 'px';
+                divTooltip.style.top = (e.clientY - 80) + 'px';
+              }
+            });
+          }
+        });
+
+        return true;
+      }
+
+      // Observe and retry
+      let divAttempts = 0;
+      const divObserver = new MutationObserver(() => {
+        divAttempts++;
+        enhanceDivergence();
+        if (divAttempts > 300) divObserver.disconnect();
+      });
+      divObserver.observe(document.body, { childList: true, subtree: true });
+
+      window.addEventListener('load', () => {
+        setTimeout(enhanceDivergence, 2000);
+        setTimeout(enhanceDivergence, 4000);
+      });
+
+      // Re-enhance on scroll (divergence section is scroll-driven)
+      let divScrollTimer;
+      window.addEventListener('scroll', () => {
+        clearTimeout(divScrollTimer);
+        divScrollTimer = setTimeout(enhanceDivergence, 300);
+      }, { passive: true });
+    })();
+
+    // Enhancement: Move Countries filter from right panel to left panel in Explore section
+    (function() {
+      function moveCountriesFilter() {
+        // Find the "Explore the Data" section
+        const h2s = document.querySelectorAll('h2');
+        let exploreSection = null;
+        for (const h of h2s) {
+          if (h.textContent.includes('Explore the Data')) {
+            exploreSection = h.closest('[class*="relative z-10"]') || h.closest('section') || h.parentElement;
+            break;
+          }
+        }
+        if (!exploreSection) return false;
+
+        // Find the flex container with left panel, chart, and right panel
+        const flexContainer = exploreSection.querySelector('[class*="flex gap-6"]');
+        if (!flexContainer) return false;
+
+        const children = Array.from(flexContainer.children);
+        if (children.length < 2) return false;
+
+        // Left panel is the first child (w-[320px] sticky)
+        const leftPanel = children[0];
+        if (!leftPanel || !leftPanel.className.includes('w-[320px]')) return false;
+
+        // Check if left panel already has countries moved (avoid double-move)
+        if (leftPanel.querySelector('#countries-moved-marker')) return true;
+
+        // Right panel is the last child (w-[380px] border-l) - only exists for non-Radar views
+        const rightPanel = children.find(el => el.className && el.className.includes('w-[380px]'));
+        if (!rightPanel) return false; // Radar mode - countries are already in left panel
+
+        // Inside the right panel, find the "Countries" section
+        const rightInnerFlex = rightPanel.querySelector('[class*="flex gap-3"]');
+        if (!rightInnerFlex) return false;
+
+        const rightChildren = Array.from(rightInnerFlex.children);
+        const countriesDiv = rightChildren.find(el => el.className && el.className.includes('w-[110px]'));
+        if (!countriesDiv) return false;
+
+        // Style the countries section for the left panel
+        countriesDiv.style.width = '100%';
+        countriesDiv.style.marginTop = '14px';
+        countriesDiv.style.paddingTop = '12px';
+        countriesDiv.style.borderTop = '1px solid #e5e7eb';
+
+        // Add marker to prevent double-move
+        const marker = document.createElement('div');
+        marker.id = 'countries-moved-marker';
+        marker.style.display = 'none';
+        countriesDiv.appendChild(marker);
+
+        // Move it to the left panel
+        leftPanel.appendChild(countriesDiv);
+
+        // Adjust right panel - it now only has the narrative
+        rightPanel.style.width = '250px';
+        rightInnerFlex.style.gap = '0';
+        const narrative = rightChildren.find(el => el !== countriesDiv);
+        if (narrative) {
+          narrative.style.width = '100%';
+        }
+
+        return true;
+      }
+
+      // Use MutationObserver to catch React re-renders
+      const moveObserver = new MutationObserver(() => {
+        moveCountriesFilter();
+      });
+      moveObserver.observe(document.body, { childList: true, subtree: true });
+
+      // Periodic retry for tab switches
+      setInterval(() => {
+        moveCountriesFilter();
+      }, 500);
+
+      window.addEventListener('load', () => {
+        setTimeout(moveCountriesFilter, 1500);
+        setTimeout(moveCountriesFilter, 3000);
+      });
+    })();
+    </script>
+  </body>
+</html>
