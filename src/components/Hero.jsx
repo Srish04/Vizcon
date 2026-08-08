@@ -129,7 +129,7 @@ export default function Hero() {
     : (progress - 0.75) / 0.25
 
   // Background color
-  const bgColor = phase === 1 ? '#264653' : phase === 5 ? '#1a2332' : '#FAFAF8'
+  const bgColor = phase === 1 ? '#264653' : phase === 2 ? '#1a2a32' : phase === 3 ? '#f0f7f4' : phase === 5 ? '#1a2332' : '#FAFAF8'
 
   // Phase 2: markers visible
   const markersVisible = phase >= 2 ? Math.min(MARKERS_GLOBAL.length, Math.floor(phaseProgress * (MARKERS_GLOBAL.length + 1))) : 0
