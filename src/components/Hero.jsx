@@ -129,7 +129,7 @@ export default function Hero() {
     : (progress - 0.75) / 0.25
 
   // Background color
-  const bgColor = phase === 1 ? '#264653' : phase === 5 ? '#1a2332' : '#FAFAF8'
+  const bgColor = phase === 1 ? '#264653' : phase === 2 ? '#1a2a32' : phase === 3 ? '#f0f7f4' : phase === 5 ? '#1a2332' : '#FAFAF8'
 
   // Phase 2: markers visible
   const markersVisible = phase >= 2 ? Math.min(MARKERS_GLOBAL.length, Math.floor(phaseProgress * (MARKERS_GLOBAL.length + 1))) : 0
@@ -722,7 +722,7 @@ export default function Hero() {
         {/* Persistent scroll progress dots + skip button */}
         <div className="absolute right-6 top-1/2 -translate-y-1/2 flex flex-col items-center gap-3 z-50">
           {[1,2,3,5,6].map(p => {
-            const isDarkBg = phase === 1 || phase === 5
+            const isDarkBg = phase === 1 || phase === 2 || phase === 5
             const activeColor = isDarkBg ? 'bg-white' : 'bg-[#264653]'
             const inactiveColor = isDarkBg ? 'bg-white/30' : 'bg-[#264653]/25'
             return (
