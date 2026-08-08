@@ -120,14 +120,13 @@ export default function Hero() {
     return () => clearInterval(t)
   }, [])
 
-  // Phase boundaries (tuned for 700vh, 6 phases now)
-  const phase = progress < 0.10 ? 1 : progress < 0.30 ? 2 : progress < 0.42 ? 3 : progress < 0.55 ? 4 : progress < 0.80 ? 5 : 6
+  // Phase boundaries (tuned for 700vh, 5 phases - phase 4 removed)
+  const phase = progress < 0.10 ? 1 : progress < 0.30 ? 2 : progress < 0.42 ? 3 : progress < 0.75 ? 5 : 6
   const phaseProgress = phase === 1 ? progress / 0.10
     : phase === 2 ? (progress - 0.10) / 0.20
     : phase === 3 ? (progress - 0.30) / 0.12
-    : phase === 4 ? (progress - 0.42) / 0.13
-    : phase === 5 ? (progress - 0.55) / 0.25
-    : (progress - 0.80) / 0.20
+    : phase === 5 ? (progress - 0.42) / 0.33
+    : (progress - 0.75) / 0.25
 
   // Background color
   const bgColor = phase === 1 ? '#264653' : phase === 5 ? '#1a2332' : '#FAFAF8'
@@ -143,7 +142,7 @@ export default function Hero() {
   const raceProgress = phase >= 5 ? Math.min(1, phaseProgress) : 0
 
   return (
-    <section id="hero" ref={sectionRef} style={{ height: '800vh' }}>
+    <section id="hero" ref={sectionRef} style={{ height: '650vh' }}>
       <div className="sticky top-12 h-[calc(100vh-48px)] overflow-hidden flex items-center justify-center transition-colors duration-700"
         style={{ backgroundColor: bgColor }}>
 
@@ -542,92 +541,6 @@ export default function Hero() {
           </div>
         )}
 
-        {/* === PHASE 4: SEQUENCE BREAKS (DOT CHART) === */}
-        {phase === 4 && (
-          <div className="w-full max-w-[1050px] px-4 mx-auto overflow-y-auto" style={{ maxHeight: 'calc(100vh - 100px)' }}>
-            <p className="font-display text-[22px] md:text-[26px] text-[#264653] text-center mb-2">When each milestone actually happens</p>
-            <p className="font-body text-[14px] text-[#475569] text-center mb-6">Each icon is a milestone, positioned by the age it occurs in that country</p>
-
-            {/* Two-column: chart left, legend right */}
-            <div className="flex gap-6">
-              {/* Left: the chart */}
-              <div className="flex-1 min-w-0">
-                <div>
-                  {COUNTRY_ORDER.map((code, idx) => {
-                    if (idx >= countriesVisible) return null
-                    const milestones = getCountryMarkers(code)
-                    const profile = countryProfiles.find(c => c.country === code)
-                    const countryName = profile?.name || code
-
-                    return (
-                      <motion.div key={code}
-                        className="flex items-center gap-4 border-b border-[#e5e7eb]"
-                        style={{ height: '56px' }}
-                        initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.3, delay: idx * 0.05 }}>
-                        <div className="w-[90px] shrink-0 text-right pr-2">
-                          <span className="text-[15px] font-body font-bold text-[#1a2a32]">{countryName}</span>
-                        </div>
-                        <svg viewBox="0 0 600 40" className="flex-1 h-10" style={{ minWidth: '280px' }}>
-                          <rect x="0" y="19" width="600" height="2" rx="1" fill="#d1d5db"/>
-                          {milestones.map(m => {
-                            const xPos = ((m.age - 12) / (70 - 12)) * 600
-                            return <circle key={m.key} cx={xPos} cy="20" r="9" fill={m.color}/>
-                          })}
-                        </svg>
-                      </motion.div>
-                    )
-                  })}
-                </div>
-
-                {/* Age axis */}
-                <div className="flex justify-between mt-3 ml-[100px] text-[13px] font-body font-medium text-[#1e293b]">
-                  {[12, 20, 25, 30, 35, 40, 50, 60, 70].map(a => <span key={a}>{a}</span>)}
-                </div>
-              </div>
-
-              {/* Right: Legend panel */}
-              <div className="w-[190px] shrink-0 bg-white rounded-xl border border-gray-200 p-5 self-start sticky top-[80px]">
-                <p className="text-[13px] font-body font-bold uppercase text-[#1e293b] tracking-wider mb-4">Legend</p>
-                <div className="space-y-3.5">
-                  {[
-                    { color: '#C2185B', label: 'Puberty' },
-                    { color: '#2D6A4F', label: 'Education' },
-                    { color: '#2A9D8F', label: 'Leave Home' },
-                    { color: '#00897B', label: 'Cohabitation' },
-                    { color: '#48BFE3', label: 'First Home' },
-                    { color: '#E76F51', label: 'Marriage' },
-                    { color: '#E9C46A', label: 'First Child' },
-                    { color: '#AB47BC', label: 'Menopause' },
-                    { color: '#457B9D', label: 'Retirement' },
-                  ].map(i => (
-                    <div key={i.label} className="flex items-center gap-3">
-                      <div className="w-5 h-5 rounded-full shrink-0" style={{ backgroundColor: i.color }}/>
-                      <span className="text-[14px] font-body font-bold text-[#1a2a32]">{i.label}</span>
-                    </div>
-                  ))}
-                </div>
-                <div className="mt-5 pt-3 border-t border-gray-200">
-                  <p className="text-[13px] font-body text-[#1e293b]">X-axis: age (12 to 70)</p>
-                  <p className="text-[13px] font-body text-[#1e293b] mt-1">Each row: one country</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Annotation */}
-            {countriesVisible >= 12 && (
-              <motion.div className="text-center mt-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-                <p className="font-body text-[20px] font-bold text-[#264653]">
-                  In half the countries studied, the assumed life sequence does not hold.
-                </p>
-                <p className="font-body text-[18px] text-[#475569] mt-1">
-                  No two countries follow the same path.
-                </p>
-              </motion.div>
-            )}
-          </div>
-        )}
-
         {/* === PHASE 5: THE RACE === */}
         {phase === 5 && (() => {
           // Determine current milestone being passed (for left label)
@@ -808,7 +721,7 @@ export default function Hero() {
 
         {/* Persistent scroll progress dots + skip button */}
         <div className="absolute right-6 top-1/2 -translate-y-1/2 flex flex-col items-center gap-3 z-50">
-          {[1,2,3,4,5,6].map(p => {
+          {[1,2,3,5,6].map(p => {
             const isDarkBg = phase === 1 || phase === 5
             const activeColor = isDarkBg ? 'bg-white' : 'bg-[#264653]'
             const inactiveColor = isDarkBg ? 'bg-white/30' : 'bg-[#264653]/25'
