@@ -5,6 +5,7 @@ import PairComparison from './components/PairComparison'
 import Discoveries from './components/Discoveries'
 import Quiz from './components/Quiz'
 import SectionDivider from './components/SectionDivider'
+import Chatbot from './components/Chatbot'
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <Chatbot />
     </div>
   )
 }
