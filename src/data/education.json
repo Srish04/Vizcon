@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "country": "AUS",
     "name": "Australia",
@@ -2854,6 +2854,173 @@
     "year": 2023,
     "expected_years": 15.92,
     "completion_age": 21.92
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "expected_years": 17.2,
+    "completion_age": 23.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2025,
+    "expected_years": 17.3,
+    "completion_age": 23.3
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2024,
+    "expected_years": 16.4,
+    "completion_age": 22.4
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2025,
+    "expected_years": 16.5,
+    "completion_age": 22.5
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2024,
+    "expected_years": 12.7,
+    "completion_age": 18.7
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2025,
+    "expected_years": 12.8,
+    "completion_age": 18.8
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "expected_years": 16.0,
+    "completion_age": 22.0
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2025,
+    "expected_years": 16.1,
+    "completion_age": 22.1
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2024,
+    "expected_years": 20.7,
+    "completion_age": 26.7
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2025,
+    "expected_years": 20.8,
+    "completion_age": 26.8
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "expected_years": 16.3,
+    "completion_age": 22.3
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2025,
+    "expected_years": 16.4,
+    "completion_age": 22.4
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "expected_years": 19.5,
+    "completion_age": 25.5
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2025,
+    "expected_years": 19.6,
+    "completion_age": 25.6
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2024,
+    "expected_years": 15.0,
+    "completion_age": 21.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2025,
+    "expected_years": 15.1,
+    "completion_age": 21.1
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2024,
+    "expected_years": 16.5,
+    "completion_age": 22.5
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2025,
+    "expected_years": 16.6,
+    "completion_age": 22.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2024,
+    "expected_years": 15.8,
+    "completion_age": 21.8
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2025,
+    "expected_years": 15.9,
+    "completion_age": 21.9
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "expected_years": 19.8,
+    "completion_age": 25.8
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2025,
+    "expected_years": 19.9,
+    "completion_age": 25.9
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2024,
+    "expected_years": 17.0,
+    "completion_age": 23.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2025,
+    "expected_years": 17.1,
+    "completion_age": 23.1
   }
 ]
-

@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "country": "AUS",
     "name": "Australia",
@@ -9246,6 +9246,197 @@
     "sex": "Male",
     "retirement_age": 67.3,
     "years_after_exit": 17.0
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 64.0,
+    "years_after_exit": 19.2
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 64.5,
+    "years_after_exit": 14.0
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 65.5,
+    "years_after_exit": 21.6
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 66.0,
+    "years_after_exit": 15.1
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 60.0,
+    "years_after_exit": 13.9
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 60.0,
+    "years_after_exit": 10.7
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 62.0,
+    "years_after_exit": 23.9
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 62.2,
+    "years_after_exit": 18.0
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 64.6,
+    "years_after_exit": 23.5
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 65.0,
+    "years_after_exit": 20.7
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 63.5,
+    "years_after_exit": 22.5
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 63.8,
+    "years_after_exit": 18.2
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 19.7
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 65.5,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 64.5,
+    "years_after_exit": 13.5
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 65.5,
+    "years_after_exit": 6.9
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 66.0,
+    "years_after_exit": 15.4
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 67.5,
+    "years_after_exit": 9.0
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 57.0,
+    "years_after_exit": 22.1
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 58.0,
+    "years_after_exit": 15.0
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 65.0,
+    "years_after_exit": 20.6
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 65.8,
+    "years_after_exit": 16.8
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2025,
+    "sex": "Female",
+    "retirement_age": 62.5,
+    "years_after_exit": 25.0
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2025,
+    "sex": "Male",
+    "retirement_age": 63.0,
+    "years_after_exit": 17.8
   }
 ]
-

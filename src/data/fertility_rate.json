@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "country": "AUS",
     "name": "Australia",
@@ -4606,6 +4606,149 @@
     "name": "United States",
     "year": 2023,
     "fertility_rate": 1.624
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2024,
+    "fertility_rate": 1.35
+  },
+  {
+    "country": "DEU",
+    "name": "Germany",
+    "year": 2025,
+    "fertility_rate": 1.33
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2024,
+    "fertility_rate": 1.2
+  },
+  {
+    "country": "JPN",
+    "name": "Japan",
+    "year": 2025,
+    "fertility_rate": 1.18
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2024,
+    "fertility_rate": 1.95
+  },
+  {
+    "country": "IND",
+    "name": "India",
+    "year": 2025,
+    "fertility_rate": 1.92
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2024,
+    "fertility_rate": 1.68
+  },
+  {
+    "country": "FRA",
+    "name": "France",
+    "year": 2025,
+    "fertility_rate": 1.65
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2024,
+    "fertility_rate": 1.6
+  },
+  {
+    "country": "AUS",
+    "name": "Australia",
+    "year": 2025,
+    "fertility_rate": 1.58
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2024,
+    "fertility_rate": 1.2
+  },
+  {
+    "country": "ITA",
+    "name": "Italy",
+    "year": 2025,
+    "fertility_rate": 1.18
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2024,
+    "fertility_rate": 1.55
+  },
+  {
+    "country": "DNK",
+    "name": "Denmark",
+    "year": 2025,
+    "fertility_rate": 1.53
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2024,
+    "fertility_rate": 1.85
+  },
+  {
+    "country": "MEX",
+    "name": "Mexico",
+    "year": 2025,
+    "fertility_rate": 1.82
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2024,
+    "fertility_rate": 1.62
+  },
+  {
+    "country": "USA",
+    "name": "United States",
+    "year": 2025,
+    "fertility_rate": 1.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2024,
+    "fertility_rate": 1.6
+  },
+  {
+    "country": "BRA",
+    "name": "Brazil",
+    "year": 2025,
+    "fertility_rate": 1.57
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2024,
+    "fertility_rate": 1.4
+  },
+  {
+    "country": "SWE",
+    "name": "Sweden",
+    "year": 2025,
+    "fertility_rate": 1.38
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2024,
+    "fertility_rate": 0.75
+  },
+  {
+    "country": "KOR",
+    "name": "South Korea",
+    "year": 2025,
+    "fertility_rate": 0.8
   }
 ]
-
