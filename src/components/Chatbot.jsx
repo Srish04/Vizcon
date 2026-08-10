@@ -84,127 +84,86 @@ function generateAnswer(question) {
   const lower = question.toLowerCase()
   const country = findCountry(lower)
   const metric = findMetric(lower)
+  function cn(code) { return COUNTRIES[code] || code || 'Unknown' }
 
-  // Highest/lowest questions - clear intent, answer directly
-  if (lower.includes('highest') || lower.includes('lowest') || lower.includes('most') || lower.includes('least') || lower.includes('best') || lower.includes('worst') || lower.includes('happiest')) {
-    const m = metric || 'gdp_per_capita'
-    const sorted = [...globalMetrics].sort((a, b) => (b[m] || 0) - (a[m] || 0))
-    const isLow = lower.includes('lowest') || lower.includes('least') || lower.includes('worst')
-    const target = isLow ? sorted[sorted.length - 1] : sorted[0]
-    const label = getMetricLabel(m)
-    const name = COUNTRIES[target.country_code]
-    const val = formatMetricValue(m, target[m])
-    return {
-      text: `${name} has the ${isLow ? 'lowest' : 'highest'} ${label} at ${val} among our 12 countries.`,
-      followUps: [`Why is ${name}'s ${label} ${isLow ? 'low' : 'high'}?`, `How to improve ${label}?`, `Tell me about ${name}`]
+  // PRIORITY 1: Improvement/why questions
+  if (lower.includes('improve') || lower.includes('how to') || lower.includes('why') || lower.includes('drive') || lower.includes('factor') || lower.includes('raise') || lower.includes('increase') || lower.includes('reduce') || lower.includes('lower')) {
+    const IK = {
+      gdp_per_capita: "To improve GDP per capita:\n• Extend education → each year adds 8-13% earnings\n• Delay marriage for women → more working years\n• Invest in female workforce participation\n• Reduce inequality → broader participation\n\nStrongest lever: Education (r=0.70)",
+      happiness_score: "To improve happiness:\n• Strengthen social safety nets → reduces anxiety\n• Increase personal freedom (marriage timing) → autonomy\n• Invest in education → better jobs + connections\n• Reduce inequality → institutional trust rises\n\nStrongest lever: Marriage freedom (r=0.72)",
+      life_exp_female: "To improve life expectancy:\n• Delay marriage & first pregnancy → safer\n• Increase education → health literacy\n• Raise GDP → better healthcare access\n• Reduce gender inequality\n\nStrongest lever: Marriage age (r=0.87)",
+      hale_female: "To improve healthy years (HALE):\n• Delay first birth → healthier pregnancies\n• Increase education → better lifestyle choices\n• Raise income → better nutrition\n• Later cohabitation → reflects development\n\nStrongest lever: Cohabitation age (r=0.83)",
+      fertility_rate: "To raise fertility (below-replacement countries):\n• Make housing affordable\n• Provide parental leave → remove career penalty\n• Subsidize childcare\n• Reduce work culture pressure (esp. East Asia)\n\nNote: Support systems work better than early marriage.",
+      female_lfpr: "To boost female workforce participation:\n• Delay marriage → women establish careers first\n• Extend education → professional credentials\n• Affordable childcare → remove exit pressure\n• Reduce hiring/pay inequality\n\nStrongest lever: Education (r=0.80)",
+      gender_inequality_index: "To reduce gender inequality:\n• Delay marriage for women → economic independence\n• Extend girls' education → strongest intervention\n• Increase female workforce participation\n• Reduce maternal mortality\n\nStrongest lever: Marriage age (r=-0.90)",
+      maternal_mortality: "To reduce maternal deaths:\n• Delay marriage → delays risky teen pregnancy\n• Increase education → mothers seek care\n• Later first birth → safer after age 25\n• Healthcare infrastructure investment\n\nStrongest lever: Marriage age (r=-0.89)",
+      adolescent_fertility: "To reduce teen pregnancies:\n• Keep girls in school → delays sexual debut\n• Delay marriage → directly reduces teen pregnancy\n• Contraceptive access\n• Sex education\n\nStrongest lever: First birth age (r=-0.81)",
     }
-  }
-
-  // Compare two countries
-  const allCountries = Object.entries(COUNTRY_ALIASES)
-  const found = []
-  for (const [alias, code] of allCountries) {
-    if (lower.includes(alias) && !found.includes(code)) found.push(code)
-  }
-
-  // Two countries but no metric - ask what to compare
-  if (found.length >= 2 && !metric) {
-    return {
-      text: `I can compare ${COUNTRIES[found[0]]} and ${COUNTRIES[found[1]]}! Which metric?`,
-      followUps: [`Compare on GDP`, `Compare on happiness`, `Compare on life expectancy`, `Compare on fertility rate`]
-    }
-  }
-
-  if (found.length >= 2 && metric) {
-    const [c1, c2] = found
-    const v1 = getMetricValue(c1, metric)
-    const v2 = getMetricValue(c2, metric)
-    const label = getMetricLabel(metric)
-    const higher = (v1 || 0) > (v2 || 0) ? COUNTRIES[c1] : COUNTRIES[c2]
-    return {
-      text: `📊 ${label}:\n• ${COUNTRIES[c1]}: ${formatMetricValue(metric, v1)}\n• ${COUNTRIES[c2]}: ${formatMetricValue(metric, v2)}\n\n${higher} leads on this metric.`,
-      followUps: [`Why is ${higher}'s ${label} higher?`, `Compare on happiness`, `How to improve ${label}?`]
-    }
-  }
-
-  // Single country + metric - direct answer
-  if (country && metric) {
-    const value = getMetricValue(country, metric)
-    const label = getMetricLabel(metric)
-    return {
-      text: `${COUNTRIES[country]}'s ${label} is ${formatMetricValue(metric, value)}.`,
-      followUps: [`How does ${COUNTRIES[country]} compare to others?`, `What drives ${label}?`, `Tell me more about ${COUNTRIES[country]}`]
-    }
-  }
-
-  // Country mentioned but no metric - ask what they want
-  if (country && !metric) {
-    if (lower.includes('everything') || lower.includes('all') || lower.includes('profile') || lower.includes('tell me')) {
-      const data = globalMetrics.find(d => d.country_code === country)
-      if (data) {
-        return {
-          text: `📋 ${COUNTRIES[country]} Profile:\n• GDP: $${Math.round(data.gdp_per_capita || 0).toLocaleString()}\n• Life Expectancy: ${data.life_exp_female?.toFixed(1) || '?'}yrs (F)\n• Fertility Rate: ${data.fertility_rate?.toFixed(2) || '?'}\n• Marriage Age: ${data.marriage_age_female?.toFixed(1) || '?'}\n• Happiness: ${data.happiness_score?.toFixed(1) || '?'}/10\n• Female LFPR: ${data.female_lfpr?.toFixed(1) || '?'}%`,
-          followUps: [`${COUNTRIES[country]}'s GDP details`, `Compare ${COUNTRIES[country]} to Sweden`, `How to improve ${COUNTRIES[country]}'s outcomes?`]
-        }
-      }
-    }
-    return {
-      text: `I have lots of data on ${COUNTRIES[country]}! What would you like to know?`,
-      followUps: [`${COUNTRIES[country]}'s GDP`, `${COUNTRIES[country]}'s life expectancy`, `${COUNTRIES[country]}'s happiness`, `Tell me everything about ${COUNTRIES[country]}`]
-    }
-  }
-
-  // Metric mentioned but no country - show ranking
-  if (metric && !country) {
-    const label = getMetricLabel(metric)
-    const sorted = [...globalMetrics].filter(d => d[metric] != null).sort((a, b) => (b[metric] || 0) - (a[metric] || 0))
-    const top = sorted[0]
-    const bottom = sorted[sorted.length - 1]
-    return {
-      text: `📊 ${label} across 12 countries:\n• Highest: ${COUNTRIES[top?.country_code]} (${formatMetricValue(metric, top?.[metric])})\n• Lowest: ${COUNTRIES[bottom?.country_code]} (${formatMetricValue(metric, bottom?.[metric])})`,
-      followUps: [`Tell me about ${COUNTRIES[top?.country_code]}`, `Tell me about ${COUNTRIES[bottom?.country_code]}`, `How to improve ${label}?`]
-    }
-  }
-
-  // Correlation/improvement questions
-  if (lower.includes('correlat') || lower.includes('relationship') || lower.includes('affect') || lower.includes('impact') || lower.includes('improve') || lower.includes('how to') || lower.includes('why') || lower.includes('factor') || lower.includes('drive')) {
-    const corr = correlationNarratives.correlations?.find(c => {
-      return lower.includes(c.outcome?.replace(/_/g, ' ')) || lower.includes(c.milestone?.replace(/_/g, ' '))
-    })
+    const m = metric || Object.entries(METRIC_ALIASES).find(([a]) => lower.includes(a))?.[1]
+    if (m && IK[m]) return { text: IK[m], followUps: [] }
+    const corr = correlationNarratives.correlations?.find(c => lower.includes(c.outcome?.replace(/_/g,' ')||'') || lower.includes(c.milestone?.replace(/_/g,' ')||''))
     if (corr) {
-      let answer = `📈 ${corr.one_liner}\n\nStrength: r = ${corr.r} (${Math.abs(corr.r) > 0.7 ? 'strong' : Math.abs(corr.r) > 0.4 ? 'moderate' : 'weak'})\nType: ${corr.group === 'causal' ? 'Causal' : corr.group === 'feedback' ? 'Feedback loop' : 'Shared drivers'}\n\n${corr.mechanism}`
-      if (corr.improvement_path) answer += `\n\n💡 ${corr.improvement_path}`
-      return {
-        text: answer,
-        followUps: [`Which country does this best?`, `Lowest ${corr.outcome?.replace(/_/g, ' ')}?`, `Compare two countries`]
-      }
+      let a = `📈 ${corr.one_liner}\n\nr = ${corr.r} (${Math.abs(corr.r)>0.7?'strong':'moderate'})\n\n${corr.mechanism}`
+      if (corr.improvement_path) a += `\n\n💡 ${corr.improvement_path}`
+      return { text: a, followUps: [] }
     }
-    return {
-      text: `I can explain how life markers drive outcomes.`,
-      followUps: [`Marriage age → GDP?`, `Education → life expectancy?`, `How to improve happiness?`, `Marriage → inequality?`]
-    }
+    return { text: `Which outcome would you like to improve?`, followUps: [`How to improve GDP?`,`How to improve happiness?`,`How to reduce inequality?`,`How to improve life expectancy?`] }
   }
 
-  // Fallback
-  return {
-    text: `I'm Titan — I help you explore connections in our 12-country dataset. What would you like to explore?`,
-    followUps: [`Happiest country?`, `Tell me about India`, `Compare Japan & Sweden`, `How does education affect GDP?`]
+  // Highest/lowest
+  if (lower.includes('highest')||lower.includes('lowest')||lower.includes('most')||lower.includes('least')||lower.includes('best')||lower.includes('worst')||lower.includes('happiest')) {
+    const m = metric || 'happiness_score'
+    const sorted = [...globalMetrics].filter(d => d[m]!=null && COUNTRIES[d.country_code]).sort((a,b)=>(b[m]||0)-(a[m]||0))
+    if (!sorted.length) return { text: `No data available.`, followUps: [] }
+    const isLow = lower.includes('lowest')||lower.includes('least')||lower.includes('worst')
+    const target = isLow ? sorted[sorted.length-1] : sorted[0]
+    const label = getMetricLabel(m)
+    return { text: `${cn(target.country_code)} has the ${isLow?'lowest':'highest'} ${label} at ${formatMetricValue(m,target[m])}.`, followUps: [`How to improve ${label}?`,`Tell me about ${cn(target.country_code)}`] }
   }
+
+  // Compare
+  const found = []
+  for (const [alias, code] of Object.entries(COUNTRY_ALIASES)) { if (lower.includes(alias) && !found.includes(code)) found.push(code) }
+  if (found.length>=2 && !metric) return { text: `Compare ${cn(found[0])} and ${cn(found[1])} on which metric?`, followUps: [`Compare on GDP`,`Compare on happiness`,`Compare on life expectancy`] }
+  if (found.length>=2 && metric) {
+    const [c1,c2]=found; const v1=getMetricValue(c1,metric); const v2=getMetricValue(c2,metric); const label=getMetricLabel(metric)
+    return { text: `📊 ${label}:\n• ${cn(c1)}: ${formatMetricValue(metric,v1)}\n• ${cn(c2)}: ${formatMetricValue(metric,v2)}`, followUps: [`How to improve ${label}?`] }
+  }
+
+  // Country + metric
+  if (country && metric) { const v=getMetricValue(country,metric); return { text: `${cn(country)}'s ${getMetricLabel(metric)} is ${formatMetricValue(metric,v)}.`, followUps: [`How to improve ${getMetricLabel(metric)}?`] } }
+
+  // Country only
+  if (country && !metric) {
+    if (lower.includes('everything')||lower.includes('all')||lower.includes('profile')||lower.includes('tell me')) {
+      const d=globalMetrics.find(x=>x.country_code===country)
+      if(d) return { text: `📋 ${cn(country)}:\n• GDP: $${Math.round(d.gdp_per_capita||0).toLocaleString()}\n• Life Exp: ${d.life_exp_female?.toFixed(1)||'?'}yrs\n• Fertility: ${d.fertility_rate?.toFixed(2)||'?'}\n• Happiness: ${d.happiness_score?.toFixed(1)||'?'}/10`, followUps: [`How to improve ${cn(country)}'s GDP?`] }
+    }
+    return { text: `What about ${cn(country)}?`, followUps: [`${cn(country)}'s GDP`,`${cn(country)}'s happiness`,`Tell me everything about ${cn(country)}`] }
+  }
+
+  // Metric only
+  if (metric && !country) {
+    const label=getMetricLabel(metric)
+    const sorted=[...globalMetrics].filter(d=>d[metric]!=null&&COUNTRIES[d.country_code]).sort((a,b)=>(b[metric]||0)-(a[metric]||0))
+    if(!sorted.length) return { text: `No data for ${label}.`, followUps: [] }
+    return { text: `📊 ${label}:\n• Highest: ${cn(sorted[0].country_code)} (${formatMetricValue(metric,sorted[0][metric])})\n• Lowest: ${cn(sorted[sorted.length-1].country_code)} (${formatMetricValue(metric,sorted[sorted.length-1][metric])})`, followUps: [`How to improve ${label}?`] }
+  }
+
+  // Correlation
+  if (lower.includes('correlat')||lower.includes('affect')||lower.includes('impact')) {
+    const corr=correlationNarratives.correlations?.find(c=>lower.includes(c.outcome?.replace(/_/g,' ')||'')||lower.includes(c.milestone?.replace(/_/g,' ')||''))
+    if(corr) { let a=`📈 ${corr.one_liner}\n\nr=${corr.r}\n\n${corr.mechanism}`; if(corr.improvement_path) a+=`\n\n💡 ${corr.improvement_path}`; return { text: a, followUps: [] } }
+  }
+
+  return { text: `I'm Titan — ask about any country, metric, or how to improve outcomes.`, followUps: [`How to improve happiness?`,`Lowest fertility rate?`,`Tell me about India`] }
 }
-
-const SUGGESTIONS = [
-  "Lowest fertility rate?",
-  "Compare Japan & Sweden",
-  "India's GDP?",
-  "Education → GDP?",
-  "Happiest country?",
-]
 
 
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false)
   const [messages, setMessages] = useState([
-    { role: 'bot', text: "Hey! I'm Titan, your data guide. Ask me anything about life markers, country stats, or how outcomes connect across our 12 countries. 🌍", followUps: ["Happiest country?", "Compare Japan & India", "How does education affect GDP?"] }
+    { role: 'bot', text: "Hey! I'm Titan, your data guide. Ask me anything about life markers, country stats, or how outcomes connect across our 12 countries. 🌍", followUps: [] }
   ])
   const [input, setInput] = useState('')
   const messagesEndRef = useRef(null)
