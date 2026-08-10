@@ -47,7 +47,7 @@ const ALL_CODES = Object.keys(COUNTRY_CONFIG)
 
 const PRESETS = [
   { x:'Marriage Age (F)', y:'GDP per Capita', label:'Marriage x GDP', r:'0.78' },
-  { x:'Marriage Age (F)', y:'Gender Inequality (GII)', label:'Marriage x Gender Equality', r:'-0.90' },
+  { x:'Marriage Age (F)', y:'Gender Inequality (GII)', label:'Marriage x Gender Inequality', r:'-0.90' },
   { x:'Education Age', y:'Happiness Score', label:'Education x Happiness', r:'0.72' },
   { x:'Puberty Age', y:'Adolescent Fertility', label:'Menarche x Adol.Fertility', r:'-0.65' },
 ]

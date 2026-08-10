@@ -202,7 +202,7 @@ function MarriageDiscovery() {
 
   const panels = [
     { label: 'vs GDP', yKey: 'gdp_per_capita', yLabel: 'GDP per Capita (PPP $)', rSq: 0.61, format: v => `$${(v/1000).toFixed(0)}k` },
-    { label: 'vs Gender Equality', yKey: 'gender_inequality_index', yLabel: 'Gender Inequality Index', rSq: 0.81, format: v => v.toFixed(3) },
+    { label: 'vs Gender Inequality', yKey: 'gender_inequality_index', yLabel: 'Gender Inequality Index', rSq: 0.81, format: v => v.toFixed(3) },
     { label: 'vs Happiness', yKey: 'happiness', yLabel: 'Happiness Score', rSq: 0.52, format: v => v.toFixed(2) },
     { label: 'vs Teen Fertility', yKey: 'adolescent_fertility', yLabel: 'Adolescent Fertility (per 1000)', rSq: 0.31, format: v => v.toFixed(1) },
   ]

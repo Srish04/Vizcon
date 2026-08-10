@@ -23,7 +23,7 @@ const OUTCOME_CONFIG = [
   { key: 'hale', label: 'Healthy Years (HALE)', format: v => v?.toFixed(1), unit: 'years', note: null },
   { key: 'gdp_per_capita', label: 'GDP per Capita', format: v => v ? `$${(v/1000).toFixed(1)}k` : null, unit: 'PPP', note: null },
   { key: 'female_lfpr', label: 'Female LFPR', format: v => v ? `${v.toFixed(1)}%` : null, unit: '%', note: null },
-  { key: 'fertility_rate', label: 'Fertility Rate', format: v => v?.toFixed(2), unit: 'children', note: null },
+  { key: 'fertility_rate', label: 'Fertility Rate', format: v => v != null ? v.toFixed(2) : '—', unit: 'children', note: null },
   { key: 'gender_inequality_index', label: 'Gender Inequality Index (GII)', format: v => v?.toFixed(3), unit: 'index', note: 'Lower is better. 0 = perfect gender equality.' },
 ]
 
@@ -43,7 +43,7 @@ const COUNTRY_COLORS = {
 
 function getProfile(code) { return countryProfiles.find(c => c.country === code) }
 function getMarkerVal(profile, key) { return profile?.milestones?.[key]?.value ?? null }
-function getOVal(profile, key) { return profile?.outcomes?.[key]?.value ?? null }
+function getOVal(profile, key) { return profile?.outcomes?.[key]?.value ?? profile?.milestones?.[key]?.value ?? null }
 
 // === PICKER ===
 function Picker({ leftCode, rightCode, setLeftCode, setRightCode, onCompare }) {
